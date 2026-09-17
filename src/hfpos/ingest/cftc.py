@@ -28,7 +28,7 @@ from typing import Any, Iterator
 import pandas as pd
 import requests
 
-from hfpos import config
+from hfpos import config, manifest
 from hfpos.timing import is_standard_as_of_day
 
 log = logging.getLogger(__name__)
@@ -200,15 +200,33 @@ def cache_path(contract: str) -> Path:
 
 
 def load(contract: str, refresh: bool = False, start: str | None = None) -> pd.DataFrame:
-    """Return the weekly position panel, downloading and caching on first use."""
+    """Return the weekly position panel, downloading and caching on first use.
+
+    Cached reads are checked against the pinned manifest, so a changed vintage
+    surfaces as an error rather than silently shifting your results.
+    """
     path = cache_path(contract)
+    name = f"cftc_tff_{contract.lower()}"
+
     if path.exists() and not refresh:
-        return pd.read_parquet(path)
+        frame = pd.read_parquet(path)
+        manifest.verify(name, frame)
+        return frame
 
     start = start or config.load()["cftc"].get("start")
-    frame = to_frame(fetch_records(contract_code(contract), start=start))
-    validate(frame)
+    code = contract_code(contract)
+    frame = to_frame(fetch_records(code, start=start))
+    diagnostics = validate(frame)
     frame.to_parquet(path)
+    manifest.write(
+        name,
+        frame,
+        source=f"cftc-socrata:{DATASET}",
+        contract=contract,
+        contract_market_code=code,
+        non_tuesday_snapshots=diagnostics["non_tuesday_snapshots"],
+        irregular_gaps=diagnostics["irregular_gaps"],
+    )
     return frame
 
 

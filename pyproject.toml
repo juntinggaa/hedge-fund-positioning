@@ -14,6 +14,10 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
+addopts = "-m 'not network'"
+markers = [
+    "network: hits a live CFTC endpoint; skipped by default, run with -m network",
+]
 
 [tool.ruff]
 line-length = 100

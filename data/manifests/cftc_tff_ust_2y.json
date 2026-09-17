@@ -1,0 +1,32 @@
+{
+  "name": "cftc_tff_ust_2y",
+  "source": "cftc-socrata:gpe5-46if",
+  "fetched_at": "2026-09-17T16:58:40+00:00",
+  "rows": 1057,
+  "first": "2006-06-13",
+  "last": "2026-09-08",
+  "columns": [
+    "dealer_long",
+    "dealer_short",
+    "dealer_spread",
+    "dealer_net",
+    "asset_manager_long",
+    "asset_manager_short",
+    "asset_manager_spread",
+    "asset_manager_net",
+    "leveraged_funds_long",
+    "leveraged_funds_short",
+    "leveraged_funds_spread",
+    "leveraged_funds_net",
+    "other_reportable_long",
+    "other_reportable_short",
+    "other_reportable_spread",
+    "other_reportable_net",
+    "open_interest"
+  ],
+  "content_sha256": "8e002b81979300ff4c7f5b125ea39fc58ac95c2ceeabd8cfd34920b24889597b",
+  "contract": "UST_2Y",
+  "contract_market_code": "042601",
+  "non_tuesday_snapshots": 14,
+  "irregular_gaps": 22
+}

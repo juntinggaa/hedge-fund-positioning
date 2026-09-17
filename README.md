@@ -84,6 +84,8 @@ quietly invalidate this kind of study:
 - `timing.py` — the information vs tradable window distinction, which must never
   be blurred.
 - `ingest/cftc.py` — TFF ingest (issue #3), verified against the live endpoint.
+- `ingest/cftc_archive.py` — zip-archive fallback, so the project is not single-sourced.
+- `manifest.py` — pins the data vintage; cached reads fail loudly if it shifts.
 
 Everything else is a specified stub that raises `NotImplementedError` naming its
 issue number.
@@ -106,6 +108,18 @@ Two traps confirmed to be real:
   Always filter by contract code.
 - **14 of 1057 snapshots are not Tuesdays** (13 Mondays, 1 Wednesday), all holiday
   weeks. Code that assumes Tuesday crashes on live data.
+
+**Source.** Primary ingest is the CFTC public reporting API
+(`publicreporting.cftc.gov`, dataset `gpe5-46if`) — CFTC's own publication channel,
+not a third-party mirror. It was reconciled against the official zip archives on
+**2,310 cells across 2012, 2019, 2024 and 2025 with zero mismatches**
+(`pytest -m network`). The archives are wired up as a fallback but only reach back
+to **2010**, so they cannot reproduce 2006–2009; that gap is why the API is primary.
+
+**Vintage.** Every fetch writes a manifest to `data/manifests/` recording row count,
+date range, source and a SHA-256 of the values. Cached reads verify against it, so a
+CFTC revision surfaces as an error instead of silently changing your results. A
+revision would move the API and the archives together, so only the hash catches it.
 
 The structural premise also holds in the data: over 2006–2026 asset managers are
 net long in 75% of weeks (mean +10.4% of open interest) while leveraged funds are
