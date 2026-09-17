@@ -83,6 +83,30 @@ quietly invalidate this kind of study:
   overlapping forward targets cannot leak into training.
 - `timing.py` — the information vs tradable window distinction, which must never
   be blurred.
+- `ingest/cftc.py` — TFF ingest (issue #3), verified against the live endpoint.
 
 Everything else is a specified stub that raises `NotImplementedError` naming its
 issue number.
+
+## Data facts verified 2026-09-18
+
+Checked against the CFTC public reporting endpoint, not assumed:
+
+| Contract | Code | Rows | Range |
+|---|---|---|---|
+| UST 2Y NOTE | `042601` | 1057 | 2006-06-13 → 2026-09-08 |
+| UST 5Y NOTE | `044601` | 1057 | 2006-06-13 → 2026-09-08 |
+| **UST 10Y NOTE** | `043602` | 1057 | 2006-06-13 → 2026-09-08 |
+| UST BOND | `020601` | 1057 | 2006-06-13 → 2026-09-08 |
+
+Two traps confirmed to be real:
+
+- **CFTC renamed the 10Y contract in Feb 2022** (`10-YEAR U.S. TREASURY NOTES` →
+  `UST 10Y NOTE`). Filtering by name returns 817 or 240 rows instead of 1057.
+  Always filter by contract code.
+- **14 of 1057 snapshots are not Tuesdays** (13 Mondays, 1 Wednesday), all holiday
+  weeks. Code that assumes Tuesday crashes on live data.
+
+The structural premise also holds in the data: over 2006–2026 asset managers are
+net long in 75% of weeks (mean +10.4% of open interest) while leveraged funds are
+net short in 66% (mean −7.5%), reaching −48.5% of open interest in September 2025.

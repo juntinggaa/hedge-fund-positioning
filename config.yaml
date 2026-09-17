@@ -9,15 +9,20 @@ paths:
 
 cftc:
   # Traders in Financial Futures, futures-only.
-  # !! VERIFY these contract market codes against the report header before use (issue #3).
-  # Do not trust codes copied from blogs; CFTC has reclassified contracts historically.
+  # Codes verified against the live CFTC endpoint on 2026-09-18.
+  # ALWAYS filter by code, never by contract_market_name: CFTC renamed the 10Y
+  # contract in Feb 2022 ("10-YEAR U.S. TREASURY NOTES" -> "UST 10Y NOTE"), and a
+  # name filter silently returns 817 or 240 rows instead of 1057.
   contracts:
-    UST_10Y: "VERIFY_ME"
-    UST_2Y:  "VERIFY_ME"
-    UST_5Y:  "VERIFY_ME"
-    UST_30Y: "VERIFY_ME"
+    UST_2Y:  "042601"   # UST 2Y NOTE
+    UST_5Y:  "044601"   # UST 5Y NOTE
+    UST_10Y: "043602"   # UST 10Y NOTE   <- flagship
+    UST_30Y: "020601"   # UST BOND
+  # Available if the curve extension needs them (issue #20):
+  #   ULTRA UST 10Y  043607  (from 2016-03)
+  #   ULTRA UST BOND 020604  (from 2010-03)
   groups: [dealer, asset_manager, leveraged_funds, other_reportable]
-  start: "2006-06-13"   # TFF history begins mid-2006
+  start: "2006-06-13"   # TFF history begins here; 1057 weekly obs to 2026-09-08
 
 prices:
   flagship: "ZN=F"
