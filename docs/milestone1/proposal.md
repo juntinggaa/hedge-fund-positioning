@@ -22,9 +22,10 @@ and what follows for responsibility if a documented failure proves cheaply repai
 The domain is chosen because the naive reading is demonstrably wrong. Leveraged funds hold
 very large *short* positions in Treasury futures, but much of that is the cash–futures
 **basis trade**, where the fund simultaneously holds the underlying security — an arbitrage,
-not a view. Federal Reserve research attributes a substantial share of hedge-fund Treasury
-exposure to such strategies. In our data, leveraged funds are net short in 66% of 1,057
-weeks, reaching −48.5% of open interest in September 2025.
+not a view. Monin (2026, Federal Reserve FEDS Notes) finds that as of September 2025 the basis
+trade accounted for $830bn — 35% of hedge funds' $2.4tn long Treasury exposure — with leveraged
+arbitrage strategies together making up close to half. In our data, leveraged funds are net short
+in 66% of 1,057 weeks, reaching −48.5% of open interest in that same month.
 
 | | Hypothesis |
 |---|---|
@@ -40,8 +41,10 @@ weight shifts from the technology to those who deploy it.
 
 ## 2. System and mechanism
 
-**Technical object.** A four-arm workflow around instruction-tuned LLMs at pinned versions,
-with temperature and sampling parameters fixed and logged.
+**Technical object.** A four-arm workflow around instruction-tuned LLMs at pinned versions.
+Note that current frontier models no longer accept `temperature` or other sampling parameters,
+so runs cannot be made deterministic; we therefore run three replicates per cell and report
+run-to-run variation rather than claiming a single pinned draw.
 
 | Arm | Configuration | Isolates |
 |---|---|---|
@@ -73,11 +76,12 @@ remainder is not."
 
 ## 3. Prior work
 
-**Positioning is not belief.** Federal Reserve and Office of Financial Research analyses of
-the Treasury basis trade document leveraged funds holding large short futures against long
-cash positions. Fishe & Smith (2012, *Journal of Financial Markets*) find a trader's business
-category is a weaker guide to their information than their observed behaviour, reinforcing
-that category-level positions do not license intent claims.
+**Positioning is not belief.** Monin (2026) and OFR Working Paper 21-01 document leveraged funds
+holding large short futures against long cash positions, with arbitrage rather than directional
+strategies dominating. Fishe & Smith (2012, *Journal of Financial Markets*), using confidential
+daily data on 8,921 traders, find a trader's business category is a weaker guide to their
+information than observed behaviour — reinforcing that category-level positions do not license
+intent claims.
 
 **Models generate fluent unfaithful text, and retrieval is the standard repair.** Ji et al.
 (2023, *ACM Computing Surveys*) establish that generated content can be confidently stated and
@@ -91,8 +95,10 @@ recommendations against contrary evidence, most strongly among non-experts. Matt
 the responsibility gap for adaptive systems where no party both foresaw and controlled the harm; a
 cheaply repairable failure narrows that gap to a deployment choice.
 
-> **Verification note.** Every source is to be retrieved and checked against the original
-> before submission. No claim here rests on an LLM's report of what a paper says.
+> **Verification note.** Bibliographic details for all nine sources were checked against
+> publisher records (DOI / proceedings / agency pages) on 18 September 2026; the Monin FEDS Note
+> was retrieved in full. Substantive claims are to be confirmed against full text before final
+> submission. No claim rests on an LLM's report of what a paper says.
 
 ## 4. Technical investigation plan
 
@@ -196,13 +202,14 @@ changed our method or conclusions are retained in the evidence log. The dataset 
 
 ## References
 
-*To be verified at source before submission; see §3 verification note.*
+*Bibliographic details verified against publisher records, 18 September 2026.*
 
-1. Commodity Futures Trading Commission. *Traders in Financial Futures* reports. Public reporting dataset `gpe5-46if`. [verified — primary data source]
-2. Fishe, R. & Smith, A. (2012). Identifying informed traders in futures markets. *Journal of Financial Markets*. [academic]
-3. Ji, Z. et al. (2023). Survey of hallucination in natural language generation. *ACM Computing Surveys*. [academic]
-4. Lewis, P. et al. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. *NeurIPS*. [academic]
-5. Schick, T. et al. (2023). Toolformer: language models can teach themselves to use tools. [academic]
-6. Parasuraman, R. & Riley, V. (1997). Humans and automation: use, misuse, disuse, abuse. *Human Factors*. [academic]
-7. Matthias, A. (2004). The responsibility gap: ascribing responsibility for the actions of learning automata. *Ethics and Information Technology*. [academic]
-8. Federal Reserve / Office of Financial Research analyses of the Treasury cash–futures basis trade. [institutional — cite specific publications]
+1. Commodity Futures Trading Commission. *Traders in Financial Futures* (futures-only). Public reporting dataset `gpe5-46if`. Reconciled against CFTC annual archives. [primary data]
+2. Monin, P. J. (2026). Decomposing hedge funds' U.S. Treasury exposures. *FEDS Notes*, Board of Governors of the Federal Reserve System, 22 June 2026. [institutional]
+3. Office of Financial Research (2021). Hedge funds and the Treasury cash–futures disconnect. *OFR Working Paper 21-01*. [institutional]
+4. Fishe, R. P. H. & Smith, A. D. (2012). Identifying informed traders in futures markets. *Journal of Financial Markets*, 15(3), 329–359. doi:10.1016/j.finmar.2011.08.006 [academic]
+5. Ji, Z., Lee, N., Frieske, R., Yu, T., Su, D., Xu, Y., Ishii, E., Bang, Y. J., Madotto, A. & Fung, P. (2023). Survey of hallucination in natural language generation. *ACM Computing Surveys*, 55(12), Article 248. doi:10.1145/3571730 [academic]
+6. Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., Yih, W., Rocktäschel, T., Riedel, S. & Kiela, D. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. *Advances in Neural Information Processing Systems 33*. arXiv:2005.11401 [academic]
+7. Schick, T., Dwivedi-Yu, J., Dessì, R., Raileanu, R., Lomeli, M., Hambro, E., Zettlemoyer, L., Cancedda, N. & Scialom, T. (2023). Toolformer: language models can teach themselves to use tools. *Advances in Neural Information Processing Systems 36*. [academic]
+8. Parasuraman, R. & Riley, V. (1997). Humans and automation: use, misuse, disuse, abuse. *Human Factors*, 39(2), 230–253. doi:10.1518/001872097778543886 [academic]
+9. Matthias, A. (2004). The responsibility gap: ascribing responsibility for the actions of learning automata. *Ethics and Information Technology*, 6(3), 175–183. doi:10.1007/s10676-004-3422-1 [academic]
