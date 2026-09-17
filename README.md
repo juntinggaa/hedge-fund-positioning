@@ -47,3 +47,42 @@ Reported in the main text, week 5, before Stage 2:
 ```bash
 bash scripts/bootstrap_github.sh    # creates repo, labels, milestones, issues, fills the board
 ```
+
+## Repo layout
+
+```
+src/hfpos/
+  config.py      config.yaml loader
+  timing.py      information vs tradable return windows  (real, tested)
+  ingest/        cftc.py  prices.py  fred.py
+  features/      basis.py  momentum.py  macro.py  build.py
+  stage0/        leadlag.py
+  stage1/        walkforward.py (real, tested)  models.py  run.py
+  stage2/        predict.py  inference.py
+  eval/          metrics.py  bootstrap.py  plots.py
+tests/           leakage and release-timing guards
+```
+
+Notebooks are for looking, `src/` is for results. Every number in the paper comes
+from a `make` target.
+
+## Quickstart
+
+```bash
+make setup && conda activate hfpos && pip install -e .
+make test
+make help
+```
+
+## What is already implemented
+
+Two modules are real and under test, because they encode the failure modes that
+quietly invalidate this kind of study:
+
+- `stage1/walkforward.py` — expanding-window splitter with an embargo gap, so
+  overlapping forward targets cannot leak into training.
+- `timing.py` — the information vs tradable window distinction, which must never
+  be blurred.
+
+Everything else is a specified stub that raises `NotImplementedError` naming its
+issue number.

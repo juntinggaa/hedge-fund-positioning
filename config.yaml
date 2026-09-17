@@ -1,0 +1,68 @@
+# Central config. Every number the analysis depends on lives here, not in code.
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  figures: reports/figures
+  tables: reports/tables
+
+cftc:
+  # Traders in Financial Futures, futures-only.
+  # !! VERIFY these contract market codes against the report header before use (issue #3).
+  # Do not trust codes copied from blogs; CFTC has reclassified contracts historically.
+  contracts:
+    UST_10Y: "VERIFY_ME"
+    UST_2Y:  "VERIFY_ME"
+    UST_5Y:  "VERIFY_ME"
+    UST_30Y: "VERIFY_ME"
+  groups: [dealer, asset_manager, leveraged_funds, other_reportable]
+  start: "2006-06-13"   # TFF history begins mid-2006
+
+prices:
+  flagship: "ZN=F"
+  # Roll handling must be decided and documented (issue #4).
+  # "back_adjust" | "within_contract_chain" | "naive" (naive is for comparison only)
+  roll_method: "within_contract_chain"
+
+fred:
+  yields: [DGS2, DGS5, DGS10, DGS30]
+  policy: [DFF, IORB]
+  funding: [SOFR, BGCR, TGCR]     # SOFR begins 2018 — see basis.fallback
+  vol: [VIXCLS]                    # MOVE is ICE-proprietary, NOT on FRED
+  macro: [CPIAUCSL, UNRATE, T10Y2Y]
+
+basis:
+  # Fallback ladder, best first (issue #7). Record which rung you actually used.
+  method: "implied_yield_vs_cash"
+  ladder: [ctd_implied_repo, implied_yield_vs_cash, swap_spread, sofr_iorb]
+  note: "Basis trade was small before ~2015; 'removing basis' means different things by era."
+
+stage1:
+  target: "d_net_over_oi"   # change in net position scaled by open interest
+  min_train_weeks: 260
+  refit_every_weeks: 13
+  models: [ridge, lasso, xgboost]
+
+stage2:
+  horizons_weeks: [1, 2, 4]
+  primary:
+    group: leveraged_funds
+    contract: UST_10Y
+    horizon_weeks: 1
+    timing: information   # primary is stated on information timing; tradable reported alongside
+  surprise_definitions: [raw, zscore_52w, ridge_resid, xgb_resid]
+  zscore_window_weeks: 52
+
+inference:
+  newey_west_min_lag: null     # defaults to horizon - 1
+  bootstrap:
+    kind: stationary
+    mean_block_weeks: 13
+    n_replications: 1000
+    seed: 20260918
+
+costs:
+  # ZN bid-ask is typically one tick = 1/64 point. Verify contract multiplier before use.
+  tick_value_usd: 15.625
+  round_trip_ticks: 1
