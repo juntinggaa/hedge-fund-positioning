@@ -5,39 +5,47 @@
 ## A. Planned investigation
 
 ```
-   CFTC TFF data (verified, 1057 weeks)
-                 │
-      select 4 purposive test cases
-                 │
-      ┌──────────┴──────────┐
-      ↓                     ↓
-  BASELINE            VARIATIONS
-  bare prompt         + basis context
-                      + ask alternatives
-                      + second model
-                      + prose format
-      └──────────┬──────────┘
-                 ↓
-          model responses
-                 ↓
-      double-scored on 4 measures
-   directional · alternative · numerical · calibration
-                 ↓
-      compare baseline vs variation
-                 ↓
-   knowledge deficit or application deficit?
+        CFTC TFF data — 1,057 weeks, verified, hash-pinned
+                              │
+                 4 purposive test cases
+                              │
+        ┌─────────────────────┼─────────────────────┐
+        ↓                     ↓                     ↓
+   ARM A                  ARM B                 ARM C
+   baseline              grounded            tool-augmented
+   bare prompt        + retrieval over      + decomposition
+                      verified corpus         model call
+        │                     │                     │
+        │                     │            ┌────────┴────────┐
+        │                     │            │ expected posn.  │
+        │                     │            │ from mkt state  │
+        │                     │            │        ↓        │
+        │                     │            │ explained vs    │
+        │                     │            │ unexplained     │
+        │                     │            └────────┬────────┘
+        └─────────────────────┼─────────────────────┘
+                              ↓
+                     model responses
+                              ↓
+        double-scored, inter-rater agreement reported
+   numerical · directional · alternative · calibration · tool fidelity
+                              ↓
+              A→B: do facts fix framing?   (H2)
+              B→C: does structure fix it?  (H3)
 ```
 
-| Test case | Date | Ground truth | What it probes |
+| Test case | Date | Ground truth | Probes |
 |---|---|---|---|
-| TC1 Record short | 2025-09-02 | LF net −48.5% of OI; Fed research attributes much of this to basis trade | Maximum temptation to read as bearish |
-| TC2 Net long | *[select from the 34.2% of weeks]* | LF net positive | Reading the data vs reciting a narrative |
-| TC3 Early era | *[pre-2015 week]* | Basis trade small; directional reading more defensible | Era-sensitivity |
-| TC4 Fabrication probe | Week beyond cut-off | No data exists | Refusal vs invention |
+| TC1 Record short | 2025-09-02 | LF net −48.5% of OI; Fed research attributes much to basis trade | Maximum pull toward "bearish" |
+| TC2 Net long | *[select from the 34.2% of weeks]* | LF net positive | Reading data vs reciting narrative |
+| TC3 Early era | *[pre-2015 week]* | Basis trade small; directional reading more defensible | Era sensitivity |
+| TC4 Fabrication probe | Beyond cut-off | No data exists | Refusal vs invention |
 
 ## B. Pilot test cases
 
-**Pilot 1 — baseline prompt (TC1).** Verbatim:
+Arms A and B are runnable now; arm C requires the decomposition model (week 3).
+
+**Pilot 1 — arm A, baseline (TC1).** Verbatim:
 
 > Below is CFTC Traders in Financial Futures data for 10-Year U.S. Treasury Note
 > futures, week ending 2 September 2025.
@@ -49,35 +57,41 @@
 >
 > What does this positioning suggest about the Treasury market?
 
-**Pilot 2 — context variation (TC1).** Identical, with one sentence appended:
+**Pilot 2 — arm B, grounded (TC1).** Identical, with retrieved context appended:
 
-> Note that leveraged funds may hold Treasury futures shorts as part of cash–futures
-> basis trades rather than directional positions.
+> Context: leveraged funds may hold Treasury futures shorts as part of cash–futures
+> basis trades, in which the fund simultaneously holds the underlying Treasury
+> security. Such positions express an arbitrage rather than a directional view.
 
-*Held constant across both: model version, temperature, system prompt, single-turn.*
+*Held constant: model, version, temperature, system prompt, single turn.*
 
 ### Preliminary output
 
 > **To be completed by the group before submission.** Run both pilots against a pinned
-> model version and paste the responses verbatim, with model, version, temperature and
-> timestamp. Score each on the four measures in §4 of the proposal.
+> model version and paste the responses verbatim with model, version, temperature and
+> timestamp. Score each on the five measures in §4 of the proposal.
 >
-> These outputs must be generated and inspected by the group. They are not reproduced
-> here because no result may be reported that the group has not itself run — per the
-> course AI-use requirements and the Minimum Evidence Standard.
+> Generated and inspected by the group. Not reproduced here, because no result may be
+> reported that the group has not itself run — per the course AI-use requirements and
+> the Minimum Evidence Standard.
 
-| | Directional attribution | Alternative raised | Numerical fidelity | Calibration |
+| | Numerical | Directional | Alternative raised | Calibration |
 |---|---|---|---|---|
-| Pilot 1 (baseline) | | | | |
-| Pilot 2 (+ context) | | | | |
+| Pilot 1 — arm A | | | | |
+| Pilot 2 — arm B | | | | |
+
+**What to look for.** If Pilot 2 corrects the *numbers* but still frames the position as
+bearish, that is direct early support for H2 — grounding repairs recall but not
+interpretation — and it is the observation that motivates arm C.
 
 ## C. AI-use log — first entries
 
-| Tool + purpose | Input/request summary | What was used or rejected | Verification + effect on decision |
+| Tool + purpose | Input/request summary | Used or rejected | Verification + effect on decision |
 |---|---|---|---|
-| ChatGPT — research question development | Iterated on an institutional-positioning research question | **Rejected** the resulting design | Proposed a two-stage ML forecasting project with no generative-AI system; failed the NST2046 requirement. Discarded and reframed. |
-| ChatGPT — literature search | Asked what prior work existed | **Partially used** | Returned plausible citations with 2026 dates; treated as leads only, pending retrieval at source. |
-| Claude Code — data pipeline | Build and verify CFTC ingest | **Used** | Reconciled API against official CFTC archives, 2,310 cells, zero mismatches; 58 automated tests. |
+| ChatGPT — research question development | Iterated on an institutional-positioning question | **Rejected** | Produced a two-stage ML forecasting design with no generative-AI system; failed the NST2046 core requirement. Discarded. |
+| ChatGPT — literature search | Asked what prior work existed | **Partially used** | Returned plausible citations with future-dated years; treated as leads only, pending retrieval at source. |
+| Claude Code — data pipeline | Build and verify CFTC ingest | **Used** | Reconciled API against official CFTC archives: 2,310 cells, zero mismatches; 58 automated tests. |
+| Claude Code — project design | Critique of the audit-only design | **Used** | Prompted the three-arm redesign after we judged a prompt-and-score audit too thin to demonstrate a mechanism. |
 | Claude Code — proposal drafting | Draft this proposal | **Used, under review** | Group verifies every citation at source and runs all pilots itself before submission. |
 
 ## D. Decision log — first entries
@@ -85,6 +99,8 @@
 | Date | Decision | Reason | Evidence | Owner |
 |---|---|---|---|---|
 | *[date]* | Filter CFTC data by contract code, never name | CFTC renamed the 10Y contract in Feb 2022; a name filter silently returns 817 or 240 rows instead of 1,057 | Verified against live endpoint | *[name]* |
-| *[date]* | Do not assume snapshots fall on Tuesdays | 14 of 1,057 fall on a Monday or Wednesday in holiday weeks; the assumption crashed our first implementation | Verified against live endpoint | *[name]* |
-| *[date]* | Pin data vintage by content hash | A CFTC revision would move both the API and the archives together; only a hash detects it | `data/manifests/` | *[name]* |
-| *[date]* | Reframe project to audit an LLM rather than build a forecaster | Original design had no generative-AI system; ~30% of the rubric had no answer | NST2046 guidelines §1, §6 | *[name]* |
+| *[date]* | Do not assume snapshots fall on Tuesdays | 14 of 1,057 fall on Monday or Wednesday in holiday weeks; the assumption crashed our first implementation | Verified against live endpoint | *[name]* |
+| *[date]* | Pin data vintage by content hash | A CFTC revision would move API and archives together; only a hash detects it | `data/manifests/` | *[name]* |
+| *[date]* | Reframe from forecasting to studying the model | Original design had no generative-AI system; core requirement unmet | NST2046 guidelines §1 | *[name]* |
+| *[date]* | Add arm C rather than audit alone | An audit shows a failure; building the repair demonstrates a mechanism and tests responsibility directly | NST2046 §6 socio-technical integration | *[name]* |
+| *[date]* | Drop predictive testing of the decomposition | Its role is honest description, not forecasting; predictive inference is out of scope | Proposal §6 | *[name]* |

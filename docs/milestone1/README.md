@@ -4,7 +4,7 @@ Due **20 September 2026, 23:59 SGT**. One PDF per group.
 
 | File | Purpose | Limit |
 |---|---|---|
-| `proposal.md` | Main proposal, all 7 required sections | 3 pages excl. references/appendices |
+| `proposal.md` | Main proposal, all 7 required sections, three-arm design | 3 pages excl. references/appendices |
 | `appendix.md` | Evidence appendix | 1 page, not counted |
 
 ## Before you submit — blocking items
@@ -30,4 +30,15 @@ Due **20 September 2026, 23:59 SGT**. One PDF per group.
 | AI-use plan | Proposal §7 |
 | Appendix: diagram/table | Appendix §A |
 | Appendix: two pilot cases + output | Appendix §B — **prompts ready, outputs pending** |
+
+## The three arms
+
+| Arm | Configuration | Tests |
+|---|---|---|
+| A | Bare model | H1: unaided failure rate |
+| B | + retrieval grounding | H2: do correct facts fix framing? |
+| C | + decomposition tool | H3: does structured evidence fix framing? |
+
+Arms A and B are runnable now. Arm C needs the decomposition model (week 3) and is the
+named fallback to drop if time runs short.
 | Appendix: AI-use and decision log | Appendix §C, §D |
