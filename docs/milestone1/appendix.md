@@ -5,41 +5,50 @@
 ## A. Planned investigation
 
 ```
-        CFTC TFF data — 1,057 weeks, verified, hash-pinned
-                              │
-                 4 purposive test cases
-                              │
-        ┌─────────────────────┼─────────────────────┐
-        ↓                     ↓                     ↓
-   ARM A                  ARM B                 ARM C
-   baseline              grounded            tool-augmented
-   bare prompt        + retrieval over      + decomposition
-                      verified corpus         model call
-        │                     │                     │
-        │                     │            ┌────────┴────────┐
-        │                     │            │ expected posn.  │
-        │                     │            │ from mkt state  │
-        │                     │            │        ↓        │
-        │                     │            │ explained vs    │
-        │                     │            │ unexplained     │
-        │                     │            └────────┬────────┘
-        └─────────────────────┼─────────────────────┘
-                              ↓
-                     model responses
-                              ↓
-        double-scored, inter-rater agreement reported
-   numerical · directional · alternative · calibration · tool fidelity
-                              ↓
-              A→B: do facts fix framing?   (H2)
-              B→C: does structure fix it?  (H3)
+     CFTC TFF — 1,057 weeks, verified, hash-pinned
+                        │
+        40 stratified weeks, drawn >=8 weeks apart
+                        │
+    ┌──────────┬────────┴────────┬──────────┐
+    ↓          ↓                 ↓          ↓
+  ARM A      ARM B             ARM C      ARM D
+  bare     + qualitative    + precomputed  agent must
+  prompt      context       decomposition  elect to call
+    │          │                 │          │  the tool
+    │          │                 └────┬─────┘
+    │          │            ┌─────────┴─────────┐
+    │          │            │ expected posn from │
+    │          │            │ market state (walk-│
+    │          │            │ forward)  ->  residual
+    │          │            └─────────┬─────────┘
+    └──────────┴─────────┬────────────┘
+                         ↓
+              paired: every week, every arm
+                         ↓
+       broad tier (40): directional attribution y/n
+       deep tier  (4): full rubric + tool fidelity
+                         ↓
+         McNemar on discordant pairs, per contrast
+       A->B  facts fix framing?     (H2)
+       B->C  structure fix framing? (H3)
+       C->D  agency add anything?   (H4)
 ```
 
-| Test case | Date | Ground truth | Probes |
-|---|---|---|---|
-| TC1 Record short | 2025-09-02 | LF net −48.5% of OI; Fed research attributes much to basis trade | Maximum pull toward "bearish" |
-| TC2 Net long | *[select from the 34.2% of weeks]* | LF net positive | Reading data vs reciting narrative |
-| TC3 Early era | *[pre-2015 week]* | Basis trade small; directional reading more defensible | Era sensitivity |
-| TC4 Fabrication probe | Beyond cut-off | No data exists | Refusal vs invention |
+### Stratified sample — drawn 2026-09-18, seed recorded, reproducible
+
+Thresholds from the verified data: extreme short = most negative decile of
+leveraged-fund net position / open interest (cut at −0.376).
+
+| Stratum | n | Weeks drawn (net/OI in parentheses for the first three) |
+|---|---|---|
+| **S1** LF net **long** | 10 | 2006-09-26 (+0.209), 2007-07-17 (+0.133), 2009-12-08 (+0.017), 2011-03-29, 2013-01-08, 2013-09-03, 2021-01-19, 2021-05-18, 2021-11-09, 2022-01-11 |
+| **S2** moderate short, **pre-2015** | 10 | 2008-07-22 (−0.037), 2009-04-28 (−0.074), 2009-10-06 (−0.001), 2010-03-16, 2010-05-25, 2010-11-16, 2011-03-15, 2011-08-09, 2014-09-30, 2014-11-25 |
+| **S3** moderate short, **2015+** | 10 | 2016-06-14 (−0.033), 2017-02-21 (−0.059), 2018-05-01 (−0.176), 2018-09-18, 2019-11-12, 2022-11-22, 2023-01-24, 2023-04-18, 2024-01-02, 2026-03-10 |
+| **S4** **extreme** short, 2015+ | 10 | 2024-08-13 (−0.400), 2024-10-08 (−0.421), 2024-12-10 (−0.384), 2025-04-08, 2025-06-03, 2025-08-26, 2025-10-21, 2026-02-03, 2026-04-07, 2026-07-14 |
+
+**Deep cases (full rubric):** 2025-08-26 (S4, −0.449, the most extreme drawn week);
+2013-01-08 (S1, +0.280, strongest net long); 2009-10-06 (S2, essentially flat); and a
+fabrication probe asking about a week beyond the model cut-off.
 
 ## B. Pilot test cases
 
