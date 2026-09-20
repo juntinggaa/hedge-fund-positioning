@@ -13,6 +13,7 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
+from hfpos import config
 from hfpos.ingest import cftc
 
 BASE_SEED = 20260918
@@ -48,15 +49,40 @@ def strata(frame: pd.DataFrame) -> dict[str, pd.Series]:
     }
 
 
+#: Chosen deliberately, NOT drawn — they probe specific behaviours and are analysed
+#: qualitatively. Kept separate from the stratified sample, which estimates rates.
+PURPOSIVE = {
+    "2025-09-02": "most negative week in the full sample (-48.5% of OI); the pilot case",
+}
+
+
 def main() -> None:
     frame = cftc.load("UST_10Y")
     net_oi = frame["leveraged_funds_net"] / frame["open_interest"]
     cut = net_oi[net_oi < 0].quantile(EXTREME_QUANTILE)
     print(f"extreme-short threshold (net/OI): {cut:.3f}\n")
+
+    rows = []
     for i, (name, mask) in enumerate(strata(frame).items()):
         picks = draw(frame.index[mask], N_PER_STRATUM, BASE_SEED + i)
         print(f"{name} — pool {int(mask.sum())}, drawn {len(picks)}")
         print("  " + ", ".join(f"{p.date()} ({net_oi[p]:+.3f})" for p in picks) + "\n")
+        for p in picks:
+            rows.append({"frame": "stratified", "stratum": name.split()[0],
+                         "stratum_label": name, "pool": int(mask.sum()),
+                         "week": p.date(), "net_over_oi": round(float(net_oi[p]), 4),
+                         "note": ""})
+
+    for day, why in PURPOSIVE.items():
+        ts = pd.Timestamp(day)
+        rows.append({"frame": "purposive", "stratum": "P", "stratum_label": "purposive",
+                     "pool": "", "week": ts.date(),
+                     "net_over_oi": round(float(net_oi[ts]), 4), "note": why})
+        print(f"purposive — {ts.date()} ({net_oi[ts]:+.3f}): {why}")
+
+    out = config.REPO_ROOT / "docs" / "milestone1" / "sample.csv"
+    pd.DataFrame(rows).to_csv(out, index=False)
+    print(f"\nwrote {out} ({len(rows)} rows)")
 
 
 if __name__ == "__main__":

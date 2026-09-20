@@ -24,8 +24,13 @@
      + sign-flip control · 10 replicates · free-tier on C arms
 ```
 
-**Stratified sample**, drawn 2026-09-18, seeded and reproducible via `scripts/draw_sample.py`.
-Extreme short = most negative decile of leveraged-fund net position / open interest (−0.376).
+**Two sampling frames.** *Stratified* (40 weeks, 10 per stratum) estimates rates; *purposive*
+cases are chosen deliberately to probe specific behaviours and are analysed qualitatively. The
+pilot week **2025-09-02** is purposive — at −48.5% of open interest it is the most negative week
+in all 1,057, so it is a maximum-temptation probe, not a representative one. Drawn 2026-09-18,
+seeded and reproducible via `scripts/draw_sample.py`; all 41 weeks are listed in
+`docs/milestone1/sample.csv`. Extreme short = most negative decile of leveraged-fund net position
+/ open interest (−0.376).
 
 | Stratum | Weeks drawn |
 |---|---|
