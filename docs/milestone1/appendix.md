@@ -3,7 +3,7 @@
 ## A. Planned investigation
 
 ```
- CFTC TFF, 1,057 weeks (verified, hash-pinned) -> 35 stratified weeks, >=8 weeks apart
+ CFTC TFF, 1,057 weeks (verified, hash-pinned) -> 40 stratified weeks, >=8 weeks apart
       |
    ARM A        ARM B          ARM C-bare        ARM C-ann
    raw        + mechanism      + expected/        + what the

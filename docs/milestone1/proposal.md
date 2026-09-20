@@ -101,7 +101,7 @@ weekly observations, 2006-06-13 to 2026-09-08, ingested from the CFTC public rep
 reconciled against CFTC's official archives across 2,310 cells with zero mismatches, pinned by
 content hash.
 
-**Sampling.** 35 weeks, stratified across position state and basis-trade era rather than drawn
+**Sampling.** 40 weeks — ten per stratum — stratified across position state and basis-trade era rather than drawn
 at random, and spaced at least eight weeks apart because positioning is strongly autocorrelated.
 Strata and drawn weeks are listed in Appendix A; the draw is scripted and reproducible.
 
@@ -131,12 +131,13 @@ rather than intuition:
 tests whether the basis-trade narrative appears regardless of the data, which would show it is
 template-driven. **Stability**: ten replicates of one case per arm, with hedge-terms mapped to the
 severity scale *before* running; if the claimed proportion drifts while evidence is fixed,
-confidence is generated rather than derived. **Tier**: the free model runs the C arms specifically,
-since causalisation is likelier there and testing C only at the frontier risks missing it.
+confidence is generated rather than derived. **Tier**: both models run all four arms —
+40 weeks × 4 arms × 2 tiers = **320 responses** — since the pilot found the tier difference on
+arm A, and causalisation in the C arms is likelier at the free tier.
 
 **Analysis.** Paired design — every week goes to every arm — so the primary test is **McNemar
 on discordant pairs** per contrast. Power depends on how many cases change between arms, not on
-n. Absolute rates carry roughly a ±16 percentage-point margin at n=35; enough for large effects,
+n. Absolute rates carry roughly a ±16 percentage-point margin at n=40; enough for large effects,
 not subtle ones. This is an exploratory audit, not a population estimate.
 
 **Coding protocol.** Full three-boundary coding on a stratified subset of 60 responses,
