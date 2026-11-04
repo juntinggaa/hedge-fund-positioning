@@ -15,6 +15,16 @@ Arms, and what each adds:
     B        + market-structure mechanism, stated with NO magnitudes
     C-bare   + model expected position, actual, residual, unlabelled
     C-ann    + the frozen annotation below
+    D        + a PLACEBO residual: another week's residual, with the expected
+             position recomputed so the arithmetic still ties out
+
+Arm D is the quantitative analogue of the net-long template check. The residual
+correlates 0.977 with the raw weekly change, so the real model output carries
+almost no information the table does not already contain. If responses causalise
+the placebo at the same rate as the real residual, the causalisation is driven by
+the FORM of a model output rather than its content, and no improvement to the
+model would change it. The placebo is undetectable by inspection: real residuals
+span -5.21% to +4.03% of open interest, so any drawn value is plausible anywhere.
 
 The arm B paragraph deliberately contains no proportion. If it said how much of a
 typical short is basis-related it would hand over the very claim the primary
@@ -40,6 +50,9 @@ GROUPS = [
 ]
 
 QUESTION = "What does this positioning suggest about the Treasury market?"
+
+#: Seed for the arm D placebo draw. Fixed, so the placebo is reproducible.
+PLACEBO_SEED = 20261104
 
 MECHANISM = """\
 Context you may find relevant: leveraged funds sometimes hold short positions in Treasury \
@@ -88,6 +101,25 @@ def positioning_table(row: pd.Series) -> str:
     return "\n".join(lines)
 
 
+def placebo_stimuli(stimuli: pd.DataFrame, seed: int = PLACEBO_SEED) -> pd.DataFrame:
+    """Reassign residuals across weeks, keeping actual - residual = expected.
+
+    The actual position stays true to the data; only the model's claimed
+    expectation moves. A response cannot detect the swap by arithmetic.
+    """
+    import numpy as np
+
+    out = stimuli.copy()
+    covered = out["has_model_output"].fillna(False).to_numpy(dtype=bool)
+    residuals = out.loc[covered, "residual"].to_numpy()
+    shuffled = np.random.default_rng(seed).permutation(residuals)
+    out.loc[covered, "residual"] = shuffled
+    out.loc[covered, "expected_net_over_oi"] = (
+        out.loc[covered, "actual_net_over_oi"].to_numpy() - shuffled
+    )
+    return out
+
+
 def model_block(stimuli: pd.DataFrame, week: str) -> str | None:
     row = stimuli[stimuli["week"] == week]
     if row.empty or not bool(row.iloc[0]["has_model_output"]):
@@ -116,8 +148,9 @@ def build(week: str, arm: str, frame: pd.DataFrame, stimuli: pd.DataFrame) -> st
 
     if arm in ("B",):
         parts += ["", MECHANISM]
-    if arm in ("C-bare", "C-ann"):
-        block = model_block(stimuli, str(stamp.date()))
+    if arm in ("C-bare", "C-ann", "D"):
+        source = placebo_stimuli(stimuli) if arm == "D" else stimuli
+        block = model_block(source, str(stamp.date()))
         if block is None:
             raise ValueError(f"no out-of-sample model output for {week}; arm {arm} cannot run")
         parts += ["", block]
@@ -128,7 +161,7 @@ def build(week: str, arm: str, frame: pd.DataFrame, stimuli: pd.DataFrame) -> st
     return "\n".join(parts)
 
 
-ARMS = ("A", "B", "C-bare", "C-ann")
+ARMS = ("A", "B", "C-bare", "C-ann", "D")
 
 
 def main() -> None:
