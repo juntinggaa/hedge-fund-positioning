@@ -1,0 +1,17 @@
+{
+  "name": "prices_zn",
+  "source": "yahoo:ZN=F",
+  "fetched_at": "2026-11-04T05:19:15+00:00",
+  "rows": 5196,
+  "first": "2006-01-03",
+  "last": "2026-09-14",
+  "columns": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume"
+  ],
+  "content_sha256": "2ae2c3eb4bd3e64d0e78afc210302586b5c886b97bfac2aa10b8755965a943c9",
+  "ticker": "ZN=F"
+}

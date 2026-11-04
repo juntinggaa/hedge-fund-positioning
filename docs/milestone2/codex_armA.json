@@ -1,0 +1,11 @@
+**This suggests strong institutional demand for Treasury duration, matched by substantial leveraged-fund selling—but it is not a clear forecast of higher or lower yields.**
+
+- **Asset managers are heavily net long:** +2.46 million contracts, or 47.27% of open interest. Taken alone, that exposure benefits from rising Treasury prices and falling yields. However, it can reflect benchmark exposure, portfolio hedging or using futures instead of cash bonds, rather than a fresh bullish conviction.
+
+- **Leveraged funds are heavily net short:** −2.53 million contracts, almost mirroring asset managers’ longs. An important possible explanation is the **cash–futures basis trade**: funds buy cash Treasuries, finance them through repo and sell futures against them. That futures short can hedge the bond holding rather than express a bet on higher yields. The pattern is consistent with basis trading, but this table cannot establish how much is basis-related. [Federal Reserve analysis](https://www.federalreserve.gov/econres/notes/feds-notes/quantifying-treasury-cash-futures-basis-trades-20240308.html)
+
+- **Dealers’ smaller net short is not necessarily a bearish signal.** Dealers commonly use futures to offset client and inventory risks across markets. Likewise, the “spreading” column does not capture cash–futures hedges or spreads across different markets, so its relatively small size does not rule out substantial relative-value trading. [CFTC definitions](https://www.cftc.gov/sites/default/files/idc/groups/public/@commitmentsoftraders/documents/file/tfmexplanatorynotes.pdf)
+
+The main risk implication is **potentially significant unwinding flows**. Directional shorts covering could amplify a futures rally. A basis-trade unwind, however, involves buying back futures **and selling cash Treasuries**, potentially straining liquidity rather than producing a straightforward bond rally. [Dallas Fed analysis](https://www.dallasfed.org/research/economics/2025/0715)
+
+This snapshot shows how exposure is distributed. Weekly changes and historical comparisons are needed to judge whether positions are building or unusually stretched; cash holdings, repo financing and other derivatives are needed to assess investors’ overall interest-rate bets. It does not, by itself, establish a crowded bearish consensus or an imminent short squeeze.

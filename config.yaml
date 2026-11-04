@@ -1,5 +1,10 @@
 # Central config. Every number the analysis depends on lives here, not in code.
 
+# Pinned fetch window. Re-running later must not silently extend the sample.
+vintage:
+  start: "2006-01-01"
+  end: "2026-09-15"     # covers the last TFF snapshot (2026-09-08) plus settlement
+
 paths:
   raw: data/raw
   interim: data/interim
