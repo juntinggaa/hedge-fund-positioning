@@ -27,7 +27,7 @@ import numpy as np
 import pandas as pd
 
 from hfpos import config
-from hfpos.features import basis, macro, momentum
+from hfpos.features import basis, macro, momentum, positions as position_features
 from hfpos.ingest import cftc, fred, prices
 
 log = logging.getLogger(__name__)
@@ -35,8 +35,18 @@ log = logging.getLogger(__name__)
 TARGET = "d_net_over_oi"
 
 
-def build(contract: str = "UST_10Y", group: str = "leveraged_funds") -> pd.DataFrame:
-    """Full weekly feature matrix plus the Stage-1 target."""
+def build(
+    contract: str = "UST_10Y",
+    group: str = "leveraged_funds",
+    feature_set: str = "extended",
+) -> pd.DataFrame:
+    """Full weekly feature matrix plus the Stage-1 target.
+
+    `feature_set` is "baseline" (market state only, the Milestone 1 specification)
+    or "extended" (adds lagged cross-group and cross-contract positioning, the Fed
+    balance sheet and a quarter-end dummy). Both are kept so the gain from the
+    extra variables is measurable rather than asserted.
+    """
     positions = cftc.load(contract)
     price_frame = prices.load()
     fred_frame = fred.load()
@@ -55,7 +65,15 @@ def build(contract: str = "UST_10Y", group: str = "leveraged_funds") -> pd.DataF
     mom = momentum.build(price_frame, snapshots)
     mac = macro.build(fred_frame, snapshots)
     bas = basis.build(mom["ret_1w"], fred_frame, snapshots, mac["dy_10"])
-    frame = pd.concat([frame, mom, mac, bas], axis=1)
+    if feature_set == "baseline":
+        # The Milestone 1 specification: market state only.
+        mac = mac.drop(columns=[c for c in ("d_log_soma", "quarter_end_week") if c in mac])
+        blocks = [frame, mom, mac, bas]
+    elif feature_set == "extended":
+        blocks = [frame, mom, mac, bas, position_features.build(positions, group)]
+    else:
+        raise ValueError(f"unknown feature_set {feature_set!r}")
+    frame = pd.concat(blocks, axis=1)
 
     frame.index.name = "as_of"
     return frame

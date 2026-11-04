@@ -15,8 +15,17 @@ import pandas as pd
 
 
 def as_of(daily: pd.Series | pd.DataFrame, snapshots: pd.DatetimeIndex) -> pd.Series | pd.DataFrame:
-    """Value of a daily series at the last observation on or before each snapshot."""
-    return daily.sort_index().reindex(snapshots, method="ffill")
+    """Value of a daily series at the last observation on or before each snapshot.
+
+    The forward fill runs over VALUES before the reindex, not only over missing
+    dates. The distinction matters: the FRED frame is a union index over every
+    series, so a weekly series such as the Fed balance sheet has a row for every
+    weekday with NaN in all but one. `reindex(method="ffill")` fills absent labels
+    only, so it would return NaN for almost every snapshot -- silently, as an
+    all-empty feature column. A market holiday on a snapshot day does the same to a
+    daily series.
+    """
+    return daily.sort_index().ffill().reindex(snapshots, method="ffill")
 
 
 def between(daily: pd.Series, snapshots: pd.DatetimeIndex, func) -> pd.Series:

@@ -1,7 +1,7 @@
 {
   "name": "fred",
   "source": "fred",
-  "fetched_at": "2026-11-04T05:19:17+00:00",
+  "fetched_at": "2026-11-04T06:27:38+00:00",
   "rows": 7563,
   "first": "2006-01-01",
   "last": "2026-09-15",
@@ -15,9 +15,10 @@
     "SOFR",
     "DTB3",
     "VIXCLS",
-    "T10Y2Y"
+    "T10Y2Y",
+    "TREAST"
   ],
-  "content_sha256": "3c5cc68f78711162d43dd9f24af995f40e4798522466fcf83ad7550fb1b45ddb",
+  "content_sha256": "6d75673395d9180e75786f04701c7f35709b2cc0f453144296596cfe3be60f10",
   "series": [
     "DGS2",
     "DGS5",
@@ -28,6 +29,7 @@
     "SOFR",
     "DTB3",
     "VIXCLS",
-    "T10Y2Y"
+    "T10Y2Y",
+    "TREAST"
   ]
 }

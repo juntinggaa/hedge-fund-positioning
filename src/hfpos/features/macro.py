@@ -12,6 +12,7 @@ the omission is recorded rather than approximated.
 
 from __future__ import annotations
 
+import numpy as np
 import pandas as pd
 
 from hfpos.features.align import as_of
@@ -33,4 +34,16 @@ def build(fred: pd.DataFrame, snapshots: pd.DatetimeIndex) -> pd.DataFrame:
     out["curvature"] = 2 * levels["DGS5"] - levels["DGS2"] - levels["DGS10"]
     out["vix"] = levels["VIXCLS"]
     out["d_vix"] = levels["VIXCLS"].diff()
+
+    # Fed Treasury holdings: QE and QT change who must absorb duration, which is a
+    # standing condition for leveraged positioning. Level is non-stationary, so the
+    # feature is its weekly log change.
+    if "TREAST" in fred:
+        soma = as_of(fred["TREAST"], snapshots)
+        out["d_log_soma"] = np.log(soma.where(soma > 0)).diff()
+
+    out["quarter_end_week"] = (
+        snapshots.to_series().dt.month.isin([3, 6, 9, 12])
+        & (snapshots.to_series().dt.day > 24)
+    ).astype(float).to_numpy()
     return out

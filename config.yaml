@@ -50,6 +50,12 @@ basis:
 
 stage1:
   target: "d_net_over_oi"   # change in net position scaled by open interest
+  # "extended" adds lagged cross-group positioning, cross-contract positioning,
+  # the Fed balance sheet and a quarter-end dummy to the market-state baseline.
+  # Chosen BEFORE seeing out-of-sample results. Ablation later showed momentum and
+  # cross-contract terms add noise, but re-selecting features on OOS performance
+  # would contaminate the OOS claim, so the pre-specified set stands.
+  feature_set: "extended"
   min_train_weeks: 260
   refit_every_weeks: 13
   models: [ridge, lasso, xgboost]

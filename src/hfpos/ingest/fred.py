@@ -30,7 +30,8 @@ log = logging.getLogger(__name__)
 NAME = "fred"
 
 #: Everything the feature pipeline may ask for, grouped as in config.yaml.
-SERIES = ["DGS2", "DGS5", "DGS10", "DGS30", "DFF", "IORB", "SOFR", "DTB3", "VIXCLS", "T10Y2Y"]
+SERIES = ["DGS2", "DGS5", "DGS10", "DGS30", "DFF", "IORB", "SOFR", "DTB3", "VIXCLS", "T10Y2Y",
+          "TREAST"]  # Fed Treasury securities held outright, weekly Wednesday level
 
 
 def cache_path() -> Path:
