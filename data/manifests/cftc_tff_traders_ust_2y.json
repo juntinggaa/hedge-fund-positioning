@@ -1,0 +1,20 @@
+{
+  "name": "cftc_tff_traders_ust_2y",
+  "source": "cftc-socrata:gpe5-46if",
+  "fetched_at": "2026-11-04T16:05:15+00:00",
+  "rows": 1057,
+  "first": "2006-06-13",
+  "last": "2026-09-08",
+  "columns": [
+    "traders_total",
+    "traders_lev_long",
+    "traders_lev_short",
+    "traders_lev_spread",
+    "traders_am_long",
+    "traders_am_short"
+  ],
+  "content_sha256": "71a734646862d5bb2d282a8e4651692d8cb91511051ed0d99a605121a8977bba",
+  "contract": "UST_2Y",
+  "capped_at": "2026-09-08",
+  "suppressed_cells": 0
+}

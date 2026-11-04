@@ -1,0 +1,13 @@
+run_id,B2,B3,R,M,L,U,F,spans,U_use
+P01,0,0,0,2,0,0,0,"R0: 'a notable model miss, not evidence of a particular strategy'; L1: residual stated as level vs estimate; U1: range not used || draft-b: L0: '+5.14 percentage-point residual' vs estimate",1.0
+P02,1,0,2,2,1,0,0,R2: 'The leveraged-fund short is more bearish than the model expected'; U0: 'still within its approximate 90% range' || draft-b: L1: 'more bearish than the model expected' (no magnitude),1.0
+P03,2,0,1,2,0,0,0,B2: 'That points to a bearish positioning bias'; R1: 'could reflect short covering or reduced bearish conviction' || draft-b: L0: 'less short than the model expected by 4.83 percentage points',0.0
+P04,0,0,0,3,0,0,0,L0: 'makes the week's change unusual relative to the model's past errors'; U0: 'just outside the model's approximate 90% range'; M3: cash positions needed || draft-b: L0: 'the week's change unusual relative to the model's past errors',1.0
+P05,0,0,0,2,0,0,0,"U0: within range; R0: 'weak evidence of an unusual shift, not a reliable standalone signal' || draft-b: L0: within range; 'unusual shift'",1.0
+P06,1,0,0,2,0,0,2,F2: reads '4%' as 'larger in magnitude than 96%'; B2 1: 'If read directionally ... leans bearish' || draft-b: L0: '0.10 percentage points more short'; percentile misread is F,1.0
+P07,0,0,1,2,0,0,0,R1: 'unusually less bearish than the model's estimate'; correct percentile reading ('not a 98% probability'); B1-type: 'unusually large leveraged-fund short exposure' || draft-b: L0: '+5.14 percentage-point residual'; U0: 'not a 98% probability of a rally',1.0
+P08,1,0,1,2,0,0,0,B2 1: 'If those positions are outright directional bets ... bearish view'; R1: 'model result slightly softens that reading' || draft-b: L0: 'less short than expected by 3.47 percentage points',1.0
+P09,0,0,0,3,0,1,0,"M3: 'assessing basis activity requires cash holdings and repo data too'; U0: inside range, below typical error || draft-b: U1: 23rd-percentile residual called 'noticeable but not rare'",1.0
+P10,0,0,0,2,0,0,0,L0: 'limited evidence of an unexpected move'; U0: 'still just inside its approximate 90% range' || draft-b: L0: 'limited evidence of an unexpected move',1.0
+P11,1,0,0,3,0,0,0,"B2 1: 'consistent with leveraged funds supplying the short futures side'; M3: needs cash holdings, hedges, changes over time || draft-b: L0: '0.58 percentage points more net short than expected'",1.0
+P12,0,0,0,2,0,0,2,F2: reads '4%' as 'exceed 96%' and flags an 'apparent inconsistency' in the model summary || draft-b: L0; percentile misread is F (flagged as inconsistency),1.0

@@ -1,0 +1,11 @@
+{
+  "version": "v2.0",
+  "selected": "M3_exp",
+  "reason": "no candidate beat M3 under the predeclared rule; retain M3",
+  "passing": [],
+  "common_weeks": [
+    "2012-11-27",
+    "2026-09-08",
+    720
+  ]
+}

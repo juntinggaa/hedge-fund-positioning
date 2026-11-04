@@ -1,0 +1,17 @@
+{
+  "model_version": "v4.0",
+  "material_version": "v4.0-review-1",
+  "generated_files_sha256": {
+    "docs/model_v4/materials/model_card_v4.json": "f5548cb5b9ac635fc421ff638437c3cbad87870081e7c1c6488067dff051b39a",
+    "docs/model_v4/materials/stimuli_v4.csv": "18e8da78cf169b7c88e49196f0ad4b1c895adca7aff1bc4ea92fd7c728c2d608",
+    "docs/model_v4/materials/annotation_v4.txt": "cb6f3d419aa2ac41a13dd7c8936fd930452cd911e171b1d60ccfbff0944bc4d1",
+    "docs/model_v4/materials/review_prompts.jsonl": "6e39ac97aac54eef569e4bc6a5cdac8601e5ea7107650ac225742c3c90e2bb99",
+    "docs/model_v4/materials/example_C-bare.txt": "d3ac4a52baf58c776c3e58deb8503a2fdd41edf610ea71b2708caa2b6b467f8f",
+    "docs/model_v4/materials/example_C-ann.txt": "20cdf8c8091941fd23efb0cb6532303fa46e513a0b4511afbec557ad46bd1b19",
+    "docs/model_v4/materials/example_D.txt": "708e7e490cd2a727bfb7b5de827db8a29fca5287bdaff8f1488f97f77feef35c"
+  },
+  "matched_cases": 27,
+  "prompt_count": 135,
+  "responses_generated": 0,
+  "legacy_A_B_byte_identical": true
+}

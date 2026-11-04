@@ -1,0 +1,18 @@
+{
+ "version": "v3-exp",
+ "spec": "docs/model_v3/SPEC_2026-11-05.md",
+ "full_sample_M3_identical_to_v2": true,
+ "full_common_weeks": [
+  "2012-11-27",
+  "2026-09-08",
+  720
+ ],
+ "d_common_weeks": [
+  "2021-05-04",
+  "2026-09-08",
+  280
+ ],
+ "passing": [],
+ "decision": "retain M3",
+ "v2_gate_outcome_unchanged": "M4: HAC p=0.095, bootstrap CI includes 0, not adopted"
+}

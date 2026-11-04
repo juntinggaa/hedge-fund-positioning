@@ -1,0 +1,7 @@
+case_type,week,raw_change_pp,pred_change_pp,abs_point_error_pp,pred_share_of_raw,inside_range
+a_anticipated_large,2026-09-01,-4.7111,-2.0208,2.6903,0.4289,True
+a_anticipated_large,2023-07-11,3.6356,0.1648,3.4708,0.0453,True
+c_ordinary,2026-06-30,-0.7558,-0.6566,0.0993,0.8686,True
+c_ordinary,2025-06-17,-0.7279,-0.1431,0.5848,0.1966,True
+d_large_residual,2026-08-25,5.4506,0.3098,5.1408,0.0568,False
+d_large_residual,2025-02-18,4.9055,0.0795,4.826,0.0162,False

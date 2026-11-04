@@ -1,0 +1,54 @@
+{
+ "name": "nyfed_pd_weekly",
+ "source": "https://markets.newyorkfed.org/api/pd/get/{key}.json",
+ "rows": 4248,
+ "fetched_utc": "2026-11-04T16:54:09+00:00",
+ "sha256": "7d5204e7c1c3d105503044f562bcd5503faa3ece671ab3c286cc64c366031f20",
+ "keys": [
+  "PDPOSGSC-G7L11",
+  "PDPOSGST-TOT",
+  "PDFTD-USTET",
+  "PDFTR-USTET",
+  "PDSORA-UTSETTOT",
+  "PDSIRRA-UTSETTOT"
+ ],
+ "seriesbreaks": [
+  {
+   "label": "JAN 1998 TO JUN 2001",
+   "seriesbreak": "SBP2001",
+   "startdate": "1998-01-28",
+   "enddate": "2001-06-30"
+  },
+  {
+   "label": "JUL 2001 TO MAR 2013",
+   "seriesbreak": "SBP2013",
+   "startdate": "2001-07-01",
+   "enddate": "2013-03-31"
+  },
+  {
+   "label": "APR 2013 TO DEC 2014",
+   "seriesbreak": "SBN2013",
+   "startdate": "2013-04-01",
+   "enddate": "2014-12-31"
+  },
+  {
+   "label": "JAN 2015 TO DEC 2021",
+   "seriesbreak": "SBN2015",
+   "startdate": "2015-01-01",
+   "enddate": "2022-01-04"
+  },
+  {
+   "label": "JAN 2022 TO JUN 2024",
+   "seriesbreak": "SBN2022",
+   "startdate": "2022-01-05",
+   "enddate": "2024-07-02"
+  },
+  {
+   "label": "JUL 2024 AND ON",
+   "seriesbreak": "SBN2024",
+   "startdate": "2024-07-03",
+   "enddate": "9999-12-31"
+  }
+ ],
+ "release_rule": "as-of Wednesday, released following Thursday; used at snapshot t only if asof + 9 days <= t"
+}

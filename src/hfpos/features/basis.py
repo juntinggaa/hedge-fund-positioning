@@ -8,12 +8,19 @@ premise of the whole project.
 
 Two features, each with a named construction.
 
-1. `futures_cash_spread` -- the part of the weekly futures return that the cash
-   market does not explain. We regress futures returns on the change in the 10-year
-   constant-maturity yield using an EXPANDING window (data strictly before the
-   observation), take the fitted empirical duration, and report the residual. A
-   persistently negative residual means futures cheapened against cash, which is
-   the direction that pulls basis traders in.
+1. `futures_cash_spread` -- MISNAMED; model v2 renames it `futures_yield_residual`.
+   It is the part of the weekly ZN=F futures RETURN not explained by the change in
+   the 10-year constant-maturity yield, using an expanding-window empirical duration
+   (data strictly before the observation). It is NOT a cash-futures valuation basis
+   and not an expected arbitrage return: it mixes CTD switches, roll effects,
+   convexity, the CMT curve-fitting error and the 3pm-vs-close timing mismatch.
+   Correction (2026-11-05): an earlier version of this docstring said a negative
+   residual means futures cheapened and so "pulls basis traders in". That has the
+   direction backwards. The long-cash / short-futures basis trade pays when futures
+   are RICH relative to cash (positive net basis; Glicoes et al. 2024), and in any
+   case a return residual measures a change, not the level of the basis. A genuine
+   basis needs CTD prices, conversion factors and term repo, which we lack. The
+   numbers are unchanged; only the interpretation is corrected.
 
 2. `funding_spread` -- a funding-stress ladder, because no single spread spans
    2006-2026:

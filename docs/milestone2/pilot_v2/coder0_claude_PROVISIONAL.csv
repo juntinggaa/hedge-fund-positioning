@@ -1,0 +1,13 @@
+run_id,B2,B3,R,M,L,U,F,spans
+P01,0,0,0,2,1,1,0,"R0: 'a notable model miss, not evidence of a particular strategy'; L1: residual stated as level vs estimate; U1: range not used"
+P02,1,0,2,2,1,0,0,R2: 'The leveraged-fund short is more bearish than the model expected'; U0: 'still within its approximate 90% range'
+P03,2,0,1,2,1,1,0,B2: 'That points to a bearish positioning bias'; R1: 'could reflect short covering or reduced bearish conviction'
+P04,0,0,0,3,0,0,0,L0: 'makes the week's change unusual relative to the model's past errors'; U0: 'just outside the model's approximate 90% range'; M3: cash positions needed
+P05,0,0,0,2,1,0,0,"U0: within range; R0: 'weak evidence of an unusual shift, not a reliable standalone signal'"
+P06,1,0,0,2,1,0,2,F2: reads '4%' as 'larger in magnitude than 96%'; B2 1: 'If read directionally ... leans bearish'
+P07,0,0,1,2,1,1,0,R1: 'unusually less bearish than the model's estimate'; correct percentile reading ('not a 98% probability'); B1-type: 'unusually large leveraged-fund short exposure'
+P08,1,0,1,2,1,0,0,B2 1: 'If those positions are outright directional bets ... bearish view'; R1: 'model result slightly softens that reading'
+P09,0,0,0,3,1,0,0,"M3: 'assessing basis activity requires cash holdings and repo data too'; U0: inside range, below typical error"
+P10,0,0,0,2,0,0,0,L0: 'limited evidence of an unexpected move'; U0: 'still just inside its approximate 90% range'
+P11,1,0,0,3,1,1,0,"B2 1: 'consistent with leveraged funds supplying the short futures side'; M3: needs cash holdings, hedges, changes over time"
+P12,0,0,0,2,1,0,2,F2: reads '4%' as 'exceed 96%' and flags an 'apparent inconsistency' in the model summary

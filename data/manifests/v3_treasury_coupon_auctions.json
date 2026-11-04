@@ -1,0 +1,23 @@
+{
+ "name": "treasury_coupon_auctions",
+ "source": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/auctions_query",
+ "rows": 2793,
+ "fetched_utc": "2026-11-04T16:54:07+00:00",
+ "sha256": "706019c98789dc6276581a20bd72fd54d5f4a4c9ad3eb5a525a8b1a73bad67d3",
+ "filter": "security_type in (Note, Bond)",
+ "fields": [
+  "cusip",
+  "security_type",
+  "security_term",
+  "original_security_term",
+  "announcemt_date",
+  "auction_date",
+  "issue_date",
+  "maturity_date",
+  "offering_amt",
+  "total_accepted",
+  "reopening",
+  "inflation_index_security",
+  "floating_rate"
+ ]
+}

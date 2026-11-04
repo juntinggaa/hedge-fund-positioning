@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "model_version": "v4.0",
+  "material_version": "v4.0-review-1",
+  "model_id": "weighted_104",
+  "status": "validated candidate materials; no LLM run started",
+  "prepared_date_singapore": "2026-11-05",
+  "description": "Uncalibrated ridge, same 40 features as M3; all prior training rows with exponential 104-calendar-week half-life, fold-local weighted scaling and regression, chronological four-split alpha selection; 260 initial rows, refit every 13 rows",
+  "target": "same-week change in leveraged-fund net position / open interest",
+  "estimate_type": "retrospective conditional estimate; includes current-week CFTC open interest",
+  "expected_level": "previous actual net/OI plus predicted weekly change",
+  "interpretation": "residual is a conditional level gap / unexpected adjustment, not a strategy share",
+  "selection": {
+    "exploratory": true,
+    "matched_n": 668,
+    "matched_first": "2013-11-26",
+    "matched_last": "2026-09-08",
+    "candidate_r2_vs_mean": 0.10811542970660482,
+    "reference_r2_vs_mean": 0.0773807563461224,
+    "mse_reduction_pct": 3.331241308035489,
+    "holm_p": 0.07030117610032804,
+    "mse_reduction_boot90_pct": [
+      0.9641272950063888,
+      5.71586842312657
+    ],
+    "rule": "Holm-adjusted one-sided HAC p < 0.10 and positive 90% bootstrap lower bound",
+    "fresh_confirmation": false
+  },
+  "all_raw_predictions_evaluation": {
+    "n": 720,
+    "first": "2012-11-27",
+    "last": "2026-09-08",
+    "r2_vs_mean": 0.10465390507325312,
+    "r2_vs_zero": 0.10329263166337799,
+    "rmse_pp": 2.069468785700696,
+    "mae_pp": 1.5953023559744193,
+    "corr_residual_actual_change": 0.9593724430557364,
+    "mz_slope": 1.1449445320375784
+  },
+  "uncertainty": {
+    "method": "expected level +/- 1.645 * RMSE of strictly earlier outer-OOS errors",
+    "nominal_coverage": 0.9,
+    "minimum_prior_errors": 52,
+    "historical_coverage": 0.9191616766467066,
+    "n_eligible": 668,
+    "coverage_by_era": [
+      {
+        "era": "2013-16",
+        "n": 162,
+        "coverage": 0.8765432098765432,
+        "mean_band_halfwidth_pp": 3.798375345934656,
+        "first": "2013-11-26",
+        "last": "2016-12-27"
+      },
+      {
+        "era": "2017-19",
+        "n": 157,
+        "coverage": 0.9235668789808917,
+        "mean_band_halfwidth_pp": 3.6527301696504852,
+        "first": "2017-01-03",
+        "last": "2019-12-31"
+      },
+      {
+        "era": "2020-22",
+        "n": 156,
+        "coverage": 0.9230769230769231,
+        "mean_band_halfwidth_pp": 3.5697704043387026,
+        "first": "2020-01-07",
+        "last": "2022-12-27"
+      },
+      {
+        "era": "2023-26",
+        "n": 193,
+        "coverage": 0.9481865284974094,
+        "mean_band_halfwidth_pp": 3.4687044843265435,
+        "first": "2023-01-03",
+        "last": "2026-09-08"
+      }
+    ],
+    "interpretation": "approximate prediction range; no conditional or distribution-free guarantee",
+    "width_tuned_to_coverage": false
+  },
+  "sample": {
+    "original_n": 41,
+    "eligible_n": 27,
+    "by_stratum": {
+      "P": {
+        "total": 1,
+        "eligible": 1
+      },
+      "S1": {
+        "total": 10,
+        "eligible": 4
+      },
+      "S2": {
+        "total": 10,
+        "eligible": 2
+      },
+      "S3": {
+        "total": 10,
+        "eligible": 10
+      },
+      "S4": {
+        "total": 10,
+        "eligible": 10
+      }
+    },
+    "ineligible_weeks": [
+      {
+        "week": "2006-09-26",
+        "availability_reason": "before eligible OOS prediction history"
+      },
+      {
+        "week": "2007-07-17",
+        "availability_reason": "before eligible OOS prediction history"
+      },
+      {
+        "week": "2009-12-08",
+        "availability_reason": "before eligible OOS prediction history"
+      },
+      {
+        "week": "2011-03-29",
+        "availability_reason": "before eligible OOS prediction history"
+      },
+      {
+        "week": "2013-01-08",
+        "availability_reason": "fewer than 52 earlier OOS errors"
+      },
+      {
+        "week": "2013-09-03",
+        "availability_reason": "fewer than 52 earlier OOS errors"
+      },
+      {
+        "week": "2008-07-22",
+        "availability_reason": "before eligible OOS prediction history"
+      },
+      {
+        "week": "2009-04-28",
+        "availability_reason": "before eligible OOS prediction history"
+      },
+      {
+        "week": "2009-10-06",
+        "availability_reason": "before eligible OOS prediction history"
+      },
+      {
+        "week": "2010-03-16",
+        "availability_reason": "before eligible OOS prediction history"
+      },
+      {
+        "week": "2010-05-25",
+        "availability_reason": "before eligible OOS prediction history"
+      },
+      {
+        "week": "2010-11-16",
+        "availability_reason": "before eligible OOS prediction history"
+      },
+      {
+        "week": "2011-03-15",
+        "availability_reason": "before eligible OOS prediction history"
+      },
+      {
+        "week": "2011-08-09",
+        "availability_reason": "before eligible OOS prediction history"
+      }
+    ]
+  },
+  "arms": {
+    "A": "unchanged raw table and neutral question",
+    "B": "unchanged A plus mechanism paragraph",
+    "C-bare": "A plus versioned quantitative block",
+    "C-ann": "C-bare plus versioned annotation",
+    "D": "A plus seeded placebo quantitative block"
+  },
+  "placebo": {
+    "policy": "same seeded permutation policy as v2; source week logged internally",
+    "seed": 20261104,
+    "fixed_points": 0,
+    "note": "placebo inputs are experimentally altered; real-model coverage does not validate the fake centre"
+  },
+  "source_sha256": {
+    "src/hfpos/model_v4/adaptation.py": "28bd78e97151ad5b682596a446599d667ecd27bf1f63f51ad467907c35e90aa0",
+    "src/hfpos/model_v4/materials.py": "37a72c919c74f177247f7b50b6b00be2cdb730e9238f1e7fb08808c640339c12",
+    "scripts/model_v4.py": "14bf74d958b2c76553b22ab4481076bb2a3b4279a231a431dd12ed7ac76f29e0",
+    "scripts/build_materials_v4.py": "ae6b6c03584df4322c9ff1f18abc53ac82962c7478c064995036aa08d720d137",
+    "scripts/build_prompts.py": "59cca63c968746657128453b90753578b39dbf91c28ccd904bb6489d85f5c340",
+    "src/hfpos/model_v2/features.py": "54575b3019e7e4d0a6b54a7cf947072d5d0dc48ab63e1940d334d6df4d914530",
+    "src/hfpos/features/build.py": "93b7165a2194abfbdde7f3f3fd85fcb3626b30962a70f836d5d369ff2720730a",
+    "src/hfpos/features/align.py": "756ac78b96b254c792cac5e86071cc1fb6391ad336d149dafc02b075b92ae7f2",
+    "src/hfpos/features/macro.py": "9165202665e733a551b50fb94910128a6cc4615154baa0d43abee528fe73eb9d",
+    "src/hfpos/features/basis.py": "ff93935090089b62b98972b3c58555d5c5e5ad419454fb2460fa664b71ef8110",
+    "src/hfpos/features/positions.py": "0a445b680593df001f74f7f5fd682add9ff45948a42927ef107646cd395ac8a4",
+    "src/hfpos/features/momentum.py": "26010cc2fa111834073ea8527a2499c5d356da61c1fd90df8ab2d99c72bcc8be",
+    "docs/milestone1/sample.csv": "ba2e76afcecc65740da932f0ca610cb8c0a432fe40b92fa7c775b75e0fb79dd8",
+    "docs/model_v4/materials/SPEC_2026-11-05.md": "17b7fa26c16916be409429045c6d4bc8512d9468554f231a9dcf1658aa688ba4",
+    "config.yaml": "ae3095a3b416e1ae3001fdb58bc21ad7c98b3af555c57732ca80e1df5a509dad",
+    "data/processed/model_v4/weighted_104.parquet": "2acd00ee88133822131901cd7fd988380d307e73839bafff4166c0214d77be2c",
+    "reports/model_v4/selection.json": "27cadf09e0cee6064b166b9c22d62e88a63b6fe2df420f5be622794472041158"
+  },
+  "positions_content_sha256": "3c42af24b2626c9b6eb18f88d1b6669a0a009d4086f5489e8e8ce83bb62e50ee",
+  "stimuli_sha256": "18e8da78cf169b7c88e49196f0ad4b1c895adca7aff1bc4ea92fd7c728c2d608",
+  "preexisting_files_preserved": 242,
+  "no_change_to": [
+    "legacy defaults",
+    "earlier cards and prompts",
+    "research question",
+    "primary comparison",
+    "elicitation factor",
+    "retrieval factor",
+    "human coding decisions"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "model_version": "v2.0",
+  "model_id": "M3_exp",
+  "description": "ridge on 40 v1 'extended' features, scaler and alpha (logspace(-2,4,13)) fitted inside every inner TimeSeriesSplit(4) fold; expanding window, min 260 weeks, refit every 13 weeks",
+  "target": "weekly change in leveraged-fund net / open interest, UST 10Y futures-only TFF",
+  "expected_level": "previous week's actual net/OI + predicted change",
+  "spec": "docs/model_v2/SPEC_2026-11-05.md",
+  "selection_reason": "no candidate beat M3 under the predeclared rule; retain M3",
+  "eval_weeks": [
+    "2012-11-27",
+    "2026-09-08",
+    720
+  ],
+  "oos_r2_vs_historical_mean": 0.074,
+  "oos_r2_vs_zero_change": 0.0726,
+  "oos_rmse_pp_of_oi": 2.1,
+  "corr_residual_actual_change": 0.97,
+  "mincer_zarnowitz_slope": 1.13,
+  "predictions_sha256": "a211ee5de0cbe7bc3b7d469b0b2f8a809e000ef8801d4f7517899b75be02e489",
+  "code_sha256": "c49e9a3b526f5d100dc6cc326b86c76d06995e06069893cf03631a59b6543022",
+  "band90_historical_coverage": 0.913,
+  "description_of_estimate": "retrospective same-week conditional estimate (not a pre-release nowcast: d_log_oi uses this week's CFTC open interest)",
+  "arm_c_coverage": "27 of 41 sampled weeks",
+  "weeks_without_band": [
+    "2013-01-08",
+    "2013-09-03"
+  ]
+}

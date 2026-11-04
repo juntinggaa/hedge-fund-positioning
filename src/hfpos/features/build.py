@@ -38,7 +38,7 @@ TARGET = "d_net_over_oi"
 def build(
     contract: str = "UST_10Y",
     group: str = "leveraged_funds",
-    feature_set: str = "extended",
+    feature_set: str | None = None,
 ) -> pd.DataFrame:
     """Full weekly feature matrix plus the Stage-1 target.
 
@@ -47,6 +47,8 @@ def build(
     balance sheet and a quarter-end dummy). Both are kept so the gain from the
     extra variables is measurable rather than asserted.
     """
+    if feature_set is None:   # config.yaml stage1.feature_set is the single source
+        feature_set = config.load()["stage1"]["feature_set"]
     positions = cftc.load(contract)
     price_frame = prices.load()
     fred_frame = fred.load()

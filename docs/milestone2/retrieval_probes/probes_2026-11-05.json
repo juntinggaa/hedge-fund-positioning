@@ -1,0 +1,126 @@
+[
+ {
+  "probe": "default",
+  "overrides": "none",
+  "tool_items": [
+   "web_search::",
+   "web_search::"
+  ],
+  "blocked_attempts": [],
+  "response": "The latest CFTC report lists leveraged funds as net short **2,107,224 contracts** in 10-year Treasury note futures as of October 20, 2026 (567,553 long minus 2,674,777 short); **yes, I used web search**. [CFTC Traders in Financial Futures report](https://www.cftc.gov/dea/futures/financial_lf.htm?from=body)"
+ },
+ {
+  "probe": "ws_disabled",
+  "overrides": "-c web_search=\"disabled\"",
+  "tool_items": [
+   "mcp_tool_call:codex_apps:search_service.web_run",
+   "mcp_tool_call:codex_apps:search_service.web_run"
+  ],
+  "blocked_attempts": [],
+  "response": "As of the latest report (October 27, 2026), leveraged funds were net short **2,227,275 contracts** in 10-year Treasury note futures; **yes, I used web search**. ([CFTC TFF data](https://futuresbench.com/cot/10-year-treasury/))"
+ },
+ {
+  "probe": "feat_off",
+  "overrides": "--disable web_search_request",
+  "tool_items": [
+   "web_search::"
+  ],
+  "blocked_attempts": [
+   "`[features].web_search_request` is deprecated because web search is enabled by default. (Set `web_search` to `\"live\"`, `"
+  ],
+  "response": "The most recent CFTC Traders in Financial Futures report shows leveraged funds net short **2,227,275 10-year Treasury note futures contracts** as of October 27, 2026; **yes, I used web search** ([report summary](https://futuresbench.com/cot/10-year-treasury/))."
+ },
+ {
+  "probe": "off_apps_only",
+  "overrides": "--disable apps",
+  "tool_items": [
+   "web_search::",
+   "web_search::",
+   "web_search::"
+  ],
+  "blocked_attempts": [],
+  "response": "The most recent CFTC report shows leveraged funds net short **2,227,275 contracts** in 10-year Treasury note futures as of October 27, 2026; **yes, I used web search**. [Source](https://futuresbench.com/cot/10-year-treasury/)"
+ },
+ {
+  "probe": "off_apps",
+  "overrides": "web_search disabled + apps/browser/computer_use off",
+  "tool_items": [
+   "mcp_tool_call:cua_repl:js"
+  ],
+  "blocked_attempts": [],
+  "response": "I couldn\u2019t access web search in this session, so I can\u2019t verify the latest CFTC leveraged-funds net position in 10-year Treasury note futures."
+ },
+ {
+  "probe": "lock1",
+  "overrides": "+ code_mode_host off + per-plugin -c overrides (shell-quoted)",
+  "tool_items": [
+   "mcp_tool_call:cua_repl:js"
+  ],
+  "blocked_attempts": [
+   "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host"
+  ],
+  "response": "I couldn\u2019t verify the most recent CFTC leveraged-funds net position because web search and browser access aren\u2019t available here; I did not use web search."
+ },
+ {
+  "probe": "plugin_overrides_argv_0",
+  "overrides": "per-plugin -c overrides (argv)",
+  "tool_items": [
+   "mcp_tool_call:cua_repl:js",
+   "mcp_tool_call:cua_repl:js"
+  ],
+  "blocked_attempts": [
+   "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host"
+  ],
+  "response": "I couldn\u2019t access web search because the browser host is unavailable, so I can\u2019t verify the most recent CFTC leveraged-funds net position in 10-year Treasury note futures; I did not use web search."
+ },
+ {
+  "probe": "plugin_overrides_argv_1",
+  "overrides": "per-plugin -c overrides (argv)",
+  "tool_items": [
+   "mcp_tool_call:cua_repl:js"
+  ],
+  "blocked_attempts": [
+   "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host"
+  ],
+  "response": "I couldn\u2019t verify the latest position because web search and browser access are unavailable in this session, so I did not use web search."
+ },
+ {
+  "probe": "plugin_overrides_argv_2",
+  "overrides": "per-plugin -c overrides (argv)",
+  "tool_items": [
+   "mcp_tool_call:cua_repl:js",
+   "mcp_tool_call:cua_repl:js"
+  ],
+  "blocked_attempts": [
+   "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host"
+  ],
+  "response": "I couldn\u2019t retrieve today\u2019s 10-year Treasury yield. The browser service was unavailable, and access to Google Chrome was denied.\n\nTools used: `cua_repl` to check available browsers and attempt to open Chrome. I wasn\u2019t able to visit CFTC.gov or verify a yield."
+ },
+ {
+  "probe": "FINAL_lockdown_0",
+  "overrides": "-c web_search=\"disabled\" --disable apps --disable browser_use --disable browser_use_external --disable in_app_browser --disable computer_use --disable code_mode_host --disable plugins",
+  "tool_items": [],
+  "blocked_attempts": [
+   "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host"
+  ],
+  "response": "I can\u2019t verify the most recent CFTC leveraged-funds net position because web search isn\u2019t available in this session; I did not use web search."
+ },
+ {
+  "probe": "FINAL_lockdown_1",
+  "overrides": "-c web_search=\"disabled\" --disable apps --disable browser_use --disable browser_use_external --disable in_app_browser --disable computer_use --disable code_mode_host --disable plugins",
+  "tool_items": [],
+  "blocked_attempts": [
+   "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host"
+  ],
+  "response": "I couldn\u2019t look it up: this session doesn\u2019t have an available browser or web-search tool, and network access is restricted. I therefore can\u2019t confirm today\u2019s 10-year Treasury yield. I didn\u2019t use any lookup tools."
+ },
+ {
+  "probe": "FINAL_lockdown_2",
+  "overrides": "-c web_search=\"disabled\" --disable apps --disable browser_use --disable browser_use_external --disable in_app_browser --disable computer_use --disable code_mode_host --disable plugins",
+  "tool_items": [],
+  "blocked_attempts": [
+   "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host"
+  ],
+  "response": "I can\u2019t fetch the page in this session: the tool runner is disabled, so I couldn\u2019t access `https://www.cftc.gov` or verify its title.\n\nTools available to me here:\n\n- `functions.exec` and `functions.wait`\n- `clock.curr_time` and `clock.sleep`\n- `collaboration` tools for managing agents\n\nThe shell, curl, Python, and browser weren\u2019t accessible through the disabled tool runner."
+ }
+]

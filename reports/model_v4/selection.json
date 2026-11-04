@@ -1,0 +1,23 @@
+{
+  "recommended": "weighted_104",
+  "passing_candidates": [
+    "weighted_104",
+    "weighted_260"
+  ],
+  "best_point_estimate": "weighted_104",
+  "common_weeks": 668,
+  "first": "2013-11-26",
+  "last": "2026-09-08",
+  "reference_matches_v2": true,
+  "protected_files_unchanged": 200,
+  "fingerprint": "ed5932a7af95c6a0ad87e90c3014776bee8bc72362955925e112aa3bf41fb205",
+  "sklearn_version": "1.9.1",
+  "production_model_changed": false,
+  "reason": "candidate passes the exploratory replacement rule; not deployed",
+  "source_sha256": {
+    "src/hfpos/model_v4/adaptation.py": "28bd78e97151ad5b682596a446599d667ecd27bf1f63f51ad467907c35e90aa0",
+    "scripts/model_v4.py": "14bf74d958b2c76553b22ab4481076bb2a3b4279a231a431dd12ed7ac76f29e0",
+    "tests/test_model_v4.py": "340af523b382b229c21ded709b03453a73455384c1b1cd69c6a37ac128463d7b",
+    "docs/model_v4/SPEC_2026-11-05.md": "4e9fe001ec6c5f063b627afd2af7afee9eb30a61847a671b4f5093fbef17feb0"
+  }
+}

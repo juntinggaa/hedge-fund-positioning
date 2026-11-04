@@ -1,0 +1,13 @@
+run_id,arm,week,case_type,model,effort,web_search_events
+P01,C-ann,2026-08-25,d_large_residual,gpt-6-luna,high,0
+P02,C-bare,2026-09-01,a_anticipated_large,gpt-6-luna,high,0
+P03,C-bare,2025-02-18,d_large_residual,gpt-6-luna,high,0
+P04,C-ann,2025-02-18,d_large_residual,gpt-6-luna,high,0
+P05,C-ann,2026-09-01,a_anticipated_large,gpt-6-luna,high,0
+P06,C-bare,2026-06-30,c_ordinary,gpt-6-luna,high,4
+P07,C-bare,2026-08-25,d_large_residual,gpt-6-luna,high,6
+P08,C-bare,2023-07-11,a_anticipated_large,gpt-6-luna,high,4
+P09,C-ann,2025-06-17,c_ordinary,gpt-6-luna,high,2
+P10,C-ann,2023-07-11,a_anticipated_large,gpt-6-luna,high,0
+P11,C-bare,2025-06-17,c_ordinary,gpt-6-luna,high,2
+P12,C-ann,2026-06-30,c_ordinary,gpt-6-luna,high,0
