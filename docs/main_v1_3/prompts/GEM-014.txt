@@ -1,0 +1,28 @@
+Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 3 July 2017. All figures are numbers of contracts.
+
+Open interest (all contracts): 3,087,863
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 116,919 | 195,535 | 25,483 | -78,616 | -2.55% |
+| Asset Manager / Institutional | 1,079,237 | 939,893 | 477,453 | 139,344 | +4.51% |
+| Leveraged Funds | 601,628 | 597,986 | 107,636 | 3,642 | +0.12% |
+| Other Reportable | 291,420 | 194,425 | 30,300 | 96,995 | +3.14% |
+
+Output of a supervised model of leveraged-fund positioning (model v4.0):
+
+- Expected net position this week: -0.93% of open interest (approximate 90% range based on earlier out-of-sample errors: -4.67% to +2.81%).
+- Actual net position this week: +0.12% of open interest.
+- Residual (actual minus expected): +1.05 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 41% were smaller than this one and 59% were at least as large.
+
+How to read the model output above (model v4.0). This is a retrospective same-week conditional estimate of the weekly CHANGE in leveraged funds' net position as a share of open interest. It uses returns, realised volatility, yield levels and curve shape, equity volatility, a funding-stress proxy, a futures-yield return residual, current-week open-interest change, changes in Fed Treasury holdings, a quarter-end flag, and lagged own, other-group and cross-contract positions. More recent training observations receive more weight, with a two-year half-life.
+
+- The expected level equals last week's actual level plus the model's estimated weekly change. The residual is equivalently the conditional level gap or the unexpected weekly adjustment, measured in percentage points of open interest. It is not an identified fraction of the whole position attributable to any strategy.
+- These are statistical associations. The cash leg of a basis trade is unobserved; none of the inputs directly measures genuine cash-futures basis profitability. Neither the expected component nor the residual identifies motives, basis quantities or private information.
+- Across 720 out-of-sample weeks (2012-11-27 to 2026-09-08), squared prediction error was 10.47% lower than an expanding historical-mean change benchmark (out-of-sample R²). RMSE was 2.07 percentage points of open interest. This R² is not a percentage of the outstanding position explained by a strategy.
+- The approximate range uses only errors from earlier out-of-sample weeks. Its realised historical coverage was 91.9% across 668 eligible weeks, with variation across eras. This is not a guaranteed probability for this individual week. Being inside a broad range does not mean the point prediction closely anticipated the move.
+- The model includes current-week CFTC open interest, so this is not a pre-Friday nowcast or a next-week forecast. The model and performance summary were selected retrospectively; this is not a historically deployable untouched backtest.
+
+What does this positioning suggest about the Treasury market?
+
+Please answer without using web search.

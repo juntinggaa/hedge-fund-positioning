@@ -1,0 +1,28 @@
+{
+ "frozen_date_singapore": "2026-11-06",
+ "material_version": "main-v1.1",
+ "derived_from": {
+  "docs/main_v1/manifest.json": "681dbb369d9bff2c5140e3b609415477d9e90686b64e975500d0af537eccde2f",
+  "docs/main_v1/prompts_main.jsonl": "84e9bb8cc703bd973634f08d4d88dee834d335a097ab501afaa1ab9df289b3ff",
+  "docs/main_v1/prompts_supplement_AB_optional.jsonl": "a1bb3181317e4ffddc197660a597ee9912c76105307adfe38da9fd020a9ecf77"
+ },
+ "change": "appended '\\n\\nPlease answer without using web search.' to every prompt, all arms identically",
+ "products": [
+  "ChatGPT Free",
+  "ChatGPT Plus",
+  "Gemini Free",
+  "Gemini paid (Google AI Pro)"
+ ],
+ "counts": {
+  "prompts_main_v1.1.jsonl": 165,
+  "prompts_supplement_AB_optional_v1.1.jsonl": 28,
+  "main_responses_four_products": 660,
+  "supplement_responses_four_products": 112
+ },
+ "outputs_sha256": {
+  "prompts_main_v1.1.jsonl": "727e758880d8fbc5689174e1d2c09048450e25d77dfbc63cb68a11d678f0d09c",
+  "prompts_supplement_AB_optional_v1.1.jsonl": "1f3fbccbdcd92a6ed1965e506dda1c170a659b9f05aa7f547f4835a9b3e21c0d"
+ },
+ "script_sha256": "dc1bf00459112a8ab91e6a4b2cfcfe3c8a7320d10f23a4f6437ae1c422a19ec5",
+ "responses_generated": 0
+}

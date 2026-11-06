@@ -1,0 +1,181 @@
+assignment_id,product_code,product,model_to_select,plan,collection_order,week,arm,role,prompt_file,prompt_sha256
+GPT-001,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,1,2021-01-26,A,inferential,prompts/GPT-001.txt,7d3817091c8c1414e0174828331ebcc4fb5080bea3f9cbd71f246d3a6e888714
+GPT-002,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,2,2014-09-30,C-ann,inferential,prompts/GPT-002.txt,c3385bd6fc719a00d4bbd32004a6aa6600ea8c20f92f747141c2663ca52c9023
+GPT-003,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,3,2016-02-09,A,inferential,prompts/GPT-003.txt,f2047fcd7b3599d596ebce0b11e91ef72d5bada37856c5d17c6db046117b6c95
+GPT-004,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,4,2014-11-25,A,inferential,prompts/GPT-004.txt,f51f1ef5934b2c4a701b5dc56aec08d01af361277f4ff090ac756178281fff4e
+GPT-005,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,5,2014-09-30,A,inferential,prompts/GPT-005.txt,1a4d6c08f0e9c5bd790e34915cbb524fdc61aeea2e0f4c845e5f825dc974ecda
+GPT-006,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,6,2021-08-31,C-bare,inferential,prompts/GPT-006.txt,e3e859fee725385672749ba90f05b19190d9ac3f3fe97d52724e7fdc2c875710
+GPT-007,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,7,2025-04-15,A,inferential,prompts/GPT-007.txt,0489389cab945afc8c1a8402aa040118cdac176b1cf7b0e87c643bdd9e22ad7d
+GPT-008,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,8,2021-01-26,C-ann,inferential,prompts/GPT-008.txt,d0acab1a150e4258cb8815aeaf952d44950ecfcff0ced86da5ca378065bcaf3e
+GPT-009,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,9,2025-08-19,A,inferential,prompts/GPT-009.txt,f9a4a83e24d74edf7d965a36df6f49d4d102122e3ffd3291f1055eccee5400b6
+GPT-010,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,10,2026-10-27,C-bare,inferential,prompts/GPT-010.txt,75592ff5b965998c62ab806fd97dd962df61d5b1f4e121b0493c2384baea0e52
+GPT-011,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,11,2017-07-03,C-bare,inferential,prompts/GPT-011.txt,b71ad492a16d5043774c6e5f7f34c0cc3250069bf217b6e41087808f43fa114a
+GPT-012,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,12,2016-02-09,C-ann,inferential,prompts/GPT-012.txt,0d01f32873282e9df0ae87267c2b4fb5e42fbedb98fd519613db8a56ea584f01
+GPT-013,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,13,2016-06-21,C-ann,inferential,prompts/GPT-013.txt,07e4c6c19a9b0900d4cf1a8d77c24ea97c7de7d6dffdf47e98b7cd4a9005460a
+GPT-014,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,14,2017-07-03,C-ann,inferential,prompts/GPT-014.txt,12394ccb4745cf0a7b41dca4db4c70948f620d805539a1ff6399aa47ee68d89b
+GPT-015,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,15,2014-11-25,C-ann,inferential,prompts/GPT-015.txt,d525f8eb0b0c2ce4e34d153bb76851d0bab5fe58d09b839a639abafec22ba0c3
+GPT-016,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,16,2025-04-15,C-ann,inferential,prompts/GPT-016.txt,8ebcd2d5aa9aa680823c8e0974f2ae5d366bdbe3dff77c9ac72f75cee1ce7a68
+GPT-017,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,17,2014-09-02,C-bare,inferential,prompts/GPT-017.txt,e10d9397a2f2a929a82198283a7beccc23a51e2f1878b86e4317af5c795d0c2e
+GPT-018,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,18,2021-08-31,A,inferential,prompts/GPT-018.txt,a3a9ca6d0200414e8ce6b239c21606f048546b68d9348df09c9ca2d57b9e3a66
+GPT-019,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,19,2014-11-25,C-bare,inferential,prompts/GPT-019.txt,36cb1549fe261a5f6fa78ae41f4d7efb1b81fd583297d70c4b5fcc67b23a488f
+GPT-020,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,20,2026-10-27,C-ann,inferential,prompts/GPT-020.txt,8d0ef376e3eab7c787d9695cd9d5bfb2b749950c48fa6006888ad51be876efd5
+GPT-021,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,21,2016-06-21,C-bare,inferential,prompts/GPT-021.txt,686c6cdfc9e2c0c9280b6bd55ecf9c341f42e4cabd7fa09b26a3c22385a4ae35
+GPT-022,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,22,2026-09-08,C-ann,inferential,prompts/GPT-022.txt,6793dae3850044e2b689e644c8a83a65c0a7759d8ec5174dc8da9629bc284489
+GPT-023,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,23,2026-09-08,A,inferential,prompts/GPT-023.txt,994b61e83ff5841f87370c9cd55605e2a6df4e3d021ee96fb87830d9b9637e12
+GPT-024,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,24,2014-09-02,A,inferential,prompts/GPT-024.txt,6fa944e417f4d17d9d26b64d642e2668a40d6cf2c35095cc17f69cb6ebbf22b2
+GPT-025,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,25,2026-10-27,A,inferential,prompts/GPT-025.txt,6b4d82d32d7504cafd6ddda6c18630d806f78163d7735ecfce5b0ef085dd41f8
+GPT-026,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,26,2025-08-19,C-ann,inferential,prompts/GPT-026.txt,bf3a0de73f790c130a035bf224efdeff47626fe9b5423a07e40f5b2f3e9767ca
+GPT-027,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,27,2021-01-26,C-bare,inferential,prompts/GPT-027.txt,ef70d35de2f8cabe2f4340c5a35615501c23e80cd12cec01ae3e21dfb42b96ec
+GPT-028,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,28,2025-04-15,C-bare,inferential,prompts/GPT-028.txt,e52413f0618498e31334b552873ca5d2bb0ffa0327d7cd798fe34b87210c8991
+GPT-029,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,29,2020-09-22,C-ann,inferential,prompts/GPT-029.txt,fc61b95a0d3c97aae05c0d6ebc865db0a806b4330f46bce3c62e4250abb3ae7b
+GPT-030,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,30,2016-07-12,C-ann,inferential,prompts/GPT-030.txt,e2c5580f876a32aede1fa2ca0b03a68222538d7cf2b25a5d1eca60f084077f8a
+GPT-031,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,31,2019-05-07,C-ann,inferential,prompts/GPT-031.txt,83856496c42078f58e3a0309905427a35c9da909b0b40fcf2724101fc3fccaee
+GPT-032,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,32,2020-09-22,A,inferential,prompts/GPT-032.txt,6ead800880d3383eb9a2de0e1975e628f81dac0f4cd45809a62991834c2c74f0
+GPT-033,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,33,2021-11-02,C-bare,inferential,prompts/GPT-033.txt,f55738aa849dbac5ee768b2d46e5020c7a6061abad59b7b289ba5dc0724afaea
+GPT-034,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,34,2026-09-08,C-bare,inferential,prompts/GPT-034.txt,399f07fec973523f9c954fe66fbc6f72043de0b016b27dcc4fd232c8e23aa241
+GPT-035,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,35,2026-04-14,C-bare,inferential,prompts/GPT-035.txt,112ba319ef117f1f573fc74d68acbe9dd670c922c5ce1ada6425c00d3f5a2f22
+GPT-036,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,36,2015-09-01,C-bare,inferential,prompts/GPT-036.txt,271853420459004a78e08baaeba1f8f6d70349122cb301a62177a6b4f9d54398
+GPT-037,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,37,2017-07-03,A,inferential,prompts/GPT-037.txt,078b06d487d38719f42631c796e70f26d648ac3f92609fec9432571c74d9463b
+GPT-038,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,38,2015-09-01,C-ann,inferential,prompts/GPT-038.txt,a640b204ab748f89f341dd5118a7568ffddd7d9f9c0995e7407699f9e9a45d96
+GPT-039,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,39,2016-07-12,A,inferential,prompts/GPT-039.txt,3e0e83d2096f636d56d430ded52081830b7b7290fe1b5bd6be7041e630e7686c
+GPT-040,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,40,2025-06-24,C-bare,inferential,prompts/GPT-040.txt,0b91339ac087a4665913ce926f0243eb791cb2f0390a3f7d53fb6f8dd3e866d3
+GPT-041,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,41,2019-05-07,C-bare,inferential,prompts/GPT-041.txt,dcb500478c1ac49245fee2d1d85d2f58be7a4d1fd1787a699b46ecfea3e51df9
+GPT-042,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,42,2026-04-14,A,inferential,prompts/GPT-042.txt,b4e8337bd922032086e091c53497b99256378f9d7f25432287af76ec2593c662
+GPT-043,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,43,2026-06-09,C-ann,inferential,prompts/GPT-043.txt,fb261fb2a272c726e72a4e48d25fdd9d280f8dac33db3a855296cfec89cb1d4f
+GPT-044,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,44,2026-06-09,C-bare,inferential,prompts/GPT-044.txt,a30c4fee58ded78ed5b48a7f9711d80d73d70bee78473832f36f156bfcd818a1
+GPT-045,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,45,2026-04-14,C-ann,inferential,prompts/GPT-045.txt,839bac4f132772d3042e57af8445bfa57ba067ed921f9f4dfbb18aed8a48a101
+GPT-046,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,46,2021-08-31,C-ann,inferential,prompts/GPT-046.txt,4d8d39168c69f7d3102adac5a4b415c967eb2b89df2880958fe164507d147673
+GPT-047,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,47,2014-09-30,C-bare,inferential,prompts/GPT-047.txt,641d473e9b05abded70f1a9109bf56fb2b5fbe63c7bbe073e04ef92504fdf762
+GPT-048,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,48,2025-06-24,C-ann,inferential,prompts/GPT-048.txt,d720296e62560c6578840a5c2be553a93067ca2928b699b99fc3ae3b3f000117
+GPT-049,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,49,2016-02-09,C-bare,inferential,prompts/GPT-049.txt,a846a3c3d1beb965b70e06cc9538fe1d52579d69b43fb29b147e6918333c2745
+GPT-050,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,50,2016-06-21,A,inferential,prompts/GPT-050.txt,9aacc47809552d0a284af4f3242ccb9065868b2c8571d5b65a0dcd016fd8bd16
+GPT-051,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,51,2016-07-12,C-bare,inferential,prompts/GPT-051.txt,012f88311148a28807fbb5676bc0e1da9c6aa3a1c900cd42c70c33a1752c87af
+GPT-052,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,52,2021-11-02,C-ann,inferential,prompts/GPT-052.txt,1dbd113f11ee97b484f029635a5cb5578bf8a8ee4accd424de97bde140cdc1cd
+GPT-053,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,53,2025-08-19,C-bare,inferential,prompts/GPT-053.txt,3c62e86d39f9f5e9946bb890faa215418c6f3034e56170fa1f7acf6c0cf1fe4a
+GPT-054,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,54,2015-09-01,A,inferential,prompts/GPT-054.txt,f62f4c79f4b6535a8aab8ffb3b146f80a3506d08ec134173c946ae39ff3850ce
+GPT-055,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,55,2014-09-02,C-ann,inferential,prompts/GPT-055.txt,3cdd755bd8bf837529302649e6904bc3f40885fb28c1f1381944126031a5bc6c
+GPT-056,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,56,2026-06-09,A,inferential,prompts/GPT-056.txt,202f6641e97fb437908dbffb6d62e97cc193b97486d7cd490a249d7669239e93
+GPT-057,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,57,2020-09-22,C-bare,inferential,prompts/GPT-057.txt,f80e31bb7a7cf7b67f9acdf12ed28cdadc119a50244626f99abffa7ff598f925
+GPT-058,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,58,2019-05-07,A,inferential,prompts/GPT-058.txt,a366de50503e4500fae0507c08082b2d6d21226a78eaa6a2b829aedaa540bf1a
+GPT-059,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,59,2025-06-24,A,inferential,prompts/GPT-059.txt,f712c5519d21b35a81204ab94b0f029a7eda43a001b3276c77c8dface9269b74
+GPT-060,GPT,ChatGPT Plus,GPT-6 Sol (GPT-6.1 Sol if offered in the chat picker),ChatGPT Plus,60,2021-11-02,A,inferential,prompts/GPT-060.txt,aa4b695472a82147bda2e0f9b3e9030b4d7e7718b043025bc3d78afec769266c
+GEM-001,GEM,Gemini,Gemini 4 Argon,Google AI Pro,1,2021-01-26,A,inferential,prompts/GEM-001.txt,7d3817091c8c1414e0174828331ebcc4fb5080bea3f9cbd71f246d3a6e888714
+GEM-002,GEM,Gemini,Gemini 4 Argon,Google AI Pro,2,2014-09-30,C-ann,inferential,prompts/GEM-002.txt,c3385bd6fc719a00d4bbd32004a6aa6600ea8c20f92f747141c2663ca52c9023
+GEM-003,GEM,Gemini,Gemini 4 Argon,Google AI Pro,3,2016-02-09,A,inferential,prompts/GEM-003.txt,f2047fcd7b3599d596ebce0b11e91ef72d5bada37856c5d17c6db046117b6c95
+GEM-004,GEM,Gemini,Gemini 4 Argon,Google AI Pro,4,2014-11-25,A,inferential,prompts/GEM-004.txt,f51f1ef5934b2c4a701b5dc56aec08d01af361277f4ff090ac756178281fff4e
+GEM-005,GEM,Gemini,Gemini 4 Argon,Google AI Pro,5,2014-09-30,A,inferential,prompts/GEM-005.txt,1a4d6c08f0e9c5bd790e34915cbb524fdc61aeea2e0f4c845e5f825dc974ecda
+GEM-006,GEM,Gemini,Gemini 4 Argon,Google AI Pro,6,2021-08-31,C-bare,inferential,prompts/GEM-006.txt,e3e859fee725385672749ba90f05b19190d9ac3f3fe97d52724e7fdc2c875710
+GEM-007,GEM,Gemini,Gemini 4 Argon,Google AI Pro,7,2025-04-15,A,inferential,prompts/GEM-007.txt,0489389cab945afc8c1a8402aa040118cdac176b1cf7b0e87c643bdd9e22ad7d
+GEM-008,GEM,Gemini,Gemini 4 Argon,Google AI Pro,8,2021-01-26,C-ann,inferential,prompts/GEM-008.txt,d0acab1a150e4258cb8815aeaf952d44950ecfcff0ced86da5ca378065bcaf3e
+GEM-009,GEM,Gemini,Gemini 4 Argon,Google AI Pro,9,2025-08-19,A,inferential,prompts/GEM-009.txt,f9a4a83e24d74edf7d965a36df6f49d4d102122e3ffd3291f1055eccee5400b6
+GEM-010,GEM,Gemini,Gemini 4 Argon,Google AI Pro,10,2026-10-27,C-bare,inferential,prompts/GEM-010.txt,75592ff5b965998c62ab806fd97dd962df61d5b1f4e121b0493c2384baea0e52
+GEM-011,GEM,Gemini,Gemini 4 Argon,Google AI Pro,11,2017-07-03,C-bare,inferential,prompts/GEM-011.txt,b71ad492a16d5043774c6e5f7f34c0cc3250069bf217b6e41087808f43fa114a
+GEM-012,GEM,Gemini,Gemini 4 Argon,Google AI Pro,12,2016-02-09,C-ann,inferential,prompts/GEM-012.txt,0d01f32873282e9df0ae87267c2b4fb5e42fbedb98fd519613db8a56ea584f01
+GEM-013,GEM,Gemini,Gemini 4 Argon,Google AI Pro,13,2016-06-21,C-ann,inferential,prompts/GEM-013.txt,07e4c6c19a9b0900d4cf1a8d77c24ea97c7de7d6dffdf47e98b7cd4a9005460a
+GEM-014,GEM,Gemini,Gemini 4 Argon,Google AI Pro,14,2017-07-03,C-ann,inferential,prompts/GEM-014.txt,12394ccb4745cf0a7b41dca4db4c70948f620d805539a1ff6399aa47ee68d89b
+GEM-015,GEM,Gemini,Gemini 4 Argon,Google AI Pro,15,2014-11-25,C-ann,inferential,prompts/GEM-015.txt,d525f8eb0b0c2ce4e34d153bb76851d0bab5fe58d09b839a639abafec22ba0c3
+GEM-016,GEM,Gemini,Gemini 4 Argon,Google AI Pro,16,2025-04-15,C-ann,inferential,prompts/GEM-016.txt,8ebcd2d5aa9aa680823c8e0974f2ae5d366bdbe3dff77c9ac72f75cee1ce7a68
+GEM-017,GEM,Gemini,Gemini 4 Argon,Google AI Pro,17,2014-09-02,C-bare,inferential,prompts/GEM-017.txt,e10d9397a2f2a929a82198283a7beccc23a51e2f1878b86e4317af5c795d0c2e
+GEM-018,GEM,Gemini,Gemini 4 Argon,Google AI Pro,18,2021-08-31,A,inferential,prompts/GEM-018.txt,a3a9ca6d0200414e8ce6b239c21606f048546b68d9348df09c9ca2d57b9e3a66
+GEM-019,GEM,Gemini,Gemini 4 Argon,Google AI Pro,19,2014-11-25,C-bare,inferential,prompts/GEM-019.txt,36cb1549fe261a5f6fa78ae41f4d7efb1b81fd583297d70c4b5fcc67b23a488f
+GEM-020,GEM,Gemini,Gemini 4 Argon,Google AI Pro,20,2026-10-27,C-ann,inferential,prompts/GEM-020.txt,8d0ef376e3eab7c787d9695cd9d5bfb2b749950c48fa6006888ad51be876efd5
+GEM-021,GEM,Gemini,Gemini 4 Argon,Google AI Pro,21,2016-06-21,C-bare,inferential,prompts/GEM-021.txt,686c6cdfc9e2c0c9280b6bd55ecf9c341f42e4cabd7fa09b26a3c22385a4ae35
+GEM-022,GEM,Gemini,Gemini 4 Argon,Google AI Pro,22,2026-09-08,C-ann,inferential,prompts/GEM-022.txt,6793dae3850044e2b689e644c8a83a65c0a7759d8ec5174dc8da9629bc284489
+GEM-023,GEM,Gemini,Gemini 4 Argon,Google AI Pro,23,2026-09-08,A,inferential,prompts/GEM-023.txt,994b61e83ff5841f87370c9cd55605e2a6df4e3d021ee96fb87830d9b9637e12
+GEM-024,GEM,Gemini,Gemini 4 Argon,Google AI Pro,24,2014-09-02,A,inferential,prompts/GEM-024.txt,6fa944e417f4d17d9d26b64d642e2668a40d6cf2c35095cc17f69cb6ebbf22b2
+GEM-025,GEM,Gemini,Gemini 4 Argon,Google AI Pro,25,2026-10-27,A,inferential,prompts/GEM-025.txt,6b4d82d32d7504cafd6ddda6c18630d806f78163d7735ecfce5b0ef085dd41f8
+GEM-026,GEM,Gemini,Gemini 4 Argon,Google AI Pro,26,2025-08-19,C-ann,inferential,prompts/GEM-026.txt,bf3a0de73f790c130a035bf224efdeff47626fe9b5423a07e40f5b2f3e9767ca
+GEM-027,GEM,Gemini,Gemini 4 Argon,Google AI Pro,27,2021-01-26,C-bare,inferential,prompts/GEM-027.txt,ef70d35de2f8cabe2f4340c5a35615501c23e80cd12cec01ae3e21dfb42b96ec
+GEM-028,GEM,Gemini,Gemini 4 Argon,Google AI Pro,28,2025-04-15,C-bare,inferential,prompts/GEM-028.txt,e52413f0618498e31334b552873ca5d2bb0ffa0327d7cd798fe34b87210c8991
+GEM-029,GEM,Gemini,Gemini 4 Argon,Google AI Pro,29,2020-09-22,C-ann,inferential,prompts/GEM-029.txt,fc61b95a0d3c97aae05c0d6ebc865db0a806b4330f46bce3c62e4250abb3ae7b
+GEM-030,GEM,Gemini,Gemini 4 Argon,Google AI Pro,30,2016-07-12,C-ann,inferential,prompts/GEM-030.txt,e2c5580f876a32aede1fa2ca0b03a68222538d7cf2b25a5d1eca60f084077f8a
+GEM-031,GEM,Gemini,Gemini 4 Argon,Google AI Pro,31,2019-05-07,C-ann,inferential,prompts/GEM-031.txt,83856496c42078f58e3a0309905427a35c9da909b0b40fcf2724101fc3fccaee
+GEM-032,GEM,Gemini,Gemini 4 Argon,Google AI Pro,32,2020-09-22,A,inferential,prompts/GEM-032.txt,6ead800880d3383eb9a2de0e1975e628f81dac0f4cd45809a62991834c2c74f0
+GEM-033,GEM,Gemini,Gemini 4 Argon,Google AI Pro,33,2021-11-02,C-bare,inferential,prompts/GEM-033.txt,f55738aa849dbac5ee768b2d46e5020c7a6061abad59b7b289ba5dc0724afaea
+GEM-034,GEM,Gemini,Gemini 4 Argon,Google AI Pro,34,2026-09-08,C-bare,inferential,prompts/GEM-034.txt,399f07fec973523f9c954fe66fbc6f72043de0b016b27dcc4fd232c8e23aa241
+GEM-035,GEM,Gemini,Gemini 4 Argon,Google AI Pro,35,2026-04-14,C-bare,inferential,prompts/GEM-035.txt,112ba319ef117f1f573fc74d68acbe9dd670c922c5ce1ada6425c00d3f5a2f22
+GEM-036,GEM,Gemini,Gemini 4 Argon,Google AI Pro,36,2015-09-01,C-bare,inferential,prompts/GEM-036.txt,271853420459004a78e08baaeba1f8f6d70349122cb301a62177a6b4f9d54398
+GEM-037,GEM,Gemini,Gemini 4 Argon,Google AI Pro,37,2017-07-03,A,inferential,prompts/GEM-037.txt,078b06d487d38719f42631c796e70f26d648ac3f92609fec9432571c74d9463b
+GEM-038,GEM,Gemini,Gemini 4 Argon,Google AI Pro,38,2015-09-01,C-ann,inferential,prompts/GEM-038.txt,a640b204ab748f89f341dd5118a7568ffddd7d9f9c0995e7407699f9e9a45d96
+GEM-039,GEM,Gemini,Gemini 4 Argon,Google AI Pro,39,2016-07-12,A,inferential,prompts/GEM-039.txt,3e0e83d2096f636d56d430ded52081830b7b7290fe1b5bd6be7041e630e7686c
+GEM-040,GEM,Gemini,Gemini 4 Argon,Google AI Pro,40,2025-06-24,C-bare,inferential,prompts/GEM-040.txt,0b91339ac087a4665913ce926f0243eb791cb2f0390a3f7d53fb6f8dd3e866d3
+GEM-041,GEM,Gemini,Gemini 4 Argon,Google AI Pro,41,2019-05-07,C-bare,inferential,prompts/GEM-041.txt,dcb500478c1ac49245fee2d1d85d2f58be7a4d1fd1787a699b46ecfea3e51df9
+GEM-042,GEM,Gemini,Gemini 4 Argon,Google AI Pro,42,2026-04-14,A,inferential,prompts/GEM-042.txt,b4e8337bd922032086e091c53497b99256378f9d7f25432287af76ec2593c662
+GEM-043,GEM,Gemini,Gemini 4 Argon,Google AI Pro,43,2026-06-09,C-ann,inferential,prompts/GEM-043.txt,fb261fb2a272c726e72a4e48d25fdd9d280f8dac33db3a855296cfec89cb1d4f
+GEM-044,GEM,Gemini,Gemini 4 Argon,Google AI Pro,44,2026-06-09,C-bare,inferential,prompts/GEM-044.txt,a30c4fee58ded78ed5b48a7f9711d80d73d70bee78473832f36f156bfcd818a1
+GEM-045,GEM,Gemini,Gemini 4 Argon,Google AI Pro,45,2026-04-14,C-ann,inferential,prompts/GEM-045.txt,839bac4f132772d3042e57af8445bfa57ba067ed921f9f4dfbb18aed8a48a101
+GEM-046,GEM,Gemini,Gemini 4 Argon,Google AI Pro,46,2021-08-31,C-ann,inferential,prompts/GEM-046.txt,4d8d39168c69f7d3102adac5a4b415c967eb2b89df2880958fe164507d147673
+GEM-047,GEM,Gemini,Gemini 4 Argon,Google AI Pro,47,2014-09-30,C-bare,inferential,prompts/GEM-047.txt,641d473e9b05abded70f1a9109bf56fb2b5fbe63c7bbe073e04ef92504fdf762
+GEM-048,GEM,Gemini,Gemini 4 Argon,Google AI Pro,48,2025-06-24,C-ann,inferential,prompts/GEM-048.txt,d720296e62560c6578840a5c2be553a93067ca2928b699b99fc3ae3b3f000117
+GEM-049,GEM,Gemini,Gemini 4 Argon,Google AI Pro,49,2016-02-09,C-bare,inferential,prompts/GEM-049.txt,a846a3c3d1beb965b70e06cc9538fe1d52579d69b43fb29b147e6918333c2745
+GEM-050,GEM,Gemini,Gemini 4 Argon,Google AI Pro,50,2016-06-21,A,inferential,prompts/GEM-050.txt,9aacc47809552d0a284af4f3242ccb9065868b2c8571d5b65a0dcd016fd8bd16
+GEM-051,GEM,Gemini,Gemini 4 Argon,Google AI Pro,51,2016-07-12,C-bare,inferential,prompts/GEM-051.txt,012f88311148a28807fbb5676bc0e1da9c6aa3a1c900cd42c70c33a1752c87af
+GEM-052,GEM,Gemini,Gemini 4 Argon,Google AI Pro,52,2021-11-02,C-ann,inferential,prompts/GEM-052.txt,1dbd113f11ee97b484f029635a5cb5578bf8a8ee4accd424de97bde140cdc1cd
+GEM-053,GEM,Gemini,Gemini 4 Argon,Google AI Pro,53,2025-08-19,C-bare,inferential,prompts/GEM-053.txt,3c62e86d39f9f5e9946bb890faa215418c6f3034e56170fa1f7acf6c0cf1fe4a
+GEM-054,GEM,Gemini,Gemini 4 Argon,Google AI Pro,54,2015-09-01,A,inferential,prompts/GEM-054.txt,f62f4c79f4b6535a8aab8ffb3b146f80a3506d08ec134173c946ae39ff3850ce
+GEM-055,GEM,Gemini,Gemini 4 Argon,Google AI Pro,55,2014-09-02,C-ann,inferential,prompts/GEM-055.txt,3cdd755bd8bf837529302649e6904bc3f40885fb28c1f1381944126031a5bc6c
+GEM-056,GEM,Gemini,Gemini 4 Argon,Google AI Pro,56,2026-06-09,A,inferential,prompts/GEM-056.txt,202f6641e97fb437908dbffb6d62e97cc193b97486d7cd490a249d7669239e93
+GEM-057,GEM,Gemini,Gemini 4 Argon,Google AI Pro,57,2020-09-22,C-bare,inferential,prompts/GEM-057.txt,f80e31bb7a7cf7b67f9acdf12ed28cdadc119a50244626f99abffa7ff598f925
+GEM-058,GEM,Gemini,Gemini 4 Argon,Google AI Pro,58,2019-05-07,A,inferential,prompts/GEM-058.txt,a366de50503e4500fae0507c08082b2d6d21226a78eaa6a2b829aedaa540bf1a
+GEM-059,GEM,Gemini,Gemini 4 Argon,Google AI Pro,59,2025-06-24,A,inferential,prompts/GEM-059.txt,f712c5519d21b35a81204ab94b0f029a7eda43a001b3276c77c8dface9269b74
+GEM-060,GEM,Gemini,Gemini 4 Argon,Google AI Pro,60,2021-11-02,A,inferential,prompts/GEM-060.txt,aa4b695472a82147bda2e0f9b3e9030b4d7e7718b043025bc3d78afec769266c
+CLA-001,CLA,Claude,Opus 5.5,Claude Pro,1,2021-01-26,A,inferential,prompts/CLA-001.txt,7d3817091c8c1414e0174828331ebcc4fb5080bea3f9cbd71f246d3a6e888714
+CLA-002,CLA,Claude,Opus 5.5,Claude Pro,2,2014-09-30,C-ann,inferential,prompts/CLA-002.txt,c3385bd6fc719a00d4bbd32004a6aa6600ea8c20f92f747141c2663ca52c9023
+CLA-003,CLA,Claude,Opus 5.5,Claude Pro,3,2016-02-09,A,inferential,prompts/CLA-003.txt,f2047fcd7b3599d596ebce0b11e91ef72d5bada37856c5d17c6db046117b6c95
+CLA-004,CLA,Claude,Opus 5.5,Claude Pro,4,2014-11-25,A,inferential,prompts/CLA-004.txt,f51f1ef5934b2c4a701b5dc56aec08d01af361277f4ff090ac756178281fff4e
+CLA-005,CLA,Claude,Opus 5.5,Claude Pro,5,2014-09-30,A,inferential,prompts/CLA-005.txt,1a4d6c08f0e9c5bd790e34915cbb524fdc61aeea2e0f4c845e5f825dc974ecda
+CLA-006,CLA,Claude,Opus 5.5,Claude Pro,6,2021-08-31,C-bare,inferential,prompts/CLA-006.txt,e3e859fee725385672749ba90f05b19190d9ac3f3fe97d52724e7fdc2c875710
+CLA-007,CLA,Claude,Opus 5.5,Claude Pro,7,2025-04-15,A,inferential,prompts/CLA-007.txt,0489389cab945afc8c1a8402aa040118cdac176b1cf7b0e87c643bdd9e22ad7d
+CLA-008,CLA,Claude,Opus 5.5,Claude Pro,8,2021-01-26,C-ann,inferential,prompts/CLA-008.txt,d0acab1a150e4258cb8815aeaf952d44950ecfcff0ced86da5ca378065bcaf3e
+CLA-009,CLA,Claude,Opus 5.5,Claude Pro,9,2025-08-19,A,inferential,prompts/CLA-009.txt,f9a4a83e24d74edf7d965a36df6f49d4d102122e3ffd3291f1055eccee5400b6
+CLA-010,CLA,Claude,Opus 5.5,Claude Pro,10,2026-10-27,C-bare,inferential,prompts/CLA-010.txt,75592ff5b965998c62ab806fd97dd962df61d5b1f4e121b0493c2384baea0e52
+CLA-011,CLA,Claude,Opus 5.5,Claude Pro,11,2017-07-03,C-bare,inferential,prompts/CLA-011.txt,b71ad492a16d5043774c6e5f7f34c0cc3250069bf217b6e41087808f43fa114a
+CLA-012,CLA,Claude,Opus 5.5,Claude Pro,12,2016-02-09,C-ann,inferential,prompts/CLA-012.txt,0d01f32873282e9df0ae87267c2b4fb5e42fbedb98fd519613db8a56ea584f01
+CLA-013,CLA,Claude,Opus 5.5,Claude Pro,13,2016-06-21,C-ann,inferential,prompts/CLA-013.txt,07e4c6c19a9b0900d4cf1a8d77c24ea97c7de7d6dffdf47e98b7cd4a9005460a
+CLA-014,CLA,Claude,Opus 5.5,Claude Pro,14,2017-07-03,C-ann,inferential,prompts/CLA-014.txt,12394ccb4745cf0a7b41dca4db4c70948f620d805539a1ff6399aa47ee68d89b
+CLA-015,CLA,Claude,Opus 5.5,Claude Pro,15,2014-11-25,C-ann,inferential,prompts/CLA-015.txt,d525f8eb0b0c2ce4e34d153bb76851d0bab5fe58d09b839a639abafec22ba0c3
+CLA-016,CLA,Claude,Opus 5.5,Claude Pro,16,2025-04-15,C-ann,inferential,prompts/CLA-016.txt,8ebcd2d5aa9aa680823c8e0974f2ae5d366bdbe3dff77c9ac72f75cee1ce7a68
+CLA-017,CLA,Claude,Opus 5.5,Claude Pro,17,2014-09-02,C-bare,inferential,prompts/CLA-017.txt,e10d9397a2f2a929a82198283a7beccc23a51e2f1878b86e4317af5c795d0c2e
+CLA-018,CLA,Claude,Opus 5.5,Claude Pro,18,2021-08-31,A,inferential,prompts/CLA-018.txt,a3a9ca6d0200414e8ce6b239c21606f048546b68d9348df09c9ca2d57b9e3a66
+CLA-019,CLA,Claude,Opus 5.5,Claude Pro,19,2014-11-25,C-bare,inferential,prompts/CLA-019.txt,36cb1549fe261a5f6fa78ae41f4d7efb1b81fd583297d70c4b5fcc67b23a488f
+CLA-020,CLA,Claude,Opus 5.5,Claude Pro,20,2026-10-27,C-ann,inferential,prompts/CLA-020.txt,8d0ef376e3eab7c787d9695cd9d5bfb2b749950c48fa6006888ad51be876efd5
+CLA-021,CLA,Claude,Opus 5.5,Claude Pro,21,2016-06-21,C-bare,inferential,prompts/CLA-021.txt,686c6cdfc9e2c0c9280b6bd55ecf9c341f42e4cabd7fa09b26a3c22385a4ae35
+CLA-022,CLA,Claude,Opus 5.5,Claude Pro,22,2026-09-08,C-ann,inferential,prompts/CLA-022.txt,6793dae3850044e2b689e644c8a83a65c0a7759d8ec5174dc8da9629bc284489
+CLA-023,CLA,Claude,Opus 5.5,Claude Pro,23,2026-09-08,A,inferential,prompts/CLA-023.txt,994b61e83ff5841f87370c9cd55605e2a6df4e3d021ee96fb87830d9b9637e12
+CLA-024,CLA,Claude,Opus 5.5,Claude Pro,24,2014-09-02,A,inferential,prompts/CLA-024.txt,6fa944e417f4d17d9d26b64d642e2668a40d6cf2c35095cc17f69cb6ebbf22b2
+CLA-025,CLA,Claude,Opus 5.5,Claude Pro,25,2026-10-27,A,inferential,prompts/CLA-025.txt,6b4d82d32d7504cafd6ddda6c18630d806f78163d7735ecfce5b0ef085dd41f8
+CLA-026,CLA,Claude,Opus 5.5,Claude Pro,26,2025-08-19,C-ann,inferential,prompts/CLA-026.txt,bf3a0de73f790c130a035bf224efdeff47626fe9b5423a07e40f5b2f3e9767ca
+CLA-027,CLA,Claude,Opus 5.5,Claude Pro,27,2021-01-26,C-bare,inferential,prompts/CLA-027.txt,ef70d35de2f8cabe2f4340c5a35615501c23e80cd12cec01ae3e21dfb42b96ec
+CLA-028,CLA,Claude,Opus 5.5,Claude Pro,28,2025-04-15,C-bare,inferential,prompts/CLA-028.txt,e52413f0618498e31334b552873ca5d2bb0ffa0327d7cd798fe34b87210c8991
+CLA-029,CLA,Claude,Opus 5.5,Claude Pro,29,2020-09-22,C-ann,inferential,prompts/CLA-029.txt,fc61b95a0d3c97aae05c0d6ebc865db0a806b4330f46bce3c62e4250abb3ae7b
+CLA-030,CLA,Claude,Opus 5.5,Claude Pro,30,2016-07-12,C-ann,inferential,prompts/CLA-030.txt,e2c5580f876a32aede1fa2ca0b03a68222538d7cf2b25a5d1eca60f084077f8a
+CLA-031,CLA,Claude,Opus 5.5,Claude Pro,31,2019-05-07,C-ann,inferential,prompts/CLA-031.txt,83856496c42078f58e3a0309905427a35c9da909b0b40fcf2724101fc3fccaee
+CLA-032,CLA,Claude,Opus 5.5,Claude Pro,32,2020-09-22,A,inferential,prompts/CLA-032.txt,6ead800880d3383eb9a2de0e1975e628f81dac0f4cd45809a62991834c2c74f0
+CLA-033,CLA,Claude,Opus 5.5,Claude Pro,33,2021-11-02,C-bare,inferential,prompts/CLA-033.txt,f55738aa849dbac5ee768b2d46e5020c7a6061abad59b7b289ba5dc0724afaea
+CLA-034,CLA,Claude,Opus 5.5,Claude Pro,34,2026-09-08,C-bare,inferential,prompts/CLA-034.txt,399f07fec973523f9c954fe66fbc6f72043de0b016b27dcc4fd232c8e23aa241
+CLA-035,CLA,Claude,Opus 5.5,Claude Pro,35,2026-04-14,C-bare,inferential,prompts/CLA-035.txt,112ba319ef117f1f573fc74d68acbe9dd670c922c5ce1ada6425c00d3f5a2f22
+CLA-036,CLA,Claude,Opus 5.5,Claude Pro,36,2015-09-01,C-bare,inferential,prompts/CLA-036.txt,271853420459004a78e08baaeba1f8f6d70349122cb301a62177a6b4f9d54398
+CLA-037,CLA,Claude,Opus 5.5,Claude Pro,37,2017-07-03,A,inferential,prompts/CLA-037.txt,078b06d487d38719f42631c796e70f26d648ac3f92609fec9432571c74d9463b
+CLA-038,CLA,Claude,Opus 5.5,Claude Pro,38,2015-09-01,C-ann,inferential,prompts/CLA-038.txt,a640b204ab748f89f341dd5118a7568ffddd7d9f9c0995e7407699f9e9a45d96
+CLA-039,CLA,Claude,Opus 5.5,Claude Pro,39,2016-07-12,A,inferential,prompts/CLA-039.txt,3e0e83d2096f636d56d430ded52081830b7b7290fe1b5bd6be7041e630e7686c
+CLA-040,CLA,Claude,Opus 5.5,Claude Pro,40,2025-06-24,C-bare,inferential,prompts/CLA-040.txt,0b91339ac087a4665913ce926f0243eb791cb2f0390a3f7d53fb6f8dd3e866d3
+CLA-041,CLA,Claude,Opus 5.5,Claude Pro,41,2019-05-07,C-bare,inferential,prompts/CLA-041.txt,dcb500478c1ac49245fee2d1d85d2f58be7a4d1fd1787a699b46ecfea3e51df9
+CLA-042,CLA,Claude,Opus 5.5,Claude Pro,42,2026-04-14,A,inferential,prompts/CLA-042.txt,b4e8337bd922032086e091c53497b99256378f9d7f25432287af76ec2593c662
+CLA-043,CLA,Claude,Opus 5.5,Claude Pro,43,2026-06-09,C-ann,inferential,prompts/CLA-043.txt,fb261fb2a272c726e72a4e48d25fdd9d280f8dac33db3a855296cfec89cb1d4f
+CLA-044,CLA,Claude,Opus 5.5,Claude Pro,44,2026-06-09,C-bare,inferential,prompts/CLA-044.txt,a30c4fee58ded78ed5b48a7f9711d80d73d70bee78473832f36f156bfcd818a1
+CLA-045,CLA,Claude,Opus 5.5,Claude Pro,45,2026-04-14,C-ann,inferential,prompts/CLA-045.txt,839bac4f132772d3042e57af8445bfa57ba067ed921f9f4dfbb18aed8a48a101
+CLA-046,CLA,Claude,Opus 5.5,Claude Pro,46,2021-08-31,C-ann,inferential,prompts/CLA-046.txt,4d8d39168c69f7d3102adac5a4b415c967eb2b89df2880958fe164507d147673
+CLA-047,CLA,Claude,Opus 5.5,Claude Pro,47,2014-09-30,C-bare,inferential,prompts/CLA-047.txt,641d473e9b05abded70f1a9109bf56fb2b5fbe63c7bbe073e04ef92504fdf762
+CLA-048,CLA,Claude,Opus 5.5,Claude Pro,48,2025-06-24,C-ann,inferential,prompts/CLA-048.txt,d720296e62560c6578840a5c2be553a93067ca2928b699b99fc3ae3b3f000117
+CLA-049,CLA,Claude,Opus 5.5,Claude Pro,49,2016-02-09,C-bare,inferential,prompts/CLA-049.txt,a846a3c3d1beb965b70e06cc9538fe1d52579d69b43fb29b147e6918333c2745
+CLA-050,CLA,Claude,Opus 5.5,Claude Pro,50,2016-06-21,A,inferential,prompts/CLA-050.txt,9aacc47809552d0a284af4f3242ccb9065868b2c8571d5b65a0dcd016fd8bd16
+CLA-051,CLA,Claude,Opus 5.5,Claude Pro,51,2016-07-12,C-bare,inferential,prompts/CLA-051.txt,012f88311148a28807fbb5676bc0e1da9c6aa3a1c900cd42c70c33a1752c87af
+CLA-052,CLA,Claude,Opus 5.5,Claude Pro,52,2021-11-02,C-ann,inferential,prompts/CLA-052.txt,1dbd113f11ee97b484f029635a5cb5578bf8a8ee4accd424de97bde140cdc1cd
+CLA-053,CLA,Claude,Opus 5.5,Claude Pro,53,2025-08-19,C-bare,inferential,prompts/CLA-053.txt,3c62e86d39f9f5e9946bb890faa215418c6f3034e56170fa1f7acf6c0cf1fe4a
+CLA-054,CLA,Claude,Opus 5.5,Claude Pro,54,2015-09-01,A,inferential,prompts/CLA-054.txt,f62f4c79f4b6535a8aab8ffb3b146f80a3506d08ec134173c946ae39ff3850ce
+CLA-055,CLA,Claude,Opus 5.5,Claude Pro,55,2014-09-02,C-ann,inferential,prompts/CLA-055.txt,3cdd755bd8bf837529302649e6904bc3f40885fb28c1f1381944126031a5bc6c
+CLA-056,CLA,Claude,Opus 5.5,Claude Pro,56,2026-06-09,A,inferential,prompts/CLA-056.txt,202f6641e97fb437908dbffb6d62e97cc193b97486d7cd490a249d7669239e93
+CLA-057,CLA,Claude,Opus 5.5,Claude Pro,57,2020-09-22,C-bare,inferential,prompts/CLA-057.txt,f80e31bb7a7cf7b67f9acdf12ed28cdadc119a50244626f99abffa7ff598f925
+CLA-058,CLA,Claude,Opus 5.5,Claude Pro,58,2019-05-07,A,inferential,prompts/CLA-058.txt,a366de50503e4500fae0507c08082b2d6d21226a78eaa6a2b829aedaa540bf1a
+CLA-059,CLA,Claude,Opus 5.5,Claude Pro,59,2025-06-24,A,inferential,prompts/CLA-059.txt,f712c5519d21b35a81204ab94b0f029a7eda43a001b3276c77c8dface9269b74
+CLA-060,CLA,Claude,Opus 5.5,Claude Pro,60,2021-11-02,A,inferential,prompts/CLA-060.txt,aa4b695472a82147bda2e0f9b3e9030b4d7e7718b043025bc3d78afec769266c
