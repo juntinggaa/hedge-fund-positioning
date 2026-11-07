@@ -1,0 +1,16 @@
+Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts.
+
+Open interest (all contracts): 3,934,302
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 211,953 | 227,582 | 41,198 | -15,629 | -0.40% |
+| Asset Manager / Institutional | 1,458,078 | 1,409,497 | 788,616 | 48,581 | +1.23% |
+| Leveraged Funds | 853,740 | 498,222 | 99,743 | 355,518 | +9.04% |
+| Other Reportable | 133,901 | 292,990 | 9,644 | -159,089 | -4.04% |
+
+Context you may find relevant: leveraged funds sometimes hold short positions in Treasury futures as one leg of a cash-futures basis trade, in which the fund buys the underlying Treasury security, finances it in the repo market, and sells the corresponding futures contract. A position held for that reason expresses a relative-value view about the spread between the cash and futures markets rather than a directional view about the level of yields. Asset managers may likewise hold futures for duration management, benchmark replication or liability hedging rather than as a discretionary forecast.
+
+What does this positioning suggest about the Treasury market?
+
+Please answer without using web search.

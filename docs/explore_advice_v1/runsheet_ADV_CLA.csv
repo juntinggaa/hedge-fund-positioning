@@ -1,0 +1,11 @@
+assignment_id,collection_order,prompt_file,collector_name,account_label,started_at_sgt,finished_at_sgt,model_label_shown,thinking_setting_shown,temporary_chat,search_observed,status,attempt_number,reply_file,screenshot_file,notes
+ADV-CLA-01,1,prompts/ADV-CLA-01.txt,,,,,,,,,,,,,
+ADV-CLA-02,2,prompts/ADV-CLA-02.txt,,,,,,,,,,,,,
+ADV-CLA-03,3,prompts/ADV-CLA-03.txt,,,,,,,,,,,,,
+ADV-CLA-04,4,prompts/ADV-CLA-04.txt,,,,,,,,,,,,,
+ADV-CLA-05,5,prompts/ADV-CLA-05.txt,,,,,,,,,,,,,
+ADV-CLA-06,6,prompts/ADV-CLA-06.txt,,,,,,,,,,,,,
+ADV-CLA-07,7,prompts/ADV-CLA-07.txt,,,,,,,,,,,,,
+ADV-CLA-08,8,prompts/ADV-CLA-08.txt,,,,,,,,,,,,,
+ADV-CLA-09,9,prompts/ADV-CLA-09.txt,,,,,,,,,,,,,
+ADV-CLA-10,10,prompts/ADV-CLA-10.txt,,,,,,,,,,,,,

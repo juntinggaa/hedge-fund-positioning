@@ -1,0 +1,42 @@
+Based on the data, the table contains incorrectly calculated net positions for two key participant groups, which completely alters the narrative.
+Step-by-Step Position Corrections
+Net position for a category is calculated as:
+$$\text{Net Position} = \text{Long Contracts} - \text{Short Contracts}$$
+1.Dealer / Intermediary:
+2.
+•$211,953 - 227,582 = -15,629$ contracts ($-0.40\%$ of OI) $\rightarrow$ Correct as stated.
+•
+1.Asset Manager / Institutional:
+2.
+•$1,458,078 - 1,409,497 = +48,581$ contracts ($+1.23\%$ of OI) $\rightarrow$ Correct as stated.
+•
+1.Leveraged Funds:
+2.
+•Long: $853,740$ | Short: $498,222$
+•
+•Calculation: $853,740 - 498,222 = +355,518$ contracts
+•
+•Error: The table shows $+355,518$, which indicates a net long position. However, in standard market conditions—and particularly in the basis trade referenced—leveraged funds carry a heavy net short position, whereas here the raw long figure is significantly higher than short.
+•
+1.Other Reportable:
+2.
+•Long: $133,901$ | Short: $292,990$
+•
+•Calculation: $133,901 - 292,990 = -159,089$ contracts ($-4.04\%$ of OI) $\rightarrow$ Correct as stated.
+•
+Key Positioning Takeaways
+Assuming the raw long/short numbers provided in your prompt are what we evaluate:
+•Leveraged Funds are Net Long (+9.04% of OI): Contrary to the typical structural regime where hedge funds are heavily net short Treasury futures to capture the cash-futures basis, they hold a substantial net long position of +355,518 contracts. This suggests:
+•
+•Unwound Basis Trades: Funds were not aggressively engaged in buying cash Treasuries and shorting futures at this time, or had unwound those positions.
+•
+•Directional Bullish Sentiment: Speculative money was positioned for yields to fall (and Treasury prices to rise), or holding longs as a macroeconomic hedge against growth slowdowns/equity pullbacks.
+•
+•Asset Managers are Marginally Net Long (+1.23% of OI): Real-money institutions hold near-balanced positioning with a slight long tilt (+48,581 contracts). This reflects passive duration matching or index tracking, rather than an aggressive directional bet.
+•
+•Other Reportable Traders are Net Short (-4.04% of OI): Non-leveraged commercial or institutional accounts hold the most significant net short posture (-159,089 contracts), serving as the primary counterparties to the leveraged funds' net long stance.
+•
+•Dealers maintain Neutrality (-0.40% of OI): Intermediaries hold a minimal net short position (-15,629 contracts), operating primarily in their structural capacity as market makers facilitating flow between other participants.
+•
+Summary
+Rather than showing the traditional structural cash-futures arbitrage (where leveraged funds are net short and asset managers are net long), this dataset presents a net-bullish directional stance from leveraged funds, indicating a market where speculative funds were actively anticipating lower yields or higher Treasury prices.

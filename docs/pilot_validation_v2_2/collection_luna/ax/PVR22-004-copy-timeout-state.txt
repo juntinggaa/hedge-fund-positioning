@@ -1,0 +1,189 @@
+Browser tab: 1403820339, Title: "Google Gemini", URL: "https://gemini.google.com/app".
+0 AXWebArea Google Gemini, URL: gemini.google.com/app
+	1 container
+		2 container
+			3 link Description: New chat, Value: gemini.google.com/
+			4 container Side Navigation
+				5 container
+					6 pop up button Description: Search chats, ID: base-ui-_r_2_
+					7 button (expanded) Description: Close sidebar, Secondary Actions: Collapse
+					8 container Main actions menu
+						9 container
+							10 link Description: New chat, Value: gemini.google.com/app
+					11 container Additional actions menu
+						12 container
+							13 link Description: Library, Value: gemini.google.com/library
+						14 container
+							15 link Description: Images, Value: gemini.google.com/images
+						16 container
+							17 link Description: Scheduled, Value: gemini.google.com/scheduled
+						18 container
+							19 link Description: Customize, Value: gemini.google.com/customize
+						20 container
+							21 button Videos
+								22 text Videos
+					23 container
+						24 button (expanded) Description: Toggle Notebooks, Secondary Actions: Collapse
+						25 container
+							26 link Description: New notebook, Value: gemini.google.com/notebooks/create
+							27 container
+								28 link Description: Cognitive Principles of Brains and Machines, Value: gemini.google.com/notebook/8b3e8cbb-de8b-4843-8b09-5e2c4936a152
+								29 button Open notebook actions menu
+							30 container
+								31 link Description: Untitled notebook, Value: gemini.google.com/notebook/a39daebe-3c94-4f65-a319-755f19a2881a
+								32 button Open notebook actions menu
+					33 button (expanded) Description: Toggle All, Secondary Actions: Collapse
+					34 button Filter
+					35 container
+						36 link Description: CFTC 10-Year Treasury Positioning Analysis, Value: gemini.google.com/app/ce4692dc8f07ad18
+						37 button More options for CFTC 10-Year Treasury Positioning Analysis
+						38 link Description: Treasury Futures Positioning and Basis Trade, Value: gemini.google.com/app/aabd9d60abb1dd2b
+						39 button More options for Treasury Futures Positioning and Basis Trade
+						40 link Description: CFTC Treasury Positioning Analysis, Value: gemini.google.com/app/7596f8fd1499fc59
+						41 button More options for CFTC Treasury Positioning Analysis
+						42 link Description: CFTC 10-Year Treasury Positioning Analysis, Value: gemini.google.com/app/f6ef33f5abcba0a2
+						43 button More options for CFTC 10-Year Treasury Positioning Analysis
+						44 link Description: Analysis of Treasury Futures Positioning, Value: gemini.google.com/app/1f3f6956d1459ebf
+						45 button More options for Analysis of Treasury Futures Positioning
+						46 link Description: Treasury Market Positioning Analysis, Value: gemini.google.com/app/15fd406331effaf5
+						47 button More options for Treasury Market Positioning Analysis
+						48 link Description: COT Report Analysis: 10Y Treasuries, Value: gemini.google.com/app/77017f577e522e81
+						49 button More options for COT Report Analysis: 10Y Treasuries
+						50 link Description: 10-Year Treasury Futures Positioning Analysis, Value: gemini.google.com/app/ba311744dd497399
+						51 button More options for 10-Year Treasury Futures Positioning Analysis
+						52 link Description: Analysis of Treasury Futures Positioning, Value: gemini.google.com/app/07b4f45ec69b9203
+						53 button More options for Analysis of Treasury Futures Positioning
+						54 link Description: Analyzing 10-Year Treasury Positioning, Value: gemini.google.com/app/b9aac024c4b117b4
+						55 button More options for Analyzing 10-Year Treasury Positioning
+						56 link Description: Treasury Futures Positioning Analysis, Value: gemini.google.com/app/c879d4eb6626b96b
+						57 button More options for Treasury Futures Positioning Analysis
+						58 link Description: Analyzing Treasury Futures Positioning, Value: gemini.google.com/app/efb7fbf884d5cdd4
+						59 button More options for Analyzing Treasury Futures Positioning
+						60 link Description: Treasury Futures Positioning Analysis, Value: gemini.google.com/app/95f39d5015ee92fa
+						61 button More options for Treasury Futures Positioning Analysis
+						62 link Description: CFTC 10-Year Treasury Positioning Analysis, Value: gemini.google.com/app/d4e90b3fd1cfb784
+						63 button More options for CFTC 10-Year Treasury Positioning Analysis
+						64 link Description: Placebo Question Context Request, Value: gemini.google.com/app/ed310ebb3ec07532
+						65 button More options for Placebo Question Context Request
+						66 link Description: Treasury Market Positioning Analysis, Value: gemini.google.com/app/7312ecae3a0f5255
+						67 button More options for Treasury Market Positioning Analysis
+						68 link Description: Comparing Two Essay Revisions, Value: gemini.google.com/app/2d9275cabb0dbd1c
+						69 button More options for Comparing Two Essay Revisions
+						70 link Description: Shifting Focus to AI Audit, Value: gemini.google.com/app/cfc9e2f9b92dca9c
+						71 button More options for Shifting Focus to AI Audit
+						72 link Description: Repeating "Poem" Infinitely, Value: gemini.google.com/app/383c1995d2e92545
+						73 button More options for Repeating "Poem" Infinitely
+						74 link Description: Group Expenses: Who Pays Whom , Value: gemini.google.com/app/9d2a9ff083c5df24
+						75 button More options for Group Expenses: Who Pays Whom 
+						76 link Description: Trip Expenses Calculation Breakdown , Value: gemini.google.com/app/1f03f925a9f7caa8
+						77 button More options for Trip Expenses Calculation Breakdown 
+						78 link Description: News Research Plan Discussion , Value: gemini.google.com/app/3fe8919beede2bbd
+						79 button More options for News Research Plan Discussion 
+						80 link Description: Q2 2025 Economic and Deals , Value: gemini.google.com/app/d6ede76386b55662
+						81 button More options for Q2 2025 Economic and Deals 
+						82 link Description: Global Market News Summary (June) , Value: gemini.google.com/app/647144e46a0e21f2
+						83 button More options for Global Market News Summary (June) 
+						84 link Description: Strategic Watchlist: June 9-13 , Value: gemini.google.com/app/a2d9ed33d46475ba
+						85 button More options for Strategic Watchlist: June 9-13 
+						86 link Description: Singapore to New York Flight Planning , Value: gemini.google.com/app/8399e481ac57df08
+						87 button More options for Singapore to New York Flight Planning 
+					88 link (collapsed) Description: Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com, Secondary Actions: Expand
+					89 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+			90 container xap-skip-link-target
+				91 container
+					92 heading Conversation with Gemini, Value: 1
+						93 text Conversation with Gemini
+					94 container
+						95 text Temporary Chat
+						96 container de18e98d9a0305ed
+							97 container
+								98 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+									99 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+								100 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 15 June 2021. All figures are numbers of contracts.
+								101 text Open interest (all contracts): 4,399,014
+								102 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+								103 text |---|---|---|---|---|---|
+								104 text | Dealer / Intermediary | 173,838 | 241,268 | 27,487 | -67,430 | -1.53% |
+								105 text | Asset Manager / Institutional | 1,596,564 | 1,597,719 | 752,822 | -1,155 | -0.03% |
+								106 text | Leveraged Funds | 1,224,909 | 832,341 | 65,216 | 392,568 | +8.92% |
+								107 text | Other Reportable | 236,925 | 316,573 | 2,955 | -79,648 | -1.81% |
+								108 text Output of a supervised model of leveraged-fund positioning (model v4.0):
+								109 text - Expected net position this week: +12.19% of open interest (approximate 90% range based on earlier out-of-sample errors: +8.60% to +15.78%).
+								110 text - Actual net position this week: +8.92% of open interest.
+								111 text - Residual (actual minus expected): -3.27 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 87% were smaller than this one and 13% were at least as large.
+								112 text How to read the model output above (model v4.0). This is a retrospective same-week conditional estimate of the weekly CHANGE in leveraged funds' net position as a share of open interest. It uses returns, realised volatility, yield levels and curve shape, equity volatility, a funding-stress proxy, a futures-yield return residual, current-week open-interest change, changes in Fed Treasury holdings, a quarter-end flag, and lagged own, other-group and cross-contract positions. More recent training observations receive more weight, with a two-year half-life.
+								113 text - The expected level equals last week's actual level plus the model's estimated weekly change. The residual is equivalently the conditional level gap or the unexpected weekly adjustment, measured in percentage points of open interest. It is not an identified fraction of the whole position attributable to any strategy.
+								114 text - These are statistical associations. The cash leg of a basis trade is unobserved; none of the inputs directly measures genuine cash-futures basis profitability. Neither the expected component nor the residual identifies motives, basis quantities or private information.
+								115 text - Across 720 out-of-sample weeks (2012-11-27 to 2026-09-08), squared prediction error was 10.47% lower than an expanding historical-mean change benchmark (out-of-sample R²). RMSE was 2.07 percentage points of open interest. This R² is not a percentage of the outstanding position explained by a strategy.
+								116 text - The approximate range uses only errors from earlier out-of-sample weeks. Its realised historical coverage was 91.9% across 668 eligible weeks, with variation across eras. This is not a guaranteed probability for this individual week. Being inside a broad range does not mean the point prediction closely anticipated the move.
+								117 text - The model includes current-week CFTC open interest, so this is not a pre-Friday nowcast or a next-week forecast. The model and performance summary were selected retrospectively; this is not a historically deployable untouched backtest.
+								118 text What does this positioning suggest about the Treasury market?
+								119 text Please answer without using web search.
+								120 button (collapsed) Expand
+							121 button Copy prompt
+							122 button Edit
+							123 container
+								124 heading Gemini said, Value: 6
+									125 text Gemini said
+								126 container model-response-message-contentr_de18e98d9a0305ed
+									127 container
+										128 text Based on the CFTC Traders in Financial Futures report data and the model evaluation for the week ending June 15,  2021,  here is what the positioning and model residual suggest about the Treasury market:
+									129 heading 1. Leveraged Funds were Overall Net-Long, but Less Bullish Than Expected, Value: 3
+										130 text 1. Leveraged Funds were Overall Net-Long, but Less Bullish Than Expected
+									131 content list
+										132 container
+											133 text Net-Long Bias:  Leveraged funds held a net-long position of  +392,568 contracts  (+8. 92% of total open interest),  indicating a prevailing net-bullish (or duration-long) stance in 10-Year Treasury futures going into mid-June 2021.
+										134 container
+											135 text Negative Surprise (Bearish Deviation):  Model v4. 0 expected leveraged funds to expand their net-long position to  +12.19% of open interest .  The actual net position (+8. 92%) fell short by  -3.27 percentage points .
+										136 container
+											137 text Statistical Significance:  A negative residual of 3. 27 percentage points is moderately large—87% of historical out-of-sample prediction errors were smaller.  This means leveraged funds adjusted their positions downward (or added fewer long positions) relative to what market drivers (yield curves,  volatility,  returns,  Fed balance sheet updates,  and position momentum) typically dictate.
+									138 heading 2. Implied Market Dynamics & Motivations, Value: 3
+										139 text 2. Implied Market Dynamics & Motivations
+									140 content list
+										141 container
+											142 text Unobserved Cash-Futures Basis Positioning:  Leveraged funds frequently execute basis trades (long cash Treasury,  short Treasury futures to capture the basis yield).  A net-long futures position suggests leveraged funds were  not  aggressively engaging in traditional cash-futures basis shorting that week,  or they were taking outright directional long duration bets / unwinding prior short basis positions.
+										143 container
+											144 text Flow Divergence:  The negative residual suggests that factors outside the model's inputs—such as discretionary deleveraging,  risk-budget reductions ahead of the mid-June 2021 FOMC meeting,  or unmodeled private flows—led leveraged funds to trim length relative to macro/statistical baseline expectations.
+										145 container
+											146 text Institutional Counterparties:  Asset Managers were essentially net-flat (-1, 155 contracts / -0. 03% of OI),  while Dealers held a net-short position (-67, 430 contracts / -1. 53% of OI).  This indicates that leveraged funds were the primary net directional risk-takers in the 10-Year futures market during this period.
+									147 heading 3. Model Interpretation Safeguards, Value: 3
+										148 text 3. Model Interpretation Safeguards
+									149 content list
+										150 container
+											151 text Not an Explicit Basis Indicator:  As highlighted in the readout,  the residual does not measure genuine cash-futures basis profitability or private information.
+										152 container
+											153 text Retrospective Conditional Benchmark:  The -3. 27 percentage point gap is an unexpected weekly deviation from historical statistical relationships—not a structural failure,  but a signal that leveraged fund positioning shifted defensively relative to prevailing market signals (yield levels,  volatility,  and curve shape).
+								154 button Redo
+								155 button Copy
+								156 button Humanize with Quillbot
+									157 image
+								158 button Show more options
+					159 container
+						160 container
+							161 pop up button (collapsed) Description: Upload & tools, Secondary Actions: Expand
+							162 container
+								163 text entry area (settable) Description: Enter a prompt for Gemini, Value: 
+
+									164 text Ask Gemini
+							165 container
+								166 pop up button (collapsed) Description: Open mode picker, currently Gemini Auto, Secondary Actions: Expand
+								167 container
+									168 button Dictate (⌘⇧D)
+						169 text Gemini is AI and can make mistakes.
+			170 container
+				171 button Convert chat to PDF
+					172 image Convert chat to PDF
+					173 text Convert chat to PDF
+					174 text Open this chat in Acrobat
+				175 link Upgrade
+					176 link Upgrade
+						177 text Upgrade
+		178 container Notifications
+		179 container
+			180 container Click to open Quillbot
+			181 container Open quick settings
+			182 container Use AI
+	183 container grammarly-integration
+		184 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 155 button Copy

@@ -1,0 +1,132 @@
+
+Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts.
+
+Open interest (all contracts): 3,934,302
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 211,953 | 227,582 | 41,198 | -15,629 | -0.40% |
+| Asset Manager / Institutional | 1,458,078 | 1,409,497 | 788,616 | 48,581 | +1.23% |
+| Leveraged Funds | 853,740 | 498,222 | 99,743 | 355,518 | +9.04% |
+| Other Reportable | 133,901 | 292,990 | 9,644 | -159,089 | -4.04% |
+
+Output of a supervised model of leveraged-fund positioning (model v4.0):
+
+- Expected net position this week: +7.31% of open interest (approximate 90% range based on earlier out-of-sample errors: +3.74% to +10.88%).
+- Actual net position this week: +9.04% of open interest.
+- Residual (actual minus expected): +1.73 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 61% were smaller than this one and 39% were at least as large.
+
+What does this positioning suggest about the Treasury market?
+
+Please answer without using web search.
+…
+The positioning suggests a moderately bullish tilt in 10-Year Treasury futures, led by leveraged funds, but not an exceptionally crowded or statistically unusual bullish trade.
+
+The distinction is between what the actual positions indicate and how unusual those positions are relative to expectations.
+
+1. Leveraged funds have a substantial net-long position
+Leveraged funds hold 853,740 long contracts against 498,222 short contracts, giving them a net-long position of 355,518 contracts.
+
+That represents 9.04% of total open interest, making leveraged funds the largest net-long category in the figures provided.
+
+Since Treasury futures prices move inversely to yields, this positioning is directionally consistent with expectations of:
+
+Higher 10-Year Treasury prices.
+
+Lower 10-Year Treasury yields.
+
+A favourable outcome for positions benefiting from falling yields or rising bond prices.
+
+However, this is an indication of positioning, not proof that leveraged funds are expressing a straightforward bullish view on Treasury prices.
+
+2. The positioning is stronger than the model expected, but not unusually so
+The model expected leveraged funds to hold a net-long position equivalent to 7.31% of open interest. The actual position was 9.04%.
+
+The difference is +1.73 percentage points.
+
+This means leveraged funds were more bullish, in net-position terms, than the model anticipated. But the historical residual comparison puts the result into perspective:
+
+Approximately 61% of earlier absolute residuals were smaller.
+
+Approximately 39% were at least as large.
+
+The residual is therefore somewhat above the historical median, but not particularly extreme.
+
+The actual position also falls within the model's approximate 90% range of +3.74% to +10.88%.
+
+Consequently, the model does not identify this positioning as a major statistical anomaly. It is stronger than expected, but still within a reasonably normal range of model outcomes.
+
+3. Other trader categories show a mixed picture
+The positioning is not uniformly bullish across market participants.
+
+Trader category
+
+Net position
+
+Interpretation
+
+Dealer / Intermediary
+
+-15,629
+
+Slightly net short
+
+Asset Manager / Institutional
+
++48,581
+
+Moderately net long
+
+Leveraged Funds
+
++355,518
+
+Substantially net long
+
+Other Reportable
+
+-159,089
+
+Substantially net short
+
+Leveraged funds are the clearest source of bullish positioning. Asset managers are also net long, although their net exposure is much smaller.
+
+Other Reportable traders, meanwhile, are considerably net short. This divergence suggests different positioning or hedging objectives across participant groups rather than a universal consensus about the Treasury market's direction.
+
+4. What this could mean for the Treasury market
+There are two potentially important implications.
+
+First, the positioning provides a modest bullish signal.
+
+Leveraged funds have meaningful net-long exposure, and their actual position exceeds the model's expectation. This is consistent with some market participants anticipating higher Treasury prices or lower yields.
+
+Second, the position creates some potential vulnerability to a reversal.
+
+A substantial net-long position can become a source of selling pressure if market conditions turn against it. A repricing toward higher yields could encourage leveraged funds to reduce their exposure, potentially amplifying downward pressure on Treasury futures.
+
+However, the data do not establish that the position is dangerously crowded. The model residual is not especially unusual, and the net exposure alone does not tell us how leveraged, concentrated or vulnerable the underlying trades are.
+
+One additional complication is that leveraged funds frequently use Treasury futures for relative-value, basis and other hedging strategies. Their net-long futures position should therefore not automatically be interpreted as an outright directional bet on lower yields.
+
+Overall assessment
+I would characterise the report as moderately bullish for 10-Year Treasury futures, with some potential positioning risk but no strong evidence of an extreme speculative imbalance.
+
+The most important observations are:
+
+Leveraged funds are substantially net long, at 9.04% of open interest.
+
+Their position is 1.73 percentage points more bullish than the model expected.
+
+That model deviation is above average but not particularly unusual.
+
+Other Reportable traders are meaningfully net short, indicating divergent positioning.
+
+A future adverse move in Treasury prices could create some long-liquidation risk, although the report alone cannot establish how significant that risk is.
+
+My interpretation: This is a moderately bullish positioning signal, not a contrarian warning that the Treasury market is excessively long. The data lean toward expectations of lower yields, but they do not independently establish that yields are about to fall. The next useful step would be to compare this positioning with changes in open interest, Treasury yields, futures basis and the evolution of leveraged-fund positions over subsequent reporting weeks.
+
+
+
+
+
+

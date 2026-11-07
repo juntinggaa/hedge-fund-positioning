@@ -1,0 +1,29 @@
+### Short answer
+
+The positioning shows no strong, crowded directional bet in 10-year futures that week. The largest imbalance is asset managers net short against “other reportables” net long, and that pattern more likely reflects hedging and portfolio structure than a clear bearish or bullish consensus.
+
+### Checking the numbers
+
+Each Net figure equals Long minus Short, and the percentages are correct. The four reportable categories sum to +25,093 net. That implies non-reportable (small) traders were net short about 25,000 contracts, since all positions must net to zero. I can’t check these figures against the actual CFTC release without looking them up, so the analysis below takes them as given.
+
+### Market context
+
+This was about three weeks after the Brexit vote. The 10-year yield had just set an all-time closing low of about 1.36% around 5–8 July. A strong June payrolls report on 8 July then started pushing yields back up. So this is a snapshot taken right at the bottom in yields.
+
+### What each group’s position suggests
+
+- Dealers (−0.4% of OI): essentially flat. That is typical. Dealers mostly intermediate client flow and hedge it, so their position says little about direction.
+- Asset managers (−6.3%): the largest net short. This shouldn’t be read as “asset managers expect yields to rise.” They hold very large cash bond portfolios, and futures shorts are a common, cheap way to trim duration against a benchmark or hedge cash holdings. With yields at record lows and duration risk high, reducing duration this way would be a sensible risk-management step. Their very large spreading position (about 397,000 contracts) also points to heavy calendar-spread and roll activity, not outright bets. If you have the history, it’s worth checking how this compares with their usual stance in 10-year futures. A net short could be ordinary or unusual depending on the period.
+- Leveraged funds (+0.9%): only slightly long. This matters because hedge funds are the group most likely to express a directional view. Even at record-low yields after a flight to safety, speculators were not heavily long. That argues against a “crowded long, ripe for a squeeze” story. It also shows the cash-futures basis trade (long cash bonds, short futures) wasn’t dominating their position in this snapshot.
+- Other reportables (+6.7%): the largest net long. This is a mixed category: corporate treasuries, some sovereign and official accounts, proprietary trading firms not classified elsewhere, and others. A long here could be hedging of future borrowing or investment, safe-haven demand, or proprietary bets on low yields. The category is too mixed to read cleanly.
+
+### Caveats that limit what one week can tell you
+
+- A single snapshot shows levels, not momentum. Week-over-week changes and where each net position sits within its own multi-year range are usually more informative.
+- This is futures only. It leaves out cash Treasuries, options and swaps, so a futures short can be fully offset elsewhere.
+- Contract counts aren’t risk-weighted. Curve trades across 2-, 5-, 10-year and bond futures are invisible if you look at one contract alone.
+- CFTC categories are assigned by a firm’s main line of business, not by the purpose of each trade.
+
+### Bottom line
+
+At the low point in yields, the market looked balanced rather than stretched. The visible imbalances fit hedging behaviour better than strong views. With hindsight, yields rose substantially over the following months, especially after the November 2016 election. That is a reminder that positioning like this is weak as a standalone forecasting signal.

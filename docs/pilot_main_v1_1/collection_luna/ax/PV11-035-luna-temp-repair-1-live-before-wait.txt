@@ -1,0 +1,49 @@
+Browser tab: 1403820316, Title: "Google Gemini", URL: "https://gemini.google.com/app".
+0 AXWebArea Google Gemini, URL: gemini.google.com/app
+	1 container
+		2 container
+			3 button (collapsed) Description: Open sidebar, Secondary Actions: Expand
+			4 container Side Navigation
+				5 container
+					6 container Main actions menu
+						7 link Description: New chat, Value: gemini.google.com/app
+					8 container Additional actions menu
+						9 pop up button Description: Search chats, ID: base-ui-_r_2_
+						10 link Description: Library, Value: gemini.google.com/library
+						11 link Description: Images, Value: gemini.google.com/images
+						12 container Scheduled
+							13 link Description: Scheduled, Value: gemini.google.com/scheduled
+						14 link Description: Customize, Value: gemini.google.com/customize
+					15 link (collapsed) Description: Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com, Secondary Actions: Expand
+					16 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+			17 container xap-skip-link-target
+				18 container
+					1164 heading Conversation with Gemini, Value: 1
+					1165 container
+						1166 text Temporary Chat
+						1167 container
+							1168 heading 5
+							1169 button (collapsed) Secondary Actions: Expand
+						1170 button
+					81 container
+						82 container
+							83 pop up button (collapsed) Description: Upload & tools, Secondary Actions: Expand
+							1141 container
+								1142 text entry area (settable) Description: Enter a prompt for Gemini, Value: 
+
+							87 container
+								88 pop up button (collapsed) Description: Open mode picker, currently Gemini Auto, Secondary Actions: Expand
+								1163 button Stop response
+			1129 link Upgrade
+				1130 link Upgrade
+					1131 text Upgrade
+		1171 text Gemini is typing
+		104 container Notifications
+		1144 container
+			1145 container Click to open Quillbot
+			1146 container Open quick settings
+			1147 container Humanize
+	109 container grammarly-integration
+		1023 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 1142 text entry area (settable) Description: Enter a prompt for Gemini, Value: 

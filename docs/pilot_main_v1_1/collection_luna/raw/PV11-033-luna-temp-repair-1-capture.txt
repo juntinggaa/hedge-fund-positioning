@@ -1,0 +1,14 @@
+### Market Dynamics
+
+* **Leveraged Funds (Hedge Funds & CTA Systems):** Maintain a heavy net short position of **-247,740 contracts (-8.05% of open interest)**. This typically reflects active participation in the cash-futures basis trade (shorting futures against long cash Treasuries) or structural short-duration bets.
+* **Asset Managers & Institutions:** Hold the largest net long position at **+201,434 contracts (+6.55% of open interest)** with 1,294,482 long contracts, serving as the direct structural counterparty absorbing the short duration offered by leveraged funds and dealers.
+* **Dealers & Intermediaries:** Run a net short position of **-69,214 contracts (-2.25% of open interest)**, facilitating market liquidity and intermediate inventory.
+* **Other Reportable:** Hold a net long position of **+135,212 contracts (+4.39% of open interest)**, providing additional buying support alongside institutional asset managers.
+
+---
+
+### Model Assessment & Key Limitations
+
+* **Alignment with Model (Model v4.0):** The actual net position (-8.05% of OI) landed within **0.19 percentage points** of the model’s expected level (-7.86% of OI). With 91% of historical out-of-sample residuals being larger, the week's shift was almost entirely explained by macro variables (returns, volatility, yield curve shape, Fed balance sheet changes, and lagged positions).
+* **No Direct Motive Identification:** A small residual indicates that leveraged fund positioning shifted as expected given ambient macro and market conditions, but it **does not confirm specific intent**. The unobserved cash leg means this output cannot isolate the exact fraction tied to basis trade arbitrage versus directional macro bets.
+* **Information Limits:** Because the model incorporates current-week open interest, it reflects a same-week conditional benchmark rather than a predictive forecast or trade signal.

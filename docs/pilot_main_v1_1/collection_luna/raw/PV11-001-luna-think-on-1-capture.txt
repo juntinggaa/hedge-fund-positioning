@@ -1,0 +1,137 @@
+
+Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts.
+
+Open interest (all contracts): 3,934,302
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 211,953 | 227,582 | 41,198 | -15,629 | -0.40% |
+| Asset Manager / Institutional | 1,458,078 | 1,409,497 | 788,616 | 48,581 | +1.23% |
+| Leveraged Funds | 853,740 | 498,222 | 99,743 | 355,518 | +9.04% |
+| Other Reportable | 133,901 | 292,990 | 9,644 | -159,089 | -4.04% |
+
+Output of a supervised model of leveraged-fund positioning (model v4.0):
+
+- Expected net position this week: +7.31% of open interest (approximate 90% range based on earlier out-of-sample errors: +3.74% to +10.88%).
+- Actual net position this week: +9.04% of open interest.
+- Residual (actual minus expected): +1.73 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 61% were smaller than this one and 39% were at least as large.
+
+How to read the model output above (model v4.0). This is a retrospective same-week conditional estimate of the weekly CHANGE in leveraged funds' net position as a share of open interest. It uses returns, realised volatility, yield levels and curve shape, equity volatility, a funding-stress proxy, a futures-yield return residual, current-week open-interest change, changes in Fed Treasury holdings, a quarter-end flag, and lagged own, other-group and cross-contract positions. More recent training observations receive more weight, with a two-year half-life.
+
+- The expected level equals last week's actual level plus the model's estimated weekly change. The residual is equivalently the conditional level gap or the unexpected weekly adjustment, measured in percentage points of open interest. It is not an identified fraction of the whole position attributable to any strategy.
+- These are statistical associations. The cash leg of a basis trade is unobserved; none of the inputs directly measures genuine cash-futures basis profitability. Neither the expected component nor the residual identifies motives, basis quantities or private information.
+- Across 720 out-of-sample weeks (2012-11-27 to 2026-09-08), squared prediction error was 10.47% lower than an expanding historical-mean change benchmark (out-of-sample R²). RMSE was 2.07 percentage points of open interest. This R² is not a percentage of the outstanding position explained by a strategy.
+- The approximate range uses only errors from earlier out-of-sample weeks. Its realised historical coverage was 91.9% across 668 eligible weeks, with variation across eras. This is not a guaranteed probability for this individual week. Being inside a broad range does not mean the point prediction closely anticipated the move.
+- The model includes current-week CFTC open interest, so this is not a pre-Friday nowcast or a next-week forecast. The model and performance summary were selected retrospectively; this is not a historically deployable untouched backtest.
+
+What does this positioning suggest about the Treasury market?
+
+Please answer without using web search.
+…
+Overall interpretation
+The positioning suggests a meaningful leveraged-fund preference for long 10-year Treasury futures, and therefore a potential preference for exposure that benefits from rising Treasury prices and falling yields. However, the figures do not establish that leveraged funds were making a straightforward bullish bet on Treasury prices. Basis trading and other relative-value strategies could account for a substantial part of the position.
+
+The more interesting point is that leveraged funds were somewhat more net long than the model's conditional estimate, but the difference does not look statistically exceptional by the historical comparisons supplied.
+
+1. Leveraged funds were substantially net long
+Leveraged funds held:
+
+Long: 853,740 contracts
+
+Short: 498,222 contracts
+
+Net: +355,518 contracts
+
+Net as a share of open interest: +9.04%
+
+That makes leveraged funds the largest net-long category in the table. Their net position was considerably larger than the asset managers' modest +1.23% of open interest.
+
+Other Reportable traders, by contrast, were net short by 159,089 contracts, or 4.04% of open interest. Dealers were close to neutral, with a small net short, while asset managers were modestly net long.
+
+This is a mixed positioning picture rather than evidence that all major classes of Treasury investors were leaning in the same direction. There was a particularly pronounced difference between leveraged funds and Other Reportable traders.
+
+2. The model suggests some additional long positioning, but not an extraordinary surprise
+The model expected leveraged funds to be net long 7.31% of open interest. The actual position was 9.04%.
+
+The difference was +1.73 percentage points, equivalent to roughly 68,000 contracts of open interest. In other words, leveraged funds ended the week more net long than the model's conditional estimate anticipated.
+
+There are three important qualifications:
+
+The actual position was within the model's approximate 90% range. The expected range was +3.74% to +10.88%, so +9.04% was not outside the model's historically observed error envelope.
+
+The residual was moderately large, not exceptionally large. About 61% of earlier absolute out-of-sample residuals were smaller, while 39% were at least as large. This puts the residual around the 61st percentile of historical absolute errors, not in an especially extreme tail.
+
+The model has limited predictive power. Its out-of-sample R² of 10.47% represents an improvement over a historical-mean benchmark, but it is not strong enough to treat the expected position as a precise forecast.
+
+The appropriate reading is therefore: leveraged funds were more net long than the model would conditionally anticipate, but the deviation was within the range of ordinary historical forecast errors.
+
+3. The positioning could reflect basis trading rather than an outright Treasury view
+This is probably the most important interpretive distinction.
+
+Leveraged funds are often associated with Treasury cash-futures basis trading. In a common version of that trade, a fund buys Treasury futures and holds a short position in the corresponding cash Treasury securities, often financed through the repo market.
+
+Such a portfolio can appear substantially net long in futures-only CFTC data even though its overall exposure is not simply a bullish bet on Treasury prices.
+
+Consequently, the +9.04% net futures position could reflect some combination of:
+
+Directional long exposure to Treasury futures.
+
+Cash-futures basis positions.
+
+Other relative-value or hedging strategies.
+
+Positions associated with other parts of a broader portfolio.
+
+The CFTC futures-only figures do not reveal the cash positions needed to distinguish these explanations. Nor does the model's +1.73 percentage-point residual tell us what fraction of the position came from any particular strategy.
+
+It would therefore be incorrect to interpret the residual as evidence of an additional directional bet or an identified increase in basis-trade activity.
+
+4. What might this mean for Treasury-market vulnerability?
+There are two possible implications, depending on the underlying strategies.
+
+If the positions were primarily directional: leveraged funds had meaningful exposure to a rise in Treasury prices and a decline in yields. A reversal in that view could result in selling pressure in 10-year futures. The scale of the net position makes leveraged-fund behaviour worth monitoring.
+
+If the positions were primarily basis-related: the more important risks could involve financing conditions, repo-market liquidity, margin requirements and the profitability of the cash-futures basis. Under adverse conditions, leveraged funds might reduce positions, potentially producing substantial futures selling even without a fundamental change in their outlook for interest rates.
+
+This second possibility is particularly important because a leveraged basis trade can be exposed to funding and liquidity shocks. Futures positioning alone cannot establish whether such risks were present or how large they were.
+
+5. What I would take away
+Observation
+
+Interpretation
+
+Leveraged funds net long 9.04% of OI
+
+Meaningful concentration of net-long futures exposure
+
+Asset managers net long 1.23%
+
+More modest institutional net-long positioning
+
+Other Reportable net short 4.04%
+
+Significant offsetting positioning elsewhere
+
+Actual leveraged-fund position above model estimate by 1.73 pp
+
+Somewhat more net-long positioning than expected
+
+Actual position within approximate 90% range
+
+Not an unusual outcome under the model's historical error range
+
+Model R² of 10.47%
+
+Useful but limited explanatory and predictive improvement
+
+My overall assessment: The report points to a substantial leveraged-fund net-long position in 10-year Treasury futures, but not necessarily to an exceptionally bullish Treasury-market consensus. The model suggests that the position was somewhat more long than contemporaneous market and positioning conditions would have predicted, although the deviation was not especially unusual.
+
+The more consequential market question is whether this exposure represented outright duration risk or leveraged cash-futures basis activity. The former would make the figures relevant to directional Treasury sentiment; the latter would make funding, liquidity and position-unwinding risks more important.
+
+Without cash-position, repo and basis information, I would treat this report primarily as a signal of significant leveraged exposure and potential positioning vulnerability, rather than as a reliable standalone signal that Treasury yields were about to fall.
+
+
+
+
+
+-50%

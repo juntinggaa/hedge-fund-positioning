@@ -1,0 +1,35 @@
+This snapshot doesn’t say much about the direction of the Treasury market. It shows the familiar post-2012 offsetting pattern in 10-year futures, and the model says leveraged funds were positioned about where ordinary conditions would predict.
+
+What the positions show
+
+The arithmetic checks out. Leveraged funds were net short about 214k contracts (−7.06% of OI). Asset managers (+6.50%) and other reportables (+6.87%) were net long by similar amounts, and dealers were modestly short (−1.79%). The table omits non-reportable traders, but because longs and shorts must net to zero, they were implicitly net short about 137k contracts (≈ −4.5% of OI).
+
+The near-mirror between asset managers and leveraged funds fits a common structural explanation. Asset managers get duration exposure through futures, and leveraged funds take the other side, often hedging long cash Treasuries (the basis trade). But the cash leg isn’t in this report, so you can’t tell how much of the leveraged-fund short is basis hedging and how much is a directional bet on higher yields. In late 2014, with QE3 just ended and markets expecting Fed hikes in 2015, some directional shorting is plausible. The data can’t separate the two, and the model notes say the model can’t either.
+
+What the model adds
+
+The residual is ordinary. Leveraged funds were 0.95 points less short than expected. That is under half the model’s RMSE of 2.07 points, and about 65% of earlier residuals were larger. This is not an unusual week.
+The direction is only mildly informative. “Less short than expected” means their weekly adjustment was slightly more toward covering, or slightly less toward adding shorts, than the inputs implied. We don’t have last week’s level, so we can’t tell whether the actual change was a cover or an increase.
+The model’s skill is modest. An out-of-sample R² of about 10% on weekly changes means most week-to-week movement is unexplained. A small residual from a weak model is weak evidence of anything.
+It isn’t predictive. The model uses same-week open interest and was selected retrospectively. So it can’t say where yields or positioning went next.
+
+A timing caveat
+
+The week ending 25 November falls in the December-to-March roll period for Treasury futures. That likely explains the large spreading positions (363k for asset managers alone). Net positions measured mid-roll can be noisier than usual, so I’d put less weight on this one week than on the trend across several weeks either side.
+
+What you can and can’t conclude
+
+You can conclude:
+
+Speculative-looking short exposure in 10-year futures was large in absolute terms but roughly matched by real-money longs.
+That week’s leveraged-fund positioning was unremarkable given conditions.
+
+You can’t conclude:
+
+That hedge funds were “bearish” on Treasuries.
+How large the basis trade was.
+That a squeeze or a selloff was coming.
+
+The one structural point is that big offsetting futures positions are a background source of risk. A sharp rally can force short covering, and stress in funding markets can force basis trades to unwind. But that is a feature of the market structure, not a signal from this particular week.
+
+If you have the weeks around this one, the change in leveraged-fund net positioning, or the 2-year, 5-year and bond contracts, I can look at whether the 10-year short was part of a curve trade or a broader duration view.

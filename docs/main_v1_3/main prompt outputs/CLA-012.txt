@@ -1,0 +1,34 @@
+Short answer: this report shows a crowded but conventional configuration in 10-year note futures. The model says leveraged funds’ positioning that week was about what you’d expect given conditions. Taken alone, it says little about where yields were heading.
+
+What the positioning shows
+
+The numbers check out. Each net figure equals long minus short, and the percentages match open interest of 3,034,110. The four reportable nets sum to +62,675 rather than zero, so non-reportable traders were net short about 2.07% of open interest. That’s worth remembering, because it means the reportable categories aren’t the whole market.
+
+The structure is the familiar one for Treasury futures:
+
+Asset managers were large net longs (+13.9% of OI). This usually reflects duration exposure taken through futures: benchmark-relative positioning, cash equitization, or extending duration cheaply. It is generally slow-moving, structural demand rather than a tactical bet.
+Leveraged funds were large net shorts (−10.4%). This is consistent with the futures leg of cash-futures basis trades (long cash Treasuries, short futures), with funds supplying the futures exposure asset managers want. As the model notes say, though, the cash leg isn’t observed. The short could also be directional, part of curve or cross-contract relative-value trades, or hedges. This report can’t tell these apart.
+Dealers were net short (−7.3%). This often reflects hedging of inventory or client flow.
+Other reportables were net long (+5.9%).
+What the model adds
+
+The model’s message is mainly that nothing unusual happened:
+
+The actual level (−10.37%) sat comfortably inside the 90% range (−13.16% to −5.63%).
+The −0.98 pp residual is about half the model’s 2.07 pp RMSE. About 63% of past residuals were at least as large, so this one is ordinary, slightly below the middle of the distribution.
+The sign means funds were a bit more net short than the model’s conditional estimate. That gap is a statistical surprise in the weekly adjustment, not evidence of new basis activity, private information, or a bearish view.
+
+Two cautions limit how much weight the model can carry. Its out-of-sample R² is about 10%, so it explains only a modest share of weekly changes, and the 7.5 pp wide range shows how loose the “expected” anchor is. It also uses same-week open interest and was chosen retrospectively, so it’s a description of that week, not a signal anyone could have traded on.
+
+Market context
+
+Early February 2016 was a risk-off episode. Oil was falling, global equities were selling off, and the Bank of Japan had adopted negative rates in late January. Markets were also pricing out further Fed hikes after the December 2015 lift-off. Ten-year yields fell sharply, reaching their lows for that move around 11 February.
+
+Against that backdrop, a large leveraged-fund net short during a strong rally might look like a squeeze waiting to happen. That only holds if the short was directional. If much of it was hedged, as in basis or relative-value trades, the rally wouldn’t necessarily cause stress. The data can’t distinguish these cases. And since the residual is unremarkable, there’s no sign here of forced covering or unusual position-building beyond what conditions implied.
+
+Limits of this snapshot
+Single contract, futures-only. Positions in 2-year, 5-year, bond, and Ultra futures, or in options, could offset or amplify what’s shown. The Ultra 10-Year contract had launched only weeks earlier, in January 2016, so some 10-year-sector exposure may have begun shifting there.
+One week. Positioning tells you more as a trend or an extreme than as a single reading. These figures don’t say whether this week was historically stretched.
+Positioning isn’t a yield forecast. It describes who holds risk, not where prices go next.
+
+Bottom line: the Treasury futures market showed its typical asset-manager-long, leveraged-fund-short structure. Leveraged-fund positioning was roughly in line with what the model expected given that week’s turbulent conditions, so there’s no evidence of an unusual shift in fund behaviour and no basis for a directional call.

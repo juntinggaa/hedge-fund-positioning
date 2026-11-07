@@ -1,0 +1,131 @@
+- heading "Claude" [level=1]
+- main:
+  - status
+  - status
+  - toolbar "Page tools":
+    - button "Activity panel":
+      - generic: 
+  - status
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S." [level=3]'
+      - paragraph: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 2 November 2021. All figures are numbers of contracts.
+      - paragraph: "Open interest (all contracts): 3,973,988"
+      - paragraph:
+        - text: "| Trader category | Long | Short | Spreading | Net | Net as % of OI |"
+        - text: "|---|---|---|---|---|---|"
+        - text: "| Dealer / Intermediary | 236,520 | 199,259 | 42,525 | 37,261 | +0.94% |"
+        - text: "| Asset Manager / Institutional | 1,545,546 | 1,328,035 | 850,685 | 217,511 | +5.47% |"
+        - text: "| Leveraged Funds | 742,069 | 499,445 | 110,896 | 242,624 | +6.11% |"
+        - text: "| Other Reportable | 142,516 | 301,970 | 9,139 | -159,454 | -4.01% |"
+      - paragraph: "Output of a supervised model of leveraged-fund positioning (model v4.0):"
+      - list:
+        - listitem: "Expected net position this week: +8.63% of open interest (approximate 90% range based on earlier out-of-sample errors: +5.06% to +12.21%)."
+        - listitem: "Actual net position this week: +6.11% of open interest."
+        - listitem: "Residual (actual minus expected): -2.53 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 76% were smaller than this one and 24% were at least as large."
+      - paragraph: What does this positioning suggest about the Treasury market?
+      - paragraph: Please answer without using web search.
+      - generic: Message collapsed
+      - button "Show more":
+        - generic: Show more
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: Short answer" [level=3]'
+      - generic: Checking the sums behind the positioning figures
+      - button "Checking the sums behind the positioning figures":
+        - generic: 
+      - status: Checking the sums behind the positioning figures
+      - heading "Short answer" [level=3]
+      - paragraph: On its own, this snapshot says little about where Treasuries were headed. It shows who held what in one contract in one week. The model output suggests leveraged funds were somewhat less long than usual, but not unusually so.
+      - heading "What the positioning shows" [level=3]
+      - list:
+        - strong: Asset managers net long (+5.5% of OI).
+        - text: This is the normal pattern. Pension funds, insurers and bond funds use futures to add duration cheaply, so a net long here reflects ordinary portfolio construction rather than a market call.
+        - strong: Leveraged funds net long (+6.1% of OI).
+        - text: "This is the most interesting line, but it can’t be read as “hedge funds were bullish on bonds.” Leveraged fund futures positions are often one leg of a larger trade:"
+        - list:
+          - listitem: Cash-futures basis trades usually make funds short futures, so a net long can reflect basis positions being reduced.
+          - listitem: Curve trades pair contracts. For example, a flattener could be long 10-year futures against short 2- or 5-year futures.
+          - listitem: Relative-value trades against swaps or cash bonds.
+        - text: Without the positions in other tenors, you can’t tell whether this is a directional duration bet.
+        - strong: Dealers roughly flat (+0.9%)
+        - text: and
+        - strong: Other Reportables net short (−4.0%)
+        - text: . Neither is large enough to signal much.
+      - heading "What the model output adds" [level=3]
+      - paragraph: Funds were 2.5 points of OI less long than the model expected. The actual figure sits inside the model’s 90% range, and about a quarter of past residuals were at least this large, so this is roughly a one-in-four event. At most it is a mild hint that funds were holding back relative to whatever the model’s inputs implied. Also, the model forecasts positioning, not prices, so even a large residual wouldn’t by itself predict yields.
+      - heading "Context and caveats" [level=3]
+      - list:
+        - strong: Timing.
+        - text: The report is dated Tuesday 2 November 2021, the day before the Fed announced it would begin tapering asset purchases. Positions taken just ahead of a widely anticipated FOMC decision partly reflect event hedging, which makes a single week especially noisy.
+        - strong: One week, levels only.
+        - text: Positioning is far more informative as week-on-week changes and against its own history, such as percentile ranks or z-scores. Large one-sided positions mainly matter as a crowding risk if the market moves against them.
+        - strong: Worth checking the data.
+        - text: The four categories sum to a net long of about 338,000 contracts. Since all positions net to zero, that implies non-reportable traders were net short about 8.5% of OI. That is large for a group that is usually a small part of this market. The asset manager spreading figure (about 851,000) also looks high. I couldn’t verify this against the CFTC source here, so it’s worth confirming that the columns, especially spreading, weren’t shifted between categories.
+        - strong: It’s historical.
+        - text: This is from five years ago and says nothing about the Treasury market today.
+      - paragraph: If you have several weeks of this report, or the 2-year and 5-year contracts for the same date, I can help separate directional positioning from curve and basis trades.
+      - group "Suggested actions":
+        - button "Create a Word document":
+          - generic: 
+          - text: Create a Word document
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button "Scroll to bottom":
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - document
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note: No history, memory, or Claude training.
+  - 'button "Model: Opus 5.5 High"':
+    - generic: Opus 5.5
+    - generic: High
+  - button "Auto":
+    - generic: Auto
+  - status: Claude finished the response
+  - complementary
+  - status
+- generic: Incognito
+- button "Exit incognito":
+  - generic: 
+- status
+- status
+- region "Notifications"
+- generic "Click to open Quillbot"
+- generic "Open quick settings":
+- generic "Use AI"

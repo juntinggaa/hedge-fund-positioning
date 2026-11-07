@@ -1,0 +1,36 @@
+Short answer: this snapshot shows ordinary positioning, not a market under strain. The leveraged-fund short is moderate, and the model says this week’s adjustment was close to what conditions implied. It doesn’t tell you much about where yields were heading.
+
+The positioning itself
+
+Your figures check out. Each net equals long minus short, and the percentages match open interest. The four reportable groups net to +54,486 contracts, so non-reportable traders must have been net short about 54,500 (roughly −1.9% of OI).
+
+Leveraged funds were net short about 101,000 contracts, or −3.6% of OI (about $10bn face value). In Treasury futures, a leveraged-fund short often reflects the short futures leg of a cash-futures basis trade rather than a bearish bet on rates. As your notes say, the cash leg isn’t visible here, so this data can’t confirm that.
+Asset managers were net long by almost the same amount (+3.6%), which fits the usual pattern of them holding duration through futures. Their gross positions are very large: 924k long, 822k short and 370k spreading. Their net is a small residue of two-sided activity, so the net figure understates how much they’re involved.
+Dealers were net short about 4.9%. That is consistent with hedging cash inventory, though again not provable from this table.
+Other reportables held the largest net position, long about 6.9% of OI.
+
+No group looks stretched in isolation. Without a history of these levels, though, I can’t say whether −3.6% was unusual for leveraged funds at the time.
+
+What the model adds
+
+The residual of −0.85 percentage points is about 24,000 contracts. That is roughly 0.4 times the model’s RMSE of 2.07, and 69% of earlier out-of-sample residuals were at least this large. So leveraged funds adjusted roughly as same-week returns, volatility, funding conditions, open-interest changes and lagged positions would suggest. There’s no sign of an unusual buildup or unwind beyond that.
+
+Some limits on how far this goes:
+
+The model explains changes, not levels. Without last week’s actual level, the size of the expected weekly change can’t be recovered.
+The expected value relies on current-week inputs, including returns and open interest. It describes the week after the fact and doesn’t forecast anything.
+An out-of-sample R² of about 10% means most weekly variation is still unexplained. A “normal” residual is weak evidence either way.
+The model was selected retrospectively, and its range coverage is historical, not a guarantee for this week.
+
+The timing matters
+
+21 June 2016 was the Tuesday before the UK’s Brexit referendum on 23 June. The report would have been published Friday 24 June, the day the result triggered a sharp flight into Treasuries, with 10-year yields falling to record lows over the following weeks. This data captures positioning just before that shock. Read honestly, it shows no conspicuously crowded or disorderly positioning going in. It doesn’t show anyone anticipating the outcome, and it shouldn’t be read as having predicted the rally. If the leveraged-fund short was mostly basis trades, it would have been largely hedged against the yield move. Funding and basis conditions would have mattered more than the direction of rates.
+
+What would sharpen the picture
+
+A time series of each group’s net level and where this week ranks historically
+Last week’s figures, to see the actual change
+Positions in other Treasury tenors (2s, 5s, bonds, Ultras), since curve trades spread across contracts
+Repo and futures basis data, to judge whether basis trades were attractive
+
+One caveat: at your request I didn’t search, so I haven’t checked these numbers against the published CFTC report and have taken them as given.

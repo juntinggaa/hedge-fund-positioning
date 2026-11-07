@@ -1,0 +1,29 @@
+Bottom line: this looks like a very large, crowded Treasury cash–futures basis trade that is fully in line with what your model expected. It is not a strong directional bet against Treasuries, and the model gives no “surprise” signal this week.
+
+What the table shows
+
+The two big numbers mirror each other. Asset managers are net long about 2.21 million contracts (+42.7% of OI), and leveraged funds are net short about 2.01 million (−38.7%). That is the classic structure of the basis trade:
+
+Asset managers (pension funds, insurers, bond funds) get duration exposure through futures because it is capital-efficient and the financing is built in. That long demand pushes futures slightly rich to cash Treasuries.
+Leveraged funds take the other side. They sell the rich futures, buy the cheapest-to-deliver cash notes, and finance them in repo. They earn the small price gap, magnified by leverage.
+
+So the hedge-fund short is mostly the hedge leg of a long-cash position. It does not mean the funds expect yields to rise. Reading it as “smart money is bearish Treasuries” would be a mistake.
+
+At $100,000 face per contract, the leveraged-fund net short is about $200 billion face in the 10-year contract alone. The same trade usually runs across the 2-year, 5-year, Ultra and Bond contracts too, so the total exposure is larger.
+
+Dealers are net short (−7.6%), which is typical of their role as intermediaries hedging inventory. Other Reportables are modestly long, and non-reportables net out to roughly +42,000 contracts. Neither carries much signal here.
+
+What the model output adds
+
+The residual of −0.36 pp is tiny. About 84% of past out-of-sample misses were at least this large, so this week sits among the model’s most accurate fits. The actual value is well inside the 90% range of −41.8% to −35.0%. Given its inputs, leveraged-fund positioning is right where the model would put it. Nothing unusual happened this week beyond what those drivers explain.
+
+One caution: a small residual doesn’t mean the level is normal or safe. It only means the model predicted it. If the model leans on lagged positioning or slow-moving variables, it will track a gradual build-up closely without flagging that the build-up itself is large.
+
+What it implies for the market
+Market-structure risk is the main takeaway. A position this size depends on cheap, available repo financing and stable margins. If repo rates spike, CME raises margins, or volatility jumps, funds may unwind together. That would mean selling cash Treasuries and buying back futures, which can disrupt cash-market liquidity. This dynamic is what regulators worried about in March 2020.
+It says little about direction. Because the long and short legs offset, this snapshot doesn’t tell you whether participants expect yields to rise or fall.
+The real-money long is genuine duration demand. Asset managers’ net long reflects real appetite for 10-year exposure, though some of it substitutes for holding cash bonds.
+Limits of this snapshot
+It’s old. The data are for 14 April 2026, about seven months ago, so they describe that week’s market, not today’s.
+It’s a single week. With no prior weeks, I can’t tell whether the short was building, stable or shrinking. The weekly change is often more informative than the level.
+It’s one contract, futures only. Without the other tenors, or repo and cash-holdings data, the overall basis-trade size and its exact link to cash positions are inferred, not observed.

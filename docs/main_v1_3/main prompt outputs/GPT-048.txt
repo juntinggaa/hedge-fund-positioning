@@ -1,0 +1,127 @@
+The positioning suggests a Treasury futures market with a pronounced split between asset managers holding long positions and leveraged funds holding short positions. This is consistent with substantial relative-value and hedging activity, potentially including cash-futures basis trades, rather than a straightforward disagreement about the direction of Treasury yields.
+
+The model adds an important nuance: leveraged funds were less net short than their contemporaneous market conditions would have suggested. That is a moderately unusual positive positioning adjustment, but not compelling evidence of a major regime change or an imminent Treasury rally.
+
+## 1. What the positioning tells us
+
+Net position as % of total open interest — June 24, 2025
+
+Asset managers
+
++42.19%
+
+Other reportable
+
++2.11%
+
+Dealers
+
+-7.35%
+
+Leveraged funds
+
+-38.92%
+
+Net shortNet long
+
+The most notable feature is the near-offsetting positioning of two major groups.
+
+- Asset managers: +42.19% of open interest. Their substantial net longs are consistent with duration exposure, liability hedging, benchmark management and other institutional portfolio objectives.
+- Leveraged funds: −38.92%. Their substantial net shorts may reflect bearish duration positioning, hedges against long cash Treasury holdings, relative-value trades or combinations of these.
+- Dealers: −7.35%. Their net shorts can reflect intermediary balance-sheet management, client facilitation and hedging rather than a proprietary macroeconomic view.
+
+A plausible interpretation is that asset managers are absorbing significant long futures exposure while leveraged funds supply short futures exposure, possibly as part of leveraged cash-futures relative-value strategies.
+
+However, the report does not establish how much of the leveraged-fund short is a basis trade. A fund short Treasury futures while holding Treasury cash bonds may have limited net directional duration exposure. The same reported futures short could also be part of a genuinely bearish rates strategy.
+
+Therefore, interpreting the −38.92% position as a direct forecast of rising yields would be misleading.
+
+## 2. What the model adds
+
+Leveraged-fund positioning: actual versus expected
+
+Model-expected
+
+# −41.90%
+
+Actual
+
+# −38.92%
+
+Unexpected positioning adjustment
+
+Actual minus expected
+
+## +2.98 pp
+
+Approximately 84% of earlier absolute out-of-sample residuals were smaller.
+
+The positive residual indicates that leveraged funds' net positioning adjustment was 2.98 percentage points of open interest more positive than the model expected, given the observed financial conditions and other inputs.
+
+This is consistent with less aggressive net short positioning than the conditional historical relationships would predict.
+
+But two distinctions are essential.
+
+First, it does not necessarily mean leveraged funds reduced their net shorts compared with the previous week. Their net short position could still have increased, just by less than predicted. Last week's actual positioning is needed to establish the direction of the realised weekly change.
+
+Second, the positive residual does not necessarily represent discretionary bullish buying or basis-trade liquidation. It could reflect numerous unobserved influences, model error or changing relationships among the inputs.
+
+The residual is moderately notable: about 16% of earlier absolute errors were at least this large. The actual position also remained inside the approximate historical-error range of −45.38% to −38.43%, albeit near its less-negative boundary.
+
+Thus, the model offers evidence of a meaningful conditional positioning surprise, not evidence of an exceptional or statistically identified structural shift.
+
+## 3. What this means for Treasury market risk
+
+The most important implication may concern market structure rather than the immediate direction of yields.
+
+| Market dimension          | Interpretation                                                                                   |
+| ------------------------- | ------------------------------------------------------------------------------------------------ |
+| Directional rates outlook | Ambiguous. Large futures shorts do not necessarily imply bearish Treasury views.                 |
+| Basis-trade exposure      | Potentially important, but quantities cannot be inferred from this report.                       |
+| Positioning pressure      | Significant gross short exposure in leveraged funds creates scope for futures short covering.    |
+| Market liquidity          | Potential vulnerability if leveraged relative-value positions must be unwound rapidly.           |
+| Near-term signal          | Mildly consistent with less short positioning than expected, not a reliable outright buy signal. |
+
+The distinction matters particularly during a market stress episode.
+
+If leveraged investors hold long cash Treasuries financed through repo and short futures as a hedge, a forced unwind can involve selling cash Treasuries and buying back futures.
+
+That combination may generate upward pressure on cash Treasury yields, support Treasury futures relative to cash bonds, and destabilize the cash-futures basis. It would not necessarily produce a simple, uniform Treasury rally.
+
+Conversely, if the short positions mainly represent outright bearish rate bets, covering those shorts could support futures prices and put downward pressure on yields.
+
+Without observing the accompanying cash positions and financing arrangements, we cannot distinguish these outcomes from CFTC positioning alone.
+
+## 4. Does the positive residual change the overall interpretation?
+
+Somewhat, but not dramatically.
+
+The conditional expectation of −41.90% indicates that the model's fitted relationships pointed toward an even larger leveraged-fund short position than the one observed.
+
+The actual −38.92% means those relationships overpredicted net short exposure for this week.
+
+That makes the observation less consistent with aggressive short positioning than the conditional benchmark, but it does not show that the enormous existing short exposure has disappeared.
+
+It is also worth keeping the model's predictive limitations in perspective. A 10.47% reduction in squared prediction error relative to the specified benchmark is useful evidence of statistical predictive content, but an RMSE of 2.07 percentage points remains material. The model was retrospectively selected and uses current-week information, so its output is best regarded as a diagnostic of historical positioning relationships rather than a deployable trading forecast.
+
+## 5. What would strengthen the interpretation?
+
+To understand whether this snapshot signals growing fragility, reduced leverage or changing duration expectations, I would prioritize three additional observations:
+
+1. Multiweek positioning changes: Are leveraged funds systematically becoming less short, or is this a single positive residual amid continued short accumulation?
+2. Actual cash-futures basis and repo financing conditions: Are relative-value opportunities expanding, funding costs rising, or cash-futures dislocations increasing? These would help assess basis-trade incentives and vulnerabilities.
+3. Cross-market confirmation: Are similar positioning adjustments emerging in 2-year, 5-year, bond and ultra-bond contracts, and are Treasury yields, curve spreads and liquidity conditions moving consistently with them?
+
+None of these can be answered from the supplied snapshot alone.
+
+## Bottom line
+
+The June 24, 2025 positioning suggests a Treasury market characterized by substantial institutional futures demand on one side and large leveraged-fund short exposure on the other, potentially reflecting considerable hedged relative-value intermediation.
+
+The model shows a moderately unusual positive conditional surprise of 2.98 percentage points: leveraged funds were less short than the model would have expected.
+
+My overall interpretation is:
+
+The strongest signal is substantial positioning concentration and potential vulnerability to leveraged-position unwinds. The weaker, more tentative signal is that leveraged funds were positioning less negatively than contemporaneous conditions historically implied. Neither observation independently establishes a bullish Treasury outlook or predicts the direction of yields.
+
+In short, this is more informative about Treasury market structure, leverage-related risks and positioning pressure than about where the 10-year Treasury yield should move next.

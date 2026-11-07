@@ -1,0 +1,75 @@
+## Treasury market interpretation — 31 August 2021
+
+The positioning suggests a moderately bullish stance toward 10-year Treasury futures among leveraged funds, but not an unusually strong or statistically compelling signal relative to the model's expectations.
+
+The key distinction is between the absolute positioning of leveraged funds and their positioning relative to what the model predicts.
+
+### 1. Leveraged funds have meaningful positive duration exposure
+
+Leveraged funds held 773,159 long contracts against 501,404 short contracts, giving a net long position of 271,755 contracts, or +6.89% of open interest.
+
+All else equal, a net long Treasury futures position benefits from rising Treasury futures prices, typically associated with falling Treasury yields.
+
+This indicates positive aggregate directional exposure to Treasury prices among leveraged funds. However, it does not establish that all leveraged funds are bullish or that their futures positions represent outright macroeconomic bets. Some positions may hedge cash Treasuries, swaps, or relative-value trades.
+
+### 2. The model indicates only a modest bullish positioning surprise
+
+Expected net
+
+# +5.15%
+
+Actual net
+
+# +6.89%
+
+Residual
+
+# +1.74 pp
+
+Actual versus expected net positioning (% of open interest)
+
+The actual +6.89% is above the predicted +5.15%, implying leveraged funds were somewhat more net long than the model anticipated.
+
+However:
+
+- The actual position lies comfortably within the model's approximate 90% error range of +1.57% to +8.72%.
+- A residual of this magnitude or greater occurred in approximately 38% of earlier out-of-sample observations, measured in absolute terms.
+- Therefore, the positive residual is not particularly exceptional.
+
+The model supports a mild bullish positioning tilt relative to expectations, rather than an extreme or anomalous bullish signal.
+
+### 3. Other trader categories show contrasting exposures
+
+| Trader category   | Net (% OI) | Interpretation            |
+| ----------------- | ---------- | ------------------------- |
+| Leveraged funds   | +6.89%     | Net long Treasury futures |
+| Asset managers    | +3.34%     | Also net long             |
+| Dealers           | −0.62%     | Slightly net short        |
+| Other reportables | −4.09%     | Meaningfully net short    |
+
+Asset managers and leveraged funds both held positive net exposures, while other reportables and dealers held negative exposures.
+
+This divergence highlights differences in positioning across participant types. It does not, by itself, establish which side is better informed, because each category can contain hedging and relative-value activities as well as directional trades.
+
+### 4. Implications for Treasury prices and yields
+
+The positioning is consistent with some bullish exposure to Treasury prices, which is directionally associated with lower yields.
+
+Nevertheless, the data do not establish a reliable forecast for subsequent Treasury returns.
+
+In particular, the report cannot independently determine:
+
+- Whether leveraged funds will increase or unwind their net longs.
+- Whether their positioning reflects outright duration bets or hedges against other exposures.
+- Whether the market is crowded relative to its own historical distribution.
+- Whether the positive model residual predicts subsequent price movements.
+
+The model's historical residual distribution measures how unusual the positioning surprise is, not whether the surprise has predictive power for future Treasury returns.
+
+## Bottom line
+
+The 10-year Treasury futures market showed a moderately bullish positioning configuration among leveraged funds as of 31 August 2021. Their net long exposure exceeded the model-implied expectation by 1.74 percentage points of open interest, but this deviation was relatively ordinary by historical out-of-sample standards.
+
+The defensible conclusion is that leveraged funds were somewhat more positively exposed to Treasury prices than expected, without evidence of an extreme positioning imbalance.
+
+This is a modest bullish positioning observation, not a strong standalone signal to buy Treasuries or forecast falling yields.

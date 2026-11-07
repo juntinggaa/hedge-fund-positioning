@@ -1,0 +1,104 @@
+
+Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts.
+
+Open interest (all contracts): 3,934,302
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 211,953 | 227,582 | 41,198 | -15,629 | -0.40% |
+| Asset Manager / Institutional | 1,458,078 | 1,409,497 | 788,616 | 48,581 | +1.23% |
+| Leveraged Funds | 853,740 | 498,222 | 99,743 | 355,518 | +9.04% |
+| Other Reportable | 133,901 | 292,990 | 9,644 | -159,089 | -4.04% |
+
+Output of a supervised model of leveraged-fund positioning (model v4.0):
+
+- Expected net position this week: +9.23% of open interest (approximate 90% range based on earlier out-of-sample errors: +5.66% to +12.79%).
+- Actual net position this week: +9.04% of open interest.
+- Residual (actual minus expected): -0.19 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 9% were smaller than this one and 91% were at least as large.
+
+What does this positioning suggest about the Treasury market?
+
+Please answer without using web search.
+…
+The positioning points to a bullish directional bias in 10-Year Treasury futures, driven primarily by leveraged funds. However, it is better interpreted as evidence of substantial speculative long exposure than as a definitive forecast that Treasury prices will rise.
+
+1. Leveraged funds are the dominant bullish position
+Leveraged funds held:
+
+Long: 853,740 contracts
+
+Short: 498,222 contracts
+
+Net: +355,518 contracts
+
+Net as a share of open interest: +9.04%
+
+This is the largest net directional position among the four reported categories. It is substantially larger than the asset managers’ net long position of 48,581 contracts.
+
+In conventional market terms, being net long Treasury futures expresses a preference for higher Treasury prices and, all else equal, lower yields. The scale of the leveraged-fund position suggests that this bullish exposure is meaningful rather than marginal.
+
+2. Other categories provide a more mixed picture
+Category
+
+Net position
+
+Interpretation
+
+Dealer / Intermediary
+
+-15,629
+
+Slightly net short
+
+Asset Manager / Institutional
+
++48,581
+
+Modestly net long
+
+Leveraged Funds
+
++355,518
+
+Strongly net long
+
+Other Reportable
+
+-159,089
+
+Meaningfully net short
+
+The positioning is not uniformly bullish. Other Reportable traders are considerably net short, while dealers are slightly net short. Asset managers are net long, but their exposure is modest relative to leveraged funds.
+
+This indicates that the market contains substantial opposing views. The leveraged-fund long position is the clearest directional feature, but it does not represent consensus across trader categories.
+
+3. The model indicates that the position is largely expected
+The model expected leveraged funds to be net long by 9.23% of open interest, with an approximate 90% range of +5.66% to +12.79%.
+
+The actual reading was +9.04%, producing a residual of just -0.19 percentage points.
+
+That has two implications:
+
+The positioning is consistent with the model's bullish expectation. Actual exposure is close to the predicted level and comfortably within the model's approximate range.
+
+The observation is not a meaningful surprise. Only about 9% of earlier absolute out-of-sample residuals were smaller. In other words, the model's prediction was unusually accurate this week.
+
+The small residual should not be confused with a small position. Leveraged funds still had a substantial net long exposure; it was simply very close to what the model anticipated.
+
+4. What this might mean for the Treasury market
+The most natural interpretation is that leveraged funds had a significant bullish exposure to 10-Year Treasury futures, potentially reflecting expectations of lower yields, demand for duration, or relative-value opportunities.
+
+There are important qualifications:
+
+Positioning is not necessarily outright directional conviction. Leveraged funds can use Treasury futures in relative-value, spread, and other hedging strategies. The report does not reveal the purpose of each position.
+
+A large net long can create vulnerability to liquidation. If yields rise and leveraged funds reduce their exposure, selling pressure in futures could amplify a Treasury-market decline.
+
+The data are a snapshot, not a forecast. They do not establish whether the positions are increasing or decreasing without comparison to previous weeks.
+
+Overall assessment
+The September 21, 2021 positioning suggests a meaningful bullish bias in 10-Year Treasury futures, concentrated among leveraged funds, alongside sizeable net short exposure from Other Reportable traders.
+
+The model reinforces that interpretation: the leveraged-fund position was almost exactly what it predicted, so the data do not indicate an unexpected positioning shock. The more interesting market implication is the potential asymmetry: a large leveraged long position may support Treasury prices while confidence remains intact, but could also create downside pressure if those positions are unwound.
+
+Bottom line: The positioning is bullish in directional terms, but not an unambiguous bullish market signal. It indicates substantial leveraged-fund exposure and potential vulnerability to a reversal, rather than proving that Treasury yields are about to fall.

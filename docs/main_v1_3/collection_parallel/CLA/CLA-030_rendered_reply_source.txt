@@ -1,0 +1,20 @@
+Short answer: not much about direction. Leveraged funds were close to flat in 10-year note futures that week, roughly where the model expected them to be. The more visible features are the asset-manager net short and the “other reportable” net long, and neither one can be read as a yield call.
+
+What the table shows
+Leveraged funds: +0.91% of OI, essentially neutral. The small net hides large two-sided books: about 621k long and 595k short, each roughly a fifth of open interest. A near-zero net tells you nothing about how much relative-value activity (basis, curve, calendar) sits underneath, so it isn’t evidence of a speculative bet in either direction.
+Asset managers: −6.27% of OI, the largest net short. This is the most notable line, but it isn’t a bearish signal on its own. Asset managers use futures for duration management, hedging cash holdings, and benchmark overlays. A net short can simply mean they were trimming duration through futures rather than selling bonds. It is also the reverse of the long-asset-manager, short-leveraged-fund pattern that dominated Treasury futures in later years.
+Other reportables: +6.66% of OI, the largest net long, roughly offsetting the asset managers. Dealers were near flat (−0.42%).
+Non-reportables: the four reportable nets sum to about +25k contracts, so non-reportable traders were net short about that amount.
+What the model adds
+The residual of +0.50 pp is small and unremarkable. RMSE is 2.07 pp, and 78% of earlier out-of-sample residuals were at least this large. Leveraged funds’ positioning looks consistent with what returns, volatility, curve shape, funding conditions and lagged positions would predict.
+We can’t tell how much leveraged funds actually changed their position that week. The expected level is last week’s actual level plus the predicted change, and last week’s level isn’t given.
+The model explains only part of week-to-week changes. Its out-of-sample R² is about 10%. Even a large residual wouldn’t identify basis-trade activity, motives or private information, as the model notes themselves say.
+Market context
+
+From memory, without searching, so treat the details loosely: this snapshot (positions as of Tuesday 12 July 2016) came just after the post-Brexit rally took 10-year yields to record lows in early July. Yields then rebounded sharply on a strong June payrolls report and expectations of Japanese fiscal stimulus. Positioning doesn’t show leveraged funds strongly crowded on either side of that turn. Their position looks in line with model expectations, not like a large unexpected chase or reversal of the move.
+
+Limits worth keeping in mind
+This is one contract (TY), futures-only. A view on Treasury positioning would need the 2-year, 5-year, bond and ultra contracts, ideally duration-weighted, plus options.
+The model is a retrospective same-week fit using current-week open interest. It is neither a forecast nor a deployable backtest.
+
+Bottom line: the data suggests a market without an obvious speculative imbalance in 10-year futures that week. The asset-manager short and other-reportable long are the features worth investigating, but they are more likely hedging and allocation flows than directional signals.

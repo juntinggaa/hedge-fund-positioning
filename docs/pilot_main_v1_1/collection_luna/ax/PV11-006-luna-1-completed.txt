@@ -1,0 +1,305 @@
+Window: "Google Gemini", App: Google Chrome.
+0 standard window Google Gemini - Google Chrome – Tong, URL: gemini.google.com/app, Secondary Actions: Raise
+	1 container Google Gemini - Google Chrome – Tong, URL: gemini.google.com/app
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: gemini.google.com/app, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button Open Claude
+Has access to this site
+					13 pop-up button Extensions
+				14 button Tong
+				15 pop-up button Action required
+			16 container
+				17 scroll area
+					18 HTML content Google Gemini, URL: gemini.google.com/app
+						19 container
+							20 container
+								21 button Open sidebar
+								22 container Side navigation
+									23 container
+										24 container Main actions menu
+											25 link New chat, Value: gemini.google.com/app
+										26 container Additional actions menu
+											27 pop-up button Search chats
+											28 link Library, Value: gemini.google.com/library
+											29 link Images, Value: gemini.google.com/images
+											30 container Scheduled
+												31 link Scheduled, Value: gemini.google.com/scheduled
+											32 link Students, Value: gemini.google.com/students
+										33 link Google Account: Tong Jing Yen (jingyentong@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com
+										34 pop-up button Settings
+								35 container
+									36 container
+										37 heading Conversation with Gemini, Value: 1
+											38 text Conversation with Gemini
+										39 container
+											40 text Temporary chat
+											41 container
+												42 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+													43 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+												44 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts.
+												45 text Open interest (all contracts): 3,934,302
+												46 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+												47 text |---|---|---|---|---|---|
+												48 text | Dealer / Intermediary | 211,953 | 227,582 | 41,198 | -15,629 | -0.40% |
+												49 text | Asset Manager / Institutional | 1,458,078 | 1,409,497 | 788,616 | 48,581 | +1.23% |
+												50 text | Leveraged Funds | 853,740 | 498,222 | 99,743 | 355,518 | +9.04% |
+												51 text | Other Reportable | 133,901 | 292,990 | 9,644 | -159,089 | -4.04% |
+												52 text Context you may find relevant: leveraged funds sometimes hold short positions in Treasury futures as one leg of a cash-futures basis trade, in which the fund buys the underlying Treasury security, finances it in the repo market, and sells the corresponding futures contract. A position held for that reason expresses a relative-value view about the spread between the cash and futures markets rather than a directional view about the level of yields. Asset managers may likewise hold futures for duration managem
+												53 text What does this positioning suggest about the Treasury market?
+												54 text Please answer without using web search.
+												55 button Expand
+											56 button Copy prompt
+											57 button Edit
+											58 container
+												59 heading Gemini said, Value: 6
+													60 text Gemini said
+												61 container
+													62 text This positioning snapshot shows a 10-Year Treasury futures market dominated in  gross volume by institutional asset managers  (who are nearly flat on net) and led in  net directional imbalance by leveraged funds  (+355, 518 contracts,  or +9. 04% of open interest),  whose net long exposure is offset primarily by  Non-Reportable (small) traders  and  Other Reportables .  However,  because futures frequently serve as one leg of cross-market relative-value or hedging structures,  gross and net figures tell very different stories about underlying market risk.
+													63 heading 1. The Complete Market Balance (Including Implied Non-Reportables), Value: 3
+														64 text 1. The Complete Market Balance (Including Implied Non-Reportables)
+													65 text Because every futures contract has both a long and a short holder,  summing the reportable categories against total open interest (3, 934, 302 contracts) reveals the unstated fifth group— Non-Reportable (small) traders ,  who hold the largest offsetting net short in the market:
+													66 container
+														67 table
+															68 row
+																69 column header
+																	70 text Category
+																71 column header
+																	72 text Directional Long
+																73 column header
+																	74 text Directional Short
+																75 column header
+																	76 text Spreading (Both Sides)
+																77 column header
+																	78 text Total Long % of OI
+																79 column header
+																	80 text Total Short % of OI
+																81 column header
+																	82 text Net Contracts
+																83 column header
+																	84 text Net % of OI
+															85 row
+																86 cell
+																	87 text Dealer / Intermediary
+																88 cell
+																	89 text 211,953
+																90 cell
+																	91 text 227,582
+																92 cell
+																	93 text 41,198
+																94 cell
+																	95 text 6.43%
+																96 cell
+																	97 text 6.83%
+																98 cell
+																	99 text -15,629
+																100 cell
+																	101 text -0.40%
+															102 row
+																103 cell
+																	104 text Asset Manager
+																105 cell
+																	106 text 1,458,078
+																107 cell
+																	108 text 1,409,497
+																109 cell
+																	110 text 788,616
+																111 cell
+																	112 text 57.11%
+																113 cell
+																	114 text 55.87%
+																115 cell
+																	116 text +48,581
+																117 cell
+																	118 text +1.23%
+															119 row
+																120 cell
+																	121 text Leveraged Funds
+																122 cell
+																	123 text 853,740
+																124 cell
+																	125 text 498,222
+																126 cell
+																	127 text 99,743
+																128 cell
+																	129 text 24.24%
+																130 cell
+																	131 text 15.20%
+																132 cell
+																	133 text +355,518
+																134 cell
+																	135 text +9.04%
+															136 row
+																137 cell
+																	138 text Other Reportable
+																139 cell
+																	140 text 133,901
+																141 cell
+																	142 text 292,990
+																143 cell
+																	144 text 9,644
+																145 cell
+																	146 text 3.65%
+																147 cell
+																	148 text 7.69%
+																149 cell
+																	150 text -159,089
+																151 cell
+																	152 text -4.04%
+															153 row
+																154 cell
+																	155 text Reportable Subtotal
+																156 cell
+																	157 text 2,657,672
+																158 cell
+																	159 text 2,428,291
+																160 cell
+																	161 text 939,201
+																162 cell
+																	163 text 91.42%
+																164 cell
+																	165 text 85.59%
+																166 cell
+																	167 text +229,381
+																168 cell
+																	169 text +5.83%
+															170 row
+																171 cell
+																	172 text Implied Non-Reportable
+																173 cell
+																	174 text 337,429
+																175 cell
+																	176 text 566,810
+																177 cell
+																	178 text —
+																179 cell
+																	180 text 8.58%
+																181 cell
+																	182 text 14.41%
+																183 cell
+																	184 text -229,381
+																185 cell
+																	186 text -5.83%
+															187 row
+																188 cell
+																	189 text Total Market
+																190 cell
+																	191 text 2,995,101
+																192 cell
+																	193 text 2,995,101
+																194 cell
+																	195 text 939,201
+																196 cell
+																	197 text 100.00%
+																198 cell
+																	199 text 100.00%
+																200 cell
+																	201 text 0
+																202 cell
+																	203 text 0.00%
+														204 button More options
+													205 heading 2. What Each Category Suggests About the Market, Value: 3
+														206 text 2. What Each Category Suggests About the Market
+													207 text Leveraged Funds: A Departed or Inverted "Classic Basis" Footprint (+9.04% of OI)
+													208 content list
+														209 container
+															210 text Unusual net long tilt:  In environments dominated by the classic repo-financed cash-futures basis trade (buy cash Treasuries,  sell futures),  leveraged funds register deep net  short  positions while asset managers sit heavily net  long .  Here,  the opposite holds:  leveraged funds are the market's primary net long (+355, 518 contracts),  holding roughly 1. 7 times as many directional longs (853, 740) as shorts (498, 222).
+														211 container
+															212 text Coexisting strategies beneath the net number:  A net long of +355, 518 does not mean the short basis trade is absent—leveraged funds still hold nearly half a million short contracts (12. 7% of OI excluding spreading).  Rather,  those shorts are outweighed by an even larger block of long contracts (21. 7% of OI).  Those longs may reflect:
+															213 content list
+																214 container
+																	215 text Macro/CTA directional views  positioning for lower yields (higher bond prices).
+																216 container
+																	217 text Yield-curve trades  (e. g.,  long 10-year futures against short 2-year or 30-year futures in flatteners/steepeners).
+																218 container
+																	219 text Swap spread or reverse-basis trades  (long futures against paying fixed in interest rate swaps or shorting rich cash bonds).
+													220 text Asset Managers: Structural Two-Way Dominance, Minimal Net Bias (+1.23% of OI)
+													221 content list
+														222 container
+															223 text Massive gross footprint, flat net balance:  Including spreading,  institutional asset managers participate on the long side of  57.1% of all contracts  and the short side of  55.9% of all contracts ,  yet their net position is a negligible +48, 581 contracts (+1. 23% of OI).
+														224 container
+															225 text Structural hedging vs. replication:  Rather than expressing a consensus directional call on yields,  the institutional sector is split cleanly in half.  Long-only bond funds,  pension plans,  and LDI (liability-driven investing) accounts use long futures to replicate benchmarks or add duration without tying up balance sheet,  while other institutional portfolios use short futures of nearly identical aggregate size (1, 409, 497 contracts) to hedge rate risk on corporate credit,  MBS,  or cash Treasury holdings.
+														226 container
+															227 text Heavy intra-category spreading:  Asset managers account for  84% of all spreading  in the contract (788, 616 of 939, 201 contracts).  In the TFF report,  "spreading" measures offsetting long and short positions held by the  same  reporting entity—reflecting large multi-fund complexes running simultaneous long and short mandates across sub-accounts,  or calendar-spread positions around the quarterly futures roll.
+													228 text Dealers / Intermediaries: Lean Warehouse Risk (-0.40% of OI)
+													229 content list
+														230 container
+															231 text Balanced facilitation:  Dealers hold 211, 953 longs against 227, 582 shorts,  leaving a near-zero net position (-15, 629 contracts).  Rather than taking one-sided futures risk,  dealers are operating matched futures books—or using these modest futures positions to hedge net customer flow in cash Treasuries and OTC interest rate swaps.
+													232 text Other Reportables & Implied Non-Reportables: The Offsetting Shorts (-4.04% and -5.83% of OI)
+													233 content list
+														234 container
+															235 text Commercial and rate-lock hedging:  The net long held by leveraged funds and asset managers (+404, 099 combined) is absorbed by  Other Reportables  (-159, 089) and  Non-Reportables  (-229, 381).  In the 10-year sector,  short positioning among Other Reportables (corporate treasuries,  mortgage originators,  non-dealer commercial entities,  and smaller proprietary firms) and smaller non-reportable accounts often reflects rate-lock hedging ahead of debt issuance,  mortgage pipeline hedging,  or tactical bets on rising yields.
+													236 heading 3. Analytical Caveats When Reading This Snapshot, Value: 3
+														237 text 3. Analytical Caveats When Reading This Snapshot
+													238 content list
+														239 container
+															240 text Missing off-balance-sheet legs:  CFTC futures-only data only captures one leg of multi-instrument trades.  A trader appearing "directional" in 10-year futures may actually be delta-neutral across cash Treasuries,  interest rate swaps,  options on futures,  or adjacent points on the yield curve (2Y,  5Y,  Ultra-10Y,  30Y).
+														241 container
+															242 text Snapshot vs. flow:  A single week's levels cannot distinguish whether leveraged funds' +9. 04% net long represents fresh bullish accumulation or the residual of a much larger position being unwound.
+														243 container
+															244 text Roll-period distortion:  Mid-to-late September coincides with the quarterly delivery and roll window (September to December contracts),  which can temporarily inflate both total open interest and the  Spreading  column before expiring contracts are settled or delivered.
+												245 button Redo
+												246 button Copy
+												247 button Show more options
+										248 container
+											249 container
+												250 pop-up button Upload and tools
+												251 container
+													252 text entry area (settable) Enter a prompt for Gemini, Value: Ask Gemini
+
+														253 text Ask Gemini
+													254 text entry area (settable)
+												255 pop-up button Open mode picker, currently Argon High
+												256 container
+													257 button Dictate (⌘⇧D)
+										258 text Gemini is AI and can make mistakes.
+							259 text Determining trader positioning and net exposure
+							260 container Notifications
+			261 container Infobar Container
+				262 container Infobar
+					263 container
+						264 text 'ChatGPT' started debugging this browser
+						265 button Cancel
+					266 button Close
+			267 pop-up button Tab search
+			268 container
+				269 tab group
+					270 tab (selected, settable, boolean) Google Gemini - Memory usage - 360 MB, Value: on
+						271 button Close
+					272 tab (settable, boolean) Manage your Google One membership - Memory usage - 112 MB, Value: off
+						273 button Close
+					274 tab (settable, boolean) Settings - Memory usage - 461 MB, Value: off
+						275 button Close
+					276 tab (settable, boolean) Extensions - Memory usage - 37.3 MB, Value: off
+						277 button Close
+					278 tab (settable, boolean) Claude - Chrome Web Store - Memory usage - 258 MB, Value: off
+						279 button Close
+					280 tab (settable, boolean) Sign in - Claude - Memory usage - 239 MB, Value: off
+						281 button Close
+					282 tab (settable, boolean) Value: off, Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts. Open interest (all contracts): 3,934,302 Trader category Long Short Spreading Net Net as % of OI Dealer / Intermediary 211,953 227,582 41,198 -15,629 -0.40% Asset Manager / Institutional 1,458,078 1,409,497 788,616 48,581 +1.23% Leveraged Funds 853,740 498,222 99,743 355,518 +9.04% Other Reportab
+						283 button Close
+			284 button New tab
+			285 button Open Gemini in Chrome
+	286 close button
+	287 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	288 minimise button
+289 menu bar
+	290 Chrome
+	291 File
+	292 Edit
+	293 View
+	294 History
+	295 Bookmarks
+	296 Profiles
+	297 Tab
+	298 Window
+	299 Help
+
+The focused UI element is 252 text entry area (settable) Enter a prompt for Gemini, Value: Ask Gemini

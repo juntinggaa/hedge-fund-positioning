@@ -1,0 +1,7 @@
+option,status,message,feasible
+B_4w,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),True
+C_4w,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),True
+B_6w,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),True
+C_6w,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),True
+B_8w,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),True
+C_8w,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),True

@@ -1,0 +1,98 @@
+
+Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 3 November 2020. All figures are numbers of contracts.
+
+Open interest (all contracts): 3,077,241
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 184,831 | 254,045 | 13,600 | -69,214 | -2.25% |
+| Asset Manager / Institutional | 1,294,482 | 1,093,048 | 594,378 | 201,434 | +6.55% |
+| Leveraged Funds | 317,487 | 565,227 | 62,759 | -247,740 | -8.05% |
+| Other Reportable | 242,382 | 107,170 | 780 | 135,212 | +4.39% |
+
+Output of a supervised model of leveraged-fund positioning (model v4.0):
+
+- Expected net position this week: -8.17% of open interest (approximate 90% range based on earlier out-of-sample errors: -11.69% to -4.65%).
+- Actual net position this week: -8.05% of open interest.
+- Residual (actual minus expected): +0.12 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 6% were smaller than this one and 94% were at least as large.
+
+What does this positioning suggest about the Treasury market?
+
+Please answer without using web search.
+…
+The positioning points to a substantial net short position among leveraged funds, offset by net long positions held by asset managers and other reportable traders. This is consistent with some bearish sentiment toward Treasury futures, but it does not establish that the market as a whole expects Treasury prices to fall or yields to rise.
+
+1. Leveraged funds are meaningfully net short
+Leveraged funds hold 317,487 long contracts against 565,227 short contracts, giving them a net short position of 247,740 contracts, or 8.05% of open interest.
+
+In isolation, that is consistent with a bearish view on Treasury prices. Since Treasury prices and yields generally move in opposite directions, an outright bearish futures position would normally be associated with expectations of higher yields.
+
+However, leveraged funds are not necessarily expressing an outright directional view. Their positions can also reflect relative-value trades, hedging, and cash-futures basis strategies. A short futures position does not automatically mean they are betting on rising yields.
+
+2. Other reportable traders are positioned in the opposite direction
+The other categories show a mixed but generally offsetting picture:
+
+Trader category
+
+Net position
+
+Interpretation
+
+Dealer / Intermediary
+
+-69,214
+
+Net short
+
+Asset Manager / Institutional
+
++201,434
+
+Net long
+
+Leveraged Funds
+
+-247,740
+
+Net short
+
+Other Reportable
+
++135,212
+
+Net long
+
+Asset managers are particularly notable: their net long position is approximately 6.55% of open interest. Other reportable traders are also net long at 4.39%.
+
+This suggests a market in which different types of participants are taking opposing positions. Asset managers may be maintaining duration exposure or hedging other portfolio risks, while leveraged funds may be using futures for directional or relative-value strategies. The positioning data alone cannot tell us which explanation applies.
+
+3. The model indicates that leveraged-fund positioning is not surprising
+The model expected leveraged funds to be net short 8.17% of open interest, compared with the actual 8.05%.
+
+The residual is therefore just +0.12 percentage points. This means leveraged funds were slightly less short than the model expected, but the difference is very small.
+
+The historical residual comparison reinforces that interpretation:
+
+Only approximately 6% of earlier absolute residuals were smaller.
+
+Approximately 94% were at least as large.
+
+Actual positioning is comfortably within the model's approximate 90% expected range of -11.69% to -4.65%.
+
+In other words, the model has explained this week's positioning quite closely. There is little evidence here of an unexpected leveraged-fund positioning shock. The small positive residual should not be treated as a meaningful change in sentiment.
+
+4. What this suggests about the Treasury market
+Three conclusions are reasonable:
+
+First, there is a meaningful bearish or short-futures position among leveraged funds. This creates potential sensitivity to changes in Treasury prices. A significant Treasury rally could force some short-position holders to reduce or close their positions, potentially adding buying pressure. Conversely, a further sell-off could validate some bearish positions.
+
+Second, the market is not uniformly bearish. Asset managers and other reportable traders are net long. The positioning reflects differing investment strategies and risk exposures rather than a single, shared market outlook.
+
+Third, the leveraged-fund position is broadly in line with the model's expectations. The data do not indicate that leveraged funds have taken an unusually large position relative to what the model anticipated.
+
+Overall assessment
+I would characterize this report as showing notable leveraged-fund short positioning, offset by substantial institutional and other-reportable net longs, with no meaningful model-detected positioning surprise.
+
+It is consistent with some bearish pressure or hedging activity in Treasury futures, but it is not sufficient evidence to forecast a Treasury sell-off or higher yields.
+
+To establish whether the market is becoming vulnerable to a short squeeze, or whether bearish sentiment is intensifying, the most useful additional evidence would be the historical percentile and week-to-week change in leveraged-fund net positions, alongside Treasury price action, yields, and cash-futures basis conditions. Those would help distinguish a genuinely crowded directional short from a relatively ordinary positioning pattern driven by hedging or relative-value trading.

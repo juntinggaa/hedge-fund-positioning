@@ -1,0 +1,77 @@
+The positioning suggests a Treasury futures market dominated by a large structural divide: asset managers are heavily long, leveraged funds are heavily short, and dealers are also net short. The main implication is less a straightforward bearish signal for Treasury prices than a potential vulnerability to funding stress, position unwinds, and abrupt changes in market liquidity.
+1. What the positioning reveals
+Trader category	Net contracts	% of open interest	Interpretation
+Asset managers	+2,412,885	+45.95%	Large long-duration or portfolio-hedging exposure
+Leveraged funds	−1,979,511	−37.70%	Substantial short futures exposure, potentially including basis and relative-value trades
+Dealers	−462,478	−8.81%	Likely reflects intermediation, inventory management and client hedging
+Other reportables	+29,992	+0.57%	Relatively balanced
+
+The most important feature is the opposition between asset managers and leveraged funds.
+
+Asset managers may use Treasury futures to obtain duration exposure efficiently, hedge liabilities, or manage portfolio risk. Leveraged funds may short futures for directional reasons, but also to hedge long positions in cash Treasuries, including through cash-futures basis trades.
+
+Consequently, leveraged funds' nearly two-million-contract net short position should not automatically be interpreted as an enormous outright bet on rising yields.
+
+Indeed, both sides can participate in the same market equilibrium without holding opposite views about the future direction of interest rates.
+2. What the model adds
+Expected leveraged-fund net
+−36.76%
+Of open interest
+
+Actual leveraged-fund net
+−37.70%
+Of open interest
+
+
+Conditional position comparison
+Within historical range
+
+
+Actual
+
+
+Expected
+
+
+Approx. historical 90% range
+
+
+
+
+The actual position is 0.94 percentage points of open interest more negative than expected, equivalent to approximately 49,000 contracts using this week's open interest.
+
+But this is not an unusually large model surprise:
+- About 62% of earlier absolute out-of-sample residuals were at least as large.
+- The residual is less than half the model's 2.07-percentage-point out-of-sample RMSE.
+- The actual position is within the approximate historical prediction range.
+This suggests that the degree of leveraged-fund short positioning is broadly consistent with the market conditions and positioning relationships captured by the model.
+
+It does not indicate an exceptional new bearish impulse beyond those relationships.
+
+Importantly, the model cannot tell us that 36.76% of open interest represents basis trading, nor that the remaining 0.94 percentage points represents discretionary speculation. Neither interpretation is supported.
+3. Implications for Treasury market risk
+Three mechanisms matter most.
+
+First, the market may be vulnerable to a leveraged-position unwind. If significant leveraged-fund shorts hedge long cash-Treasury positions, higher repo financing costs, margin requirements, or volatility could force funds to reduce both legs. That could mean buying Treasury futures while selling cash Treasuries, potentially creating disruptive price movements and worsening cash-market liquidity.
+
+Second, a sharp Treasury rally could accelerate futures short covering. Falling yields and rising futures prices could prompt short-position reductions, amplifying the futures rally. But that mechanism is contingent on how the shorts are hedged, financed, and risk-managed. Large shorts alone do not establish an imminent squeeze.
+
+Third, asset-manager longs introduce an opposing risk. If inflation expectations rise, yields increase, or institutional investors reduce duration, asset managers could reduce long futures exposure. Given the size of their positions, such adjustments could contribute to downward futures-price pressure.
+
+These risks can coexist. The direction of the next large move depends on which participants are forced or motivated to adjust, rather than on net positioning alone.
+4. What cannot be concluded
+The evidence does not establish that:
+- Treasury yields are about to rise simply because leveraged funds are net short.
+- The entire leveraged-fund short is a cash-futures basis trade.
+- Leveraged funds have recently accelerated their short selling; the prior week's position is not supplied.
+- Positioning is at a historical extreme; that requires historical positioning percentiles.
+- The relatively small model residual means that systemic risk is low.
+The final distinction is particularly important. A position can be statistically unsurprising yet financially vulnerable. A model that explains ordinary positioning changes does not necessarily measure financing leverage, collateral fragility, or liquidation risk.
+Bottom line
+The June 9, 2026 snapshot points to a Treasury market with substantial intermediated exposure and potentially important crowded-position risks, particularly around leveraged funds' large short futures holdings.
+
+The model strengthens a narrow conclusion: this week's leveraged-fund positioning is not an exceptional departure from its estimated same-week conditional relationship. It does not demonstrate that the shorts are fundamentally justified, benign, or predominantly basis trades.
+
+For market outlook purposes, I would interpret this as a conditional financial-stability and market-liquidity warning, rather than a standalone directional interest-rate signal.
+
+The most informative next evidence would be the historical percentile and recent trajectory of leveraged-fund positioning, alongside repo financing conditions, cash-futures basis measures, and Treasury market liquidity. Together, those would help distinguish a large but orderly structural position from an increasingly fragile one.

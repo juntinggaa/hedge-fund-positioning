@@ -1,0 +1,118 @@
+Window: "Google Gemini", App: Google Chrome.
+0 standard window Google Gemini - Google Chrome – Tong, URL: gemini.google.com/app, Secondary Actions: Raise
+	1 container Google Gemini - Google Chrome – Tong, URL: gemini.google.com/app
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: gemini.google.com/app, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button Open Claude
+Has access to this site
+					13 pop-up button Extensions
+				14 button Tong
+				15 pop-up button Action required
+			16 container
+				17 scroll area
+					18 HTML content Google Gemini, URL: gemini.google.com/app
+						19 container
+							20 container
+								21 button Open sidebar
+								22 container Side navigation
+									23 container
+										24 container Main actions menu
+											25 link New chat, Value: gemini.google.com/app
+										26 container Additional actions menu
+											27 pop-up button Search chats
+											28 link Library, Value: gemini.google.com/library
+											29 link Images, Value: gemini.google.com/images
+											30 container Scheduled
+												31 link Scheduled, Value: gemini.google.com/scheduled
+											32 link Students, Value: gemini.google.com/students
+										33 link Google Account: Tong Jing Yen (jingyentong@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com
+										34 pop-up button Settings
+								35 container
+									36 container
+										37 heading Conversation with Gemini, Value: 1
+											38 text Conversation with Gemini
+										39 container
+											40 text Temporary chat
+											41 container
+												42 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+													43 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+												44 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 3 November 2020. All figures are numbers of contracts.
+												45 text Open interest (all contracts): 3,077,241
+												46 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+												47 text |---|---|---|---|---|---|
+												48 text | Dealer / Intermediary | 184,831 | 254,045 | 13,600 | -69,214 | -2.25% |
+												49 text | Asset Manager / Institutional | 1,294,482 | 1,093,048 | 594,378 | 201,434 | +6.55% |
+												50 text | Leveraged Funds | 317,487 | 565,227 | 62,759 | -247,740 | -8.05% |
+												51 text | Other Reportable | 242,382 | 107,170 | 780 | 135,212 | +4.39% |
+												52 text Output of a supervised model of leveraged-fund positioning (model v4.0):
+												53 text - Expected net position this week: -7.86% of open interest (approximate 90% range based on earlier out-of-sample errors: -11.38% to -4.34%).
+												54 text - Actual net position this week: -8.05% of open interest.
+												55 text - Residual (actual minus expected): -0.19 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 9% were smaller than this one and 91% were at least as large.
+												56 text What does this positioning suggest about the Treasury market?
+												57 text Please answer without using web search.
+												58 button Expand
+											59 button Copy prompt
+											60 button (disabled) Edit
+											61 image
+										62 container
+											63 container
+												64 pop-up button Upload and tools
+												65 container
+													66 text entry area (settable) Enter a prompt for Gemini, Value: Ask Gemini
+
+														67 text Ask Gemini
+													68 text entry area (settable)
+												69 pop-up button Open mode picker, currently Argon High
+												70 button Stop response
+										71 text Gemini is AI and can make mistakes.
+							72 text Gemini is typing
+							73 container Notifications
+			74 container Infobar Container
+				75 container Infobar
+					76 container
+						77 text 'ChatGPT' started debugging this browser
+						78 button Cancel
+					79 button Close
+			80 pop-up button Tab search
+			81 container
+				82 tab group
+					83 tab (selected, settable, boolean) Google Gemini - Memory usage - 716 MB, Value: on
+						84 button Close
+					85 tab (settable, boolean) Manage your Google One membership - Memory usage - 112 MB, Value: off
+						86 button Close
+					87 tab (settable, boolean) Settings - Memory usage - 461 MB, Value: off
+						88 button Close
+					89 tab (settable, boolean) Extensions - Memory usage - 37.3 MB, Value: off
+						90 button Close
+					91 tab (settable, boolean) Claude - Chrome Web Store - Memory usage - 258 MB, Value: off
+						92 button Close
+					93 tab (settable, boolean) Sign in - Claude - Memory usage - 239 MB, Value: off
+						94 button Close
+					95 tab (settable, boolean) Value: off, Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts. Open interest (all contracts): 3,934,302 Trader category Long Short Spreading Net Net as % of OI Dealer / Intermediary 211,953 227,582 41,198 -15,629 -0.40% Asset Manager / Institutional 1,458,078 1,409,497 788,616 48,581 +1.23% Leveraged Funds 853,740 498,222 99,743 355,518 +9.04% Other Reportab
+						96 button Close
+			97 button New tab
+			98 button Open Gemini in Chrome
+	99 close button
+	100 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	101 minimise button
+102 menu bar
+	103 Chrome
+	104 File
+	105 Edit
+	106 View
+	107 History
+	108 Bookmarks
+	109 Profiles
+	110 Tab
+	111 Window
+	112 Help
+
+The focused UI element is 66 text entry area (settable) Enter a prompt for Gemini, Value: Ask Gemini

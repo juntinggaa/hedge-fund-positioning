@@ -1,0 +1,130 @@
+Browser tab: 1403820316, Title: "Google Gemini", URL: "https://gemini.google.com/app".
+0 AXWebArea Google Gemini, URL: gemini.google.com/app
+	1 container
+		2 container
+			3 button (collapsed) Description: Open sidebar, Secondary Actions: Expand
+			4 container Side Navigation
+				5 container
+					6 container Main actions menu
+						7 link Description: New chat, Value: gemini.google.com/app
+					8 container Additional actions menu
+						9 pop up button Description: Search chats, ID: base-ui-_r_2_
+						10 link Description: Library, Value: gemini.google.com/library
+						11 link Description: Images, Value: gemini.google.com/images
+						12 container Scheduled
+							13 link Description: Scheduled, Value: gemini.google.com/scheduled
+						14 link Description: Customize, Value: gemini.google.com/customize
+					15 link (collapsed) Description: Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com, Secondary Actions: Expand
+					16 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+			17 container xap-skip-link-target
+				18 container
+					1164 heading Conversation with Gemini, Value: 1
+						1167 text Conversation with Gemini
+					1165 container
+						1166 text Temporary Chat
+						1168 container bbf2a856009cd590
+							1169 container
+								1170 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+									1171 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+								1172 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 3 November 2020. All figures are numbers of contracts.
+								1173 text Open interest (all contracts): 3,077,241
+								1174 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+								1175 text |---|---|---|---|---|---|
+								1176 text | Dealer / Intermediary | 184,831 | 254,045 | 13,600 | -69,214 | -2.25% |
+								1177 text | Asset Manager / Institutional | 1,294,482 | 1,093,048 | 594,378 | 201,434 | +6.55% |
+								1178 text | Leveraged Funds | 317,487 | 565,227 | 62,759 | -247,740 | -8.05% |
+								1179 text | Other Reportable | 242,382 | 107,170 | 780 | 135,212 | +4.39% |
+								1180 text Output of a supervised model of leveraged-fund positioning (model v4.0):
+								1181 text - Expected net position this week: -8.17% of open interest (approximate 90% range based on earlier out-of-sample errors: -11.69% to -4.65%).
+								1182 text - Actual net position this week: -8.05% of open interest.
+								1183 text - Residual (actual minus expected): +0.12 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 6% were smaller than this one and 94% were at least as large.
+								1184 text What does this positioning suggest about the Treasury market?
+								1185 text Please answer without using web search.
+								1186 button (collapsed) Expand
+							1187 button Copy prompt
+							1188 button Edit
+							1189 container
+								1190 heading Gemini said, Value: 6
+									1191 text Gemini said
+								1192 container model-response-message-contentr_bbf2a856009cd590
+									1193 container
+										1194 text Based on the CFTC Traders in Financial Futures report and the output from model v4. 0,  here is what the positioning reveals about market dynamics,  institutional sentiment,  and model performance:
+									1195 heading 1. Market Participant Dynamics & Structural Positioning, Value: 3
+										1196 text 1. Market Participant Dynamics & Structural Positioning
+									1197 content list
+										1198 container
+											1199 text Leveraged Funds (Hedge Funds & Speculators) are Heavily Net Short (-8.05% of OI):
+											1200 content list
+												1201 container
+													1202 text Leveraged funds hold a significant net short position of  -247,740 contracts  (317, 487 long vs.  565, 227 short).
+												1203 container
+													1204 text In the Treasury space,  heavy leveraged fund short positions often reflect one of two strategies:  a  directional macro bet  expecting higher yields (lower Treasury prices),  or a  basis trade  (arbitraging small price discrepancies between cash Treasuries and Treasury futures using high leverage).
+										1205 container
+											1206 text Asset Managers (Real Money) are Net Long (+6.55% of OI):
+											1207 content list
+												1208 container
+													1209 text Institutional managers hold a net long position of  +201,434 contracts .
+												1210 container
+													1211 text This demonstrates standard structural demand from pension funds,  insurance companies,  and buy-and-hold index investors who act as the structural long side opposing speculator shorts.
+										1212 container
+											1213 text Dealers / Intermediaries are Net Short (-2.25% of OI):
+											1214 content list
+												1215 container
+													1216 text Dealers hold  -69,214 net short contracts ,  reflecting their role in warehousing risk and facilitating liquidity for customer order flows rather than taking directional speculative bets.
+									1217 heading 2. Model v4.0 Performance & Sentiment Implication, Value: 3
+										1218 text 2. Model v4.0 Performance & Sentiment Implication
+									1219 content list
+										1220 container
+											1221 text Virtually Zero Positioning Shock (+0.12% Residual):
+											1222 content list
+												1223 container
+													1224 text The model predicted a leveraged fund net position of  -8.17% of OI ,  while the actual position came in at  -8.05% of OI .
+												1225 container
+													1226 text The residual of  +0.12 percentage points  sits at the  6th percentile  of absolute out-of-sample errors (meaning 94% of past historical residuals were larger).
+										1227 container
+											1228 text Implication for Treasury Price Movement:
+											1229 content list
+												1230 container
+													1231 text Because the observed positioning was almost completely in line with expectation,  leveraged funds did  not  engage in unexpected aggressive buying or selling during this reporting period.
+												1232 container
+													1233 text This indicates that recent market flows were fully predictable based on underlying model inputs (e. g.,  recent price action,  yield changes,  or interest rate expectations),  meaning positioning changes added  no net surprise or new directional momentum  to the market.
+									1234 heading Summary Risk Outlook, Value: 3
+										1235 text Summary Risk Outlook
+									1236 content list
+										1237 container
+											1238 text Squeezability / Positioning Risk:  The net short position in leveraged funds is substantial (-8. 05% of OI),  but because it aligns closely with expectation,  it does not represent an extreme outlier on its own.  However,  should an unexpected bullish catalyst hit Treasuries,  this sizeable short interest leaves the market vulnerable to a  short squeeze  if leveraged funds are forced to cover.
+								1239 button Redo
+								1240 button Copy
+								1241 button Humanize with Quillbot
+									1242 image
+								1243 button Show more options
+					81 container
+						82 container
+							83 pop up button (collapsed) Description: Upload & tools, Secondary Actions: Expand
+							1141 container
+								1142 text entry area (settable) Description: Enter a prompt for Gemini, Value: 
+
+									1256 text Ask Gemini
+							87 container
+								88 pop up button (collapsed) Description: Open mode picker, currently Gemini Auto, Secondary Actions: Expand
+								1245 container
+									1246 button Dictate (⌘⇧D)
+						1247 text Gemini is AI and can make mistakes.
+			1248 container
+				1249 button Convert chat to PDF
+					1250 image Convert chat to PDF
+					1251 text Convert chat to PDF
+					1252 text Open this chat in Acrobat
+				1253 link Upgrade
+					1254 link Upgrade
+						1255 text Upgrade
+		1257 text Copied to clipboard
+		104 container Notifications
+		1144 container
+			1145 container Click to open Quillbot
+			1146 container Open quick settings
+			1147 container Use AI
+	109 container grammarly-integration
+		1023 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 1240 button Copy

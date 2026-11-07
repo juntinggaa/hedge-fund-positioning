@@ -1,0 +1,41 @@
+The short version is that this is a structurally stretched but, for this week, unsurprising picture. It’s consistent with heavy leveraged-fund intermediation of Treasury demand, possibly through the cash-futures basis trade. It says little about which way yields are headed.
+
+The cross-sectional picture
+
+The numbers check out. The four reportable nets sum to about −23,600 contracts, which implies non-reportables are net long roughly +23,600. The core pattern is a near mirror image:
+
+Asset managers are net long about 3.0 million contracts, +51% of open interest.
+Leveraged funds are net short about 2.23 million contracts, −38% of open interest.
+Dealers are net short about 0.63 million, −11%.
+
+This is the textbook configuration associated with the basis trade. Asset managers often prefer futures for duration exposure because futures are capital-efficient, and that demand tends to make futures rich relative to cash. Leveraged funds can then short the futures, buy deliverable cash Treasuries, and finance them in repo, earning the spread. A net short of this size in one contract is about $220bn of face value. A basis book of that scale would imply a similarly large repo-financed cash holding.
+
+You can’t verify that from this report. The cash leg is invisible here, and CFTC categories classify traders, not motives. Some of the leveraged-fund short could be outright duration bets, curve or relative-value positions, or hedges against swaps or other holdings. “Consistent with a large basis trade” is the defensible claim; “the basis trade is $220bn” is not.
+
+What it implies for the market
+
+Demand for duration is being intermediated through leverage. Real-money investors are taking duration via futures, and leveraged funds are warehousing the cash bonds. That supports Treasury demand and auction absorption while funding is cheap and stable.
+
+The vulnerability is in funding and margins, not rates direction. A position like this is exposed to repo rate spikes, higher futures initial margins, rising volatility, or tighter dealer balance sheets. Forced unwinds in such conditions mean selling cash Treasuries into a market that may lack balance-sheet capacity. That dynamic contributed to the March 2020 dislocation, and it’s why regulators watch this positioning.
+
+It isn’t a directional signal. The leveraged-fund short isn’t necessarily a bet on higher yields, and the asset-manager long isn’t necessarily a bet on lower yields. It’s largely benchmark duration exposure. Reading this as “hedge funds are bearish bonds” would be a mistake.
+
+What the model adds
+
+Not much this week, and that is informative in its own way. The residual of −0.74pp is about a third of the model’s historical RMSE of 2.07pp. About 68% of earlier out-of-sample residuals were at least as large, and the actual value sits comfortably inside the approximate −40.5% to −33.7% range. So the week’s change in leveraged-fund positioning was roughly what the market and positioning inputs predicted. There’s no sign of an unusual build or unwind beyond those conditions.
+
+Two caveats keep this modest. First, the out-of-sample R² of about 10% means weekly changes are mostly unpredictable even with these inputs, so “in line with the model” is a weak statement. Second, the model uses same-week open interest and was selected retrospectively. It describes the week after the fact rather than forecasting anything.
+
+What this snapshot can’t tell you
+Historical context: with no history here, I can’t say whether −38% is extreme for this contract.
+Other tenors: basis positions are spread across 2-, 5-year, Ultra 10-year and bond contracts, so the 10-year alone understates or misstates the aggregate.
+Spread positions: spreading positions are excluded from the nets.
+
+The more useful signals would be the trend across several weeks and across contracts. Alongside that, it would help to watch:
+
+repo and SOFR conditions relative to implied repo rates
+CME margin changes
+swap spreads
+Treasury volatility
+
+Those are what would show whether the structure is getting more fragile or staying comfortably funded.

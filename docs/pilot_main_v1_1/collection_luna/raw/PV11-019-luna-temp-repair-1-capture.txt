@@ -1,0 +1,17 @@
+Based on the CFTC Traders in Financial Futures report and the supervised model v4.0 output for the week ending September 21, 2021, the positioning data highlights several key dynamics in the 10-Year U.S. Treasury Note futures market:
+
+### 1. Dominance of Leveraged Funds' Net Long Exposure
+
+* **Substantial Net Long Position:** Leveraged funds held a sizeable net long position of **+355,518 contracts**, representing **+9.04% of total open interest** (3,934,302 contracts).
+* **Comparative Context:** While leveraged funds were heavily net long, other categories showed more muted positioning: Asset Managers were mildly net long (+1.23%), Dealers/Intermediaries were essentially flat to slightly net short (-0.40%), and Other Reportables were net short (-4.04%). This points to leveraged funds driving the primary speculative net long footprint in 10-year futures for this week.
+
+### 2. Model Evaluation (The Residual)
+
+* **Actual vs. Expected:** The model estimated an expected net position of **+7.31% of open interest**, driven by variables such as yields, curve shape, volatility, funding stress, and lagged positions.
+* **Modest Positive Residual:** The actual net position (+9.04%) exceeded the model's expectation by **+1.73 percentage points** of open interest.
+* **Historical Normality:** Despite this positive residual, it is not an extreme statistical anomaly. Approximately 61% of earlier absolute out-of-sample residuals were smaller, meaning a 1.73-percentage-point gap happens fairly often. Furthermore, the actual position fell comfortably within the model's approximate 90% error range (+3.74% to +10.88%). This indicates that leveraged fund positioning was slightly more net long than prevailing macroeconomic and market factors strictly implied, but still well within normal historical bounds.
+
+### 3. What the Data Does *Not* Tell Us (Important Caveats)
+
+* **Motives Remain Unidentified:** As noted in the model's framework, a net long futures position does not explicitly prove outright directional bullishness. It can coexist with complex relative-value strategies, such as basis trades. However, because the cash leg is unobserved and the model inputs do not directly measure cash-futures basis profitability, the exact strategy mix cannot be deduced.
+* **Not a Predictive Forecast:** Because the model incorporates current-week open interest data, this output reflects a retrospective conditional snapshot rather than a pre-Friday nowcast or a forward-looking directional signal for future weeks.

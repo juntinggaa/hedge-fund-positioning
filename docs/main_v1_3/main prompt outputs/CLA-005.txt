@@ -1,0 +1,30 @@
+**This snapshot shows real-money investors long duration and fast money short. That's a mild bearish-rates tilt among hedge funds, but it is not an extreme or one-sided market.** A few points need care before reading much into it.
+
+## What each group is doing
+
+**Asset managers (net long ~226k, +8.3% of OI).** This is the dominant position, and it is largely structural. Pension funds, insurers and bond funds use 10-year futures as a cheap way to add duration against their benchmarks, so a big net long is their normal state, not a strong directional call. Their 1.04 million gross long contracts are the main source of demand in the contract.
+
+**Leveraged funds (net short ~98k, −3.6%).** This group is most often read as "speculative sentiment." In September 2014 a short fit the macro story. The Fed was about to end QE3 purchases in October, and the market was looking toward a first rate hike in 2015. But two caveats limit how bearish this is:
+- Much of hedge-fund futures shorting is the **cash–futures basis trade**: long cash Treasuries, short futures. That is a financing and relative-value position with little net rate exposure.
+- Curve and cross-tenor trades (for example, short 10s against long 5s or bonds) also show up here as outright shorts.
+
+**Dealers (net short ~62k, −2.3%).** This is mostly hedging. It reflects cash Treasury inventory and the other side of client flow, not a market view.
+
+**Other reportables (net long ~159k, +5.8%).** These are corporates, central banks, smaller institutions and others. They lean long, which reinforces the overall long-duration demand among reportable traders.
+
+## A gap worth noticing
+
+The four reportable groups net to **+224,914 long**. Futures always net to zero, so the non-reportable (small) traders must be net short about **225k contracts (−8.2% of OI)**. Working back from open interest, that implies roughly 270k long against 495k short. That is a large short for small traders, and bigger than the leveraged-fund short. I'd check it against the original CFTC release. Either the table is incomplete, or small traders really were a meaningful part of the bearish side.
+
+## Historical context
+
+Leveraged funds net short and asset managers long going into October 2014 is interesting in hindsight. On **15 October 2014**, the 10-year yield fell roughly 30+ bp intraday, briefly below 1.9%, before mostly reversing. That was the "flash rally." Short covering is often cited as one contributor, alongside weak retail sales data, global growth worries and thin liquidity. This one report doesn't prove a crowded short. A −3.6% net position is moderate, and later episodes (2018, 2023) saw much larger leveraged-fund shorts. But the market was leaning the way that got squeezed.
+
+## Limits of reading one week in isolation
+
+- **Changes matter more than levels.** Week-over-week shifts show whether shorts were being built or covered.
+- **Compare with history.** Each group's net position needs to be placed against its own multi-year range to say whether it is stretched.
+- **This is futures-only, one contract.** It leaves out cash holdings, swaps, options and other Treasury contracts (2s, 5s, bonds, ultras), so it can misstate anyone's total rate exposure.
+- **Contracts aren't risk.** To compare with other tenors, convert to DV01; at the time each 10-year contract was very roughly $65–80 per basis point.
+
+**Bottom line:** the positioning shows steady structural demand for duration from real money, offset by a moderate hedge-fund short. That short is partly directional, a bet on Fed normalization, and partly basis and relative-value trading. It points to some vulnerability to a short squeeze if data disappointed, not to a strong consensus that yields were about to rise.

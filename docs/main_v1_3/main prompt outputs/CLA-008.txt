@@ -1,0 +1,31 @@
+**Short answer: not much about direction.** This snapshot shows a balanced, two-sided market where no group has a strong net bet. The model output adds little because the residual is ordinary.
+
+**1. Net positions are small next to gross positions.**
+Every category's net is under 3% of open interest, while gross positions are large. Asset managers hold about 1.33 million longs (around 39% of open interest) but are net long only 1.8%. Leveraged funds hold about 500,000 contracts on each side and net to almost nothing (+0.15%). Most of this open interest reflects offsetting exposures, hedges and spreads rather than outright bets on yields. That fits how 10-year futures are mainly used: for duration management, hedging and relative-value trades.
+
+**2. Leveraged funds are essentially flat net, and that doesn't tell you much.**
+Large gross shorts by leveraged funds are often linked to the cash-futures basis trade (long cash Treasuries, short futures). But their longs are almost as large, and the cash leg isn't in this data. You can't infer basis-trade size, crowding or fragility from it. The flat net doesn't mean funds were "neutral" in any economic sense either. Two large offsetting books can carry quite different risks.
+
+**3. The model residual is unremarkable.**
+- The -1.06 pp residual is about half the model's RMSE of 2.07 pp.
+- 57% of past out-of-sample residuals were at least as large.
+- Actual sits well inside the -2.34% to +4.76% range.
+- The model explains only about 10% more squared error than a naive benchmark, so its expected value is a weak anchor.
+
+So "leveraged funds were a bit less long than the model expected" is within normal noise, not evidence of unusual selling. Two more limits apply. The model uses same-week open interest, so it is not a forecast. And without last week's level, we can't tell how much of this week's position was an actual change.
+
+**4. Other details worth noting.**
+- **Other Reportables** have the largest net long (+2.6%).
+- **Dealers** are slightly net short (-0.9%), which fits their usual role as intermediaries.
+- **Non-reportable traders** must be net short about 128,000 contracts (around -3.7% of open interest), because longs and shorts must balance across all holders. I derived this from your figures; it isn't stated in your table.
+- **Asset manager spreading** is very large (about 688,000 contracts, about 20% of open interest). This is worth checking against the source, since it shapes how you read their gross exposure.
+
+**5. Beware hindsight.**
+This was the period of the early-2021 reflation trade. Yields had risen after the Georgia Senate runoffs and then rose sharply in February. This snapshot gives no clear warning of that move. That is a good reminder that one week of balanced positioning doesn't say which way yields will go.
+
+**What would make it more informative**
+- A time series of these nets and grosses, especially week-on-week changes and how extreme each is against its own history.
+- The same report for the other Treasury contracts (2-year, 5-year, Ultra 10-year, bond and Ultra bond), since positioning often moves across the curve.
+- Data on the cash side, such as repo financing, if the question is about basis-trade risk.
+
+Taken alone, this report describes a market with lots of two-way, mostly hedged activity. It doesn't show a crowded directional view.

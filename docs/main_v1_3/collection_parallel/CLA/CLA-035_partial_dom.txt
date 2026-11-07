@@ -1,0 +1,98 @@
+- heading "Claude" [level=1]
+- main:
+  - status
+  - status
+  - toolbar "Page tools":
+    - button "Activity panel":
+      - generic: 
+  - status
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S." [level=3]'
+      - paragraph: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 14 April 2026. All figures are numbers of contracts.
+      - paragraph: "Open interest (all contracts): 5,187,440"
+      - paragraph:
+        - text: "| Trader category | Long | Short | Spreading | Net | Net as % of OI |"
+        - text: "|---|---|---|---|---|---|"
+        - text: "| Dealer / Intermediary | 206,647 | 601,050 | 71,358 | -394,403 | -7.60% |"
+        - text: "| Asset Manager / Institutional | 3,049,475 | 836,218 | 682,383 | 2,213,257 | +42.67% |"
+        - text: "| Leveraged Funds | 328,463 | 2,338,434 | 125,587 | -2,009,971 | -38.75% |"
+        - text: "| Other Reportable | 317,570 | 168,861 | 251 | 148,709 | +2.87% |"
+      - paragraph: "Output of a supervised model of leveraged-fund positioning (model v4.0):"
+      - list:
+        - listitem: "Expected net position this week: -38.38% of open interest (approximate 90% range based on earlier out-of-sample errors: -41.80% to -34.96%)."
+        - listitem: "Actual net position this week: -38.75% of open interest."
+        - listitem: "Residual (actual minus expected): -0.36 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 16% were smaller than this one and 84% were at least as large."
+      - paragraph: What does this positioning suggest about the Treasury market?
+      - paragraph: Please answer without using web search.
+      - generic: Message collapsed
+      - button "Show more":
+        - generic: Show more
+      - 'button "Show message actions for You said: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S."'
+      - status
+    - article "Currently streaming message":
+      - heading [level=3]
+      - generic: Checking the arithmetic against the model's expected range
+      - button "Checking the arithmetic against the model's expected range":
+        - generic: 
+      - status: Checking the arithmetic against the model's expected range
+      - paragraph:
+        - strong: This week’s leveraged-fund positioning is almost exactly what the model expected, so it carries no unusual signal on its own.
+        - text: The structure behind it is still worth understanding, because the risk sits there.
+      - 'heading "The model result: nothing unusual" [level=3]'
+      - paragraph: The actual net position (-38.75% of OI) sits almost on the model’s expectation (-38.38%) and well inside the 90% range (-41.80% to -34.96%). The residual of -0.36 pp is smaller than about 84% of past out-of-sample residuals, which puts this among the quietest weeks the model has seen. Leveraged funds did not move in any surprising way.
+      - paragraph: "One caveat: “as expected” only means “as expected given the model’s inputs.” If those inputs include last week’s positioning, as most such models do, a small residual mainly tells you the week-on-week change was ordinary. A position can be large and still exactly as expected."
+      - 'heading "The structure: mostly a basis trade, not a bearish bet" [level=3]'
+      - paragraph: "The two big categories nearly mirror each other:"
+      - list:
+        - strong: Asset managers
+        - text: are net long about 2.21m contracts (+42.7% of OI).
+        - strong: Leveraged funds
+        - text: are net short about 2.01m contracts (-38.7% of OI).
+      - paragraph: "This is the usual pattern for the cash-futures basis trade:"
+      - list:
+        - strong: Asset managers
+        - text: buy futures because it’s a capital-efficient way to get duration, so futures tend to trade slightly rich to cash bonds.
+        - strong: Leveraged funds
+        - text: sell those futures and buy the
+  - button "Scroll to bottom":
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - document
+  - status
+  - button "Stop response":
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - group "Dictate":
+    - button "Dictate":
+      - generic: 
+    - button "Microphone":
+      - generic: 
+  - note: No history, memory, or Claude training.
+  - 'button "Model: Opus 5.5 High"':
+    - generic: Opus 5.5
+    - generic: High
+  - button "Auto":
+    - generic: Auto
+  - status: Claude is responding
+  - complementary
+  - status
+- generic: Incognito
+- button "Exit incognito":
+  - generic: 
+- status
+- status
+- region "Notifications"
+- generic "Click to open Quillbot"
+- generic "Open quick settings":
+- generic "Use AI"

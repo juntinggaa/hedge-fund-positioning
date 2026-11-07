@@ -1,0 +1,74 @@
+Browser tab: 1403820316, Title: "Google Gemini", URL: "https://gemini.google.com/app".
+0 AXWebArea Google Gemini, URL: gemini.google.com/app
+	1 container
+		2 container
+			3 button (collapsed) Description: Open sidebar, Secondary Actions: Expand
+			4 container Side Navigation
+				5 container
+					6 container Main actions menu
+						7 link Description: New chat, Value: gemini.google.com/app
+					8 container Additional actions menu
+						9 pop up button Description: Search chats, ID: base-ui-_r_2_
+						10 link Description: Library, Value: gemini.google.com/library
+						11 link Description: Images, Value: gemini.google.com/images
+						12 container Scheduled
+							13 link Description: Scheduled, Value: gemini.google.com/scheduled
+						14 link Description: Customize, Value: gemini.google.com/customize
+					15 link (collapsed) Description: Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com, Secondary Actions: Expand
+					16 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+			17 container xap-skip-link-target
+				18 container
+					906 heading Conversation with Gemini, Value: 1
+						907 text Conversation with Gemini
+					908 container
+						909 text Temporary Chat
+						910 container
+							911 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+								912 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+							913 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 3 November 2020. All figures are numbers of contracts.
+							914 text Open interest (all contracts): 3,077,241
+							915 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+							916 text |---|---|---|---|---|---|
+							917 text | Dealer / Intermediary | 184,831 | 254,045 | 13,600 | -69,214 | -2.25% |
+							918 text | Asset Manager / Institutional | 1,294,482 | 1,093,048 | 594,378 | 201,434 | +6.55% |
+							919 text | Leveraged Funds | 317,487 | 565,227 | 62,759 | -247,740 | -8.05% |
+							920 text | Other Reportable | 242,382 | 107,170 | 780 | 135,212 | +4.39% |
+							921 text Output of a supervised model of leveraged-fund positioning (model v4.0):
+							922 text - Expected net position this week: -7.86% of open interest (approximate 90% range based on earlier out-of-sample errors: -11.38% to -4.34%).
+							923 text - Actual net position this week: -8.05% of open interest.
+							924 text - Residual (actual minus expected): -0.19 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 9% were smaller than this one and 91% were at least as large.
+							925 text How to read the model output above (model v4.0). This is a retrospective same-week conditional estimate of the weekly CHANGE in leveraged funds' net position as a share of open interest. It uses returns, realised volatility, yield levels and curve shape, equity volatility, a funding-stress proxy, a futures-yield return residual, current-week open-interest change, changes in Fed Treasury holdings, a quarter-end flag, and lagged own, other-group and cross-contract positions. More recent training observations receive more weight, with a two-year half-life.
+							926 text - The expected level equals last week's actual level plus the model's estimated weekly change. The residual is equivalently the conditional level gap or the unexpected weekly adjustment, measured in percentage points of open interest. It is not an identified fraction of the whole position attributable to any strategy.
+							927 text - These are statistical associations. The cash leg of a basis trade is unobserved; none of the inputs directly measures genuine cash-futures basis profitability. Neither the expected component nor the residual identifies motives, basis quantities or private information.
+							928 text - Across 720 out-of-sample weeks (2012-11-27 to 2026-09-08), squared prediction error was 10.47% lower than an expanding historical-mean change benchmark (out-of-sample R²). RMSE was 2.07 percentage points of open interest. This R² is not a percentage of the outstanding position explained by a strategy.
+							929 text - The approximate range uses only errors from earlier out-of-sample weeks. Its realised historical coverage was 91.9% across 668 eligible weeks, with variation across eras. This is not a guaranteed probability for this individual week. Being inside a broad range does not mean the point prediction closely anticipated the move.
+							930 text - The model includes current-week CFTC open interest, so this is not a pre-Friday nowcast or a next-week forecast. The model and performance summary were selected retrospectively; this is not a historically deployable untouched backtest.
+							931 text What does this positioning suggest about the Treasury market?
+							932 text Please answer without using web search.
+							933 button (collapsed) Expand
+						934 button Copy prompt
+						935 button (disabled) Edit
+					81 container
+						82 container
+							83 pop up button (collapsed) Description: Upload & tools, Secondary Actions: Expand
+							877 container
+								878 text entry area (settable) Description: Enter a prompt for Gemini, Value: 
+
+									936 text Ask Gemini
+							87 container
+								88 pop up button (collapsed) Description: Open mode picker, currently Gemini Auto, Secondary Actions: Expand
+								905 button Stop response
+						937 text Gemini is AI and can make mistakes.
+			865 link Upgrade
+				866 link Upgrade
+					867 text Upgrade
+		938 text Gemini is typing
+		104 container Notifications
+		880 container
+			881 container Click to open Quillbot
+			882 container Open quick settings
+			883 container Use AI
+	109 container grammarly-integration
+		687 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 878 text entry area (settable) Description: Enter a prompt for Gemini, Value: 

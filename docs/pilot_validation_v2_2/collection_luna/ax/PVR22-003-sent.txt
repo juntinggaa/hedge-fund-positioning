@@ -1,0 +1,224 @@
+Window: "ChatGPT", App: Google Chrome.
+0 standard window ChatGPT - Google Chrome – Tong, URL: chatgpt.com/?temporary-chat=true, Secondary Actions: Raise
+	1 container ChatGPT - Google Chrome – Tong, URL: chatgpt.com/?temporary-chat=true
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: chatgpt.com/?temporary-chat=true, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button Open Claude
+Has access to this site
+					13 pop-up button Extensions
+				14 button Tong
+				15 pop-up button Action required
+			16 container
+				17 scroll area
+					18 HTML content ChatGPT, URL: chatgpt.com/?temporary-chat=true
+						19 container
+							20 container
+								21 link Skip to content, Value: chatgpt.com/?temporary-chat=true#_R_ldj6nl9iqn7dcchej9arad5_
+								22 container
+									23 container
+										24 text ChatGPT
+										25 pop-up button Search
+										26 button Hide sidebar
+										27 container Chat history
+											28 container
+												29 button New chat
+												30 button Images
+											31 container
+												32 button Scheduled
+												33 button Library
+												34 button Plugins
+												35 pop-up button Explore
+												36 container
+													37 sortable Projects
+													38 pop-up button Project sidebar options
+													39 button Add new project
+												40 content list
+													41 button Computational Thinking
+														42 image
+														43 text Computational Thinking
+														44 container
+															45 pop-up button Project actions for Computational Thinking
+															46 button New chat in Computational Thinking
+													47 button Computer Systems
+														48 image
+														49 text Computer Systems
+														50 container
+															51 pop-up button Project actions for Computer Systems
+															52 button New chat in Computer Systems
+													53 button Hands-On Deep Learning
+														54 image
+														55 text Hands-On Deep Learning
+														56 container
+															57 pop-up button Project actions for Hands-On Deep Learning
+															58 button New chat in Hands-On Deep Learning
+													59 button Advanced Networks
+														60 image
+														61 text Advanced Networks
+														62 container
+															63 pop-up button Project actions for Advanced Networks
+															64 button New chat in Advanced Networks
+													65 button Interviews
+														66 image
+														67 text Interviews
+														68 container
+															69 pop-up button Project actions for Interviews
+															70 button New chat in Interviews
+													71 button Computer Security
+														72 image
+														73 text Computer Security
+														74 container
+															75 pop-up button Project actions for Computer Security
+															76 button New chat in Computer Security
+												77 container
+													78 sortable Recents
+													79 pop-up button Chat sidebar options
+													80 toggle button Filter chats and work, Value: 0
+														81 image
+													82 button New chat
+												83 content list
+													84 container Merit Mark for Aerospace
+														85 link Merit Mark for Aerospace, Value: chatgpt.com/c/699574b7-3bc8-832c-b697-2686f11f7c41
+														86 container
+															87 pop-up button Chat actions
+															88 button Pin chat
+													89 container Schatzalp overview
+														90 link Schatzalp overview, Value: chatgpt.com/c/69347ee8-4fa4-8329-84de-2bd6c2b701ce
+														91 container
+															92 pop-up button Chat actions
+															93 button Pin chat
+													94 container Internship duration issue
+														95 link Internship duration issue, Value: chatgpt.com/c/692e1e31-713c-8327-ac7d-dca53f649be8
+														96 container
+															97 pop-up button Chat actions
+															98 button Pin chat
+													99 container Fungsi lembar penangkap warna
+														100 link Fungsi lembar penangkap warna, Value: chatgpt.com/c/6929b54b-a948-8320-b172-d182e976e524
+														101 container
+															102 pop-up button Chat actions
+															103 button Pin chat
+													104 container Decrypt message with RSA key
+														105 link Decrypt message with RSA key, Value: chatgpt.com/c/6914f4f9-c030-8323-948f-30e78a0804ab
+														106 container
+															107 pop-up button Chat actions
+															108 button Pin chat
+													109 container Raum der Stille meaning
+														110 link Raum der Stille meaning, Value: chatgpt.com/c/69134159-ccf4-832a-86e7-67ff350d8df0
+														111 container
+															112 pop-up button Chat actions
+															113 button Pin chat
+													114 container Translate health insurance letter
+														115 link Translate health insurance letter, Value: chatgpt.com/c/691329f3-f664-8325-b155-1d98d0b8d48e
+														116 container
+															117 pop-up button Chat actions
+															118 button Pin chat
+													119 container Gemini custom gem description
+														120 link Gemini custom gem description, Value: chatgpt.com/c/6912f67b-db10-8328-a424-509e086d8cd0
+														121 container
+															122 pop-up button Chat actions
+															123 button Pin chat
+													124 container Android Studio path issue
+														125 link Android Studio path issue, Value: chatgpt.com/c/69128ade-990c-8327-ad82-c4c099d18f0f
+														126 container
+															127 pop-up button Chat actions
+															128 button Pin chat
+													129 container New chat
+														130 link New chat, Value: chatgpt.com/g/g-p-68d6b19c7ee8819185d75a7351b257a5/c/69127cf3-34ec-8325-b116-230584339e25
+														131 container
+															132 pop-up button Chat actions
+															133 button Pin chat
+										134 container
+											135 pop-up button Open profile menu
+											136 button Upgrade
+									137 splitter
+									138 container
+										139 container
+											140 pop-up button Unpersonalized
+												141 text Unpersonalized
+												142 image
+											143 button Turn off temporary chat
+									144 container
+										145 container
+											146 heading Temporary chat, Value: 1
+												147 text Temporary chat
+											148 text This chat will ignore memory, plugins, and custom instructions, and it won’t appear in your history
+										149 container
+											150 container
+												151 text entry area (settable) Ask ChatGPT, Value: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 15 November 2022. All figures are numbers of contracts.
+
+Open interest (all contracts): 4,015,833
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 102,400 | 380,965 | 25,591 | -278,565 | -6.94% |
+| Asset Manager / Institutional | 2,094,589 | 931,333 | 724,972 | 1,163,256 | +28.97% |
+| Leveraged Funds | 315,354 | 976,260 | 128,897 | -660,906 | -16.46% |
+| Other Reportable | 209,506 | 371,183 | 35,048 | -161,677 | -4.03% |
+
+Output of a supervised model of leveraged-fund positioning (model v4.0):
+
+- Expected net position this week: -18.05% of open interest (approximate 90% range based on earlier out-of-sample errors: -21.63% to -14.46%).
+- Actual net position this week: -16.46% of open interest.
+- Residual (actual minus expected): +1.59 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 57% were smaller than this one and 43% were at least as large.
+
+What does this positioning suggest about the Treasury market?
+
+Please answer without using web search.
+													152 container
+														153 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 15 November 2022. All figures are numbers of contracts. Open interest (all contracts): 4,015,833 | Trader category | Long | Short | Spreading | Net | Net as % of OI | |---|---|---|---|---|---| | Dealer / Intermediary | 102,400 | 380,965 | 25,591 | -278,565 | -6.94% | | Asset Manager / Institutional | 2,094,589 | 931,333 | 724,972 | 1,163,256 | +28.97% | | Leveraged Funds | 315,354 | 976,260 | 128,897 | -660,906 | -16.46% | | Other Reportable | 209,506 | 371,183 | 35,048 | -161,677 | -4.03% | Output of a supervised model of leveraged-fund positioning (model v4.0): - Expected net position this week: -18.05% of open interest (approximate 90% range based on earlier out-of-sample errors: -21.63% to -14.46%). - Actual net position this week: -16.46% of open interest. - Residual (actual minus expected): +1.59 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 57% were smaller than this one and 43% were at least as large. What does this positioning suggest about the Treasury market? Please answer without using web search.
+												154 button Add files and more
+												155 toggle button Expand, Value: 0
+												156 toggle button Think, Value: 1
+												157 button Dictate
+												158 button Send
+										159 text For safety, we may keep a copy of this chat for up to 30 days.
+			160 container Infobar Container
+				161 container Infobar
+					162 container
+						163 text 'ChatGPT' started debugging this browser
+						164 button Cancel
+					165 button Close
+			166 pop-up button Tab search
+			167 container
+				168 tab group
+					169 tab (settable, boolean) Google Gemini - Memory usage - 622 MB, Value: off
+						170 button Close
+					171 tab (settable, boolean) Manage your Google One membership - Inactive tab - 109 MB freed up, Value: off
+						172 button Close
+					173 tab (settable, boolean) Settings - Inactive tab - 394 MB freed up, Value: off
+						174 button Close
+					175 tab (settable, boolean) Extensions - Memory usage - 37.3 MB, Value: off
+						176 button Close
+					177 tab (settable, boolean) Claude - Chrome Web Store - Inactive tab - 142 MB freed up, Value: off
+						178 button Close
+					179 tab (settable, boolean) Sign in - Claude - Memory usage - 239 MB, Value: off
+						180 button Close
+					181 tab (settable, boolean) Value: off, Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts. Open interest (all contracts): 3,934,302 Trader category Long Short Spreading Net Net as % of OI Dealer / Intermediary 211,953 227,582 41,198 -15,629 -0.40% Asset Manager / Institutional 1,458,078 1,409,497 788,616 48,581 +1.23% Leveraged Funds 853,740 498,222 99,743 355,518 +9.04% Other Reportab
+						182 button Close
+					183 tab (selected, settable, boolean) ChatGPT - Memory usage - 325 MB, Value: on
+						184 button Close
+			185 button New tab
+			186 button Open Gemini in Chrome
+	187 close button
+	188 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	189 minimise button
+190 menu bar
+	191 Chrome
+	192 File
+	193 Edit
+	194 View
+	195 History
+	196 Bookmarks
+	197 Profiles
+	198 Tab
+	199 Window
+	200 Help
+
+The focused UI element is 18 HTML content ChatGPT, URL: chatgpt.com/?temporary-chat=true

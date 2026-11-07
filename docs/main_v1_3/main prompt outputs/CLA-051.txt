@@ -1,0 +1,22 @@
+Short answer: very little about direction. Leveraged funds were close to flat, the model’s surprise is ordinary, and the biggest net positions belong to groups whose futures holdings are often hedges rather than bets on rates.
+
+Leveraged funds: no signal
+Close to flat. A net long of 26,130 contracts (+0.91% of open interest) is small next to their gross book of about 621k long and 595k short. The net is about 2% of their gross exposure. This looks like a mix of offsetting trades (basis, curve, relative value) with almost no directional tilt.
+The model’s surprise is routine. The residual of +0.50 points sits well inside the 90% range of −3.33% to +4.15%. About 78% of earlier out-of-sample residuals were at least this large, so this one is on the small side. Funds were positioned about as the model expected.
+The model is imprecise at this scale. Its 90% range is about 7.5 points wide, larger than any category’s net position this week. Expected +0.41% and actual +0.91% are effectively the same number.
+The larger positions are hard to read directionally
+Asset managers were net short about 180k contracts (−6.27%). It’s tempting to call that bearish, but asset managers often use futures to hedge or adjust the duration of large cash bond holdings, or to sit short futures against long cash. A net short in futures doesn’t mean they were betting on higher yields overall. Their gross figures (867k long, 1.05m short, 397k spreading) also point to hedging and relative-value activity.
+Other reportables were the largest net long (+6.66%). This catch-all group includes corporates, some official-sector accounts and smaller funds, so its motives are hard to pin down.
+Dealers were roughly flat (−0.42%). That is typical of intermediaries.
+Small traders were about flat. The four categories’ nets sum to +25,093, so non-reportable traders were net short about 25k contracts (about −0.87%).
+Market context
+
+From memory: this week came just after the Brexit vote, when the 10-year yield fell to record lows of roughly 1.35–1.40% in early July 2016. A strong June payrolls report on 8 July then started a rebound. It’s notable that leveraged funds were not heavily long into that rally. That fits a market where the move was driven more by flight-to-safety cash buying and global demand than by speculative futures positioning. But a single snapshot can’t show whether funds had been covering shorts or adding longs.
+
+What would make this more informative
+Week-over-week changes in each category’s net, which often say more than levels.
+Where +0.91% sits in leveraged funds’ own history. Positioning tends to matter as a contrarian or crowding signal only at extremes, and this is nowhere near one.
+The same data across the curve (2-, 5-, 30-year and Ultra contracts), to separate curve trades from outright duration bets.
+The futures-and-options combined report, if options activity was heavy around Brexit.
+
+Overall, this report shows a balanced, heavily hedged market with no crowded speculative trade. The model confirms that leveraged funds weren’t doing anything unusual. It neither supports nor contradicts a view on where yields were heading.

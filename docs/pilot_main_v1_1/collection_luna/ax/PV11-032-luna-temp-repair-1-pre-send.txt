@@ -1,0 +1,117 @@
+Browser tab: 1403820316, Title: "Google Gemini", URL: "https://gemini.google.com/app".
+0 AXWebArea Google Gemini, URL: gemini.google.com/app
+	1 container
+		2 container
+			3 button (collapsed) Description: Open sidebar, Secondary Actions: Expand
+			4 container Side Navigation
+				5 container
+					6 container Main actions menu
+						7 link Description: New chat, Value: gemini.google.com/app
+					8 container Additional actions menu
+						9 pop up button Description: Search chats, ID: base-ui-_r_2_
+						10 link Description: Library, Value: gemini.google.com/library
+						11 link Description: Images, Value: gemini.google.com/images
+						12 container Scheduled
+							13 link Description: Scheduled, Value: gemini.google.com/scheduled
+						14 link Description: Customize, Value: gemini.google.com/customize
+					15 link (collapsed) Description: Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com, Secondary Actions: Expand
+					16 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+			17 container xap-skip-link-target
+				18 container
+					698 container
+						699 heading Value: 1, Just stopping by? Temporary chats don't appear in recent chats and aren't used to improve Google AI. Stored for 72 hours for safety.
+							700 text Just stopping by?
+							701 container
+								702 link Description: Temporary chats, Value: support.google.com/gemini/answer/13275745?visit_id=638889059849455150-2388016392&p=temp_chats&rd=1#temp_chats
+								703 text  don't appear in 
+								704 link Description: recent chats, Value: support.google.com/gemini/answer/13666746
+								705 text  and aren't used to improve Google AI. Stored for 72 hours for safety.
+					81 container
+						82 container
+							83 pop up button (collapsed) Description: Upload & tools, Secondary Actions: Expand
+							706 container
+								707 text entry area (settable) Description: Enter a prompt for Gemini, Value: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 3 November 2020. All figures are numbers of contracts.
+
+
+
+
+Open interest (all contracts): 3,077,241
+
+
+
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+
+|---|---|---|---|---|---|
+
+| Dealer / Intermediary | 184,831 | 254,045 | 13,600 | -69,214 | -2.25% |
+
+| Asset Manager / Institutional | 1,294,482 | 1,093,048 | 594,378 | 201,434 | +6.55% |
+
+| Leveraged Funds | 317,487 | 565,227 | 62,759 | -247,740 | -8.05% |
+
+| Other Reportable | 242,382 | 107,170 | 780 | 135,212 | +4.39% |
+
+
+
+
+What does this positioning suggest about the Treasury market?
+
+
+
+
+Please answer without using web search.
+									713 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 3 November 2020. All figures are numbers of contracts.
+									714 text Open interest (all contracts): 3,077,241
+									715 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+									716 text |---|---|---|---|---|---|
+									717 text | Dealer / Intermediary | 184,831 | 254,045 | 13,600 | -69,214 | -2.25% |
+									718 text | Asset Manager / Institutional | 1,294,482 | 1,093,048 | 594,378 | 201,434 | +6.55% |
+									719 text | Leveraged Funds | 317,487 | 565,227 | 62,759 | -247,740 | -8.05% |
+									720 text | Other Reportable | 242,382 | 107,170 | 780 | 135,212 | +4.39% |
+									721 text What does this positioning suggest about the Treasury market?
+									722 text Please answer without using web search.
+							723 button Expand input to Fullscreen
+							87 container
+								88 pop up button (expanded) Description: Open mode picker, currently Gemini Auto, Secondary Actions: Collapse
+								725 menu ng-menu-a48871-1
+									726 Selected Auto Gemini 3 models
+										727 container Selected
+										728 text Auto
+										729 text Gemini 3 models
+									730 3.1 Pro Advanced reasoning
+										731 text 3.1 Pro
+										732 text Advanced reasoning
+									733 4 Argon Complex tasks
+										734 text 4 Argon
+										735 text Complex tasks
+									736 (expanded) Thinking level, Secondary Actions: Collapse
+										737 text Thinking level
+									738 menu ng-menu-a48871-2
+										739 Selected Low Quick and efficient
+											740 container Selected
+											741 text Low
+											742 text Quick and efficient
+										743 Medium Balanced depth
+											744 text Medium
+											745 text Balanced depth
+										746 High Extra thorough
+											747 text High
+											748 text Extra thorough
+								677 container
+									678 button Dictate (⌘⇧D)
+								724 button Send message
+			693 button Get app
+			694 link Upgrade
+				695 link Upgrade
+					696 text Upgrade
+			697 button Temporary chat
+		104 container Notifications
+		709 container
+			710 container Click to open Quillbot
+			711 container Open quick settings
+			712 container Processing
+	109 container grammarly-integration
+		687 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 736 (expanded) Thinking level, Secondary Actions: Collapse

@@ -1,0 +1,36 @@
+Weighing what the positioning says about the Treasury market
+
+Weighing what the positioning says about the Treasury market
+
+Short answer: this report describes how positions were distributed and how leveraged funds’ positioning compared with a weak statistical benchmark. It says little about where Treasury yields were heading or why traders held these positions. Here is what you can and can’t take from it.
+
+The positioning snapshot
+
+Who was net long and who was net short. Leveraged funds (+6.11% of OI) and asset managers (+5.47%) were both net long 10-year note futures. Dealers were close to flat (+0.94%), and “other reportables” were net short (−4.01%). Your table doesn’t show non-reportable traders, but they are implied by what’s left over. Their long position is about 294k contracts and their short about 632k, a net short of roughly 338k contracts, or about −8.5% of OI. That residual short is large, and I’d check it against the source report before relying on it.
+
+Leveraged funds net long is not the textbook basis-trade pattern. In the usual cash-futures basis trade, hedge funds are short futures against long cash bonds, and asset managers hold the offsetting futures longs. Here, leveraged funds were net long in this contract. That doesn’t rule out basis trading. Their gross short of about 499k contracts could still contain substantial basis positions offset by longs held for other reasons, and netting hides that. It does mean the net figure gives no evidence that the basis trade dominated leveraged-fund positioning in the 10-year contract that week.
+
+A net long in one contract isn’t necessarily a bet on falling yields. Leveraged funds often hold one tenor against another, for example long 10s against short 2s or 5s as a flattener, or 10s against the Ultra 10-year. They also run relative-value and hedging books. You’d need their positions in TU, FV, TN, US and UB to judge their overall duration exposure.
+
+Market context (from memory, not checked). Tuesday 2 November 2021 was the day before the FOMC meeting that announced the start of tapering asset purchases. Late October 2021 had seen sharp curve flattening, as markets brought forward expected rate hikes and several central banks, including the RBA and Bank of Canada, turned more hawkish. Long 10-year futures positions as part of flattening trades would fit that backdrop, but this data can’t confirm it.
+
+What the model output adds
+
+The surprise is moderate, not exceptional. The −2.53 pp residual is about 1.2 times the model’s RMSE. Roughly one week in four has had an absolute residual at least this large. The actual level also sits inside the approximate 90% range, near its lower end.
+
+The model explains little of normal weekly variation. An out-of-sample R² of about 10% means most week-to-week movement is unexplained. A residual of this size is well within the model’s ordinary noise.
+
+What the residual does mean. Leveraged funds’ net position ended the week about 2.5 pp of OI below what the model’s associations with market conditions would have implied. In other words, they added less net length, or cut more, than usual given those conditions. Because last week’s level isn’t provided, you can’t even tell whether their net long actually rose or fell.
+
+What the residual does not mean. It doesn’t identify motives, basis-trade quantities, de-risking, or private information. It also can’t serve as a forecast, because the model uses same-week open interest and its specification was chosen retrospectively.
+
+What would make this more informative
+Last week’s level and the actual weekly change, so you know the direction of the move.
+A multi-year history of leveraged-fund net positioning, to judge whether +6.1% was high or low by historical standards.
+The same breakdown for the other Treasury contracts, to see curve and duration exposure across tenors.
+Basis, repo and cash-market data, if the real question is about the basis trade.
+
+On its own, this week’s report shows real money and leveraged funds both net long 10-year futures, with leveraged funds slightly less long than the model expected. That’s a modest, unexplained deviation rather than a clear signal about the Treasury market.
+
+
+Create a Word document

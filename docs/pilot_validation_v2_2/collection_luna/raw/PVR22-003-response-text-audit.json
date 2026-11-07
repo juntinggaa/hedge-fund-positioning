@@ -1,0 +1,26 @@
+{
+  "provisional_pre_append_audit": true,
+  "response_sha256": "75651c2a254222106a9218b9b590eea6e339383d144b5ed6dd7120a13b397656",
+  "ax_sha256": "08dfac6f249fbdda31b113fe8deb59567ae4c886d017615c8de2554a4f5262cd",
+  "result": {
+    "verified": true,
+    "method": "FULL_ORDERED_EXPLICIT_MARKDOWN_RENDERING",
+    "ordered_visible_node_count": 47,
+    "canonical_ax_sha256": "fb34eae161d71a725606aa95b1be6374ccc14cf90731dd7d75bbedf9348ea75e",
+    "canonical_copy_sha256": "fb34eae161d71a725606aa95b1be6374ccc14cf90731dd7d75bbedf9348ea75e",
+    "canonical_characters": 3542,
+    "numeric_token_count": 28,
+    "numeric_sequence_match": true,
+    "normalization": [
+      "Copy-only explicit Markdown heading, list, table delimiter and emphasis rendering",
+      "Explicit LaTeX block delimiter, escaped percent and text-command rendering",
+      "Whitespace removal only; normalize Unicode minus glyph to ASCII hyphen for comparison while preserving sign and punctuation",
+      "Ordered AX text/generic/list-marker content compared against full copied reply"
+    ],
+    "raw_and_ax_sources": {
+      "raw_response": "/Users/lipjunting/hedge-fund-positioning/docs/pilot_validation_v2_2/collection_luna/raw/PVR22-003-response.txt",
+      "terminal_ax": "/Users/lipjunting/hedge-fund-positioning/docs/pilot_validation_v2_2/collection_luna/ax/PVR22-003-terminal.txt"
+    },
+    "unresolved_differences": []
+  }
+}

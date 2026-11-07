@@ -1,0 +1,31 @@
+Short version: this is a balanced, uncrowded market with no strong directional bet on rates. Most of what you see reflects structural hedging and relative-value activity rather than conviction about where 10-year yields go next.
+
+Asset managers (net long 139k, +4.5% of OI).
+
+This is the usual structural pattern. Pension funds, insurers and bond funds use TY futures to add duration cheaply against benchmarks, so a net long is their normal state. The notable feature is how small the net is relative to their gross positions: about 1.08M long against 940k short, plus 477k in spreads. That points to heavy curve, calendar and overlay activity within the category, not a large outright duration bet. In notional terms, 139k contracts is roughly $14bn face, which is modest for this market.
+
+Leveraged funds (essentially flat, +0.12%).
+
+This is the most informative line. Hedge funds and CTAs hold about 600k contracts on each side, and those positions almost exactly cancel. Leveraged funds often run a structural net short in Treasury futures because of the cash-futures basis trade (long cash bonds, short futures). A flat net suggests those basis shorts were offset by directional or momentum longs. So the fast money had no consensus view, which means little fuel for a positioning squeeze in either direction.
+
+Dealers (net short 79k, -2.5%).
+
+This is consistent with their intermediary role. They are typically short futures to hedge long cash inventory and to take the other side of asset-manager demand. A small net short like this signals nothing directional.
+
+Other reportables (net long 97k, +3.1%).
+
+This is a mixed bag of bank treasuries, corporates and smaller institutions, most likely hedging or adding duration.
+
+Context.
+
+This was a week of transition for rates. The Fed had hiked in mid-June 2017 and laid out plans to start shrinking its balance sheet. Draghi’s Sintra speech on 27 June then triggered a global bond selloff that pushed the 10-year back up toward the high 2.3s. Positioning this neutral suggests that selloff had not yet built a large speculative short, or had not yet been chased. That reduced the risk of a disorderly, positioning-driven move from these levels.
+
+Caveats before drawing conclusions:
+
+- One week is a snapshot.  Week-over-week changes, especially in leveraged-fund gross shorts and asset-manager longs, tell you more than levels do.
+- TY is one point on the curve.  Positioning is better read in DV01 terms across TU, FV, TY, US and Ultra. An asset-manager long in TY can be paired with shorts elsewhere as a curve trade.
+- Futures positioning is mostly hedging.  It works poorly as a contrarian sentiment gauge in Treasuries, unlike in commodities or FX. Extremes matter, but readings near zero like these carry little signal.
+
+One data check worth doing.
+
+The arithmetic in your table is internally consistent. But backing out the non-reportable residual gives non-reportable traders a net short of about 161k contracts (roughly 5.2% of OI). That is larger than you would usually expect from that group. I’d confirm the figures against the CFTC’s historical TFF file before relying on them, especially the spreading columns, which drive that residual.

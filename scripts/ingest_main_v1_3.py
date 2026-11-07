@@ -27,12 +27,14 @@ REQUIRED = ["collector_name", "account_label", "started_at_sgt", "finished_at_sg
             "search_observed", "status", "attempt_number"]
 
 
-def main(resp_dir: str) -> int:
+def main(resp_dir: str, kit: Path = KIT) -> int:
     base = Path(resp_dir)
-    key = {r["assignment_id"]: r for r in csv.DictReader(open(KIT / "assignment_key_PRIVATE.csv"))}
+    key = {r["assignment_id"]: r for r in csv.DictReader(open(kit / "assignment_key_PRIVATE.csv"))}
     problems, out = [], []
     for code in ("GPT", "GEM", "CLA"):
         sheet = base / code / f"runsheet_{code}.csv"
+        if not sheet.exists() and (base / code / f"runsheet_ADV_{code}.csv").exists():
+            sheet = base / code / f"runsheet_ADV_{code}.csv"
         if not sheet.exists():
             problems.append(f"{code}: missing {sheet}")
             continue
@@ -75,7 +77,7 @@ def main(resp_dir: str) -> int:
             done = [r for r in attempts if r.get("status", "").strip() in {"completed", "refusal"}]
             if len(done) > 1:
                 problems.append(f"{aid}: {len(done)} completed attempts; only the first counts")
-    (base / "responses_v1.3.jsonl").write_text("".join(json.dumps(r) + "\n" for r in out))
+    (base / ("responses_v1.3.jsonl" if kit == KIT else "responses.jsonl")).write_text("".join(json.dumps(r) + "\n" for r in out))
     n_done = sum(r["status"] in {"completed", "refusal"} for r in out)
     print(f"{len(out)} attempt rows, {n_done} completed/refusal, of {len(key)} assignments")
     print(f"{len(problems)} problems")
@@ -85,4 +87,7 @@ def main(resp_dir: str) -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1] if len(sys.argv) > 1 else str(KIT / "responses")))
+    # Optional 2nd argument: another kit folder with its own assignment key,
+    # e.g. docs/explore_advice_v1 for the advice-framing add-on.
+    kit_dir = Path(sys.argv[2]) if len(sys.argv) > 2 else KIT
+    sys.exit(main(sys.argv[1] if len(sys.argv) > 1 else str(kit_dir / "responses"), kit_dir))

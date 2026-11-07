@@ -1,0 +1,443 @@
+Window: "Google Gemini", App: Google Chrome.
+0 standard window Google Gemini - High memory usage - 1.4 GB - Google Chrome – Tong, URL: gemini.google.com/app, Secondary Actions: Raise
+	1 container Google Gemini - High memory usage - 1.4 GB - Google Chrome – Tong, URL: gemini.google.com/app
+		2 container
+			3 toolbar
+				4 button Back
+				5 button Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: gemini.google.com/app, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button Open Claude
+Has access to this site
+					13 pop-up button Extensions
+				14 button Tong
+				15 pop-up button Action required
+			16 container
+				17 scroll area
+					18 HTML content Google Gemini, URL: gemini.google.com/app
+						19 container
+							20 container
+								21 link New chat, Value: gemini.google.com/
+								22 container Side navigation
+									23 container
+										24 pop-up button Search chats
+										25 button Close sidebar
+										26 container Main actions menu
+											27 container
+												28 link New chat, Value: gemini.google.com/app
+										29 container Additional actions menu
+											30 container
+												31 link Library, Value: gemini.google.com/library
+											32 container
+												33 link Images, Value: gemini.google.com/images
+											34 container
+												35 link Scheduled, Value: gemini.google.com/scheduled
+											36 container
+												37 link Students, Value: gemini.google.com/students
+											38 container
+												39 pop-up button More
+										40 container
+											41 button Toggle Notebooks
+											42 container
+												43 link New notebook, Value: gemini.google.com/notebooks/create
+												44 container
+													45 link Untitled notebook, Value: gemini.google.com/notebook/c9034097-5729-41d4-ac26-95a60c8fb0d2
+													46 button Open notebook actions menu
+												47 container
+													48 link Demystifying the Black Box: A Comprehensive Guide to Explainable AI, Value: gemini.google.com/notebook/abe9cbba-40e3-4f1b-8fac-2ed4c81c7892
+													49 button Open notebook actions menu
+												50 container
+													51 link 6G Architecture Support for Native and Agentic AI Intent Handling, Value: gemini.google.com/notebook/d6375f19-368c-4200-8559-9a1a93cd2e66
+													52 button Open notebook actions menu
+												53 link All notebooks, Value: gemini.google.com/notebooks/view
+										54 button Toggle All
+										55 button Filter
+										56 container
+											57 link STM32N6 NPU RAM Banks Architecture, Value: gemini.google.com/app/e9b8e28ce3ec5710
+											58 button More options for STM32N6 NPU RAM Banks Architecture
+											59 link NVLink Speed and Encoding Explained, Value: gemini.google.com/app/fb6ad5d42b6ff781
+											60 button More options for NVLink Speed and Encoding Explained
+											61 link Email Availability Refinement Options, Value: gemini.google.com/app/203deb8e99e63385
+											62 button More options for Email Availability Refinement Options
+											63 link Email Refinement Options, Value: gemini.google.com/app/4e8255ddd8f605c1
+											64 button More options for Email Refinement Options
+											65 link Invertibility of X-transpose-X, Value: gemini.google.com/app/2dc54ace6b6f6ffa
+											66 button More options for Invertibility of X-transpose-X
+											67 link Invertibility of Polynomial Feature Matrices, Value: gemini.google.com/app/6cf5e458ec2a08e1
+											68 button More options for Invertibility of Polynomial Feature Matrices
+											69 link How SocialLite App Blocks Reels, Value: gemini.google.com/app/57b665f70889516d
+											70 button More options for How SocialLite App Blocks Reels
+											71 link Explaining and Visualizing Adapters, Value: gemini.google.com/app/c0516c6155446f40
+											72 button More options for Explaining and Visualizing Adapters
+											73 link Raspberry Pi Kernel Build Guide, Value: gemini.google.com/app/7ee1db52a2e01e59
+											74 button More options for Raspberry Pi Kernel Build Guide
+											75 link Reviewing a Missed Session Message, Value: gemini.google.com/app/9fb4c9edd7acbc36
+											76 button More options for Reviewing a Missed Session Message
+											77 link Simple Contextual Bandits Explanation, Value: gemini.google.com/app/38df587bc8aad08e
+											78 button More options for Simple Contextual Bandits Explanation
+											79 link CPU Versus GPU Threads, Value: gemini.google.com/app/4008cf0ff8e6c188
+											80 button More options for CPU Versus GPU Threads
+											81 link Essential Job Search Pillars Beyond STAR, Value: gemini.google.com/app/8b1a94d729b8eb9f
+											82 button More options for Essential Job Search Pillars Beyond STAR
+											83 link Taman Jurong Presentation Blueprint and Slides, Value: gemini.google.com/app/495c70b9afff8e39
+											84 button More options for Taman Jurong Presentation Blueprint and Slides
+											85 link STM32N657X0 vs. Raspberry Pi Pico 2, Value: gemini.google.com/app/d7b3168516847039
+											86 button More options for STM32N657X0 vs. Raspberry Pi Pico 2
+											87 link Understanding the SSH -fn Flags, Value: gemini.google.com/app/38f9d06390c0bf4d
+											88 button More options for Understanding the SSH -fn Flags
+											89 link Claude CLI Usage Limits, Value: gemini.google.com/app/3b92b2af6f42032c
+											90 button More options for Claude CLI Usage Limits
+											91 link Understanding Pthreads, Exit, and Join, Value: gemini.google.com/app/9e2fc0e3bc89589b
+											92 button More options for Understanding Pthreads, Exit, and Join
+											93 link C Pthread Creation Example, Value: gemini.google.com/app/699894117164e06c
+											94 button More options for C Pthread Creation Example
+											95 link Customizing SSH Login Scripts on macOS, Value: gemini.google.com/app/da83e4ddaa71ddbe
+											96 button More options for Customizing SSH Login Scripts on macOS
+											97 link Kotlin Equality Operators: == vs ===, Value: gemini.google.com/app/575d458910456375
+											98 button More options for Kotlin Equality Operators: == vs ===
+											99 link Clarifying Claude CLI and Prompts, Value: gemini.google.com/app/ddacc4432a882f21
+											100 button More options for Clarifying Claude CLI and Prompts
+											101 link UTown Crowding Explained, Value: gemini.google.com/app/20d299b025daf43a
+											102 button More options for UTown Crowding Explained
+											103 link UTown Crowding: Causes and Solutions, Value: gemini.google.com/app/6a5f2e240d0643bd
+											104 button More options for UTown Crowding: Causes and Solutions
+											105 link Japan Family Trip Planning & Pricing, Value: gemini.google.com/app/083002224731084b
+											106 button More options for Japan Family Trip Planning & Pricing
+											107 link Refusal of Harmful Content Request, Value: gemini.google.com/app/6c4560d9c968a05d
+											108 button More options for Refusal of Harmful Content Request
+										109 link Google Account: Tong Jing Yen (jingyentong@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com
+										110 pop-up button Settings
+								111 container
+									112 container
+										113 heading Conversation with Gemini, Value: 1
+											114 text Conversation with Gemini
+										115 container
+											116 text Temporary chat
+											117 container
+												118 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+													119 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+												120 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 5 August 2025. All figures are numbers of contracts.
+												121 text Open interest (all contracts): 5,127,634
+												122 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+												123 text |---|---|---|---|---|---|
+												124 text | Dealer / Intermediary | 304,410 | 533,304 | 47,851 | -228,894 | -4.46% |
+												125 text | Asset Manager / Institutional | 3,055,050 | 843,663 | 528,459 | 2,211,387 | +43.13% |
+												126 text | Leveraged Funds | 392,296 | 2,638,835 | 92,321 | -2,246,539 | -43.81% |
+												127 text | Other Reportable | 263,720 | 116,058 | 1,464 | 147,662 | +2.88% |
+												128 text What does this positioning suggest about the Treasury market?
+												129 text Please answer without using web search.
+												130 button Expand
+											131 button Copy prompt
+											132 button Edit
+											133 container
+												134 heading Gemini said, Value: 6
+													135 text Gemini said
+												136 container
+													137 text This CFTC Traders in Financial Futures (TFF) report reveals a classic,  highly concentrated  structural division of labor  in the 10-Year U. S.  Treasury market rather than a simple directional bet on interest rates.  While a surface-level reading might suggest that institutional asset managers are overwhelmingly bullish on bonds (net long 
+													138 container
+														139 text + 43.13 %
+													140 text  of open interest) and hedge funds are overwhelmingly bearish (net short 
+													141 container
+														142 text − 43.81 %
+													143 text  of open interest),  this near-exact mirror image is the primary footprint of the  U.S. Treasury cash-futures basis trade .
+													144 heading 1. Position Sizing & Market Reconciliation, Value: 2
+														145 text 1. Position Sizing & Market Reconciliation
+													146 text Each CBOT 10-Year U.S. Treasury Note futures contract (
+													147 text 043602
+													148 text ) represents 
+													149 container
+														150 text $ 100 , 000
+													151 text  in face value, meaning total open interest (OI) of 
+													152 container
+														153 text 5 , 127 , 634
+													154 text  contracts corresponds to 
+													155 container
+														156 text $ 512.76  billion
+													157 text  in aggregate notional exposure.
+													158 pop-up button View source details for citation from CME Group. Press Enter to open sources dialogue.
+													159 text By reconciling the reported categories against total open interest (where 
+													160 container
+														161 text Total Longs + Spreading = Total Shorts + Spreading = 5 , 127 , 634
+													162 text ),  we can also extract the implied positioning of  Non-Reportable (small/retail) traders :
+													163 container
+														164 table
+															165 row
+																166 column header
+																	167 text Participant Category
+																168 column header
+																	169 text Outright Long
+																170 column header
+																	171 text Outright Short
+																172 column header
+																	173 text Spreading
+																174 column header
+																	175 text Net Contracts
+																176 column header
+																	177 text Net Notional ($B)
+																178 column header
+																	179 text Share of OI (Net)
+															180 row
+																181 cell
+																	182 text Asset Manager / Institutional
+																183 cell
+																	184 text 3,055,050
+																185 cell
+																	186 text 843,663
+																187 cell
+																	188 text 528,459
+																189 cell
+																	190 text +2,211,387
+																191 cell
+																	192 text +$221.14B
+																193 cell
+																	194 text +43.13%
+															195 row
+																196 cell
+																	197 text Leveraged Funds
+																198 cell
+																	199 text 392,296
+																200 cell
+																	201 text 2,638,835
+																202 cell
+																	203 text 92,321
+																204 cell
+																	205 text -2,246,539
+																206 cell
+																	207 text -$224.65B
+																208 cell
+																	209 text -43.81%
+															210 row
+																211 cell
+																	212 text Dealer / Intermediary
+																213 cell
+																	214 text 304,410
+																215 cell
+																	216 text 533,304
+																217 cell
+																	218 text 47,851
+																219 cell
+																	220 text -228,894
+																221 cell
+																	222 text -$22.89B
+																223 cell
+																	224 text -4.46%
+															225 row
+																226 cell
+																	227 text Other Reportable
+																228 cell
+																	229 text 263,720
+																230 cell
+																	231 text 116,058
+																232 cell
+																	233 text 1,464
+																234 cell
+																	235 text +147,662
+																236 cell
+																	237 text +$14.77B
+																238 cell
+																	239 text +2.88%
+															240 row
+																241 cell
+																	242 text Non-Reportable (Implied)
+																243 cell
+																	244 text 442,063
+																245 cell
+																	246 text 325,679
+																247 cell
+																	248 text —
+																249 cell
+																	250 text +116,384
+																251 cell
+																	252 text +$11.64B
+																253 cell
+																	254 text +2.27%
+														255 button More options
+													256 content list
+														257 container
+															258 text Extreme Two-Sided Concentration:  Asset Managers hold 
+															259 container
+																260 text 59.58 %
+															261 text  of all outright long contracts (
+															262 container
+																263 text 3 , 055 , 050 / 5 , 127 , 634
+															264 text ),  while Leveraged Funds hold 
+															265 container
+																266 text 51.46 %
+															267 text  of all outright short contracts (
+															268 container
+																269 text 2 , 638 , 835 / 5 , 127 , 634
+															270 text ).
+														271 container
+															272 text Near-Zero Net Residual Between the Two Giants:  The combined net position of Asset Managers (
+															273 container
+																274 text + 2 , 211 , 387
+															275 text ) and Leveraged Funds (
+															276 container
+																277 text − 2 , 246 , 539
+															278 text ) is just 
+															279 container
+																280 text − 35 , 152
+															281 text  contracts  (
+															282 container
+																283 text − 0.69 %
+															284 text  of OI),  demonstrating that Leveraged Funds are directly warehousing the short side of Asset Managers' long demand.
+													285 heading 2. Core Structural Driver: The Cash-Futures Basis Trade, Value: 2
+														286 text 2. Core Structural Driver: The Cash-Futures Basis Trade
+													287 text The symbiotic relationship between Asset Managers and Leveraged Funds explains why these two positions move in lockstep in opposite directions:
+													288 content list
+														289 container
+															290 text Why Asset Managers Are Massively Net Long (
+															291 container
+																292 text + 2.21 M
+															293 text  contracts / 
+															294 container
+																295 text + $ 221.1 B
+															296 text ):
+															297 content list
+																298 container
+																	299 text Capital-Efficient Duration & Credit Overlays:  Real-money institutions—pension funds,  insurance companies,  and mutual funds governed by the Investment Company Act of 1940—use Treasury futures to match benchmark interest-rate duration while committing only 
+																	300 container
+																		301 text 1 %
+																	302 text  to 
+																	303 container
+																		304 text 3 %
+																	305 text  of notional value in initial margin.  They deploy their remaining physical cash into higher-yielding corporate credit,  agency MBS,  or CLOs to capture credit spread over Treasuries without under-weighting duration.
+																306 container
+																	307 text Accounting & Mandate Constraints: Many institutional mandates restrict bilateral repo borrowing, and for 40-Act mutual funds and ETFs, the implicit financing cost embedded in futures rolls does not count toward reported fund expense ratios (unlike explicit repo interest expense).
+																	308 pop-up button View source details for citation from Federal Reserve Bank of Chicago. Press Enter to open sources dialogue.
+																309 container
+																	310 text Price Distortion (Futures Trade "Rich"):  Persistent structural buying by Asset Managers pushes 10-Year Treasury futures prices slightly above the conversion-factor-adjusted price of the physical  cheapest-to-deliver (CTD)  Treasury note.
+														311 container
+															312 text Why Leveraged Funds Are Massively Net Short (
+															313 container
+																314 text − 2.25 M
+															315 text  contracts / 
+															316 container
+																317 text − $ 224.7 B
+															318 text ):
+															319 content list
+																320 container
+																	321 text Arbitraging the Basis:  Relative-value hedge funds act as elastic liquidity providers.  They  sell (short) the "rich" 10-Year futures contract  to Asset Managers and simultaneously  buy (long) the "cheap" physical CTD cash Treasury note  (typically a 7- to 10-year off-the-run or on-the-run issue),  financing that cash bond purchase in the  repurchase (repo) market .
+																322 container
+																	323 text Duration-Neutral Exposure:  Because their short futures position is hedged by an offsetting long position in physical cash Treasuries,  most of this 
+																	324 container
+																		325 text − 2.25  million
+																	326 text  contract short is  not  a directional bet on rising yields.  Instead,  hedge funds earn the convergence between the cash bond and futures contract at expiration,  minus their overnight/term repo financing cost.
+																327 container
+																	328 text Directional Macro Subset:  A smaller fraction of the Leveraged Fund short position reflects outright macro or CTA trend-following shorts betting on fiscal supply pressure,  sticky inflation,  or a steeper yield curve.
+													329 heading 3. What the Other Trader Categories Signal, Value: 2
+														330 text 3. What the Other Trader Categories Signal
+													331 content list
+														332 container
+															333 text Dealers / Intermediaries (
+															334 container
+																335 text − 228 , 894
+															336 text  Net / 
+															337 container
+																338 text − 4.46 %
+															339 text  of OI):  Sell-side banks and primary dealers maintain a relatively small net short footprint.  Post-GFC capital regulations (such as the Supplementary Leverage Ratio) discourage dealers from warehousing massive directional risk.  Their modest net short reflects routine hedging of primary auction inventory,  corporate bond underwriting pipelines,  and client interest-rate swap books.
+														340 container
+															341 text Asset Manager Spreading (
+															342 container
+																343 text 528 , 459
+															344 text  contracts / 
+															345 container
+																346 text 10.31 %
+															347 text  of OI):  In a futures-only TFF report,  "spreading" measures equal long and short positions held by the same reportable entity across different contract expiration months (calendar spreads) or across sub-accounts within the same complex.  Asset Managers account for nearly 
+															348 container
+																349 text 79 %
+															350 text  of all spreading open interest (
+															351 container
+																352 text 528 , 459
+															353 text  out of 
+															354 container
+																355 text 670 , 095
+															356 text  total spreading contracts),  reflecting active multi-account curve/calendar management and early positioning ahead of the quarterly September–December roll cycle.
+														357 container
+															358 text Other Reportables (
+															359 container
+																360 text + 147 , 662
+															361 text  Net / 
+															362 container
+																363 text + 2.88 %
+															364 text  of OI) & Non-Reportables (
+															365 container
+																366 text + 116 , 384
+															367 text  Net / 
+															368 container
+																369 text + 2.27 %
+															370 text  of OI):  Corporate treasuries,  smaller institutions,  and retail/small speculators hold modest net long duration exposures,  absorbing the remaining net short from Dealers and Leveraged Funds.
+													371 heading 4. Implications for Treasury Market Stability & Liquidity, Value: 2
+														372 text 4. Implications for Treasury Market Stability & Liquidity
+													373 content list
+														374 container
+															375 text Elastic Absorption of Treasury Issuance:  In stable funding conditions,  this positioning is constructive for the cash Treasury market.  Leveraged funds absorb large volumes of physical U. S.  Treasury auction supply into their cash-futures basis books and transfer the interest-rate risk to real-money Asset Managers via futures.
+														376 container
+															377 text Vulnerability to Repo & Margin Shocks (Unwind Risk):  Because basis trades capture tiny price differentials (often just a few basis points annualized),  hedge funds apply substantial leverage via low-haircut repo and low futures margin.  If  repo financing rates spike ,  dealer balance sheets tighten at quarter-end,  or a macro shock forces exchanges to hike initial margin requirements,  Leveraged Funds face acute squeeze risk.  A forced unwind requires hedge funds to  dump physical cash Treasuries while buying back 10-Year futures ,  causing cash yields to jump relative to futures and straining market liquidity.
+														378 container
+															379 text Quarterly Roll Bottlenecks:  With over 
+															380 container
+																381 text $ 220  billion
+															382 text  in net positions sitting on each side of the Asset Manager / Leveraged Fund divide,  the quarterly contract roll (late August into early September for the September-to-December contract transition) carries heightened execution sensitivity to repo rate expectations and deliverable basket shifts.
+													383 text Generating interactive visual… Structuring code… This may take a minute
+												384 button Redo
+												385 button Copy
+												386 button Show more options
+										387 container
+											388 container
+												389 pop-up button Upload and tools
+												390 container
+													391 text entry area (settable) Enter a prompt for Gemini, Value: Ask Gemini
+
+														392 text Ask Gemini
+													393 text entry area (settable)
+												394 pop-up button Open mode picker, currently Argon High
+												395 container
+													396 button Dictate (⌘⇧D)
+										397 text Gemini is AI and can make mistakes.
+							398 container Notifications
+			399 container Infobar Container
+				400 container Infobar
+					401 container
+						402 text 'ChatGPT' started debugging this browser
+						403 button Cancel
+					404 button Close
+			405 pop-up button Tab search
+			406 container
+				407 tab group
+					408 tab (selected, settable, boolean) Google Gemini - High memory usage - 1.4 GB, Value: on
+						409 button Close
+					410 tab (settable, boolean) Manage your Google One membership - Memory usage - 112 MB, Value: off
+						411 button Close
+					412 tab (settable, boolean) Settings - Memory usage - 461 MB, Value: off
+						413 button Close
+					414 tab (settable, boolean) Extensions - Memory usage - 37.3 MB, Value: off
+						415 button Close
+					416 tab (settable, boolean) Claude - Chrome Web Store - Memory usage - 258 MB, Value: off
+						417 button Close
+					418 tab (settable, boolean) Sign in - Claude - Memory usage - 239 MB, Value: off
+						419 button Close
+					420 tab (settable, boolean) Value: off, Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts. Open interest (all contracts): 3,934,302 Trader category Long Short Spreading Net Net as % of OI Dealer / Intermediary 211,953 227,582 41,198 -15,629 -0.40% Asset Manager / Institutional 1,458,078 1,409,497 788,616 48,581 +1.23% Leveraged Funds 853,740 498,222 99,743 355,518 +9.04% Other Reportab
+						421 button Close
+			422 button New tab
+			423 button Open Gemini in Chrome
+	424 close button
+	425 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	426 minimise button
+427 menu bar
+	428 Chrome
+	429 File
+	430 Edit
+	431 View
+	432 History
+	433 Bookmarks
+	434 Profiles
+	435 Tab
+	436 Window
+	437 Help
+
+The focused UI element is 18 HTML content Google Gemini, URL: gemini.google.com/app

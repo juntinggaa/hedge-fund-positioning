@@ -1,0 +1,118 @@
+- heading "Claude" [level=1]
+- main:
+  - status
+  - status
+  - toolbar "Page tools":
+    - button "Activity panel":
+      - generic: 
+  - status
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S." [level=3]'
+      - paragraph: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 June 2016. All figures are numbers of contracts.
+      - paragraph: "Open interest (all contracts): 2,812,962"
+      - paragraph:
+        - text: "| Trader category | Long | Short | Spreading | Net | Net as % of OI |"
+        - text: "|---|---|---|---|---|---|"
+        - text: "| Dealer / Intermediary | 106,836 | 246,143 | 35,772 | -139,307 | -4.95% |"
+        - text: "| Asset Manager / Institutional | 923,902 | 822,392 | 370,406 | 101,510 | +3.61% |"
+        - text: "| Leveraged Funds | 546,112 | 647,076 | 65,194 | -100,964 | -3.59% |"
+        - text: "| Other Reportable | 375,251 | 182,004 | 19,338 | 193,247 | +6.87% |"
+      - paragraph: "Output of a supervised model of leveraged-fund positioning (model v4.0):"
+      - list:
+        - listitem: "Expected net position this week: -2.74% of open interest (approximate 90% range based on earlier out-of-sample errors: -6.50% to +1.02%)."
+        - listitem: "Actual net position this week: -3.59% of open interest."
+        - listitem: "Residual (actual minus expected): -0.85 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 31% were smaller than this one and 69% were at least as large."
+      - paragraph: What does this positioning suggest about the Treasury market?
+      - paragraph: Please answer without using web search.
+      - generic: Message collapsed
+      - button "Show more":
+        - generic: Show more
+      - toolbar "Message actions":
+        - time: 2 minutes ago
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: Not much, directionally." [level=3]'
+      - generic: Weighing the 2016 context against the positioning figures
+      - button "Weighing the 2016 context against the positioning figures":
+        - generic: 
+      - status: Weighing the 2016 context against the positioning figures
+      - paragraph:
+        - strong: Not much, directionally.
+        - text: Leveraged funds were net short, but by about the amount the model expected. The rest of the table looks like the normal structure of the Treasury futures market, not a strong bet in either direction.
+      - paragraph:
+        - strong: The model result is unremarkable.
+        - text: Leveraged funds were net short 3.59% of open interest against an expected 2.74%. The −0.85 point residual sits well inside the 90% range (−6.50% to +1.02%). About 69% of past out-of-sample misses were as large or larger, so this one is close to the 31st percentile of absolute errors. That means no unusual crowding on the short side and nothing pointing to a squeeze. The 90% band is also about 7.5 points wide, so even a larger residual would need care before reading much into it.
+      - paragraph:
+        - strong: The short is probably not a bearish view.
+        - text: "In 10-year note futures, leveraged funds tend to be short partly because of the cash-futures basis trade: long cash Treasuries, short futures, earning the gap between them. A net short in futures can therefore sit alongside a flat or even long exposure to rates overall. Asset managers usually take the other side, using long futures to add duration cheaply. Their +3.61% net long fits that pattern. Dealers (−4.95%) and other reportables (+6.87%) look like the intermediary and hedging flows that typically fill out the book. The four reportable groups net to about +54,500 contracts, so non-reportable traders were net short roughly 1.9% of open interest."
+      - paragraph:
+        - strong: The timing.
+        - text: Positions are as of Tuesday 21 June 2016, two days before the Brexit referendum. The data don’t show hedge funds positioned for a big risk-off move. They also don’t show a heavy bet against bonds. Looking back, Treasuries rallied hard after the vote, and the 10-year yield fell to record lows in early July. A positioning signal measured just beforehand would not have flagged that, which is a reminder that this kind of data describes the market’s structure better than it predicts the next move in yields.
+      - paragraph:
+        - strong: "Limits of a single snapshot:"
+      - list:
+        - listitem: One week of levels says less than the week-on-week change, or where this residual falls in the model’s history over recent months.
+        - listitem: The report covers futures only. It leaves out cash bonds, swaps and options, which is where the other side of a basis trade sits.
+        - listitem: Grouping by trader category mixes very different motives within each group.
+      - paragraph:
+        - strong: "In short:"
+        - text: positioning was mildly short in line with the model and structurally normal. It doesn’t support a strong call on yields, though it does suggest there was no crowded trade waiting to unwind.
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: 2 minutes ago
+  - button "Scroll to bottom":
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - document
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note: No history, memory, or Claude training.
+  - 'button "Model: Opus 5.5 High"':
+    - generic: Opus 5.5
+    - generic: High
+  - button "Auto":
+    - generic: Auto
+  - status: Claude finished the response
+  - complementary
+  - status
+- generic: Incognito
+- button "Exit incognito":
+  - generic: 
+- status
+- status
+- region "Notifications"
+- generic "Click to open Quillbot"
+- generic "Open quick settings":
+- generic "Use AI"

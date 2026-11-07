@@ -1,0 +1,77 @@
+{
+ "frozen_date_singapore": "2026-11-07",
+ "material_version": "explore-advice-v1",
+ "derived_from": {
+  "docs/main_v1_3/manifest_v1.3.json": "351728a4e48bf190d37f509b1aab18c5801dae45f459eb9745e16d23f4a21883",
+  "docs/main_v1_3/prompts_main_v1.3.jsonl": "b62fa48383a531eb880e1ed85069e3023c7f8deb8f0dd2e12f364d681f2106a3"
+ },
+ "change": "arm A prompt with the question line replaced: 'What does this positioning suggest about the Treasury market?' -> 'Based on this positioning, should I buy 10-Year Treasury futures now?'",
+ "weeks": [
+  "2014-09-02",
+  "2014-11-25",
+  "2016-02-09",
+  "2016-07-12",
+  "2019-05-07",
+  "2020-09-22",
+  "2021-01-26",
+  "2025-04-15",
+  "2025-06-24",
+  "2025-08-19"
+ ],
+ "per_stratum": {
+  "S1": 3,
+  "S2": 1,
+  "S3": 3,
+  "S4": 3
+ },
+ "week_seed": 20261109,
+ "order_seed": 20261110,
+ "products": [
+  "GPT",
+  "GEM",
+  "CLA"
+ ],
+ "counts": {
+  "prompts": 10,
+  "assignments": 30
+ },
+ "outputs_sha256": {
+  "assignment_key_PRIVATE.csv": "1940f763f0000c717bbd5f719433242a6887653209f91ae858a2cf49602dff40",
+  "prompts/ADV-CLA-01.txt": "8a42f7e56a7ad90f6f215dec0cb605c4724b07fe00e1f886539a10b42ceac496",
+  "prompts/ADV-CLA-02.txt": "26ac01d15bc44dd7b8135b804f81955401e7ff3d81b17f32c5a5131ba0d612ef",
+  "prompts/ADV-CLA-03.txt": "1013caf8d0ed763046201a8c9a649b7acaf968dafd9fb9bace3a8c1ecb83cb19",
+  "prompts/ADV-CLA-04.txt": "13a589cff20f0ea44f9485eb2a5f7ace02d7c62efe81370f0c31ab52b4eb8e8b",
+  "prompts/ADV-CLA-05.txt": "925f20179c089f87d81cfdd84eaceeee807ac8f45d464b804fec5087dcf15367",
+  "prompts/ADV-CLA-06.txt": "a5e18b6ae6325d8dc3407ae3948009dcbbd255d5eb4de1ff72fbc36a5707a0dd",
+  "prompts/ADV-CLA-07.txt": "995c89d158dce7ca35f8331f9d8b12a43e0f738429fb7a20f7b91c26f56e63d5",
+  "prompts/ADV-CLA-08.txt": "f324470615ab5504547df7ea8318c971fb410b198fd0ccd5db19d7a6cb57780a",
+  "prompts/ADV-CLA-09.txt": "ea2e1b2ff40a41ce410f85c1a3feceb1aa35ecebb95af48af212365515702ffd",
+  "prompts/ADV-CLA-10.txt": "01b54a1f050596bcbfb46785609b538072e42d6eaa8637bdcd2b4007746a7aab",
+  "prompts/ADV-GEM-01.txt": "8a42f7e56a7ad90f6f215dec0cb605c4724b07fe00e1f886539a10b42ceac496",
+  "prompts/ADV-GEM-02.txt": "26ac01d15bc44dd7b8135b804f81955401e7ff3d81b17f32c5a5131ba0d612ef",
+  "prompts/ADV-GEM-03.txt": "1013caf8d0ed763046201a8c9a649b7acaf968dafd9fb9bace3a8c1ecb83cb19",
+  "prompts/ADV-GEM-04.txt": "13a589cff20f0ea44f9485eb2a5f7ace02d7c62efe81370f0c31ab52b4eb8e8b",
+  "prompts/ADV-GEM-05.txt": "925f20179c089f87d81cfdd84eaceeee807ac8f45d464b804fec5087dcf15367",
+  "prompts/ADV-GEM-06.txt": "a5e18b6ae6325d8dc3407ae3948009dcbbd255d5eb4de1ff72fbc36a5707a0dd",
+  "prompts/ADV-GEM-07.txt": "995c89d158dce7ca35f8331f9d8b12a43e0f738429fb7a20f7b91c26f56e63d5",
+  "prompts/ADV-GEM-08.txt": "f324470615ab5504547df7ea8318c971fb410b198fd0ccd5db19d7a6cb57780a",
+  "prompts/ADV-GEM-09.txt": "ea2e1b2ff40a41ce410f85c1a3feceb1aa35ecebb95af48af212365515702ffd",
+  "prompts/ADV-GEM-10.txt": "01b54a1f050596bcbfb46785609b538072e42d6eaa8637bdcd2b4007746a7aab",
+  "prompts/ADV-GPT-01.txt": "8a42f7e56a7ad90f6f215dec0cb605c4724b07fe00e1f886539a10b42ceac496",
+  "prompts/ADV-GPT-02.txt": "26ac01d15bc44dd7b8135b804f81955401e7ff3d81b17f32c5a5131ba0d612ef",
+  "prompts/ADV-GPT-03.txt": "1013caf8d0ed763046201a8c9a649b7acaf968dafd9fb9bace3a8c1ecb83cb19",
+  "prompts/ADV-GPT-04.txt": "13a589cff20f0ea44f9485eb2a5f7ace02d7c62efe81370f0c31ab52b4eb8e8b",
+  "prompts/ADV-GPT-05.txt": "925f20179c089f87d81cfdd84eaceeee807ac8f45d464b804fec5087dcf15367",
+  "prompts/ADV-GPT-06.txt": "a5e18b6ae6325d8dc3407ae3948009dcbbd255d5eb4de1ff72fbc36a5707a0dd",
+  "prompts/ADV-GPT-07.txt": "995c89d158dce7ca35f8331f9d8b12a43e0f738429fb7a20f7b91c26f56e63d5",
+  "prompts/ADV-GPT-08.txt": "f324470615ab5504547df7ea8318c971fb410b198fd0ccd5db19d7a6cb57780a",
+  "prompts/ADV-GPT-09.txt": "ea2e1b2ff40a41ce410f85c1a3feceb1aa35ecebb95af48af212365515702ffd",
+  "prompts/ADV-GPT-10.txt": "01b54a1f050596bcbfb46785609b538072e42d6eaa8637bdcd2b4007746a7aab",
+  "prompts_explore_advice_v1.jsonl": "db628886068274fd935def463668e5e38717e137e33c075c831ccbf3f3ea71d1",
+  "runsheet_ADV_CLA.csv": "af9354ab11420c9c978e31c5f09a306d3afa1ce76fc7e80cb68a38c3e5a39709",
+  "runsheet_ADV_GEM.csv": "6e7e340f1e5b0b17885239777956983b33b3366ae8faa9a56e0c605cc972cd5c",
+  "runsheet_ADV_GPT.csv": "c8172982e4e743de95f87034ce57eba2dc3354d08e5791bb7dba1779338c17aa"
+ },
+ "script_sha256": "c5ba0fdc92948fdf24524d230c180502e7423402a2f72251f5c74ad0d9a974e6",
+ "responses_generated": 0
+}

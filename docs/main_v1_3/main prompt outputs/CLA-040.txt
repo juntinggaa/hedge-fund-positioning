@@ -1,0 +1,36 @@
+Short answer: this looks like a market with a large, mostly market-neutral relative-value trade, not a strong bet on rates. The model residual adds little.
+
+### The big picture: a basis-trade structure
+
+Asset managers are heavily net long (+42% of OI) and leveraged funds are almost equally net short (−39%). That mirror image is the classic signature of the cash–futures basis trade:
+
+- Asset managers (pension funds, insurers, bond funds) get duration through futures because it’s cheaper on balance sheet and capital than holding cash bonds. Their demand tends to make futures slightly rich relative to cash Treasuries.
+- Leveraged funds take the other side. They sell the rich futures and buy the cheaper deliverable cash bonds, usually financed in repo, and capture the small spread with heavy leverage.
+
+So the −1.9 million contract leveraged short (roughly $190 billion face) should not be read as hedge funds betting on higher yields. Most of it is probably offset by long cash positions this report doesn’t show. Dealers’ modest net short (−7%) fits them hedging cash inventory or intermediating.
+
+### What that implies for the Treasury market
+
+The directional signal is weak, but the structural signal matters:
+
+- Funding and liquidity sensitivity. A trade this size depends on cheap, stable repo and on dealer balance sheet. If repo rates spike, margins rise, or volatility jumps, funds may have to unwind fast. That means selling cash Treasuries into a market with limited intermediation capacity, which is what amplified stress in March 2020.
+- Crowding. A position near 40% of open interest is concentrated. That raises the chance that a shock turns into forced, correlated selling rather than an orderly adjustment.
+- Support for futures demand. The other side of the trade is real end-investor appetite for duration through futures, which is a mildly constructive signal about institutional demand.
+
+### The model residual
+
+Leveraged funds were about 3 points of OI less short than the model expected. Taken in context, that’s unremarkable:
+
+- The actual value sits inside the 90% range (−45.38% to −38.43%).
+- About 16% of past out-of-sample residuals were at least this large, so you’d expect a miss this size roughly one week in six.
+- It’s a single observation. One week of slightly smaller shorts doesn’t show that the basis trade is unwinding. It could just as easily be noise, timing, or the model missing something.
+
+At most, it’s something to watch. If the residual stayed positive and grew over several weeks, that could point to deleveraging or a narrowing of the futures–cash basis. One week doesn’t tell you that.
+
+### Caveats
+
+- Futures-only and one contract. Basis and curve trades span 2-, 5-, 10-year, Ultra and bond futures. The 10-year alone gives a partial picture, and the cash leg isn’t visible at all.
+- Coarse categories. “Leveraged funds” mixes basis traders with genuine macro shorts, so some of the short may be directional.
+- Stale data. This is June 2025 positioning, more than 16 months old as of today. It describes the market structure at that time, not current conditions.
+
+Overall, the report points to a Treasury market supported by institutional duration demand and a large leveraged arbitrage. The main risk is a funding or volatility shock forcing that arbitrage to unwind, rather than any directional view.

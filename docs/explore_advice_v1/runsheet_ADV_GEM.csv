@@ -1,0 +1,11 @@
+assignment_id,collection_order,prompt_file,collector_name,account_label,started_at_sgt,finished_at_sgt,model_label_shown,thinking_setting_shown,temporary_chat,search_observed,status,attempt_number,reply_file,screenshot_file,notes
+ADV-GEM-01,1,prompts/ADV-GEM-01.txt,,,,,,,,,,,,,
+ADV-GEM-02,2,prompts/ADV-GEM-02.txt,,,,,,,,,,,,,
+ADV-GEM-03,3,prompts/ADV-GEM-03.txt,,,,,,,,,,,,,
+ADV-GEM-04,4,prompts/ADV-GEM-04.txt,,,,,,,,,,,,,
+ADV-GEM-05,5,prompts/ADV-GEM-05.txt,,,,,,,,,,,,,
+ADV-GEM-06,6,prompts/ADV-GEM-06.txt,,,,,,,,,,,,,
+ADV-GEM-07,7,prompts/ADV-GEM-07.txt,,,,,,,,,,,,,
+ADV-GEM-08,8,prompts/ADV-GEM-08.txt,,,,,,,,,,,,,
+ADV-GEM-09,9,prompts/ADV-GEM-09.txt,,,,,,,,,,,,,
+ADV-GEM-10,10,prompts/ADV-GEM-10.txt,,,,,,,,,,,,,

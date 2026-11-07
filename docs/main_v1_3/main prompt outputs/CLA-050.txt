@@ -1,0 +1,36 @@
+Short answer
+
+This is a fairly balanced, hedged market rather than a strongly directional bet. No category’s net position exceeds 7% of open interest. The overall pattern is typical for Treasury futures: asset managers and “other reportables” hold net long duration, while leveraged funds and dealers hold the net shorts. That doesn’t mean “smart money is bearish,” because much of the short side is hedging and arbitrage, not outright bets on higher yields.
+
+Category by category
+
+Dealers (net short 139k, −4.95% of OI). Dealers are mostly intermediaries. Their futures shorts usually hedge long cash-bond inventory, such as Treasuries taken down at auction or bought from clients. They also take the other side of client futures demand. Dealer positioning is a poor directional signal on its own.
+
+Asset managers (net long 102k, +3.61%). Pension funds, insurers and mutual funds use Treasury futures to add duration cheaply and to manage benchmark exposure. A net long is their normal stance, so the useful question is whether it is unusually large or small compared with their own history. One week can’t answer that. They also hold the largest spread position (370k), which reflects multi-expiry and relative-value positions rather than an outright view.
+
+Leveraged funds (net short 101k, −3.59%). This is the number most likely to be misread. A large share of hedge-fund shorts in Treasury futures is the cash–futures basis trade: long cash Treasuries, short futures, collecting the gap between them. That trade is broadly neutral on rates. Some of the short may be directional, but the report can’t separate the two. Their gross figures (546k long, 647k short) show two-way activity, not a one-sided bet.
+
+Other reportables (net long 193k, +6.87%). This is the largest net position. The category mixes corporates, smaller institutions, some official-sector and proprietary accounts, and others. Because it is so mixed, it is hard to draw a clear conclusion beyond extra long-duration demand.
+
+Non-reportables. The four nets add to +54,486, so small traders must be net short about 54k contracts. Gross non-reportable longs are about 370k and shorts about 425k.
+
+Market context
+
+The report date matters. Tuesday 21 June 2016 was two days before the UK’s Brexit referendum, and the data were published on Friday 24 June, after the result was known. At the time:
+
+Global yields were very low, with Bunds and JGBs negative across much of the curve.
+The Fed had just held rates and lowered its projected rate path at the mid-June meeting.
+After the “Leave” vote, Treasuries rallied hard, and the 10-year yield fell to record lows in early July.
+
+Read against that, the positioning has three implications:
+
+Real money was already tilted long duration going into the vote, consistent with a safe-haven, low-yield environment.
+Whatever part of the leveraged-fund short was directional was on the wrong side of the post-referendum rally. Covering those shorts could have added to the move. Since much of the short is basis trading, the squeeze effect was probably smaller than the headline number suggests.
+Positioning was not stretched. Net positions of 3–7% of open interest don’t indicate a crowded trade that was set to reverse violently on its own. The rally that followed was driven by the event, not mainly by positioning.
+What a single snapshot can’t tell you
+Changes matter more than levels. Whether asset managers added longs or leveraged funds added shorts over the prior few weeks says more about sentiment than one week’s totals.
+Historical percentiles for each category would show whether these nets were extreme by their own standards.
+The cash market is missing. Basis traders’ cash longs and dealers’ inventory don’t appear here, so the futures shorts overstate bearish exposure.
+Other maturities are missing. Positioning in 2-year, 5-year, bond and ultra contracts would show whether this is a curve trade rather than an outright view on the 10-year.
+
+I’ve taken the figures as given. The arithmetic is internally consistent (each net equals long minus short, and the percentages match), but I haven’t checked them against the published CFTC release.

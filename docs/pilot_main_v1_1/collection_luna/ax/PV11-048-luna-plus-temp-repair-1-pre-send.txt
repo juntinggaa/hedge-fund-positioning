@@ -1,0 +1,377 @@
+Browser tab: 1403820013, Title: "ChatGPT", URL: "https://chatgpt.com/?temporary-chat=true".
+0 AXWebArea ChatGPT, URL: chatgpt.com/?temporary-chat=true
+	1 container
+		2 container root
+			3 container
+				1701 link Description: Skip to content, Value: chatgpt.com/?temporary-chat=true#_r_2rl_
+				5 container
+					6 container
+						7 pop up button (collapsed) Description: Switch mode, current mode: ChatGPT, ID: radix-_r_6p_, Secondary Actions: Expand
+						8 pop up button Search
+						9 button (expanded) Description: Hide sidebar, Secondary Actions: Collapse
+						10 container Chat history
+							11 button New chat
+							12 container
+								13 button Tasks
+								14 button Library
+								15 button Plugins
+								16 pop up button (collapsed) Explore, ID: radix-_R_56atqdakrknl9iqn7dcchej9arad5_, Secondary Actions: Expand
+								17 sortable (expanded) Pinned, Secondary Actions: Collapse
+								18 content list
+									19 container IMDA Mentorship (Emails)
+										20 link Description: IMDA Mentorship (Emails), Value: chatgpt.com/c/69d0018b-b024-8399-a0d6-f854cb03e897
+										21 container
+											22 button Unpin chat
+											23 pop up button (collapsed) Description: Chat actions, ID: radix-_r_71_, Secondary Actions: Expand
+									24 container Engram模型解析
+										25 link Description: Engram模型解析, Value: chatgpt.com/c/6a06caca-51e4-83ec-8832-febd120b6881
+										26 container
+											27 button Unpin chat
+											28 pop up button (collapsed) Description: Chat actions, ID: radix-_r_78_, Secondary Actions: Expand
+									29 container AI Content Creation App
+										30 link Description: AI Content Creation App, Value: chatgpt.com/c/6a3cd52f-f7b4-83ee-a6dd-1fe4df095be7
+										31 container
+											32 button Unpin chat
+											33 pop up button (collapsed) Description: Chat actions, ID: radix-_r_7f_, Secondary Actions: Expand
+									34 container Biotech Company Classification
+										35 link Description: Biotech Company Classification, Value: chatgpt.com/c/6a3b849c-524c-83ee-8856-e6919295d8fb
+										36 container
+											37 button Unpin chat
+											38 pop up button (collapsed) Description: Chat actions, ID: radix-_r_7m_, Secondary Actions: Expand
+								39 container
+									40 sortable (expanded) Projects, Secondary Actions: Collapse
+									41 pop up button (collapsed) Description: Project sidebar options, ID: radix-_r_7q_, Secondary Actions: Expand
+									42 button Add new project
+										43 image
+								44 content list
+									45 container
+										46 button (expanded) SemiAnalysis Competition, Secondary Actions: Collapse
+											47 text SemiAnalysis Competition
+											48 container
+												49 pop up button (collapsed) Description: Project actions for SemiAnalysis Competition, ID: radix-_r_80_, Secondary Actions: Expand
+												50 button New chat in SemiAnalysis Competition
+													51 image
+										52 content list Chats in SemiAnalysis Competition
+											53 container Competition Blueprint Planning
+												54 link Description: Competition Blueprint Planning, Value: chatgpt.com/g/g-p-6ac505bc06748191aae78745873f5fb5/c/6ac506a7-add8-83ec-af75-38c681bedfde
+												55 container
+													56 pop up button (collapsed) Description: Chat actions, ID: radix-_r_c8_, Secondary Actions: Expand
+													57 button Pin chat
+									58 button (collapsed) CS3210, Secondary Actions: Expand
+										59 text CS3210
+										60 container
+											61 pop up button (collapsed) Description: Project actions for CS3210, ID: radix-_r_85_, Secondary Actions: Expand
+											62 button New chat in CS3210
+												63 image
+									64 button Save My Storage!
+										65 button (collapsed) Description: Expand Save My Storage!, Secondary Actions: Expand
+										66 text Save My Storage!
+										67 container
+											68 pop up button (collapsed) Description: Project actions for Save My Storage!, ID: radix-_r_8a_, Secondary Actions: Expand
+											69 button New chat in Save My Storage!
+												70 image
+									71 button (collapsed) CP4285, Secondary Actions: Expand
+										72 text CP4285
+										73 container
+											74 pop up button (collapsed) Description: Project actions for CP4285, ID: radix-_r_8f_, Secondary Actions: Expand
+											75 button New chat in CP4285
+												76 image
+									77 container
+										78 button (expanded) FYP ❤️ - US Stocks Automation, Secondary Actions: Collapse
+											79 text FYP ❤️ - US Stocks Automation
+											80 container
+												81 pop up button (collapsed) Description: Project actions for FYP ❤️ - US Stocks Automation, ID: radix-_r_8k_, Secondary Actions: Expand
+												82 button New chat in FYP ❤️ - US Stocks Automation
+													83 image
+										84 content list Chats in FYP ❤️ - US Stocks Automation
+											85 container Explain FMP Forecast Integration
+												86 link Description: Explain FMP Forecast Integration, Value: chatgpt.com/g/g-p-6a9e94fb2bd48191a9b2d30f55996dbe/c/6ad1f016-caf0-83ec-b3b0-f949b46abc91
+												87 container
+													88 pop up button (collapsed) Description: Chat actions, ID: radix-_r_cf_, Secondary Actions: Expand
+													89 button Pin chat
+											90 container Study Valuation Chat
+												91 link Description: Study Valuation Chat, Value: chatgpt.com/g/g-p-6a9e94fb2bd48191a9b2d30f55996dbe/c/6ad10c20-fd88-83ec-8cfe-dcae9cf47d9e
+												92 container
+													93 pop up button (collapsed) Description: Chat actions, ID: radix-_r_cm_, Secondary Actions: Expand
+													94 button Pin chat
+											95 container Review valuation brief
+												96 link Description: Review valuation brief, Value: chatgpt.com/g/g-p-6a9e94fb2bd48191a9b2d30f55996dbe/c/6ace24b2-91e0-83ec-afc0-17d25f79ecaf
+												97 container
+													98 pop up button (collapsed) Description: Chat actions, ID: radix-_r_ct_, Secondary Actions: Expand
+													99 button Pin chat
+											100 container Read valuation brief
+												101 link Description: Read valuation brief, Value: chatgpt.com/g/g-p-6a9e94fb2bd48191a9b2d30f55996dbe/c/6ac84876-bca4-83ec-afce-455cf0bd0c3f
+												102 container
+													103 pop up button (collapsed) Description: Chat actions, ID: radix-_r_d4_, Secondary Actions: Expand
+													104 button Pin chat
+											105 container Explain DCF Issues
+												106 link Description: Explain DCF Issues, Value: chatgpt.com/g/g-p-6a9e94fb2bd48191a9b2d30f55996dbe/c/6abe17db-080c-83ec-9015-613e37668e66
+												107 container
+													108 pop up button (collapsed) Description: Chat actions, ID: radix-_r_db_, Secondary Actions: Expand
+													109 button Pin chat
+											110 button Show more
+									111 button (collapsed) iDP Makers, Secondary Actions: Expand
+										112 text iDP Makers
+										113 container
+											114 pop up button (collapsed) Description: Project actions for iDP Makers, ID: radix-_r_8p_, Secondary Actions: Expand
+											115 button New chat in iDP Makers
+												116 image
+									117 button (collapsed) FYP - TinyLLM, Secondary Actions: Expand
+										118 text FYP - TinyLLM
+										119 container
+											120 pop up button (collapsed) Description: Project actions for FYP - TinyLLM, ID: radix-_r_8u_, Secondary Actions: Expand
+											121 button New chat in FYP - TinyLLM
+												122 image
+									123 button (collapsed) Job Search, Secondary Actions: Expand
+										124 text Job Search
+										125 container
+											126 pop up button (collapsed) Description: Project actions for Job Search, ID: radix-_r_93_, Secondary Actions: Expand
+											127 button New chat in Job Search
+												128 image
+									129 container
+										130 button (expanded) Let's Be CS Beast, Secondary Actions: Collapse
+											131 text Let's Be CS Beast
+											132 container
+												133 pop up button (collapsed) Description: Project actions for Let's Be CS Beast, ID: radix-_r_98_, Secondary Actions: Expand
+												134 button New chat in Let's Be CS Beast
+													135 image
+										136 content list Chats in Let's Be CS Beast
+											137 container AI4SecDev能力层应用
+												138 link Description: AI4SecDev能力层应用, Value: chatgpt.com/g/g-p-6a3e4a0bc840819197e8592d241f0a18/c/6a475c49-4bac-83ec-ac3d-596290fdb2fb
+												139 container
+													140 pop up button (collapsed) Description: Chat actions, ID: radix-_r_dk_, Secondary Actions: Expand
+													141 button Pin chat
+											142 container Named Pipes Usefulness
+												143 link Description: Named Pipes Usefulness, Value: chatgpt.com/g/g-p-6a3e4a0bc840819197e8592d241f0a18/c/6a3ec3ee-6e74-83ec-b463-d2e23243ca2b
+												144 container
+													145 pop up button (collapsed) Description: Chat actions, ID: radix-_r_dr_, Secondary Actions: Expand
+													146 button Pin chat
+											147 container Kubernetes Study Recommendations
+												148 link Description: Kubernetes Study Recommendations, Value: chatgpt.com/g/g-p-6a3e4a0bc840819197e8592d241f0a18/c/6a3e4aff-1acc-83ec-8147-fc1e3ec3fb70
+												149 container
+													150 pop up button (collapsed) Description: Chat actions, ID: radix-_r_e2_, Secondary Actions: Expand
+													151 button Pin chat
+											152 container Docker pre-Swarm Overview
+												153 link Description: Docker pre-Swarm Overview, Value: chatgpt.com/g/g-p-6a3e4a0bc840819197e8592d241f0a18/c/6a3a5706-8f08-83ee-9a3f-c9712a164faf
+												154 container
+													155 pop up button (collapsed) Description: Chat actions, ID: radix-_r_e9_, Secondary Actions: Expand
+													156 button Pin chat
+											157 container 线程 异步 协程模型
+												158 link Description: 线程 异步 协程模型, Value: chatgpt.com/g/g-p-6a3e4a0bc840819197e8592d241f0a18/c/6a3e25f0-bb04-83ec-af9c-c9497f893fd1
+												159 container
+													160 pop up button (collapsed) Description: Chat actions, ID: radix-_r_eg_, Secondary Actions: Expand
+													161 button Pin chat
+											162 button Show more
+									163 button (collapsed) Machine Learning, Secondary Actions: Expand
+										164 text Machine Learning
+										165 container
+											166 pop up button (collapsed) Description: Project actions for Machine Learning, ID: radix-_r_9d_, Secondary Actions: Expand
+											167 button New chat in Machine Learning
+												168 image
+									169 button (collapsed) Stocks, Secondary Actions: Expand
+										170 image
+										171 text Stocks
+										172 container
+											173 pop up button (collapsed) Description: Project actions for Stocks, ID: radix-_r_9h_, Secondary Actions: Expand
+											174 button New chat in Stocks
+												175 image
+								176 container
+									177 sortable (expanded) Recents, Secondary Actions: Collapse
+									178 pop up button (collapsed) Description: Chat sidebar options, ID: radix-_r_9k_, Secondary Actions: Expand
+									179 checkbox (collapsed) Description: Filter chats and work, Value: 0, ID: radix-_r_9n_, Secondary Actions: Expand
+										180 image
+									181 button New chat
+								182 content list
+									1696 container Schedule Website Change Alerts
+										1697 link Description: Schedule Website Change Alerts, Value: chatgpt.com/c/6a856174-97b0-83ec-956b-21c4b660e8a7
+										1698 container
+											1699 pop up button (collapsed) Description: Chat actions, ID: radix-_r_nu_, Secondary Actions: Expand
+											1700 button Pin chat
+									183 container Explain Model V4
+										184 link Description: Explain Model V4, Value: chatgpt.com/c/6aecc66f-baf0-83ec-9b6a-605d2941afe3
+										185 container
+											186 pop up button (collapsed) Description: Chat actions, ID: radix-_r_1vl_, Secondary Actions: Expand
+											187 button Pin chat
+									188 container Gemini API Free Tier Research
+										189 link Description: Gemini API Free Tier Research, Value: chatgpt.com/c/6aecc3d1-9fb0-83ec-9beb-889e10ad6167
+										190 container
+											191 pop up button (collapsed) Description: Chat actions, ID: radix-_r_1ns_, Secondary Actions: Expand
+											192 button Pin chat
+									193 container Understand Research Aim
+										194 link Description: Understand Research Aim, Value: chatgpt.com/c/6aeaca18-f344-83ec-81d6-91dc0efcd574
+										195 container
+											196 pop up button (collapsed) Description: Chat actions, ID: radix-_r_ao_, Secondary Actions: Expand
+											197 button Pin chat
+									203 container Message Threads vs KV Cache
+										204 link Description: Message Threads vs KV Cache, Value: chatgpt.com/c/6aec8dfc-31a0-83ec-afc3-dea7cb436c40
+										205 container
+											206 pop up button (collapsed) Description: Chat actions, ID: radix-_r_16t_, Secondary Actions: Expand
+											207 button Pin chat
+									208 container Explain ITW Case
+										209 link Description: Explain ITW Case, Value: chatgpt.com/c/6aec1f75-6618-83ec-a2a0-a090069551fe
+										210 container
+											211 pop up button (collapsed) Description: Chat actions, ID: radix-_r_ki_, Secondary Actions: Expand
+											212 button Pin chat
+									213 container Best Manus Skill
+										214 link Description: Best Manus Skill, Value: chatgpt.com/c/6aebd835-2ff0-83ec-994d-fc44d242af50
+										215 container
+											216 pop up button (collapsed) Description: Chat actions, ID: radix-_r_9s_, Secondary Actions: Expand
+											217 button Pin chat
+									218 container TCP Chapter Summary Review
+										219 link Description: TCP Chapter Summary Review, Value: chatgpt.com/c/6aeb71fe-8208-83ec-8f55-d8b8217692de
+										220 container
+											221 pop up button (collapsed) Description: Chat actions, ID: radix-_r_a3_, Secondary Actions: Expand
+											222 button Pin chat
+									223 container PUA Meaning In English
+										224 link Description: PUA Meaning In English, Value: chatgpt.com/c/6aeb6c41-58e8-83ec-b0dc-2e1457415777
+										225 container
+											226 pop up button (collapsed) Description: Chat actions, ID: radix-_r_aa_, Secondary Actions: Expand
+											227 button Pin chat
+									228 container Explain Equality Simply
+										229 link Description: Explain Equality Simply, Value: chatgpt.com/c/6aeb64dc-664c-83ec-a268-4a5838d29693
+										230 container
+											231 pop up button (collapsed) Description: Chat actions, ID: radix-_r_ah_, Secondary Actions: Expand
+											232 button Pin chat
+									233 container Explain Project Report
+										234 link Description: Explain Project Report, Value: chatgpt.com/c/6ae9d0a5-ad88-83ec-890e-92375c585003
+										235 container
+											236 pop up button (collapsed) Description: Chat actions, ID: radix-_r_av_, Secondary Actions: Expand
+											237 button Pin chat
+									238 container Explain Two Slides
+										239 link Description: Explain Two Slides, Value: chatgpt.com/c/6ae989b3-7270-83ec-8e78-6f6e49f1def7
+										240 container
+											241 pop up button (collapsed) Description: Chat actions, ID: radix-_r_b6_, Secondary Actions: Expand
+											242 button Pin chat
+									243 container Singapore Location Comparison
+										244 link Description: Singapore Location Comparison, Value: chatgpt.com/c/6aeae550-a3c0-83ec-8931-ed30f87f0964
+										245 container
+											246 pop up button (collapsed) Description: Chat actions, ID: radix-_r_bd_, Secondary Actions: Expand
+											247 button Pin chat
+									248 container Visualize Model Architectures
+										249 link Description: Visualize Model Architectures, Value: chatgpt.com/c/6aeadf13-9604-83ec-b0c6-8131de7e00d5
+										250 container
+											251 pop up button (collapsed) Description: Chat actions, ID: radix-_r_o7_, Secondary Actions: Expand
+											252 button Pin chat
+									253 container Ark question correction
+										254 link Description: Ark question correction, Value: chatgpt.com/c/6ae9b845-bf74-83ec-8349-4d38f6e821fb
+										255 container
+											256 pop up button (collapsed) Description: Chat actions, ID: radix-_r_oe_, Secondary Actions: Expand
+											257 button Pin chat
+						258 container
+							259 pop up button (collapsed) Description: Open profile menu, ID: radix-_R_96jdakrknl9iqn7dcchej9arad5_, Secondary Actions: Expand
+							260 container
+								261 text Jun Ting Plus
+					1702 container
+						1703 container
+							1704 pop up button (collapsed) Unpersonalized, ID: radix-_r_2ro_, Secondary Actions: Expand
+								1705 text Unpersonalized
+								1706 image
+							1707 button Turn off temporary chat
+								1708 image
+					1709 container
+						1710 container
+							1711 container
+								1712 heading Temporary chat, Value: 1
+									1713 text Temporary chat
+								1714 text This chat will ignore memory, plugins, and custom instructions, and it won’t appear in your history
+							1715 container
+								1716 container
+									1718 text entry area (settable) Description: Ask ChatGPT, Value: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 5 August 2025. All figures are numbers of contracts.
+
+Open interest (all contracts): 5,127,634
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 304,410 | 533,304 | 47,851 | -228,894 | -4.46% |
+| Asset Manager / Institutional | 3,055,050 | 843,663 | 528,459 | 2,211,387 | +43.13% |
+| Leveraged Funds | 392,296 | 2,638,835 | 92,321 | -2,246,539 | -43.81% |
+| Other Reportable | 263,720 | 116,058 | 1,464 | 147,662 | +2.88% |
+
+Output of a supervised model of leveraged-fund positioning (model v4.0):
+
+- Expected net position this week: -43.93% of open interest (approximate 90% range based on earlier out-of-sample errors: -47.40% to -40.46%).
+- Actual net position this week: -43.81% of open interest.
+- Residual (actual minus expected): +0.12 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 6% were smaller than this one and 94% were at least as large.
+
+How to read the model output above (model v4.0). This is a retrospective same-week conditional estimate of the weekly CHANGE in leveraged funds' net position as a share of open interest. It uses returns, realised volatility, yield levels and curve shape, equity volatility, a funding-stress proxy, a futures-yield return residual, current-week open-interest change, changes in Fed Treasury holdings, a quarter-end flag, and lagged own, other-group and cross-contract positions. More recent training observations receive more weight, with a two-year half-life.
+
+- The expected level equals last week's actual level plus the model's estimated weekly change. The residual is equivalently the conditional level gap or the unexpected weekly adjustment, measured in percentage points of open interest. It is not an identified fraction of the whole position attributable to any strategy.
+- These are statistical associations. The cash leg of a basis trade is unobserved; none of the inputs directly measures genuine cash-futures basis profitability. Neither the expected component nor the residual identifies motives, basis quantities or private information.
+- Across 720 out-of-sample weeks (2012-11-27 to 2026-09-08), squared prediction error was 10.47% lower than an expanding historical-mean change benchmark (out-of-sample R²). RMSE was 2.07 percentage points of open interest. This R² is not a percentage of the outstanding position explained by a strategy.
+- The approximate range uses only errors from earlier out-of-sample weeks. Its realised historical coverage was 91.9% across 668 eligible weeks, with variation across eras. This is not a guaranteed probability for this individual week. Being inside a broad range does not mean the point prediction closely anticipated the move.
+- The model includes current-week CFTC open interest, so this is not a pre-Friday nowcast or a next-week forecast. The model and performance summary were selected retrospectively; this is not a historically deployable untouched backtest.
+
+What does this positioning suggest about the Treasury market?
+
+Please answer without using web search.
+										1719 container
+											1736 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 5 August 2025. All figures are numbers of contracts.
+											1737 text Open interest (all contracts): 5,127,634
+											1738 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+											1739 text |---|---|---|---|---|---|
+											1740 text | Dealer / Intermediary | 304,410 | 533,304 | 47,851 | -228,894 | -4.46% |
+											1741 text | Asset Manager / Institutional | 3,055,050 | 843,663 | 528,459 | 2,211,387 | +43.13% |
+											1742 text | Leveraged Funds | 392,296 | 2,638,835 | 92,321 | -2,246,539 | -43.81% |
+											1743 text | Other Reportable | 263,720 | 116,058 | 1,464 | 147,662 | +2.88% |
+											1744 text Output of a supervised model of leveraged-fund positioning (model v4.0):
+											1745 text - Expected net position this week: -43.93% of open interest (approximate 90% range based on earlier out-of-sample errors: -47.40% to -40.46%).
+											1746 text - Actual net position this week: -43.81% of open interest.
+											1747 text - Residual (actual minus expected): +0.12 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 6% were smaller than this one and 94% were at least as large.
+											1748 text How to read the model output above (model v4.0). This is a retrospective same-week conditional estimate of the weekly CHANGE in leveraged funds' net position as a share of open interest. It uses returns, realised volatility, yield levels and curve shape, equity volatility, a funding-stress proxy, a futures-yield return residual, current-week open-interest change, changes in Fed Treasury holdings, a quarter-end flag, and lagged own, other-group and cross-contract positions. More recent training observations receive more weight, with a two-year half-life.
+											1749 text - The expected level equals last week's actual level plus the model's estimated weekly change. The residual is equivalently the conditional level gap or the unexpected weekly adjustment, measured in percentage points of open interest. It is not an identified fraction of the whole position attributable to any strategy.
+											1750 text - These are statistical associations. The cash leg of a basis trade is unobserved; none of the inputs directly measures genuine cash-futures basis profitability. Neither the expected component nor the residual identifies motives, basis quantities or private information.
+											1751 text - Across 720 out-of-sample weeks (2012-11-27 to 2026-09-08), squared prediction error was 10.47% lower than an expanding historical-mean change benchmark (out-of-sample R²). RMSE was 2.07 percentage points of open interest. This R² is not a percentage of the outstanding position explained by a strategy.
+											1752 text - The approximate range uses only errors from earlier out-of-sample weeks. Its realised historical coverage was 91.9% across 668 eligible weeks, with variation across eras. This is not a guaranteed probability for this individual week. Being inside a broad range does not mean the point prediction closely anticipated the move.
+											1753 text - The model includes current-week CFTC open interest, so this is not a pre-Friday nowcast or a next-week forecast. The model and performance summary were selected retrospectively; this is not a historically deployable untouched backtest.
+											1754 text What does this positioning suggest about the Treasury market?
+											1755 text Please answer without using web search.
+									1756 button (collapsed) Description: Add files and more, Secondary Actions: Expand
+									1757 checkbox Description: Expand, Value: 0
+									1721 pop up button (collapsed) Description: Select ChatGPT model, ID: radix-_r_2se_, Secondary Actions: Expand
+										1722 text High
+									1723 button Dictate
+									1724 button Send
+										1725 image
+						1726 text For safety, we may keep a copy of this chat for up to 30 days.
+	1727 container
+		1728 button Close
+		1729 button
+			1730 image
+		1731 image
+		1732 container
+			1733 text ⌘D
+			1734 button app toolbar
+				1735 button Rewrite
+		1758 container
+			1759 button
+	1694 container grammarly-integration
+		1695 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 1718 text entry area (settable) Description: Ask ChatGPT, Value: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 5 August 2025. All figures are numbers of contracts.
+
+Open interest (all contracts): 5,127,634
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 304,410 | 533,304 | 47,851 | -228,894 | -4.46% |
+| Asset Manager / Institutional | 3,055,050 | 843,663 | 528,459 | 2,211,387 | +43.13% |
+| Leveraged Funds | 392,296 | 2,638,835 | 92,321 | -2,246,539 | -43.81% |
+| Other Reportable | 263,720 | 116,058 | 1,464 | 147,662 | +2.88% |
+
+Output of a supervised model of leveraged-fund positioning (model v4.0):
+
+- Expected net position this week: -43.93% of open interest (approximate 90% range based on earlier out-of-sample errors: -47.40% to -40.46%).
+- Actual net position this week: -43.81% of open interest.
+- Residual (actual minus expected): +0.12 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 6% were smaller than this one and 94% were at least as large.
+
+How to read the model output above (model v4.0). This is a retrospective same-week conditional estimate of the weekly CHANGE in leveraged funds' net position as a share of open interest. It uses returns, realised volatility, yield levels and curve shape, equity volatility, a funding-stress proxy, a futures-yield return residual, current-week open-interest change, changes in Fed Treasury holdings, a quarter-end flag, and lagged own, other-group and cross-contract positions. More recent training observations receive more weight, with a two-year half-life.
+
+- The expected level equals last week's actual level plus the model's estimated weekly change. The residual is equivalently the conditional level gap or the unexpected weekly adjustment, measured in percentage points of open interest. It is not an identified fraction of the whole position attributable to any strategy.
+- These are statistical associations. The cash leg of a basis trade is unobserved; none of the inputs directly measures genuine cash-futures basis profitability. Neither the expected component nor the residual identifies motives, basis quantities or private information.
+- Across 720 out-of-sample weeks (2012-11-27 to 2026-09-08), squared prediction error was 10.47% lower than an expanding historical-mean change benchmark (out-of-sample R²). RMSE was 2.07 percentage points of open interest. This R² is not a percentage of the outstanding position explained by a strategy.
+- The approximate range uses only errors from earlier out-of-sample weeks. Its realised historical coverage was 91.9% across 668 eligible weeks, with variation across eras. This is not a guaranteed probability for this individual week. Being inside a broad range does not mean the point prediction closely anticipated the move.
+- The model includes current-week CFTC open interest, so this is not a pre-Friday nowcast or a next-week forecast. The model and performance summary were selected retrospectively; this is not a historically deployable untouched backtest.
+
+What does this positioning suggest about the Treasury market?
+
+Please answer without using web search.

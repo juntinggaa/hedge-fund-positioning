@@ -1,0 +1,139 @@
+- heading "Claude" [level=1]
+- main:
+  - status
+  - status
+  - toolbar "Page tools":
+    - button "Activity panel":
+      - generic: 
+  - status
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S." [level=3]'
+      - paragraph: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 8 September 2026. All figures are numbers of contracts.
+      - paragraph: "Open interest (all contracts): 5,225,295"
+      - paragraph:
+        - text: "| Trader category | Long | Short | Spreading | Net | Net as % of OI |"
+        - text: "|---|---|---|---|---|---|"
+        - text: "| Dealer / Intermediary | 123,341 | 757,787 | 12,409 | -634,446 | -12.14% |"
+        - text: "| Asset Manager / Institutional | 3,258,404 | 696,723 | 657,352 | 2,561,681 | +49.02% |"
+        - text: "| Leveraged Funds | 391,836 | 2,330,590 | 155,946 | -1,938,754 | -37.10% |"
+        - text: "| Other Reportable | 236,286 | 221,378 | 263 | 14,908 | +0.29% |"
+      - paragraph: "Output of a supervised model of leveraged-fund positioning (model v4.0):"
+      - list:
+        - listitem: "Expected net position this week: -39.04% of open interest (approximate 90% range based on earlier out-of-sample errors: -42.45% to -35.64%)."
+        - listitem: "Actual net position this week: -37.10% of open interest."
+        - listitem: "Residual (actual minus expected): +1.94 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 68% were smaller than this one and 32% were at least as large."
+      - paragraph: How to read the model output above (model v4.0). This is a retrospective same-week conditional estimate of the weekly CHANGE in leveraged funds' net position as a share of open interest. It uses returns, realised volatility, yield levels and curve shape, equity volatility, a funding-stress proxy, a futures-yield return residual, current-week open-interest change, changes in Fed Treasury holdings, a quarter-end flag, and lagged own, other-group and cross-contract positions. More recent training observations receive more weight, with a two-year half-life.
+      - list:
+        - listitem: The expected level equals last week's actual level plus the model's estimated weekly change. The residual is equivalently the conditional level gap or the unexpected weekly adjustment, measured in percentage points of open interest. It is not an identified fraction of the whole position attributable to any strategy.
+        - listitem: These are statistical associations. The cash leg of a basis trade is unobserved; none of the inputs directly measures genuine cash-futures basis profitability. Neither the expected component nor the residual identifies motives, basis quantities or private information.
+        - listitem: Across 720 out-of-sample weeks (2012-11-27 to 2026-09-08), squared prediction error was 10.47% lower than an expanding historical-mean change benchmark (out-of-sample R²). RMSE was 2.07 percentage points of open interest. This R² is not a percentage of the outstanding position explained by a strategy.
+        - listitem: The approximate range uses only errors from earlier out-of-sample weeks. Its realised historical coverage was 91.9% across 668 eligible weeks, with variation across eras. This is not a guaranteed probability for this individual week. Being inside a broad range does not mean the point prediction closely anticipated the move.
+        - listitem: The model includes current-week CFTC open interest, so this is not a pre-Friday nowcast or a next-week forecast. The model and performance summary were selected retrospectively; this is not a historically deployable untouched backtest.
+      - paragraph: What does this positioning suggest about the Treasury market?
+      - paragraph: Please answer without using web search.
+      - generic: Message collapsed
+      - button "Show more":
+        - generic: Show more
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: The main thing this report shows is a familiar structure in Treasury futures: real-money investors are heavily long, leveraged funds are heavily short, and dea…" [level=3]'
+      - generic: Checking the leveraged funds' net short
+      - button "Checking the leveraged funds' net short":
+        - generic: 
+      - status: Checking the leveraged funds' net short
+      - paragraph: "The main thing this report shows is a familiar structure in Treasury futures: real-money investors are heavily long, leveraged funds are heavily short, and dealers sit in between. That says a lot about how risk is distributed and very little about where yields go next. The model output adds that this week’s leveraged-fund position was a bit less short than expected, but not unusually so."
+      - paragraph:
+        - strong: What the table shows
+      - paragraph: Futures are zero-sum, so the net positions largely offset each other. The four reportable categories net to about +3,400 contracts, which implies non-reportables hold roughly that much net short.
+      - list:
+        - strong: Asset managers
+        - text: are net long about 2.56 million contracts (+49% of open interest), roughly $256bn face value. This fits pension funds, insurers and bond funds getting duration through futures rather than cash bonds, often because it is cheaper on balance sheet and funding.
+        - strong: Leveraged funds
+        - text: are net short about 1.94 million contracts (−37% of open interest), roughly $194bn face. Their gross short alone is about 45% of all open interest.
+        - strong: Dealers
+        - text: are net short about 634,000 contracts (−12%), which is consistent with hedging and intermediating client flow.
+      - paragraph: "A large leveraged-fund short opposite a large asset-manager long is the pattern usually linked to the cash-futures basis trade: funds buy cash Treasuries with repo financing and sell futures to the investors who want duration. As your model notes, though, the cash leg is invisible in this report. The same short could also reflect outright bearish bets, curve or relative-value trades across contracts, or hedges of other holdings. The report is consistent with a large basis position but doesn’t prove one."
+      - paragraph:
+        - strong: What the model adds
+      - list:
+        - strong: "Size of the miss:"
+        - text: Leveraged funds came in at −37.10% against an expected −39.04%. That makes them about 1.94 points of open interest less short than the model’s conditional estimate, roughly 100,000 contracts or about $10bn face.
+        - strong: "How unusual it is:"
+        - text: The miss is close to the model’s 2.07-point RMSE, inside the approximate 90% range, and only around the 68th percentile of past absolute errors. It is roughly a one-standard-error week.
+        - strong: "What it measures:"
+        - text: The residual is a surprise relative to a model whose out-of-sample R² is only about 10%. Weekly changes in this position are mostly not predicted by the inputs, so a residual this size is normal noise, not a sign of hidden selling, informed trading or basis unwinding.
+        - strong: "What it can’t tell you:"
+        - text: You can’t tell from the output whether the position actually grew or shrank this week, only that it ended less short than predicted. You’d need last week’s level for that.
+      - paragraph:
+        - strong: What this suggests for the market
+      - paragraph: "The structure matters more than this week’s surprise. A large, leveraged, repo-financed short in futures, if it is mostly basis trades, links Treasury market functioning to funding conditions and margins. In March 2020, a jump in volatility and margin calls forced basis unwinds that made cash-market selling worse. So positioning like this is mainly a gauge of tail risk: it could amplify a disorderly move if funding tightens, volatility spikes or futures margins rise. It is not a signal that yields will rise or fall."
+      - paragraph:
+        - strong: Limits to keep in mind
+      - list:
+        - strong: "One contract only:"
+        - text: Positions shift across tenors (2-, 5-, Ultra 10-year, bond and Ultra bond futures), so one contract can overstate or understate the overall picture.
+        - strong: "No history here:"
+        - text: Whether −37% is extreme for leveraged funds depends on the time series, which isn’t included.
+        - strong: "Stale data:"
+        - text: This is the week ending 8 September, about two months ago, so several newer reports would show whether this pattern has since grown, held or unwound.
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button "Scroll to bottom":
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - document
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note: No history, memory, or Claude training.
+  - 'button "Model: Opus 5.5 High"':
+    - generic: Opus 5.5
+    - generic: High
+  - button "Auto":
+    - generic: Auto
+  - status: Claude finished the response
+  - complementary
+  - status
+- generic: Incognito
+- button "Exit incognito":
+  - generic: 
+- status
+- status
+- region "Notifications"
+- generic "Click to open Quillbot"
+- generic "Open quick settings":
+- generic "Use AI"

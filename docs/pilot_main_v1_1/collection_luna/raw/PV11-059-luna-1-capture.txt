@@ -1,0 +1,119 @@
+The positioning points to a Treasury futures market with a pronounced split between  asset managers holding large net longs and leveraged funds holding large net shorts . That is an important feature of the market, but it is not, by itself, evidence that one side has a better forecast of Treasury prices or interest rates.
+
+My main interpretation is that the figures show substantial opposing exposures, potentially reflecting different investment strategies, rather than a simple consensus view that Treasury yields are heading higher.
+
+## 1. The dominant feature: leveraged funds are heavily short
+
+Net positions as a share of open interest
+
+Week ending 5 August 2025; positive values are net long and negative values are net short.
+
+Dealer / Intermediary: Net position -4.5%
+
+Asset Manager: Net position 43.1%
+
+Leveraged Funds: Net position -43.8%
+
+Other Reportable: Net position 2.9%
+
+Leveraged funds have a net short of approximately  2.247 million contracts , equivalent to 43.81% of total open interest. Their gross short position is approximately 2.639 million contracts, compared with just 392,296 long.
+
+That is a substantial directional-looking exposure. If it represented outright bearish positioning, it would imply that leveraged funds were positioned for lower Treasury futures prices and, broadly, higher yields.
+
+However, that interpretation needs an important qualification: leveraged funds can hold short Treasury futures as one leg of a relative-value or cash-futures basis trade. In a common version of that trade, a fund holds cash Treasuries while shorting Treasury futures. Its futures short therefore does not necessarily represent a negative view of Treasury prices.
+
+The CFTC futures-only report does not reveal the corresponding cash positions.
+
+## 2. Asset managers are positioned almost opposite to leveraged funds
+
+Asset managers have a net long position of approximately  2.211 million contracts , or 43.13% of open interest.
+
+The scale is striking:
+
+•  Leveraged funds: -2.247 million net contracts.
+
+•  Asset managers: +2.211 million net contracts.
+
+•  Difference in their net positions: only about 35,000 contracts.
+
+The two groups therefore have almost equal and opposite net exposures.
+
+This could reflect very different activities. Asset managers may be expressing duration demand, hedging portfolio liabilities, or managing fixed-income allocations. Leveraged funds may be pursuing relative-value trades, including basis strategies, or other directional and spread positions.
+
+The figures do not establish that these particular positions are directly matched trades between the two groups. Nor do they show the combined cash, futures, swaps and financing exposures of either group.
+
+The useful takeaway is that the market has a pronounced divide between institutional long exposure and leveraged-fund short exposure.  It would be misleading to interpret either group's net position as the market's overall view.
+
+## 3. Dealers and other reportable traders provide additional context
+
+Dealers are net short 228,894 contracts, equivalent to 4.46% of open interest. Their gross short position is considerably larger than their net short, indicating that the net figure conceals substantial activity on both sides.
+
+Dealer positions often reflect intermediation, customer flow, inventory management and hedging. A dealer net short is therefore not necessarily a proprietary bearish forecast.
+
+Other reportable traders are net long 147,662 contracts, or 2.88% of open interest. That is relatively small compared with the opposing asset-manager and leveraged-fund positions.
+
+The spreading columns also matter. They represent spread positions rather than straightforward outright directional exposure. In particular, leveraged funds' net short should not be treated as a complete description of their futures trading: they also have substantial spreading positions.
+
+## 4. What does the model add?
+
+The model's result is notable mainly because the observed position is so close to its conditional expectation.
+
+Measure
+
+Result
+
+Expected net position
+
+-43.93% of OI
+
+Actual net position
+
+-43.81% of OI
+
+Residual
+
++0.12 percentage points
+
+Historical RMSE
+
+2.07 percentage points
+
+The actual position was slightly less short than expected, but the difference is tiny relative to the model's typical prediction error.
+
+The residual is particularly small in historical context: only approximately 6% of earlier absolute out-of-sample residuals were smaller. Thus, the model anticipated this week's positioning level unusually closely.
+
+There are three important qualifications:
+
+First, this is not evidence of a specific trading strategy.  The model predicts a conditional statistical level, not how much of the position represents basis trading, directional speculation or another activity.
+
+Second, the model's performance is useful but limited.  Its 10.47% out-of-sample R² means it reduced squared prediction error relative to the historical-mean-change benchmark by that amount. It does not mean that it explains 10.47% of leveraged funds' position or identifies the economic forces behind it.
+
+Third, this is retrospective rather than a genuine real-time trading signal.  The model incorporates current-week open interest, and its specification and performance summary were selected retrospectively. Its close prediction should not be interpreted as proof that the position was predictable using only information available before the reporting week ended.
+
+My reading is that  leveraged funds' large short was broadly consistent with the model's conditional expectations, rather than an unusually large unexplained short-position adjustment .
+
+## 5. What does this imply for Treasury-market risk?
+
+There are several implications worth considering.
+
+Potential for short-covering rallies.  If a significant portion of leveraged funds' short exposure is outright bearish, an unexpected decline in yields and rise in Treasury futures prices could create pressure to cover shorts. That buying could reinforce a Treasury rally. The size of the short position makes this a risk worth monitoring, although the data do not establish how much of it is directional.
+
+Potential vulnerability to financing and liquidity shocks.  If a meaningful part of leveraged funds' position belongs to cash-futures basis strategies, changes in repo financing, margin requirements or funding conditions could cause positions to be unwound. Such unwinds can affect both cash Treasuries and futures, potentially amplifying market dislocations. The futures-only report cannot tell us how large this exposure is.
+
+A disagreement in reported exposures, not necessarily a disagreement in economic views.  Asset managers' large net long and leveraged funds' large net short might look like opposing macro forecasts. But if the leveraged-fund shorts are hedged against cash bonds, the two groups could have very different economic exposures from what their futures positions suggest.
+
+No clear yield-direction forecast from positioning alone.  The short position might appear bearish, but it is insufficient to conclude that Treasury yields are likely to rise. Positioning can identify potential sources of market fragility without reliably predicting the next price move.
+
+## Overall assessment
+
+I would summarise the positioning as follows:
+
+1.  Large opposing exposures:  Asset managers are heavily net long while leveraged funds are heavily net short. This is the defining feature of the report.
+
+2.  Potentially significant structural activity:  The leveraged-fund short could include substantial cash-futures basis and other relative-value positioning, not just outright bearish bets.
+
+3.  Asymmetric market risks:  A sharp change in funding conditions or a significant Treasury rally could expose vulnerabilities associated with leveraged positioning, though the precise direction and scale of any unwind are uncertain.
+
+4.  Little unusual weekly adjustment:  The model indicates that the observed leveraged-fund position was very close to its conditional expectation, rather than an unusually large surprise.
+
+My bottom line:  This looks less like a straightforward signal that the market expects higher Treasury yields and more like a market with large, potentially leveraged and structurally different positions on opposite sides of Treasury futures. That creates potential for amplified moves when financing conditions, volatility or macroeconomic expectations change. But the most important missing information is the cash-bond exposure behind leveraged funds' futures shorts. Without it, we cannot reliably distinguish a crowded bear

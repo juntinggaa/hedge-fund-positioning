@@ -1,0 +1,48 @@
+**Short version:** this snapshot shows the familiar mirror-image structure of Treasury futures. Asset managers are heavily long, leveraged funds are heavily short, and dealers are modestly short. The model output says this week was ordinary. It tells you almost nothing new about where yields are going, and it can’t confirm a basis trade.
+
+**What the positioning itself shows**
+
+The two dominant groups are almost exact offsets. Asset managers are net long about 2.21 million contracts (+42.7% of OI), and leveraged funds are net short about 2.01 million (−38.7%). Gross concentration is high on both sides:
+
+- Asset managers hold about 59% of all reportable long positions measured against OI.
+- Leveraged funds hold about 45% of the short side.
+
+At $100,000 face per contract, the leveraged-fund net short is roughly $200bn face of 10-year exposure. The nets reconcile cleanly: the four categories sum to −42,408, so non-reportable traders are net long by that amount, about +0.8% of OI.
+
+This pattern fits a well-known division of labour:
+
+- Asset managers use futures as a capital-efficient way to hold duration against benchmarks.
+- Leveraged funds take the other side, often (but not provably) as the short-futures leg of a cash-futures basis trade: long cash Treasuries financed in repo, short futures.
+
+The CFTC data only show the futures leg, so the same short could also be:
+
+- an outright bearish bet,
+- a curve or cross-tenor trade against other Treasury contracts,
+- a hedge of something else.
+
+**What the model output adds**
+
+Very little, and that is the informative part.
+
+- The actual level (−38.75%) sits 0.36pp below the model’s expectation. That is about 19,000 contracts, against a historical RMSE of about 2.07pp (roughly 107,000 contracts).
+- 84% of earlier out-of-sample residuals were at least this large, so this is a quiet week.
+- The leveraged-fund adjustment was about what returns, volatility, funding conditions, OI changes and lagged positions would typically be associated with.
+- There is no sign of an unusual build-up or an unexpected unwind.
+
+Three caveats limit how far you can push this:
+
+- **Weekly change is unknown.** The expected level is last week’s level plus a predicted change, and last week’s level isn’t given. A small residual doesn’t mean little happened, only that whatever happened was roughly in line with the inputs.
+- **Modest predictive power.** The out-of-sample R² of about 10% means most weekly variation in leveraged-fund positioning is unexplained even in a quiet week.
+- **No motive or basis inference.** By the model’s own description, neither the fitted part nor the residual measures basis profitability or identifies motives.
+
+**What it suggests about the Treasury market**
+
+*Market structure.* A large share of 10-year futures demand from real-money investors is being met by leveraged, likely repo-financed intermediaries. In normal conditions this is benign and arguably useful: it connects cash and futures pricing and lets asset managers get duration cheaply.
+
+*Vulnerability.* The risk is in the tails. If much of that short is basis-related, the position depends on stable repo funding and margin requirements. A funding shock, margin hikes, or a sharp volatility spike could force simultaneous unwinds, with leveraged funds selling cash Treasuries into a thin market. That was the dynamic in March 2020. Positions of this size are why regulators watch this metric. Still, nothing in this week’s data signals that such stress was starting; the residual is unremarkable.
+
+*Direction.* Don’t read the leveraged-fund short as a bearish signal, or as a contrarian “crowded short” buy signal. If it is largely hedged by cash holdings, it carries little net duration view.
+
+**Context**
+
+This report is for mid-April 2026, nearly seven months before today. Without the surrounding weeks, I can’t say whether −38.75% is high or low relative to the recent range or which way the trend was running. If you have the prior weeks’ levels, the actual weekly change and the trajectory would be more informative than this single snapshot.

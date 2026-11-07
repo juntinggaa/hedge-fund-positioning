@@ -1,0 +1,148 @@
+Window: "Google Gemini", App: Google Chrome.
+0 standard window Google Gemini - Google Chrome – Tong, URL: gemini.google.com/app, Secondary Actions: Raise
+	1 container Google Gemini - Google Chrome – Tong, URL: gemini.google.com/app
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: gemini.google.com/app, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button Open Claude
+Has access to this site
+					13 pop-up button Extensions
+				14 button Tong
+				15 pop-up button Action required
+			16 container
+				17 scroll area
+					18 HTML content Google Gemini, URL: gemini.google.com/app
+						19 container
+							20 container
+								21 button Open sidebar
+								22 container Side navigation
+									23 container
+										24 container Main actions menu
+											25 link New chat, Value: gemini.google.com/app
+										26 container Additional actions menu
+											27 pop-up button Search chats
+											28 link Library, Value: gemini.google.com/library
+											29 link Images, Value: gemini.google.com/images
+											30 container Scheduled
+												31 link Scheduled, Value: gemini.google.com/scheduled
+											32 link Students, Value: gemini.google.com/students
+										33 link Google Account: Tong Jing Yen (jingyentong@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com
+										34 pop-up button Settings
+								35 container
+									36 container
+										37 heading Conversation with Gemini, Value: 1
+											38 text Conversation with Gemini
+										39 container
+											40 text Temporary chat
+											41 container
+												42 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+													43 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+												44 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts.
+												45 text Open interest (all contracts): 3,934,302
+												46 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+												47 text |---|---|---|---|---|---|
+												48 text | Dealer / Intermediary | 211,953 | 227,582 | 41,198 | -15,629 | -0.40% |
+												49 text | Asset Manager / Institutional | 1,458,078 | 1,409,497 | 788,616 | 48,581 | +1.23% |
+												50 text | Leveraged Funds | 853,740 | 498,222 | 99,743 | 355,518 | +9.04% |
+												51 text | Other Reportable | 133,901 | 292,990 | 9,644 | -159,089 | -4.04% |
+												52 text Output of a supervised model of leveraged-fund positioning (model v4.0):
+												53 text - Expected net position this week: +7.31% of open interest (approximate 90% range based on earlier out-of-sample errors: +3.74% to +10.88%).
+												54 text - Actual net position this week: +9.04% of open interest.
+												55 text - Residual (actual minus expected): +1.73 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 61% were smaller than this one and 39% were at least as large.
+												56 text What does this positioning suggest about the Treasury market?
+												57 text Please answer without using web search.
+												58 button Expand
+											59 button Copy prompt
+											60 button Edit
+											61 container
+												62 heading Gemini said, Value: 6
+													63 text Gemini said
+												64 container
+													65 text This CFTC positioning snapshot and model output indicate that  leveraged funds hold a substantial net long position in 10-Year Treasury Note futures (+9.04% of open interest), but that stance is largely in line with model expectations rather than a statistically extreme or unexpectedly crowded trade. 1. Leveraged Funds: Moderately More Bullish Than Modeled, Within Normal Noise
+													66 content list
+														67 container
+															68 text Directional stance:  At +355, 518 contracts (+9. 04% of open interest),  leveraged funds (hedge funds,  CTAs,  and macro traders) are the primary net long force among reportable traders.  In isolation,  a net long futures position points toward expectations of  higher 10-year note prices (lower yields) —or long-futures basis trades against short cash bonds.
+														69 container
+															70 text Statistical significance of the residual:  While actual net positioning (+9. 04%) exceeds the model's point forecast (+7. 31%) by  +1.73 percentage points ,  it sits comfortably inside the 90% prediction interval (+3. 74% to +10. 88%).  Because 39% of historical out-of-sample absolute residuals were at least as large (putting this residual near the 61st percentile of past errors,  or less than one standard deviation under a normal approximation),  the +1. 73% surprise represents  routine positioning noise  rather than an abnormal structural shift or a crowded divergence from fundamentals.
+													71 text 2. Market Structure & Offsetting Counterparties
+													72 content list
+														73 container
+															74 text Asset Managers (High gross footprint, neutral net tilt):  Asset managers dominate total market participation—holding 37. 06% of open interest on the long side (1, 458, 078 contracts),  35. 83% on the short side (1, 409, 497 contracts),  and 20. 04% in spreading (788, 616 contracts)—yet their net exposure is nearly flat at  +1.23% of open interest (+48,581 contracts) .  Institutional managers as a group are heavily active in duration management and curve/spread trades,  but their bullish and bearish views largely offset one another in the aggregate.
+														75 container
+															76 text Dealers (Flat net exposure):  Dealers/intermediaries hold a negligible net short of  -15,629 contracts (-0.40% of open interest) ,  reflecting balanced book-running in the futures leg.
+														77 container
+															78 text Who is taking the short side:  Across all four reportable categories,  net positions sum to  +229,381 contracts (+5.83% of open interest) .  Because every long futures contract requires a short counterparty,  the long exposure of leveraged funds and asset managers is absorbed primarily by two groups:
+															79 content list
+																80 container
+																	81 text Implied Non-Reportable (small) traders:  Net short  -229,381 contracts (-5.83% of open interest) ,  representing the largest net short bloc in the market.
+																82 container
+																	83 text Other Reportables:  Net short  -159,089 contracts (-4.04% of open interest) ,  typically reflecting corporate treasuries,  mortgage servicers,  or smaller institutions hedging interest-rate risk and locking in yields.
+													84 text 3. Key Analytical Caveat: Futures-Only vs. Cash-Futures Basis
+													85 content list
+														86 container
+															87 text Because this report covers  futures only ,  net futures positioning does not translate one-for-one into outright duration exposure.  Leveraged funds frequently execute  cash-futures basis or relative-value trades  (such as buying 10-year futures while shorting cash Treasuries or paying fixed in interest-rate swaps).  Consequently,  the +9. 04% net long futures position could reflect a mix of outright bullish duration bets (positioning for lower yields) and relative-value arbitrage where futures are cheap relative to cash bonds.
+												88 button Redo
+												89 button Copy
+												90 button Show more options
+										91 container
+											92 container
+												93 pop-up button Upload and tools
+												94 container
+													95 text entry area (settable) Enter a prompt for Gemini, Value: Ask Gemini
+
+														96 text Ask Gemini
+													97 text entry area (settable)
+												98 pop-up button Open mode picker, currently Argon High
+												99 container
+													100 button Dictate (⌘⇧D)
+										101 text Gemini is AI and can make mistakes.
+							102 text Synthesizing market signals from data
+							103 container Notifications
+			104 container Infobar Container
+				105 container Infobar
+					106 container
+						107 text 'ChatGPT' started debugging this browser
+						108 button Cancel
+					109 button Close
+			110 pop-up button Tab search
+			111 container
+				112 tab group
+					113 tab (selected, settable, boolean) Google Gemini - Memory usage - 686 MB, Value: on
+						114 button Close
+					115 tab (settable, boolean) Manage your Google One membership - Memory usage - 112 MB, Value: off
+						116 button Close
+					117 tab (settable, boolean) Settings - Memory usage - 461 MB, Value: off
+						118 button Close
+					119 tab (settable, boolean) Extensions - Memory usage - 37.3 MB, Value: off
+						120 button Close
+					121 tab (settable, boolean) Claude - Chrome Web Store - Memory usage - 258 MB, Value: off
+						122 button Close
+					123 tab (settable, boolean) Sign in - Claude - Memory usage - 239 MB, Value: off
+						124 button Close
+					125 tab (settable, boolean) Value: off, Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts. Open interest (all contracts): 3,934,302 Trader category Long Short Spreading Net Net as % of OI Dealer / Intermediary 211,953 227,582 41,198 -15,629 -0.40% Asset Manager / Institutional 1,458,078 1,409,497 788,616 48,581 +1.23% Leveraged Funds 853,740 498,222 99,743 355,518 +9.04% Other Reportab
+						126 button Close
+			127 button New tab
+			128 button Open Gemini in Chrome
+	129 close button
+	130 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	131 minimise button
+132 menu bar
+	133 Chrome
+	134 File
+	135 Edit
+	136 View
+	137 History
+	138 Bookmarks
+	139 Profiles
+	140 Tab
+	141 Window
+	142 Help
+
+The focused UI element is 95 text entry area (settable) Enter a prompt for Gemini, Value: Ask Gemini

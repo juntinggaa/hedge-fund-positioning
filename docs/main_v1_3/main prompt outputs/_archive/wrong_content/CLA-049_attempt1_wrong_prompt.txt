@@ -1,0 +1,25 @@
+Checking the leveraged fund's subtraction
+
+Checking the leveraged fund's subtraction
+
+On its own, this report says little about where Treasuries were headed. The leveraged-fund short is almost exactly what your model expected, and the broader pattern across categories is the usual structural one, not a directional bet.
+
+The model residual is noise. Leveraged funds were net short 10.37% of open interest against an expected 9.39%. That −0.98 point gap sits well inside the 90% range (−13.16% to −5.63%). It is also smaller than 63% of earlier out-of-sample misses, so a residual this size is a routine week. There is no evidence here of unusual crowding, capitulation or a positioning extreme.
+
+The category pattern is mostly plumbing:
+
+Asset managers long (+13.9%) and leveraged funds short (−10.4%) is the classic mirror image in Treasury futures. Asset managers often hold futures as cheap, capital-light duration exposure. Leveraged funds often take the other side through the cash-futures basis trade: they buy cash Treasuries and sell futures. A large leveraged-fund short is therefore often hedged, not a bet on higher yields.
+Dealers net short (−7.3%) is typical of intermediaries hedging inventory and client flow.
+Other reportables net long (+5.9%) is a smaller directional or hedging cohort.
+The reportable nets sum to +62,675 contracts. That implies non-reportable traders were net short about 62,700 contracts, roughly 2.1% of open interest. The arithmetic in your table checks out.
+
+How the date fits in. Early February 2016 was a risk-off period, with oil near its lows, equities weak and 10-year yields falling sharply. If leveraged funds had been short far beyond what their usual basis activity explains, you might read that as squeeze risk into a rally. The model says they weren’t, so positioning doesn’t appear to have been a meaningful extra force on yields that week.
+
+Limits on what you can infer:
+
+This is one snapshot. Week-over-week changes, and the run of residuals over several weeks, usually say more than a single level.
+The data are futures-only and cover only the 10-year contract. The cash legs of basis trades and positions in other tenors (2s, 5s, bonds, ultras) are invisible here, and duration often moves between contracts.
+Positions are as of Tuesday and published Friday, so they are stale for timing purposes.
+How informative the residual is depends on what the model already controls for. If it captures basis-trade economics such as repo rates, the implied repo rate and open-interest growth, a small residual means “nothing beyond the usual structure.” If it doesn’t, the expected value may already contain directional views.
+
+In short, positioning that week looks normal for the 10-year market’s structure. It doesn’t support a bullish or bearish conclusion about Treasuries by itself.

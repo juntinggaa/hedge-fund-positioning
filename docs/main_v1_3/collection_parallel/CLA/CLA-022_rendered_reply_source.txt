@@ -1,0 +1,28 @@
+The main thing this report shows is a familiar structure in Treasury futures: real-money investors are heavily long, leveraged funds are heavily short, and dealers sit in between. That says a lot about how risk is distributed and very little about where yields go next. The model output adds that this week’s leveraged-fund position was a bit less short than expected, but not unusually so.
+
+What the table shows
+
+Futures are zero-sum, so the net positions largely offset each other. The four reportable categories net to about +3,400 contracts, which implies non-reportables hold roughly that much net short.
+
+Asset managers are net long about 2.56 million contracts (+49% of open interest), roughly $256bn face value. This fits pension funds, insurers and bond funds getting duration through futures rather than cash bonds, often because it is cheaper on balance sheet and funding.
+Leveraged funds are net short about 1.94 million contracts (−37% of open interest), roughly $194bn face. Their gross short alone is about 45% of all open interest.
+Dealers are net short about 634,000 contracts (−12%), which is consistent with hedging and intermediating client flow.
+
+A large leveraged-fund short opposite a large asset-manager long is the pattern usually linked to the cash-futures basis trade: funds buy cash Treasuries with repo financing and sell futures to the investors who want duration. As your model notes, though, the cash leg is invisible in this report. The same short could also reflect outright bearish bets, curve or relative-value trades across contracts, or hedges of other holdings. The report is consistent with a large basis position but doesn’t prove one.
+
+What the model adds
+
+Size of the miss: Leveraged funds came in at −37.10% against an expected −39.04%. That makes them about 1.94 points of open interest less short than the model’s conditional estimate, roughly 100,000 contracts or about $10bn face.
+How unusual it is: The miss is close to the model’s 2.07-point RMSE, inside the approximate 90% range, and only around the 68th percentile of past absolute errors. It is roughly a one-standard-error week.
+What it measures: The residual is a surprise relative to a model whose out-of-sample R² is only about 10%. Weekly changes in this position are mostly not predicted by the inputs, so a residual this size is normal noise, not a sign of hidden selling, informed trading or basis unwinding.
+What it can’t tell you: You can’t tell from the output whether the position actually grew or shrank this week, only that it ended less short than predicted. You’d need last week’s level for that.
+
+What this suggests for the market
+
+The structure matters more than this week’s surprise. A large, leveraged, repo-financed short in futures, if it is mostly basis trades, links Treasury market functioning to funding conditions and margins. In March 2020, a jump in volatility and margin calls forced basis unwinds that made cash-market selling worse. So positioning like this is mainly a gauge of tail risk: it could amplify a disorderly move if funding tightens, volatility spikes or futures margins rise. It is not a signal that yields will rise or fall.
+
+Limits to keep in mind
+
+One contract only: Positions shift across tenors (2-, 5-, Ultra 10-year, bond and Ultra bond futures), so one contract can overstate or understate the overall picture.
+No history here: Whether −37% is extreme for leveraged funds depends on the time series, which isn’t included.
+Stale data: This is the week ending 8 September, about two months ago, so several newer reports would show whether this pattern has since grown, held or unwound.

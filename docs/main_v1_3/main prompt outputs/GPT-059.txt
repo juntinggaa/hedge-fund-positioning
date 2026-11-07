@@ -1,0 +1,69 @@
+The positioning as of 24 June 2025 suggests a Treasury market characterized by strong institutional demand for duration, substantial leveraged short-futures exposure, and potentially significant vulnerability to an unwinding of the cash–futures basis trade.
+
+The most important feature is the enormous divergence between asset managers and leveraged funds.
+
+## 1. A pronounced institutional long versus hedge-fund short
+
+Net positioning by trader category
+
+10-Year Treasury Note futures, June 24, 2025. Contracts.
+
+-2.4M-1.2M01.2M2.4MAsset ManagersOther ReportableDealersLeveraged Funds
+
+Asset managers are overwhelmingly long at +2.075 million contracts, equivalent to 42.19% of open interest. This indicates substantial exposure to rising Treasury prices and falling yields, whether motivated by investment demand, portfolio duration management, or hedging.
+
+Leveraged funds are overwhelmingly short at −1.914 million contracts, or 38.92% of open interest. On a purely directional interpretation, this would suggest expectations of falling bond prices and rising yields.
+
+But treating those short positions as straightforward bearish bets would be misleading.
+
+## 2. The cash–futures basis trade is likely central
+
+A significant portion of leveraged-fund short positioning may reflect the Treasury cash–futures basis trade:
+
+- Hedge funds purchase cash Treasuries, often using repo financing.
+- They simultaneously short Treasury futures to hedge interest-rate exposure and exploit pricing differences.
+- Asset managers, seeking duration exposure, can provide the opposing futures demand.
+
+The nearly matching net positions of asset managers (+2.075 million) and leveraged funds (−1.914 million) are consistent with this market structure.
+
+Therefore, large leveraged-fund futures shorts do not necessarily imply a massive outright bearish bet against Treasuries. They may instead represent relative-value trades with relatively little intended net duration exposure.
+
+The CFTC figures alone cannot establish how much of the short positioning is attributable to basis trades.
+
+## 3. The key risk is crowded positioning and forced deleveraging
+
+If leveraged-fund shorts are substantially basis-driven, the market may be sensitive to:
+
+- Repo funding disruptions or increases in financing costs.
+- Rising Treasury volatility and margin requirements.
+- Widening cash–futures basis spreads.
+- Forced liquidation of leveraged relative-value positions.
+
+A disorderly unwind could force funds to buy back futures shorts while simultaneously selling cash Treasuries.
+
+This could produce sharp futures rallies, stress in the cash Treasury market, and unusual price dislocations—even without a major change in the fundamental interest-rate outlook.
+
+## 4. What the positioning does—and does not—tell us
+
+| Interpretation                                  | Assessment                     |
+| ----------------------------------------------- | ------------------------------ |
+| Institutional demand for Treasury duration      | Strong                         |
+| Leveraged-fund futures short exposure           | Very large                     |
+| Evidence of substantial basis-trade activity    | Consistent, but not conclusive |
+| Vulnerability to short covering                 | Potentially significant        |
+| Clear consensus that yields will rise           | No                             |
+| Reliable signal that Treasury prices will rally | No                             |
+
+Importantly, these are single-week positions, not changes in positioning. Without historical comparisons, we cannot establish whether these exposures are unusually extreme, increasing, or already being unwound.
+
+## Bottom line
+
+This looks more like a heavily intermediated, potentially crowded Treasury market than a straightforward bearish consensus on U.S. government bonds.
+
+Asset managers hold substantial long-duration futures exposure, while leveraged funds hold almost offsetting short exposure, plausibly reflecting significant cash–futures basis activity.
+
+The most interesting implication is therefore not necessarily the direction of Treasury yields, but the market's sensitivity to leverage, funding conditions, and position unwinding.
+
+A short-covering rally in Treasury futures is a plausible risk, especially if funding conditions deteriorate or volatility spikes. However, that would not automatically mean an equally strong rally in cash Treasuries.
+
+In one sentence: The report points to strong institutional duration exposure on one side and substantial leveraged intermediation on the other—a positioning structure that could amplify volatility when market conditions change.

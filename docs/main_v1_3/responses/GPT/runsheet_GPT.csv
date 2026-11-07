@@ -1,0 +1,61 @@
+assignment_id,collection_order,prompt_file,collector_name,account_label,started_at_sgt,finished_at_sgt,model_label_shown,thinking_setting_shown,temporary_chat,search_observed,status,attempt_number,reply_file,screenshot_file,notes
+GPT-001,1,prompts/GPT-001.txt,,,,,,,,,,,GPT-001.md,,no collection log: collector to fill
+GPT-002,2,prompts/GPT-002.txt,,,,,,,,,,,GPT-002.md,,no collection log: collector to fill
+GPT-003,3,prompts/GPT-003.txt,,,,,,,,,,,GPT-003.md,,no collection log: collector to fill
+GPT-004,4,prompts/GPT-004.txt,,,,,,,,,,,GPT-004.md,,no collection log: collector to fill
+GPT-005,5,prompts/GPT-005.txt,,,,,,,,,,,GPT-005.md,,no collection log: collector to fill
+GPT-006,6,prompts/GPT-006.txt,,,,,,,,,,,GPT-006.md,,no collection log: collector to fill
+GPT-007,7,prompts/GPT-007.txt,,,,,,,,,,,GPT-007.md,,no collection log: collector to fill
+GPT-008,8,prompts/GPT-008.txt,,,,,,,,,,,GPT-008.md,,no collection log: collector to fill
+GPT-009,9,prompts/GPT-009.txt,,,,,,,,,,,GPT-009.md,,no collection log: collector to fill
+GPT-010,10,prompts/GPT-010.txt,,,,,,,,,,,GPT-010.md,,no collection log: collector to fill
+GPT-011,11,prompts/GPT-011.txt,Jun Ting,Jun Ting Plus,2026-11-06 18:16,2026-11-06 18:22,GPT-6,High,Y,none,completed,4,GPT-011.md,GPT-011.png,
+GPT-012,12,prompts/GPT-012.txt,Jun Ting,Jun Ting Plus,2026-11-06 18:44,2026-11-06 18:50,GPT-6,High,Y,none,completed,5,GPT-012.md,GPT-012.png,
+GPT-013,13,prompts/GPT-013.txt,Jun Ting,Jun Ting Plus,2026-11-06 18:51,2026-11-06 18:57,GPT-6,High,Y,none,completed,1,GPT-013.md,GPT-013.png,
+GPT-014,14,prompts/GPT-014.txt,codex_root,Jun Ting Plus,2026-11-06 19:40:15,2026-11-06 19:44:09,GPT-6,High,Y,none,completed,4,GPT-014.md,GPT-014.png,
+GPT-015,15,prompts/GPT-015.txt,Jun Ting,Jun Ting Plus,2026-11-06 19:02,2026-11-06 19:06,GPT-6,High,Y,none,completed,1,GPT-015.md,GPT-015.png,
+GPT-016,16,prompts/GPT-016.txt,codex_root,Jun Ting Plus,2026-11-06 19:48:17,2026-11-06 20:10:54,GPT-6,High,Y,none,completed,1,GPT-016.md,GPT-016.png,
+GPT-017,17,prompts/GPT-017.txt,codex_root,Jun Ting Plus,2026-11-06 20:27:59,2026-11-06 20:44:35,GPT-6,High,Y,none,completed,1,GPT-017.md,GPT-017.png,
+GPT-018,18,prompts/GPT-018.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-06 23:45,2026-11-06 23:46,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-018.md,GPT-018.png,
+GPT-019,19,prompts/GPT-019.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-06 23:48,2026-11-06 23:49,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-019.md,GPT-019.png,
+GPT-020,20,prompts/GPT-020.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-06 23:52,2026-11-06 23:54,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-020.md,GPT-020.png,
+GPT-021,21,prompts/GPT-021.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-06 23:55,2026-11-06 23:56,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-021.md,GPT-021.png,
+GPT-022,22,prompts/GPT-022.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-06 23:58,2026-11-06 23:59,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-022.md,GPT-022.png,
+GPT-023,23,prompts/GPT-023.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:00,2026-11-07 00:01,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-023.md,GPT-023.png,
+GPT-024,24,prompts/GPT-024.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-06 23:52,2026-11-06 23:52,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-024.md,GPT-024.png,
+GPT-025,25,prompts/GPT-025.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-06 23:52:54,2026-11-06 23:53:58,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-025.md,GPT-025.png,
+GPT-026,26,prompts/GPT-026.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-06 23:54:22,2026-11-06 23:55:41,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-026.md,GPT-026.png,
+GPT-027,27,prompts/GPT-027.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-06 23:56:01,2026-11-06 23:56:40,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-027.md,GPT-027.png,
+GPT-028,28,prompts/GPT-028.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07T06:53:18+08:00,2026-11-07T06:54:21+08:00,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,2,GPT-028.md,GPT-028.png,
+GPT-029,29,prompts/GPT-029.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-06 23:57:01,2026-11-06 23:57:59,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-029.md,GPT-029.png,
+GPT-030,30,prompts/GPT-030.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-06 23:58:18,2026-11-06 23:59:45,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-030.md,GPT-030.png,
+GPT-031,31,prompts/GPT-031.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:00:06,2026-11-07 00:01:26,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-031.md,GPT-031.png,
+GPT-032,32,prompts/GPT-032.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:01:51,2026-11-07 00:02:32,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-032.md,GPT-032.png,
+GPT-033,33,prompts/GPT-033.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:02:54,2026-11-07 00:03:45,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-033.md,GPT-033.png,
+GPT-034,34,prompts/GPT-034.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:04:03,2026-11-07 00:05:22,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-034.md,GPT-034.png,
+GPT-035,35,prompts/GPT-035.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:05:41,2026-11-07 00:06:44,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-035.md,GPT-035.png,
+GPT-036,36,prompts/GPT-036.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:07:03,2026-11-07 00:07:42,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-036.md,GPT-036.png,
+GPT-037,37,prompts/GPT-037.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:08:02,2026-11-07 00:08:41,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-037.md,GPT-037.png,
+GPT-038,38,prompts/GPT-038.txt,root_native_recovery,Jun Ting Plus,,,GPT-6,"High, 3 of 3",True,False,completed,3,GPT-038.md,,
+GPT-039,39,prompts/GPT-039.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:09:04,2026-11-07 00:09:46,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-039.md,GPT-039.png,
+GPT-040,40,prompts/GPT-040.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:10:09,2026-11-07 00:11:00,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-040.md,GPT-040.png,
+GPT-041,41,prompts/GPT-041.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:11:27,2026-11-07 00:12:14,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-041.md,GPT-041.png,
+GPT-042,42,prompts/GPT-042.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:13:24,2026-11-07 00:14:24,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-042.md,GPT-042.png,
+GPT-043,43,prompts/GPT-043.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:14:58,2026-11-07 00:17:20,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-043.md,GPT-043.png,
+GPT-044,44,prompts/GPT-044.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:19:38,2026-11-07 00:21:10,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-044.md,GPT-044.png,
+GPT-045,45,prompts/GPT-045.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:22:07,2026-11-07 00:23:18,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-045.md,GPT-045.png,
+GPT-046,46,prompts/GPT-046.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:23:45,2026-11-07 00:25:22,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-046.md,GPT-046.png,
+GPT-047,47,prompts/GPT-047.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:25:46,2026-11-07 00:27:25,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-047.md,GPT-047.png,
+GPT-048,48,prompts/GPT-048.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:27:50,2026-11-07 00:29:30,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-048.md,GPT-048.png,
+GPT-049,49,prompts/GPT-049.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:30:09,2026-11-07 00:31:10,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-049.md,GPT-049.png,
+GPT-050,50,prompts/GPT-050.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:31:51,2026-11-07 00:32:52,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-050.md,GPT-050.png,
+GPT-051,51,prompts/GPT-051.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:33:33,2026-11-07 00:34:34,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-051.md,GPT-051.png,
+GPT-052,52,prompts/GPT-052.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:35:10,2026-11-07 00:36:47,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-052.md,GPT-052.png,
+GPT-053,53,prompts/GPT-053.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:37:19,2026-11-07 00:38:57,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-053.md,GPT-053.png,
+GPT-054,54,prompts/GPT-054.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:39:31,2026-11-07 00:40:32,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-054.md,GPT-054.png,
+GPT-055,55,prompts/GPT-055.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:41:10,2026-11-07 00:42:46,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-055.md,GPT-055.png,
+GPT-056,56,prompts/GPT-056.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:43:23,2026-11-07 00:44:24,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-056.md,GPT-056.png,
+GPT-057,57,prompts/GPT-057.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:45:09,2026-11-07 00:46:48,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-057.md,GPT-057.png,
+GPT-058,58,prompts/GPT-058.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:47:21,2026-11-07 00:49:13,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-058.md,GPT-058.png,
+GPT-059,59,prompts/GPT-059.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:49:39,2026-11-07 00:51:15,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-059.md,GPT-059.png,
+GPT-060,60,prompts/GPT-060.txt,,"Jun Ting, ChatGPT Plus (Chrome temporary chat)",2026-11-07 00:51:41,2026-11-07 00:53:17,not shown in UI; model picker absent in temporary chat,High,Y,none_seen_in_ui,completed,1,GPT-060.md,GPT-060.png,

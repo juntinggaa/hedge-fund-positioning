@@ -1,0 +1,119 @@
+Browser tab: 1403820316, Title: "Google Gemini", URL: "https://gemini.google.com/app".
+0 AXWebArea Google Gemini, URL: gemini.google.com/app
+	1 container
+		2 container
+			3 button (collapsed) Description: Open sidebar, Secondary Actions: Expand
+			4 container Side Navigation
+				5 container
+					6 container Main actions menu
+						7 link Description: New chat, Value: gemini.google.com/app
+					8 container Additional actions menu
+						9 pop up button Description: Search chats, ID: base-ui-_r_2_
+						10 link Description: Library, Value: gemini.google.com/library
+						11 link Description: Images, Value: gemini.google.com/images
+						12 container Scheduled
+							13 link Description: Scheduled, Value: gemini.google.com/scheduled
+						14 link Description: Customize, Value: gemini.google.com/customize
+					15 link (collapsed) Description: Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com, Secondary Actions: Expand
+					16 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+			17 container xap-skip-link-target
+				18 container
+					587 heading Conversation with Gemini, Value: 1
+						588 text Conversation with Gemini
+					589 container
+						590 text Temporary Chat
+						611 container fd6c843da8fb8dbd
+							612 container
+								613 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+									614 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+								615 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 3 November 2020. All figures are numbers of contracts.
+								616 text Open interest (all contracts): 3,077,241
+								617 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+								618 text |---|---|---|---|---|---|
+								619 text | Dealer / Intermediary | 184,831 | 254,045 | 13,600 | -69,214 | -2.25% |
+								620 text | Asset Manager / Institutional | 1,294,482 | 1,093,048 | 594,378 | 201,434 | +6.55% |
+								621 text | Leveraged Funds | 317,487 | 565,227 | 62,759 | -247,740 | -8.05% |
+								622 text | Other Reportable | 242,382 | 107,170 | 780 | 135,212 | +4.39% |
+								623 text Context you may find relevant: leveraged funds sometimes hold short positions in Treasury futures as one leg of a cash-futures basis trade, in which the fund buys the underlying Treasury security, finances it in the repo market, and sells the corresponding futures contract. A position held for that reason expresses a relative-value view about the spread between the cash and futures markets rather than a directional view about the level of yields. Asset managers may likewise hold futures for duration management, benchmark replication or liability hedging rather than as a discretionary forecast.
+								624 text What does this positioning suggest about the Treasury market?
+								625 text Please answer without using web search.
+								626 button (collapsed) Expand
+							627 button Copy prompt
+							628 button Edit
+							629 container
+								630 heading Gemini said, Value: 6
+									631 text Gemini said
+								632 container model-response-message-contentr_fd6c843da8fb8dbd
+									633 container
+										634 text Based on the CFTC Traders in Financial Futures data,  the positioning highlights a distinct structural divergence between leveraged funds (hedge funds) and asset managers (real-money institutional investors):
+									635 heading Key Takeaways from the Data, Value: 2
+										636 text Key Takeaways from the Data
+									637 content list
+										638 container
+											639 text Leveraged Funds are Heavily Net Short (-8.05% of OI):
+											640 content list
+												641 container
+													642 text Relative-Value / Basis Trade Dynamics:  Leveraged funds hold 565, 227 short contracts compared to 317, 487 long contracts.  As noted in the context,  a substantial portion of this short position typically reflects the  cash-futures basis trade .  Hedge funds go long physical Treasuries (financed via short-term repo markets) and short Treasury futures to capture the small price spread between the two.
+												643 container
+													644 text Directional vs. Arbitrage:  Because of the basis trade,  this massive net short does  not  necessarily mean hedge funds are heavily bearish on 10-Year Treasury prices or expecting higher yields.  Rather,  it indicates high participation in relative-value trade structures.
+										645 container
+											646 text Asset Managers are Net Long (+6.55% of OI):
+											647 content list
+												648 container
+													649 text Institutional managers hold the largest gross long position (1, 294, 482 contracts).
+												650 container
+													651 text Real-money investors often use long futures to gain low-cost duration exposure,  hedge long-term liabilities,  or quickly deploy cash without purchasing physical bonds in the cash market.
+												652 container
+													653 text Their net long bias suggests consistent structural demand for yield and duration from institutional benchmarkers,  pension funds,  and asset allocators.
+										654 container
+											655 text Dealers/Intermediaries are Net Short (-2.25% of OI):
+											656 content list
+												657 container
+													658 text Primary dealers act as market makers.  Their net short futures position (254, 045 short vs.  184, 831 long) often reflects hedging activity against cash inventory held on their balance sheets or serving client flow.
+										659 container
+											660 text Other Reportable Traders are Net Long (+4.39% of OI):
+											661 content list
+												662 container
+													663 text Smaller reportable institutional accounts (such as corporate treasuries or non-leveraged trading entities) hold a meaningful net long stance (135, 212 contracts),  reinforcing overall demand for Treasury exposure outside hedge funds.
+									664 heading Broader Treasury Market Implications, Value: 2
+										665 text Broader Treasury Market Implications
+									666 content list
+										667 container
+											668 text Market Liquidity & Repo Dependence:  The large short position held by leveraged funds indicates that the market relies heavily on smooth repo market functioning to sustain the cash-futures basis trade.  If funding costs in the repo market spike unexpectedly,  funds might be forced to unwind the trade (buying back short futures and selling cash bonds),  leading to sudden market volatility or yield spikes.
+										669 container
+											670 text Non-Directional Bias:  Taken as a whole,  the CFTC report shows market participants using futures largely for structural balance-sheet efficiency and arbitrage (basis trade and duration matching) rather than taking a strong,  unified directional gamble on interest rates.
+								671 button Redo
+								672 button Copy
+								673 button Humanize with Quillbot
+									674 image
+								675 button Show more options
+					81 container
+						82 container
+							83 pop up button (collapsed) Description: Upload & tools, Secondary Actions: Expand
+							564 container
+								565 text entry area (settable) Description: Enter a prompt for Gemini, Value: 
+
+									688 text Ask Gemini
+							87 container
+								88 pop up button (collapsed) Description: Open mode picker, currently Gemini Auto, Secondary Actions: Expand
+								677 container
+									678 button Dictate (⌘⇧D)
+						610 text Gemini is AI and can make mistakes.
+			679 container
+				680 button Convert chat to PDF
+					681 image Convert chat to PDF
+					682 text Convert chat to PDF
+					683 text Open this chat in Acrobat
+				684 link Upgrade
+					685 link Upgrade
+						686 text Upgrade
+		689 text Copied to clipboard
+		104 container Notifications
+		567 container
+			568 container Click to open Quillbot
+			569 container Open quick settings
+			570 container Use AI
+	109 container grammarly-integration
+		687 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 672 button Copy

@@ -1,0 +1,52 @@
+The short version: this snapshot shows a very large, mirror-image positioning pattern between asset managers and leveraged funds, of a kind often associated with Treasury relative-value activity. But it isn’t a directional bet on yields that can be read off the table, and the model output says this particular week was unremarkable.
+
+What the positions show
+
+The numbers are internally consistent. For example, 356,404 − 1,259,989 = −903,585, and dividing by the 4,015,511 open interest gives −22.50%. The structure is the striking part:
+
+Asset managers are net long about 753,000 contracts (+18.8% of OI).
+Leveraged funds are net short about 904,000 (−22.5%).
+Dealers and other reportables are close to flat.
+
+These two groups take up most of the market’s two sides, and each is a large share of open interest.
+
+This pattern fits a well-known story. Asset managers such as pension funds, insurers and bond funds use long futures to get duration exposure cheaply and with little capital. That demand can make futures rich relative to cash bonds. Leveraged funds then sell the futures and buy the deliverable cash bonds, financed in repo, capturing the gap. That is the cash-futures basis trade.
+
+Because this data covers futures only, it can’t confirm that story:
+
+The cash leg is invisible, so you can’t tell whether a leveraged-fund short is hedged by cash bonds.
+The short could also be an outright bearish view, a hedge of other holdings, or part of a curve trade across contracts.
+
+The model note makes the same point: nothing in its inputs measures basis profitability or identifies motives.
+
+What the model adds
+
+Very little stands out this week:
+
+Small residual. At −1.41 percentage points, the residual is smaller than the model’s 2.07-point typical error (RMSE).
+Ordinary percentile. About 45% of earlier residuals were at least this large in absolute terms.
+Inside the range. The actual −22.50% sits within the approximate 90% range of −24.66% to −17.53%.
+
+Leveraged funds became somewhat more net short than the model’s conditional estimate, by roughly 57,000 contracts’ worth of open interest. That is an ordinary miss, not evidence of unusual selling, private information, or a surprise build-up of a trade.
+
+Two further cautions:
+
+The close fit says little about skill. The expected level is last week’s actual level plus a predicted change, so being close mostly reflects week-to-week persistence. The model explains only about 10% more of the variance in weekly changes than a simple historical-average benchmark.
+It is not a forecast. The model uses current-week open interest and was built in hindsight, so it couldn’t have been used to predict this week in real time.
+What it suggests about the market
+
+The most defensible takeaway is about concentration and funding sensitivity, not direction:
+
+Large one-sided positions. Net short positions near a quarter of open interest in the most traded Treasury futures contract mean a lot of exposure sits with leveraged, repo-funded holders.
+Vulnerability to funding stress. If much of that short is basis-related, the positions depend on cheap, stable repo financing and margin terms. Stress in funding or volatility could force unwinds that disrupt the relationship between cash bonds and futures.
+Strong duration demand. The asset-manager long reflects heavy real-money demand for duration held through futures.
+
+With hindsight, that vulnerability theme mattered. The September 2019 repo spike and the March 2020 Treasury dislocation were both linked in later analysis to leveraged relative-value positions. That is my own recollection, not something this table or model shows, and the data here didn’t predict either episode.
+
+The trap to avoid is reading “leveraged funds heavily net short” as a bearish signal on bonds. As I recall, yields actually fell during May 2019 as trade tensions escalated.
+
+What would sharpen the picture
+The full curve. Positions in the 2-, 5-, Ultra-10, bond and Ultra-bond contracts, converted to DV01 (sensitivity to rate moves) rather than contract counts, so they compare across maturities.
+The trend. Several months of weekly changes, to see whether the short is building or stable.
+Pricing and funding. Implied repo rates versus actual repo rates, to show whether the basis was attractive.
+Funding conditions. Repo volumes and margin requirements over the same period.

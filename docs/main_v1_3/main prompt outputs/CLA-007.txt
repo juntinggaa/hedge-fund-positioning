@@ -1,0 +1,42 @@
+The table points to a market dominated by the **cash-futures basis trade** rather than by directional bets on rates. It also shows a heavily concentrated, leveraged structure that was under real stress at exactly this time. (I've taken your figures as given. The arithmetic checks out: each net and percentage is consistent with the long, short and OI numbers.)
+
+## The core pattern: asset managers long, leveraged funds short
+
+The two big numbers mirror each other. Asset managers are net long about 2.08 million contracts (+43.7% of OI), and leveraged funds are net short about 1.81 million (−38.0%). This is the textbook setup:
+
+- **Asset managers** (pension funds, insurers, bond mutual funds, liability-driven investors) use futures to get duration exposure cheaply and with little capital, instead of buying cash bonds. That demand makes futures trade slightly rich to cash.
+- **Leveraged funds** (mostly hedge funds) supply that demand. They sell the rich futures and buy the cheaper cash Treasuries deliverable into them, financing the bonds in repo. They earn the small price gap, the basis, multiplied by heavy leverage.
+
+So the 1.8 million-contract short is probably **not a bearish view on Treasuries**. It is most likely the hedge leg of long cash bond positions. Futures-only data can't prove this, because the cash and repo legs don't appear in it. But the size and the mirror-image pattern are hard to explain any other way.
+
+## Dealers: a large net short
+
+Dealers are net short about 541,000 contracts (−11.4% of OI). That is a sizeable position for intermediaries, who usually try to run balanced books. The likely explanations:
+
+- **Hedging cash inventory.** In the selloff after the April 2 tariff announcement, dealers absorbed bond sales from clients, possibly including foreign official holders and others de-risking. Shorting futures against bloated cash inventories is the natural hedge.
+- **Facilitating client flow** on the other side of asset-manager buying, beyond what leveraged funds supplied.
+
+A big dealer short alongside a big leveraged-fund short suggests dealer balance sheets were carrying a lot of cash Treasuries. That fits the April 2025 debate about whether balance-sheet constraints, such as the supplementary leverage ratio, were limiting dealers' ability to absorb supply.
+
+## Why the timing matters
+
+The week ending 15 April 2025 came right after one of the sharpest Treasury selloffs in years. The 10-year yield jumped from roughly 3.9% to about 4.5% in a few days, swap spreads moved sharply, and the usual flight-to-quality bid for Treasuries briefly failed. A widely discussed fear was a forced **unwind of leveraged basis and swap-spread trades**, similar to the March 2020 "dash for cash."
+
+This snapshot suggests:
+
+- **No wholesale basis unwind had happened by 15 April.** A leveraged-fund short of 38% of OI is still enormous. To confirm whether it shrank, you'd need the week-over-week change, which isn't in this table.
+- **The fragility was still in place.** Positions this concentrated are vulnerable to higher futures margins, repo rate spikes, or a sudden move in the basis. Any of these could force hedge funds to sell cash bonds and buy back futures at the same time, amplifying volatility.
+
+## Smaller points
+
+- **Other reportables** are modestly net long (+128,826, 2.7% of OI), which is not especially informative.
+- **Nonreportables:** the four categories net to about −140,500, so small traders must be net long about **140,500 contracts** in aggregate.
+- **Spreading** is substantial for asset managers (~585,000), consistent with calendar rolls and curve positioning across contract months.
+
+## What this data can't tell you
+
+- **Direction of rates.** Net positions here mostly reflect structure, not conviction. A long asset-manager position mainly means duration is being held via futures.
+- **The full picture.** This covers one contract (TY) and excludes options. Basis positioning spans 2-, 5-, 10-year, Ultra 10 and bond futures, so a fuller read would aggregate across the curve.
+- **The cash and repo side.** Confirming the basis-trade reading requires repo data (e.g., OFR or Fed sponsored-repo figures) or hedge-fund Treasury holdings, not CFTC data alone.
+
+**In short:** the positioning shows a Treasury futures market whose structure rests on a large, leveraged relative-value trade connecting long-only real-money demand with hedge-fund balance sheets. In calm markets that structure is efficient. In a stress episode like April 2025, it is a potential channel for forced selling. Comparing this week with the reports for 1 and 8 April would show whether that channel actually started to unwind.

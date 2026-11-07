@@ -1,0 +1,125 @@
+- heading "Claude" [level=1]
+- main:
+  - status
+  - status
+  - toolbar "Page tools":
+    - button "Activity panel":
+      - generic: 
+  - status
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S." [level=3]'
+      - paragraph: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 22 September 2020. All figures are numbers of contracts.
+      - paragraph: "Open interest (all contracts): 3,262,396"
+      - paragraph:
+        - text: "| Trader category | Long | Short | Spreading | Net | Net as % of OI |"
+        - text: "|---|---|---|---|---|---|"
+        - text: "| Dealer / Intermediary | 183,734 | 255,016 | 49,148 | -71,282 | -2.18% |"
+        - text: "| Asset Manager / Institutional | 1,367,316 | 1,162,519 | 602,202 | 204,797 | +6.28% |"
+        - text: "| Leveraged Funds | 375,291 | 690,837 | 69,176 | -315,546 | -9.67% |"
+        - text: "| Other Reportable | 218,722 | 95,105 | 487 | 123,617 | +3.79% |"
+      - paragraph: What does this positioning suggest about the Treasury market?
+      - paragraph: Please answer without using web search.
+      - toolbar "Message actions":
+        - time: 3 minutes ago
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: Short answer: this looks mostly like a market organized around the cash-futures basis trade and structural duration demand, not a strong collective directional…" [level=3]'
+      - generic: Verifying the long and short totals across categories
+      - button "Verifying the long and short totals across categories":
+        - generic: 
+      - status: Verifying the long and short totals across categories
+      - paragraph:
+        - strong: "Short answer:"
+        - text: this looks mostly like a market organized around the cash-futures basis trade and structural duration demand, not a strong collective directional bet on yields.
+      - heading "Reading the categories" [level=3]
+      - paragraph:
+        - strong: Leveraged funds net short (-315,546, about -9.7% of OI).
+        - text: "This is the most striking number, but it probably isn’t a bearish rates bet. The usual explanation for a large hedge fund short in Treasury futures is the basis trade: buy cash Treasuries (often financed in repo), sell the futures, and capture the small price gap between them, with heavy leverage. On that reading, the futures short is one leg of a roughly duration-neutral trade. The CFTC data only shows the futures leg, so it can’t confirm this. But the size and direction fit the pattern."
+      - paragraph:
+        - strong: Asset managers net long (+204,797, about +6.3%).
+        - text: "This is the natural counterparty to the basis trade. Pension funds, insurers, and bond funds often get duration through futures rather than cash bonds because futures are capital-efficient and easy to adjust against a benchmark. Their demand for long futures pushes futures slightly rich to cash, which is what makes the basis trade pay. Note how two-sided they are: 1.37m long against 1.16m short. The net is only about 8% of their gross long, which suggests much of their activity is hedging and benchmark management rather than a concentrated view."
+      - paragraph:
+        - strong: Dealers modestly net short (-71,282).
+        - text: This is typical. Dealers tend to hold cash Treasury inventory, including from auctions, and hedge it with short futures. They also warehouse client flows. It’s small relative to OI.
+      - paragraph:
+        - strong: Other reportables net long (+123,617).
+        - text: This is a mixed group (corporates, some central banks and official accounts, smaller managers), so it’s hard to interpret beyond adding to long-duration demand.
+      - paragraph:
+        - strong: Non-reportables.
+        - text: The reportable nets sum to -58,414, so small traders are net long by about the same amount. Overall, the market is close to balanced.
+      - heading "The September 2020 context" [level=3]
+      - paragraph: "From memory rather than a fresh source check: this snapshot falls about six months after the March 2020 “dash for cash.” In that episode, a disorderly unwind of leveraged basis positions contributed to Treasury market dysfunction and the Fed bought Treasuries on a massive scale. By late September 2020 the 10-year yield was very low, around 0.6–0.7%. The Fed had just adopted average inflation targeting and signaled near-zero rates for years, and it was still buying Treasuries at roughly $80bn a month. In that environment, a large leveraged short in futures reads as the basis trade being rebuilt in calmer, Fed-supported conditions. That is a financial-stability point, since the same structure amplified stress in March, more than a call on yields."
+      - heading "Caveats" [level=3]
+      - list:
+        - strong: One week, one contract.
+        - text: Changes over time tell you more than levels. Duration positioning should also be compared across the curve (2s, 5s, 10s, Ultra 10s, bonds, Ultras), ideally in DV01 terms, because a short in TY could be offset elsewhere.
+        - strong: Futures-only, no options and no cash.
+        - text: The other legs of most of these trades aren’t visible.
+        - strong: Spreading.
+        - text: The large asset manager spreading figure (602k) is offsetting positions across contract months, such as calendar or roll-related trades, so it carries little directional information.
+        - strong: Denominator choice.
+        - text: Net as % of OI uses an OI that includes spread positions, which makes all the percentages look smaller than net versus gross outright positions would.
+        - listitem: I’ve checked that the arithmetic in your table is internally consistent, but I haven’t verified the figures against the CFTC’s published report.
+      - group "Suggested actions":
+        - button "Create a Word document":
+          - generic: 
+          - text: Create a Word document
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: 3 minutes ago
+  - button "Scroll to bottom":
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - document
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note: No history, memory, or Claude training.
+  - 'button "Model: Opus 5.5 High"':
+    - generic: Opus 5.5
+    - generic: High
+  - button "Auto":
+    - generic: Auto
+  - status: Claude finished the response
+  - complementary
+  - status
+- generic: Incognito
+- button "Exit incognito":
+  - generic: 
+- status
+- status
+- region "Notifications"
+- generic "Click to open Quillbot"
+- generic "Open quick settings":
+- generic "Use AI"

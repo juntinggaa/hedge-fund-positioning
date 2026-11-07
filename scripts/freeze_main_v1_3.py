@@ -106,9 +106,10 @@ def main() -> None:
                     w.writerow([a["assignment_id"], a["collection_order"], a["prompt_file"]]
                                + [""] * (len(RUNSHEET_COLS) - 3))
 
-    outputs = sorted(p.relative_to(OUT).as_posix() for p in OUT.rglob("*")
-                     if p.is_file() and p.name != "manifest_v1.3.json"
-                     and p.suffix in {".jsonl", ".csv", ".txt"})
+    # Kit files only: top-level csv/jsonl plus prompts/*.txt. Collected replies saved
+    # anywhere else under OUT must never enter the manifest.
+    outputs = sorted([p.name for p in OUT.glob("*") if p.is_file() and p.suffix in {".jsonl", ".csv"}]
+                     + [f"prompts/{p.name}" for p in (OUT / "prompts").glob("*.txt")])
     manifest = {
         "frozen_date_singapore": "2026-11-06", "material_version": VERSION,
         "derived_from": {"docs/main_v1/manifest_v1.1.json": sha((SRC / "manifest_v1.1.json").read_bytes()),

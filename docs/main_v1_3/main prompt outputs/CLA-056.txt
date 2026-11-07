@@ -1,0 +1,30 @@
+**The short version:** this is mostly the cash-futures basis trade, not a directional bet. The big net short held by hedge funds says little about whether they expect yields to rise. It mainly tells you that a large leveraged arbitrage is in place, and that has implications for market fragility.
+
+## Reading the two big positions together
+
+The asset manager net long (+2.41M contracts, ~46% of OI) and the leveraged fund net short (−1.98M, ~38% of OI) roughly offset each other. That's the signature of the basis trade:
+
+- **Asset managers** (pension funds, insurers, bond funds) want duration. Futures give it to them with little cash outlay, so they hold long futures as a capital-efficient substitute for buying Treasuries outright. That demand tends to make futures slightly rich relative to cash bonds.
+- **Leveraged funds** take the other side. They sell the rich futures, buy the cheaper deliverable cash Treasuries, and finance the bonds in repo, often at very high leverage. They earn the small spread between futures and cash. Their rate exposure is largely hedged, so the "short" isn't a bearish view.
+
+So the headline of "hedge funds massively short Treasuries" would be a misreading.
+
+## Dealers
+
+Dealers are net short about 462k contracts (−8.8%). That's typical. Dealers usually carry inventory of cash Treasuries from auctions and client flows, and short futures are a natural hedge against it. This position doesn't strongly signal a view either.
+
+## What it does suggest
+
+1. **Strong structural demand for duration via futures.** Real-money accounts are getting a lot of their Treasury exposure synthetically, which supports futures pricing and the basis.
+2. **Large leverage in the system.** About 2M contracts at $100,000 face each is roughly $200bn face value in the 10-year contract alone. The trade is usually spread across the 2-, 5-, 10-year and bond contracts too, so the full curve exposure is larger.
+3. **Funding and margin sensitivity.** The basis trade depends on cheap, stable repo financing and predictable futures margins. If repo rates spike, haircuts rise, exchanges hike margins, or volatility jumps, funds may be forced to unwind together. That means selling cash Treasuries into a market where dealer balance sheets may be constrained. This mechanism contributed to the dysfunction in March 2020, and it's why regulators keep watching the trade. The move toward central clearing of Treasuries and repo is partly aimed at this risk.
+4. **Crowding risk rather than direction risk.** The danger isn't that hedge funds are wrong about rates. It's that an orderly carry trade becomes a disorderly deleveraging during stress, widening the basis and hurting Treasury liquidity right when it's most needed.
+
+## Caveats
+
+- **One contract, one week.** A proper read aggregates across all Treasury futures, ideally weighted by DV01 rather than contract counts, and looks at the *change* over time. Rapid growth in leveraged shorts matters more than the level.
+- **Categories describe firms, not trades.** A "leveraged fund" can run directional or curve trades too. Not every short is basis, and the report doesn't show the cash legs.
+- **Spreading positions are excluded from the net figures.** Asset managers in particular have a large spread book (673k).
+- **The data is stale.** This is from June 2026, about five months ago, so current positioning could look quite different.
+
+The numbers themselves check out: the reportable nets sum to +888, so the implied non-reportable net is −888, consistent with the open interest.

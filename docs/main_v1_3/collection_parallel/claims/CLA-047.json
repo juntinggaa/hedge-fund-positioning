@@ -1,0 +1,9 @@
+{
+  "assignment_id": "CLA-047",
+  "worker_id": "cla47_48_helper",
+  "batch": "CLA42_48",
+  "claimed_at_sgt": "2026-11-06T23:01:31+08:00",
+  "canonical_output": "/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/CLA-047.txt",
+  "prompt_file": "/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/prompts/CLA-047.txt",
+  "prompt_sha256": "641d473e9b05abded70f1a9109bf56fb2b5fbe63c7bbe073e04ef92504fdf762"
+}

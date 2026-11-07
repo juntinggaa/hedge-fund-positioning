@@ -1,0 +1,261 @@
+frame,stratum,stratum_label,pool,week,net_over_oi,note,valid_Arm_C,option,gap_weeks,arms,responses_two_models,prior_development_case,purposive_case
+stratified,S1,S1 LF net long,362.0,2006-09-26,0.2095,,False,A_original,8,A|B,4,,
+stratified,S1,S1 LF net long,362.0,2007-07-17,0.1335,,False,A_original,8,A|B,4,,
+stratified,S1,S1 LF net long,362.0,2009-12-08,0.0166,,False,A_original,8,A|B,4,,
+stratified,S1,S1 LF net long,362.0,2011-03-29,0.0749,,False,A_original,8,A|B,4,,
+stratified,S1,S1 LF net long,362.0,2013-01-08,0.2799,,False,A_original,8,A|B,4,,
+stratified,S1,S1 LF net long,362.0,2013-09-03,0.1738,,False,A_original,8,A|B,4,,
+stratified,S1,S1 LF net long,362.0,2021-01-19,0.0159,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S1,S1 LF net long,362.0,2021-05-18,0.0942,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S1,S1 LF net long,362.0,2021-11-09,0.0556,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S1,S1 LF net long,362.0,2022-01-11,0.0364,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S2,"S2 moderate short, pre-2015",176.0,2008-07-22,-0.0375,,False,A_original,8,A|B,4,,
+stratified,S2,"S2 moderate short, pre-2015",176.0,2009-04-28,-0.0741,,False,A_original,8,A|B,4,,
+stratified,S2,"S2 moderate short, pre-2015",176.0,2009-10-06,-0.0015,,False,A_original,8,A|B,4,,
+stratified,S2,"S2 moderate short, pre-2015",176.0,2010-03-16,-0.1239,,False,A_original,8,A|B,4,,
+stratified,S2,"S2 moderate short, pre-2015",176.0,2010-05-25,-0.2313,,False,A_original,8,A|B,4,,
+stratified,S2,"S2 moderate short, pre-2015",176.0,2010-11-16,-0.0347,,False,A_original,8,A|B,4,,
+stratified,S2,"S2 moderate short, pre-2015",176.0,2011-03-15,-0.0062,,False,A_original,8,A|B,4,,
+stratified,S2,"S2 moderate short, pre-2015",176.0,2011-08-09,-0.0462,,False,A_original,8,A|B,4,,
+stratified,S2,"S2 moderate short, pre-2015",176.0,2014-09-30,-0.0359,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S2,"S2 moderate short, pre-2015",176.0,2014-11-25,-0.0706,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S3,"S3 moderate short, 2015+",449.0,2016-06-14,-0.0332,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S3,"S3 moderate short, 2015+",449.0,2017-02-21,-0.0591,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S3,"S3 moderate short, 2015+",449.0,2018-05-01,-0.1756,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S3,"S3 moderate short, 2015+",449.0,2018-09-18,-0.2537,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S3,"S3 moderate short, 2015+",449.0,2019-11-12,-0.2118,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S3,"S3 moderate short, 2015+",449.0,2022-11-22,-0.189,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S3,"S3 moderate short, 2015+",449.0,2023-01-24,-0.2224,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S3,"S3 moderate short, 2015+",449.0,2023-04-18,-0.2811,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S3,"S3 moderate short, 2015+",449.0,2024-01-02,-0.3329,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S3,"S3 moderate short, 2015+",449.0,2026-03-10,-0.3529,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S4,"S4 extreme short, 2015+",70.0,2024-08-13,-0.3995,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S4,"S4 extreme short, 2015+",70.0,2024-10-08,-0.4214,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S4,"S4 extreme short, 2015+",70.0,2024-12-10,-0.384,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S4,"S4 extreme short, 2015+",70.0,2025-04-08,-0.3831,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S4,"S4 extreme short, 2015+",70.0,2025-06-03,-0.4089,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S4,"S4 extreme short, 2015+",70.0,2025-08-26,-0.4494,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S4,"S4 extreme short, 2015+",70.0,2025-10-21,-0.4335,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S4,"S4 extreme short, 2015+",70.0,2026-02-03,-0.3802,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S4,"S4 extreme short, 2015+",70.0,2026-04-07,-0.3856,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S4,"S4 extreme short, 2015+",70.0,2026-07-14,-0.3935,,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+purposive,P,purposive,,2025-09-02,-0.4853,most negative week in the full sample (-48.5% of OI); the pilot case,True,A_original,8,A|B|C-bare|C-ann|D,10,,
+stratified,S1,,,2014-01-21,0.204484902607363,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2015-02-17,0.023205322669076715,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2016-07-12,0.009081241137709566,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2017-08-22,0.0005121392739158554,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2017-09-26,0.007754718161805841,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-02-09,0.04537037677080064,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-03-09,0.09894968138631617,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-04-13,0.062436328345324775,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-07-20,0.10913954946242621,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2022-04-19,0.08321127784556374,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-09-30,-0.03591173876220282,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-10-28,-0.03436035514613082,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-11-25,-0.07061975411633394,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-12-23,-0.018854132543209723,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-07-14,-0.1242845568099438,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-10-20,-0.11906872303965017,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2016-01-05,-0.09495814731592414,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2016-10-25,-0.03856242974254928,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2017-04-18,-0.05384610031423722,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2017-08-29,-0.006615869087669557,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2019-06-11,-0.2250080033334519,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2020-10-20,-0.08740910930706976,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2020-12-29,-0.07231636234942844,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2025-04-22,-0.37564897568652056,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2024-09-24,-0.4169915911499676,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2024-10-29,-0.4272457510938112,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2024-12-10,-0.3839699618632225,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-04-08,-0.38307588950196725,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-07-01,-0.4028092550696205,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-08-19,-0.4525612638970158,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-11-10,-0.41140676393236286,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-01-06,-0.421910550748722,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-04-21,-0.3913164393085757,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-07-28,-0.4057114756097607,,True,B_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2014-03-04,0.16174424101538581,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2016-07-12,0.009081241137709566,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2016-08-23,0.02696567555819823,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2016-11-15,0.03940803934739579,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2017-08-22,0.0005121392739158554,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-02-23,0.027129472311673942,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-04-20,0.08337006113766814,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-05-18,0.09416342449309488,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-06-22,0.0925277733721879,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-10-19,0.12256806583156302,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2022-04-19,0.08321127784556374,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2022-05-17,0.044378488420299275,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-09-30,-0.03591173876220282,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-10-28,-0.03436035514613082,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-11-25,-0.07061975411633394,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-12-23,-0.018854132543209723,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-06-23,-0.08892217870353376,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-08-04,-0.14410162954510783,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-09-01,-0.12959175304785642,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-11-24,-0.09685645152181688,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2016-01-26,-0.07496808674307368,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2016-11-01,-0.024750851009778085,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2017-04-18,-0.05384610031423722,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2017-08-29,-0.006615869087669557,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2019-06-11,-0.2250080033334519,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2020-10-20,-0.08740910930706976,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2020-12-29,-0.07231636234942844,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2025-04-22,-0.37564897568652056,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2024-09-03,-0.40351839531973804,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2024-10-15,-0.4104138343251311,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-04-08,-0.38307588950196725,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-05-06,-0.4075877098523418,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-07-15,-0.4030571358084396,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-09-16,-0.4440183772796313,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-11-04,-0.41969477813570416,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-12-30,-0.4287376826892763,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-01-27,-0.3785312650515925,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-04-28,-0.38995142443603725,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-07-14,-0.3935307509497879,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-10-13,-0.3790587595660942,,True,C_4w,4,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2014-02-25,0.1898918983859149,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2016-07-12,0.009081241137709566,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2016-08-30,0.026744737593256955,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2016-11-22,0.05871160589396233,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2017-07-03,0.0011794564720002151,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-02-09,0.04537037677080064,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-05-04,0.10498503433300076,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-06-15,0.08923999787225047,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-08-03,0.09788682453620394,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-11-16,0.07394965048766587,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-09-30,-0.03591173876220282,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-11-11,-0.07238918400583391,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-12-23,-0.018854132543209723,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-07-14,-0.1242845568099438,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-09-01,-0.12959175304785642,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-10-13,-0.13716759050356747,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2016-01-05,-0.09495814731592414,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2019-10-22,-0.23693327546498238,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2020-03-10,-0.18498932164491022,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2020-08-04,-0.11911009432124392,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2023-02-21,-0.1829012781060394,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2023-06-27,-0.31095651532541624,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2026-06-02,-0.3687753356530815,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2024-10-01,-0.434781383817895,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2024-12-03,-0.3757906566347378,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-04-29,-0.37568795965582036,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-06-10,-0.41067895117579667,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-09-09,-0.4591602185531804,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-11-25,-0.3902676738712329,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-02-03,-0.3801783000513729,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-04-21,-0.3913164393085757,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-06-09,-0.37695673162524673,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-08-11,-0.39636519512208523,,True,B_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2014-02-11,0.12514651803467988,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2014-04-22,0.16174087964760198,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2014-09-09,0.010637869597149307,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2016-08-30,0.026744737593256955,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2016-11-15,0.03940803934739579,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2017-07-11,0.01992162454195695,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2017-08-22,0.0005121392739158554,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-01-26,0.0015291220733166314,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-03-23,0.08186376733564067,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-06-22,0.0925277733721879,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-09-14,0.07426241025029737,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-10-26,0.08120214177845407,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-12-14,0.0464730202396285,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-09-30,-0.03591173876220282,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-11-11,-0.07238918400583391,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-12-23,-0.018854132543209723,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-06-16,-0.10298048577509895,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-08-18,-0.14424101969872538,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-09-29,-0.13131750385580682,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-12-08,-0.08265749230464521,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2016-05-24,-0.019767566924988537,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2019-04-30,-0.21177609096229813,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2019-07-02,-0.22240684312366854,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2020-05-12,-0.1884365831006103,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2020-09-15,-0.11509107623082356,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2022-09-13,-0.10216942917957667,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2023-12-26,-0.3193880976922505,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2024-05-14,-0.27820981804183936,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2024-09-03,-0.40351839531973804,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2024-10-22,-0.41361126916247654,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2024-12-10,-0.3839699618632225,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-04-29,-0.37568795965582036,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-06-24,-0.389231603458922,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-08-05,-0.43812389885861586,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-10-28,-0.4240234136312335,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-01-06,-0.421910550748722,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-04-21,-0.3913164393085757,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-06-16,-0.3910603445523505,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-08-11,-0.39636519512208523,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-10-13,-0.3790587595660942,,True,C_6w,6,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2014-02-11,0.12514651803467988,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2014-07-01,0.12700471082075218,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2014-09-02,0.009011134297612525,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2016-07-12,0.009081241137709566,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2017-07-03,0.0011794564720002151,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-01-26,0.0015291220733166314,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-07-06,0.10583126495675667,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-08-31,0.06886049943024845,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-11-02,0.06105302784004381,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2022-04-19,0.08321127784556374,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-09-30,-0.03591173876220282,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-11-25,-0.07061975411633394,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-09-01,-0.12959175304785642,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2016-02-09,-0.10371871817435756,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2016-06-21,-0.035892415183710266,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2017-11-21,-0.07960551865269858,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2018-11-20,-0.20897682415019406,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2019-05-07,-0.22502366448504313,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2020-09-22,-0.09672216371035276,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2020-12-29,-0.07231636234942844,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2022-05-31,-0.0123302700696783,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2026-09-08,-0.371032448885661,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2024-10-01,-0.434781383817895,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-04-15,-0.3803657051925651,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-06-24,-0.389231603458922,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-08-19,-0.4525612638970158,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-11-25,-0.3902676738712329,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-01-27,-0.3785312650515925,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-04-14,-0.38746877072313124,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-06-09,-0.37695673162524673,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-08-18,-0.3982699568445125,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-10-27,-0.37868599432670225,,True,B_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2014-02-04,0.14811474112816267,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2014-04-29,0.17287825658137998,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2014-08-19,0.04648594235208021,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2016-08-23,0.02696567555819823,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2016-11-15,0.03940803934739579,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2017-07-11,0.01992162454195695,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-01-19,0.015920221700046627,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-06-15,0.08923999787225047,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-09-07,0.05317278369693375,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2021-11-02,0.06105302784004381,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2022-01-04,0.019262247383482152,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2022-03-15,0.08176737251312319,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S1,,,2022-06-21,0.035194479206182405,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-09-30,-0.03591173876220282,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S2,,,2014-11-25,-0.07061975411633394,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-06-30,-0.10401117001163789,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2015-09-08,-0.14282426549187627,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2016-01-26,-0.07496808674307368,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2016-03-22,-0.007742584633777762,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2019-03-05,-0.24775019086124367,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2019-05-14,-0.2357468651315031,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2020-01-28,-0.1966513918357729,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2022-08-02,-0.08633599956611102,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2023-09-05,-0.2985194060670741,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2024-01-02,-0.33287784659373976,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2024-11-26,-0.35062489398103547,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2025-02-04,-0.3081111014983407,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S3,,,2026-05-05,-0.3732238162422414,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2024-08-13,-0.39954761200669714,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2024-10-08,-0.42135261009586966,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2024-12-03,-0.3757906566347378,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-05-06,-0.4075877098523418,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-07-15,-0.4030571358084396,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-09-23,-0.4274971641285907,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2025-11-18,-0.4085944578752253,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-02-03,-0.3801783000513729,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-04-07,-0.3856408260431823,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-06-09,-0.37695673162524673,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-08-18,-0.3982699568445125,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False
+stratified,S4,,,2026-10-27,-0.37868599432670225,,True,C_8w,8,A|B|C-bare|C-ann|D,10,False,False

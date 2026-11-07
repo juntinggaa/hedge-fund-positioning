@@ -1,0 +1,14 @@
+Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 15 April 2025. All figures are numbers of contracts.
+
+Open interest (all contracts): 4,760,884
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 176,229 | 717,119 | 71,172 | -540,890 | -11.36% |
+| Asset Manager / Institutional | 2,755,221 | 672,787 | 584,703 | 2,082,434 | +43.74% |
+| Leveraged Funds | 201,132 | 2,012,009 | 85,571 | -1,810,877 | -38.04% |
+| Other Reportable | 431,789 | 302,963 | 3,011 | 128,826 | +2.71% |
+
+Based on this positioning, should I buy 10-Year Treasury futures now?
+
+Please answer without using web search.

@@ -1,0 +1,180 @@
+This CFTC Traders in Financial Futures (TFF) snapshot shows a deeply liquid, heavily hedged 10-Year U.S. Treasury Note futures market where end-user institutions (Asset Managers and Other Reportables) are net long duration, while Dealers, Leveraged Funds, and implied Non-Reportable traders supply the offsetting net short positions. Crucially, because gross long and short positions within the major categories dwarf their net balances—and no single group holds a net position greater than 7% of open interest—the market reflects intense two-way hedging and strategy dispersion rather than a one-sided speculative crowd.
+
+1. Complete Market Balance (Including Implied Non-Reportables)
+
+In Treasury futures, long contracts represent long duration (profiting when bond prices rise and yields fall), while short contracts represent short duration (profiting when yields rise, or hedging long cash-bond holdings). Because every contract requires both a long and a short, summing the four reportable categories (where each category's total footprint is 
+Directional
++
+Spreading
+Directional+Spreading) reveals the implied Non-Reportable (small trader) residual needed to balance total Open Interest (
+2
+,
+812
+,
+962
+2,812,962):
+
+Market Segment	Total Longs (incl. Spreading)	% of OI	Total Shorts (incl. Spreading)	% of OI	Net Position	Net as % of OI
+Dealer / Intermediary	142,608	5.07%	281,915	10.02%	-139,307	-4.95%
+Asset Manager / Institutional	1,294,308	46.01%	1,192,798	42.40%	+101,510	+3.61%
+Leveraged Funds	611,306	21.73%	712,270	25.32%	-100,964	-3.59%
+Other Reportable	394,589	14.03%	201,342	7.16%	+193,247	+6.87%
+Total Reportable	2,442,811	86.84%	2,388,325	84.90%	+54,486	+1.94%
+Implied Non-Reportable	370,151	13.16%	424,637	15.10%	-54,486	-1.94%
+Total Open Interest	2,812,962	100.00%	2,812,962	100.00%	0	0.00%
+2. What Each Category's Positioning Reveals
+
+Asset Managers Dominate Both Sides of the Book (+101,510 net, +3.61% of OI):
+Real-money institutions (pension funds, mutual funds, and insurers) account for nearly half of the entire market—holding 
+46.01
+%
+46.01% of all longs, 
+42.40
+%
+42.40% of all shorts, and 
+75.48
+%
+75.48% (
+370
+,
+406
+370,406 of 
+490
+,
+710
+490,710) of all reportable spreading positions. Their net long position reflects structural demand for duration to match long-term liabilities or benchmark indices. However, their massive gross short book (
+822
+,
+392
+822,392 contracts) shows real-money managers simultaneously hedging large cash bond portfolios against rate volatility rather than making an unhedged directional bet on lower yields.
+
+Leveraged Funds Are Modestly Net Short—With High Internal Dispersion (-100,964 net, -3.59% of OI):
+Hedge funds and CTAs nearly mirror Asset Managers' net long position with a 
+−
+100
+,
+964
+−100,964 contract net short. In Treasury futures, leveraged short positioning reflects a combination of two distinct forces:
+
+Cash-futures basis and relative-value trades: Arbitrage funds buying cash Treasury notes and selling 10-year futures against them (or hedging long corporate credit books against interest-rate risk).
+
+Directional short duration: Macro traders betting that low yields have bottomed and will rebound.
+At the same time, Leveraged Funds hold 
+546
+,
+112
+546,112 directional long contracts—showing that a substantial cohort of momentum/CTA and macro funds is positioned for lower yields, creating heavy two-way positioning within the hedge fund sector itself.
+
+Other Reportables Hold the Largest Directional Skew (+193,247 net, +6.87% of OI):
+Comprising corporate treasuries, commercial banks outside the primary dealer community, mortgage servicers, and official institutions, this group is more than 
+2
+-to-
+1
+2-to-1 long (
+375
+,
+251
+375,251 long vs. 
+182
+,
+004
+182,004 short). A large net long here typically signals active duration extension and mortgage convexity hedging—when yields fall and mortgage prepayment expectations rise, the duration of mortgage portfolios shortens, compelling servicers and bank portfolios to buy 10-year Treasury futures to restore lost duration.
+
+Dealers Are Net Short via Inventory and Swap Hedging (-139,307 net, -4.95% of OI):
+Primary dealers and bank intermediaries are more than 
+2.3
+-to-
+1
+2.3-to-1 short (
+246
+,
+143
+246,143 directional shorts vs. 
+106
+,
+836
+106,836 longs). Because dealers warehouse cash Treasuries, agency MBS, and corporate debt to facilitate client flow—and often receive fixed rates in interest-rate swaps with institutional clients—their net short futures position primarily represents balance-sheet hedging rather than a directional bet on rising yields.
+
+Non-Reportable (Small) Traders Lean Net Short (-54,486 net, -1.94% of OI):
+Smaller participants below CFTC reporting thresholds hold 
+13.16
+%
+13.16% of longs and 
+15.10
+%
+15.10% of shorts, taking the opposite side of the aggregate reportable net long (
++
+54
+,
+486
++54,486) and leaning slightly toward higher yields.
+
+3. Market Structure & Macro Implications (June 21, 2016 Context)
+
+Coiled Two-Way Hedging Ahead of Macro Event Risk:
+Total reportable spreading accounts for 
+490
+,
+710
+490,710 contracts (
+17.44
+%
+17.44% of total open interest), and both Asset Managers and Leveraged Funds carry balanced long-to-short ratios (
+1.12
+x
+1.12x and 
+0.84
+x
+0.84x, respectively). Viewed in its historical window—two days prior to the June 23, 2016 UK Brexit referendum and shortly after a dovish June FOMC hold—this structure reflects a market heavily utilizing futures for event-risk protection and curve/calendar spread trades rather than taking naked directional exposure.
+
+Liquidity Transfer Between Real Money and Arbitrage/Dealer Desks:
+Combined institutional end-user demand from Asset Managers (
++
+101
+,
+510
++101,510) and Other Reportables (
++
+193
+,
+247
++193,247) totals 
++
+294
+,
+757
++294,757 contracts (
++
+10.48
+%
++10.48% of OI) of net duration buying via futures. That demand is absorbed almost cleanly by Dealers (
+−
+139
+,
+307
+−139,307), Leveraged Funds (
+−
+100
+,
+964
+−100,964), and Non-Reportables (
+−
+54
+,
+486
+−54,486), illustrating a classic liquidity ecosystem where dealers and basis-trading hedge funds warehouse cash bonds and sell futures to satisfy institutional duration demand.
+
+Asymmetric Vulnerability to a Short Squeeze on a Flight-to-Safety Shock:
+Because Leveraged Funds (
+−
+3.59
+%
+−3.59% of OI) and Non-Reportables (
+−
+1.94
+%
+−1.94% of OI) are net short—with 
+647
+,
+076
+647,076 gross speculative short contracts open—the market is not overcrowded on the long side despite low yields. Consequently, any sudden risk-off shock (such as the Brexit vote two days later) has room to trigger a sharp bond rally (yield drop) fueled by speculative short-covering and continued convexity buying from Other Reportables.

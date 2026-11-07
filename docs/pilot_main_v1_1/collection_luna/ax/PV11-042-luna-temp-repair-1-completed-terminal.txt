@@ -1,0 +1,149 @@
+Browser tab: 1403820316, Title: "Google Gemini", URL: "https://gemini.google.com/app".
+0 AXWebArea Google Gemini, URL: gemini.google.com/app
+	1 container
+		2 container
+			3 button (collapsed) Description: Open sidebar, Secondary Actions: Expand
+			4 container Side Navigation
+				5 container
+					6 container Main actions menu
+						7 link Description: New chat, Value: gemini.google.com/app
+					8 container Additional actions menu
+						9 pop up button Description: Search chats, ID: base-ui-_r_2_
+						10 link Description: Library, Value: gemini.google.com/library
+						11 link Description: Images, Value: gemini.google.com/images
+						12 container Scheduled
+							13 link Description: Scheduled, Value: gemini.google.com/scheduled
+						14 link Description: Customize, Value: gemini.google.com/customize
+					15 link (collapsed) Description: Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com, Secondary Actions: Expand
+					16 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+			17 container xap-skip-link-target
+				18 container
+					1432 heading Conversation with Gemini, Value: 1
+						1433 text Conversation with Gemini
+					1434 container
+						1435 text Temporary Chat
+						1465 container 8a532007d23c346f
+							1466 container
+								1467 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+									1468 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+								1469 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 5 August 2025. All figures are numbers of contracts.
+								1470 text Open interest (all contracts): 5,127,634
+								1471 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+								1472 text |---|---|---|---|---|---|
+								1473 text | Dealer / Intermediary | 304,410 | 533,304 | 47,851 | -228,894 | -4.46% |
+								1474 text | Asset Manager / Institutional | 3,055,050 | 843,663 | 528,459 | 2,211,387 | +43.13% |
+								1475 text | Leveraged Funds | 392,296 | 2,638,835 | 92,321 | -2,246,539 | -43.81% |
+								1476 text | Other Reportable | 263,720 | 116,058 | 1,464 | 147,662 | +2.88% |
+								1477 text Output of a supervised model of leveraged-fund positioning (model v4.0):
+								1478 text - Expected net position this week: -43.93% of open interest (approximate 90% range based on earlier out-of-sample errors: -47.40% to -40.46%).
+								1479 text - Actual net position this week: -43.81% of open interest.
+								1480 text - Residual (actual minus expected): +0.12 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 6% were smaller than this one and 94% were at least as large.
+								1481 text How to read the model output above (model v4.0). This is a retrospective same-week conditional estimate of the weekly CHANGE in leveraged funds' net position as a share of open interest. It uses returns, realised volatility, yield levels and curve shape, equity volatility, a funding-stress proxy, a futures-yield return residual, current-week open-interest change, changes in Fed Treasury holdings, a quarter-end flag, and lagged own, other-group and cross-contract positions. More recent training observations receive more weight, with a two-year half-life.
+								1482 text - The expected level equals last week's actual level plus the model's estimated weekly change. The residual is equivalently the conditional level gap or the unexpected weekly adjustment, measured in percentage points of open interest. It is not an identified fraction of the whole position attributable to any strategy.
+								1483 text - These are statistical associations. The cash leg of a basis trade is unobserved; none of the inputs directly measures genuine cash-futures basis profitability. Neither the expected component nor the residual identifies motives, basis quantities or private information.
+								1484 text - Across 720 out-of-sample weeks (2012-11-27 to 2026-09-08), squared prediction error was 10.47% lower than an expanding historical-mean change benchmark (out-of-sample R²). RMSE was 2.07 percentage points of open interest. This R² is not a percentage of the outstanding position explained by a strategy.
+								1485 text - The approximate range uses only errors from earlier out-of-sample weeks. Its realised historical coverage was 91.9% across 668 eligible weeks, with variation across eras. This is not a guaranteed probability for this individual week. Being inside a broad range does not mean the point prediction closely anticipated the move.
+								1486 text - The model includes current-week CFTC open interest, so this is not a pre-Friday nowcast or a next-week forecast. The model and performance summary were selected retrospectively; this is not a historically deployable untouched backtest.
+								1487 text What does this positioning suggest about the Treasury market?
+								1488 text Please answer without using web search.
+								1489 button (collapsed) Expand
+							1490 button Copy prompt
+							1491 button Edit
+							1492 container
+								1493 heading Gemini said, Value: 6
+									1494 text Gemini said
+								1495 container model-response-message-contentr_8a532007d23c346f
+									1496 container
+										1497 text This CFTC Commitment of Traders (COT) snapshot highlights a classic,  highly segmented structural dynamic in the 10-Year U. S.  Treasury futures market—primarily defined by a massive  basis trade alignment  between Leveraged Funds and Asset Managers—along with a very close alignment between positioning changes and broader market macro variables.
+									1498 text Here is a breakdown of what the positioning and model residual imply:
+									1499 heading 1. Structural Segmentation: Basis Trade & Cash-Futures Arbitrage, Value: 3
+										1500 text 1. Structural Segmentation: Basis Trade & Cash-Futures Arbitrage
+									1501 content list
+										1502 container
+											1503 text Leveraged Funds (Extreme Short: 
+											1504 container
+												1505 text − 43.81 %
+											1506 text  of OI): 
+Hedge funds and commodity trading advisors (CTAs) hold a massive net short position of over 2. 24 million contracts.  In U. S.  Treasury markets,  a net short of this magnitude by leveraged funds typically reflects the  Treasury basis trade .  Hedge funds sell overpriced Treasury futures contracts short while simultaneously buying the underlying deliverable cash Treasury bonds,  capturing the small yield differential (basis) and amplifying the return using repo leverage.
+										1507 container
+											1508 text Asset Managers (Extreme Long: 
+											1509 container
+												1510 text + 43.13 %
+											1511 text  of OI): 
+Institutional real-money investors (pension funds,  mutual funds,  insurers) hold an almost identical,  offsetting net long position (
+											1512 container
+												1513 text + 2.21
+											1514 text  million contracts).  Asset managers often use futures to efficiently gain duration exposure or execute portfolio overlay strategies without deploying full cash reserves.
+										1515 container
+											1516 text Dealers (Net Short: 
+											1517 container
+												1518 text − 4.46 %
+											1519 text  of OI): 
+Primary dealers and intermediaries act as liquidity providers,  absorbing residual imbalance and facilitating the financing (repo) side of these trades.
+									1520 heading 2. Market Vulnerabilities and Implications, Value: 3
+										1521 text 2. Market Vulnerabilities and Implications
+									1522 content list
+										1523 container
+											1524 text Squeeze / Unwind Risk (Asymmetric Liquidity Risk): 
+Because leveraged funds are so heavily short,  any sudden spike in Treasury prices (drop in yields) or a shock to repo markets (rising funding costs or margin calls) can trigger a sharp short-squeeze.  If funding markets tighten,  leveraged funds may be forced to quickly buy back futures to unwind their basis trade,  accelerating downward pressure on yields.
+										1525 container
+											1526 text Dependence on Smooth Repo Financing: 
+The stability of this market structure relies on frictionless repo financing.  Any disruption in bank balance sheet capacity or short-term funding markets threatens the viability of maintaining these levered short positions.
+									1527 heading 3. Model Output & "Unexpected" Activity, Value: 3
+										1528 text 3. Model Output & "Unexpected" Activity
+									1529 content list
+										1530 container
+											1531 text Tight Model Alignment (Residual of 
+											1532 container
+												1533 text + 0.12
+											1534 text  percentage points): 
+The model's expected net position (
+											1535 container
+												1536 text − 43.93 %
+											1537 text ) was nearly identical to the actual outcome (
+											1538 container
+												1539 text − 43.81 %
+											1540 text ).  In relative terms,
+											1541 container
+												1542 text 94 %
+											1543 text  of past model residuals were larger.
+										1544 container
+											1545 text What This Means: 
+Leveraged fund positioning during the week ending August 5,  2025,  moved almost strictly in line with macro determinants—yield curve shape,  realized volatility,  equity volatility,  and Fed balance sheet changes.
+										1546 container
+											1547 text No Unobserved Idiosyncratic Driver: 
+There is no evidence of an atypical non-macro shift (such as a massive sudden unwind or discretionary thematic repositioning outside what market volatility and yield moves would predict).  The market's structural positioning simply evolved as expected given the prevailing macroeconomic and financial conditions of that week.
+								1548 button Redo
+								1549 button Copy
+								1550 button Humanize with Quillbot
+									1551 image
+								1552 button Show more options
+					81 container
+						82 container
+							83 pop up button (collapsed) Description: Upload & tools, Secondary Actions: Expand
+							1403 container
+								1404 text entry area (settable) Description: Enter a prompt for Gemini, Value: 
+
+									1553 text Ask Gemini
+							87 container
+								88 pop up button (collapsed) Description: Open mode picker, currently Gemini Auto, Secondary Actions: Expand
+								1554 container
+									1555 button Dictate (⌘⇧D)
+						1464 text Gemini is AI and can make mistakes.
+			1556 container
+				1557 button Convert chat to PDF
+					1558 image Convert chat to PDF
+					1559 text Convert chat to PDF
+					1560 text Open this chat in Acrobat
+				1561 link Upgrade
+					1562 link Upgrade
+						1563 text Upgrade
+		104 container Notifications
+		1406 container
+			1407 container Click to open Quillbot
+			1408 container Open quick settings
+			1409 container Use AI
+	109 container grammarly-integration
+		1394 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 1404 text entry area (settable) Description: Enter a prompt for Gemini, Value: 

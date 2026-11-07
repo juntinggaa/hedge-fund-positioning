@@ -1,0 +1,32 @@
+**Short answer:** this snapshot shows leveraged funds net short and asset managers net long 10-year note futures. That pattern fits several stories about the Treasury market but doesn't establish any one of them. The model output adds that leveraged funds' short was noticeably larger than expected this week, though not extraordinarily so.
+
+## What the positioning shows
+
+The table is internally consistent: each net figure and percentage checks out against the stated open interest.
+
+- **Asset managers are the dominant net longs** (+226k contracts, +8.3% of OI). This is the usual configuration. Pension funds, insurers and bond funds often use futures to add or manage duration cheaply, so a large net long is normal rather than a signal in itself.
+- **Leveraged funds are net short** (−98k, −3.6% of OI). Two common readings fit this:
+  - **Basis trades:** long cash Treasuries, short futures, which is effectively the other side of asset-manager futures demand.
+  - **Directional bets:** in September 2014 the Fed was winding down QE and many expected yields to rise.
+
+  The data can't separate these. The cash leg is unobserved, and the short could also be one leg of a curve or cross-contract trade (for example, short 10s against longs in 5s or bonds). Leveraged funds also hold large gross positions on both sides (484k long, 582k short), so the net figure hides a lot of two-way activity.
+- **Dealers are modestly net short** (−62k). This could hedge long cash inventory or reflect facilitation flows. Again, the futures data alone can't tell you which.
+- **An implied figure worth checking:** the four reportable nets sum to about +225k contracts. That implies non-reportable (smaller) traders were net short by roughly the same amount, about 8.2% of OI. That's a sizeable position for that group, so verify it against the source report.
+
+## What the model output adds
+
+- **The surprise is meaningful but not rare.** The residual of −3.24 points means leveraged funds ended the week more short than the model's conditional estimate of −0.36%. That is about 1.6 times the model's historical RMSE. It sits at roughly the 85th percentile of past absolute errors, so a miss this size happens about one week in seven.
+- **The actual figure is inside the 90% range** (−4.10% to +3.39%), though fairly close to the lower edge.
+- **The baseline is weak.** An out-of-sample R² of about 10% means most weekly variation in positioning is unexplained even in normal weeks. A large residual against a weak baseline carries less information than the same residual against a strong one.
+- **The scope is limited.** You aren't given last week's level, so you can't say how much leveraged funds actually changed their position this week. You only know the change was about 3.2 points more negative than modelled. And as the notes say, the residual says nothing about motive, basis quantities or private information.
+- **It's a quarter-end week.** The model includes a quarter-end flag, but quarter-end balance-sheet and financing effects are noisy. Some of the surprise may be calendar-related rather than a shift in views.
+
+## What it doesn't tell you
+
+One contract and one week say little about where yields are heading. A sizeable leveraged-fund short does create the *possibility* of position-driven buying if yields fall sharply. With hindsight, mid-October 2014 brought the well-known flash rally in Treasuries, and short positioning has been discussed as part of that backdrop. But that's after-the-fact narrative, not something this table would have reliably flagged in advance.
+
+To go further, the most useful additions would be:
+- the multi-week trend in leveraged-fund positioning
+- positions across the other Treasury contracts (2-, 5-year, bond, ultra)
+- some proxy for the cash-futures basis
+- repo or financing conditions around the quarter-end

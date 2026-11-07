@@ -1,0 +1,33 @@
+The positioning is the textbook futures-market split: **real money long, hedge funds short, dealers in the middle.** That pattern says more about how different players *use* Treasury futures than about a market-wide bet on yields. It does contain a few real signals, though.
+
+I checked the arithmetic and it's internally consistent. The four reportable categories net to **+102,392**, so non-reportable (small) traders hold the mirror image, about 102k net short. I can't verify the figures against the actual CFTC release without looking it up, so I'm taking them as given.
+
+## What each group is likely doing
+
+**Asset managers, net long 494k (+17.6% of OI).** This is the dominant position. Pension funds, insurers, mutual funds and bond index trackers use futures to add or extend duration cheaply, because futures need little capital compared with buying cash bonds outright. A big asset-manager long means real-money demand for duration, consistent with institutions keeping duration high despite talk of a Fed hike.
+
+**Leveraged funds, net short 363k (−13.0% of OI).** This looks bearish, but it is ambiguous. Hedge fund shorts in 10-year futures are a mix of:
+- **Basis trades:** long cash Treasuries financed in repo, short futures, earning the spread between the two. These shorts are a hedge, not a view on yields.
+- **Curve and relative-value trades:** the 10-year leg is offset by positions in other maturities.
+- **Outright directional shorts:** in September 2015 a Fed liftoff was a live possibility, so some of the short is probably a real bet on higher yields.
+
+The report can't separate these. The fact that the hedge-fund short largely mirrors the asset-manager long points to a lot of basis-style supply of futures to real-money buyers.
+
+**Dealers, net short 118k (−4.2% of OI).** This is modest. Dealers are mostly intermediating client flow and hedging inventory, not taking a view.
+
+**Other reportables, net long 90k (+3.2% of OI).** These are small and mixed, typically corporates, smaller institutions and some official-sector accounts.
+
+## What it suggests about the market
+
+1. **Duration demand from real money was strong.** In the weeks after China's August 2015 devaluation and the 24 August equity sell-off, institutions held large long exposure. That fits a market where any risk-off shock found ready buyers of duration.
+2. **The hedge-fund short is crowded, which creates asymmetric risk.** If even part of the 363k short is directional, another flight to quality or a Fed delay (the Fed did hold in September 2015) could force short covering and amplify a rally. If most of it is basis trades, the risk is different: it depends on repo funding and dealer balance sheets. Those were already under strain in 2015, when swap spreads went negative.
+3. **The positioning is not a consensus bet on rising yields.** Netting everything, reportable traders were modestly net long. Positioning was polarised by trader type, not one-directional.
+
+## Caveats for this particular week
+
+- **Roll timing.** 1 September falls right at the September-to-December contract roll (first notice day was around the end of August). The large spreading figures, especially the 330k for asset managers, and the open-interest level are likely inflated or distorted by roll activity. Readings a week or two later would be cleaner.
+- **One snapshot.** Positioning levels mean much more relative to history, such as a percentile against the prior few years. Week-on-week changes often matter more than levels.
+- **One maturity only.** Leveraged-fund curve trades span the 2-, 5-, 10- and 30-year contracts and the Ultra, so the 10-year in isolation can mislead.
+- **Contracts, not risk.** For cross-maturity comparisons, convert to DV01 (dollar value of a basis point) rather than counting contracts.
+
+In short, this shows real-money investors holding plenty of duration and hedge funds supplying it, partly as funded basis trades and partly as bets on Fed tightening. The main takeaway is the potential for a sharp short-covering rally, rather than a clear directional signal on yields.

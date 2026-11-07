@@ -1,0 +1,31 @@
+The main thing this table shows is **the Treasury cash-futures basis trade**, at very large scale. The two big net positions are close to mirror images and mostly offset each other. They are better read as two halves of one trade than as two opposing bets on interest rates.
+
+## The core pattern: asset managers long, leveraged funds short
+
+Asset managers are net long about 2.43 million contracts (45.5% of OI), and leveraged funds are net short about 2.42 million (45.3%). That near-perfect match is the usual structure:
+
+- **Asset managers** (pension funds, insurers, mutual funds, bond index funds) buy futures to get Treasury duration cheaply. Futures need only margin, not full funding, so they're a capital-efficient way to match a bond benchmark or extend duration while keeping cash for other uses. That steady demand tends to make futures trade slightly *rich* relative to the cash bonds deliverable into them.
+- **Leveraged funds** (mostly hedge funds) capture that richness. They sell the futures, buy the cheapest-to-deliver cash Treasuries, and finance the bonds in the repo market, often at very high leverage. The profit is the small gap between the futures price and the cost of buying and carrying the cash bond.
+
+So the hedge funds' 2.7 million short contracts are **not mainly a bearish call on Treasuries**. Most of that short is likely hedged by long cash bond holdings. Reading it as "hedge funds expect yields to rise" would be a common mistake.
+
+## What it says about the market
+
+**1. Strong real-money demand for duration.** Asset managers holding a net long equal to nearly half of open interest shows sizeable structural demand for 10-year exposure, expressed through derivatives rather than cash bonds.
+
+**2. Heavy dependence on leverage and repo funding.** The basis trade links futures demand to cash Treasury holdings through hedge-fund balance sheets. That helps absorb heavy Treasury issuance, but it also means a large share of cash bonds is held by leveraged players who depend on short-term repo funding and stable margin requirements.
+
+**3. Potential fragility.** The main risk is a disorderly unwind. If volatility spikes, margins rise, or repo rates jump, funds may have to sell cash Treasuries and buy back futures at the same time. That can widen the basis, damage liquidity, and push yields up quickly regardless of fundamentals. March 2020 is the standard example, and the April 2025 tariff turmoil revived those concerns. Regulators (the Fed, Treasury, OFR, and the FSB) have repeatedly flagged hedge-fund Treasury leverage as a financial-stability issue, and the push toward central clearing of Treasuries is partly a response.
+
+**4. Dealers are intermediating, not taking a big view.** A net short of about 296k (−5.5%) is modest relative to the market. It likely reflects hedging of inventory and client flows. Dealers' limited balance sheet capacity, shaped by constraints such as the supplementary leverage ratio, is one reason hedge funds have taken on so much of the intermediation role.
+
+**5. Smaller players are mildly long.** "Other reportable" traders are net long 164k. Non-reportable (small) traders are net long roughly 120k, which you can back out because the reportable nets sum to −119,505.
+
+## Caveats
+
+- **This is one week of one contract.** The basis trade spreads across the 2-year, 5-year, Ultra 10-year, bond and Ultra Bond contracts. The trend over time matters more than one snapshot, as does comparing the leveraged-fund short with repo data and OFR estimates of hedge-fund Treasury holdings.
+- **The categories mix strategies.** Some of the leveraged-fund short may be directional, curve, or relative-value positioning rather than pure basis. Likewise, some asset-manager longs are offset by cash bond holdings elsewhere.
+- **It doesn't predict rates.** This positioning tells you about market structure and vulnerability, not where yields are headed.
+- **It's dated.** The report is from August 2025, more than a year ago. Since you asked me not to search, I can't say how these positions or the related regulation have changed since.
+
+In short, the table shows a market where real-money investors want lots of duration through futures, hedge funds supply it by running a large leveraged basis trade, and the system works smoothly in calm conditions but carries a known risk of forced, synchronized deleveraging in a stress event.

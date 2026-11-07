@@ -1,0 +1,36 @@
+**Short answer:** not much about direction. The report shows a fairly ordinary 2014-era positioning structure. The model flags one unusual feature: leveraged funds ended the week noticeably less net long than their recent behaviour and market conditions would have predicted. That is worth noting, but it doesn't reveal why they did it or where yields go next.
+
+## The cross-section
+
+The configuration is the standard one for 10-year futures. **Asset managers are the big net longs** (+189.5k contracts, +6.96% of OI), consistent with real-money accounts using futures to add or hold duration. **Dealers are net short** (−129.3k, −4.75%), largely as the other side of that demand. **Leveraged funds are nearly flat** (+24.5k, +0.90%), but they hold about 1.09 million contracts across both sides plus 94k in spreads. Their tiny net position sits on large, offsetting gross positions, so it hides a lot of relative-value, curve and hedged activity. The category doesn't express a single directional view.
+
+The four reported nets sum to +149.1k. That implies non-reportable traders were net short about 149k contracts (−5.5% of OI), a gap the table doesn't show.
+
+It also matters what this structure doesn't show. In later years leveraged funds became very large net shorts in Treasury futures, widely associated with the cash-futures basis trade. In September 2014 that pattern isn't present at the level shown here. The basis trade may still have existed on a smaller scale, but the cash leg is invisible in this data, so the report can't confirm it either way.
+
+## The model residual
+
+- **Expected:** +4.88% of OI. **Actual:** +0.90%. **Residual:** −3.98 pp.
+- That is about 108,000 contracts, or roughly $10.8 billion of face value, below what the model expected.
+- It is about 1.9 times the model's RMSE. Only about 5% of earlier out-of-sample residuals were this large, and the actual level falls below the approximate 90% range.
+
+So by the model's own history this is a genuine surprise. Four qualifiers keep it in proportion:
+
+1. **We don't know the actual weekly change.** The expected level is last week's level plus the predicted change, and neither component is given. If the predicted change was near zero, funds cut net length by roughly 4 pp this week. If the model expected a big increase, the actual move may have been small. Either way, the residual is a gap relative to expectations, not a confirmed sell-off by funds.
+2. **The model is weak to begin with.** An out-of-sample R² of about 10% means most weekly variation is unexplained. Residuals this size should turn up about once every 20 weeks, so roughly three dozen times across 720 weeks. One flagged week is not rare enough to read much into on its own.
+3. **The calendar is unusual.** The week ended Tuesday 2 September, right after the Labor Day holiday. It also sits in the September-to-December contract roll, around first notice day. Open interest of 2.72 million is elevated, which is typical of roll periods. The model includes open-interest change and a quarter-end flag, but roll timing and holiday-thin trading can still distort a single week's positioning in ways it may not capture.
+4. **Motive isn't identified.** As the documentation states, the residual doesn't distinguish a bearish duration view, added short-futures hedges against cash longs (basis), curve trades against other contracts, risk reduction, or reclassification noise.
+
+## Market context
+
+From memory, so treat this loosely: 10-year yields had fallen through August 2014 to around the 2.3–2.4% area. Drivers included falling European yields after Draghi's Jackson Hole speech raised ECB easing expectations, geopolitical risk, and the approaching end of Fed asset purchases. Against that backdrop, funds being less long than expected *could* be consistent with reluctance to chase a rally or with positioning for a rebound in yields. That is a plausible story, not something the data establish.
+
+## What would sharpen the read
+
+- Last week's leveraged-fund level and the model's predicted change, to turn the residual into an actual flow.
+- Changes in gross long, short and spreading positions, to see whether funds cut longs, added shorts, or shifted into spreads.
+- The same report for 2-year, 5-year, bond and ultra-bond futures, to check whether this was a curve trade rather than an outright duration move.
+- The following two or three weeks, to see whether the gap persists, which suggests a real repositioning, or reverses, which points to roll or holiday noise.
+- Cash-futures basis and repo data for the period, if you want to test the hedging explanation.
+
+Bottom line: real-money investors were long duration through futures, dealers were warehousing the other side, and hedge funds were roughly neutral on a net basis but less long than the model expected. That is a mild, unexplained shift worth following up, not a signal about Treasury direction by itself.

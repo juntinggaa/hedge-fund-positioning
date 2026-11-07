@@ -1,0 +1,35 @@
+The positioning data depicts a classic structural divide in the 10-year Treasury futures market—institutional "real money" absorbing duration from net-short leveraged funds and dealers—while the model output shows that hedge fund short positioning is completely routine rather than abnormally stretched.
+
+Model Evaluation: Routine Positioning, Not an Anomaly
+
+The supervised model indicates that leveraged funds' net short position (-10.37% of open interest) is slightly larger than the -9.39% forecast, leaving a residual of -0.98 percentage points. Statistically, this deviation is noise:
+
+Inside the prediction band: The actual reading sits comfortably near the center of the 90% out-of-sample range (-13.16% to -5.63%, a half-width of roughly 3.77 percentage points).
+
+Below-median error size: Because 63% of prior out-of-sample residuals were at least as large as 0.98 percentage points (placing this week at only the 37th percentile of error magnitude), leveraged funds are behaving closely in line with the model's conditioning variables.
+
+No surprise overhang: While -10.37% is a sizable absolute short book, it is already explained by baseline model drivers and offers no contrarian signal of an unexpected positioning extreme.
+
+Cross-Sectional Market Structure
+
+Across the 3,034,110 contracts of open interest, duration risk is transferred from hedging dealers and fast-money funds to long-term institutional buyers:
+
+Asset Managers (+13.92% of OI): Net long 422,401 contracts, serving as the primary structural buyers of duration for pension liability matching and index replication.
+
+Other Reportables (+5.86% of OI): Net long 177,737 contracts, adding to institutional buying so that asset managers and other reportables hold a combined +19.78% net long share.
+
+Leveraged Funds (-10.37% of OI): Net short 314,694 contracts, providing the largest pool of short duration through macro, curve, or relative-value strategies.
+
+Dealers (-7.34% of OI): Net short 222,769 contracts, typically reflecting short futures used by bank desks to hedge long cash-Treasury inventory or fixed-receiver swap books.
+
+Implied Non-Reportables (-2.07% of OI): Because the four reportable categories sum to a net long of 62,675 contracts, smaller non-reportable traders hold an offsetting net short of 62,675 contracts.
+
+Structural Caveats for Treasury Futures
+
+Interpreting CFTC Treasury futures data requires separating mechanical hedging from pure directional bets on yields:
+
+Basis trades vs. directional shorts: Leveraged-fund shorts frequently represent the futures leg of a repo-financed cash-futures basis trade (long physical Treasuries, short futures) or a corporate bond hedge rather than an outright bet on higher yields.
+
+High intra-category spreading: Asset managers hold 370,007 spreading contracts (12.20% of OI) and leveraged funds hold 142,387 (4.69% of OI), capturing both calendar spreads across delivery months and offsetting sub-advisor accounts within large fund complexes.
+
+Headline vs. residual squeeze risk: Although the -0.98 percentage-point residual confirms positioning is not abnormally crowded relative to the model, a gross leveraged-fund short book of 773,971 contracts can still amplify a rally if an external shock forces rapid short-covering or basis unwinding.

@@ -1,0 +1,69 @@
+Browser tab: 1403820316, Title: "Google Gemini", URL: "https://gemini.google.com/app".
+0 AXWebArea Google Gemini, URL: gemini.google.com/app
+	1 container
+		2 container
+			3 button (collapsed) Description: Open sidebar, Secondary Actions: Expand
+			4 container Side Navigation
+				5 container
+					6 container Main actions menu
+						7 link Description: New chat, Value: gemini.google.com/app
+					8 container Additional actions menu
+						9 pop up button Description: Search chats, ID: base-ui-_r_2_
+						10 link Description: Library, Value: gemini.google.com/library
+						11 link Description: Images, Value: gemini.google.com/images
+						12 container Scheduled
+							13 link Description: Scheduled, Value: gemini.google.com/scheduled
+						14 link Description: Customize, Value: gemini.google.com/customize
+					15 link (collapsed) Description: Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com, Secondary Actions: Expand
+					16 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+			17 container xap-skip-link-target
+				18 container
+					459 heading Conversation with Gemini, Value: 1
+						460 text Conversation with Gemini
+					461 container
+						462 text Temporary Chat
+						463 container
+							464 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+								465 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+							466 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts.
+							467 text Open interest (all contracts): 3,934,302
+							468 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+							469 text |---|---|---|---|---|---|
+							470 text | Dealer / Intermediary | 211,953 | 227,582 | 41,198 | -15,629 | -0.40% |
+							471 text | Asset Manager / Institutional | 1,458,078 | 1,409,497 | 788,616 | 48,581 | +1.23% |
+							472 text | Leveraged Funds | 853,740 | 498,222 | 99,743 | 355,518 | +9.04% |
+							473 text | Other Reportable | 133,901 | 292,990 | 9,644 | -159,089 | -4.04% |
+							474 text Output of a supervised model of leveraged-fund positioning (model v4.0):
+							475 text - Expected net position this week: +7.31% of open interest (approximate 90% range based on earlier out-of-sample errors: +3.74% to +10.88%).
+							476 text - Actual net position this week: +9.04% of open interest.
+							477 text - Residual (actual minus expected): +1.73 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 61% were smaller than this one and 39% were at least as large.
+							478 text What does this positioning suggest about the Treasury market?
+							479 text Please answer without using web search.
+							480 button (collapsed) Expand
+						481 button Copy prompt
+						482 button (disabled) Edit
+						483 image
+					81 container
+						82 container
+							83 pop up button (collapsed) Description: Upload & tools, Secondary Actions: Expand
+							436 container
+								437 text entry area (settable) Description: Enter a prompt for Gemini, Value: 
+
+									484 text Ask Gemini
+							87 container
+								88 pop up button (collapsed) Description: Open mode picker, currently Gemini Auto, Secondary Actions: Expand
+								458 button Stop response
+						485 text Gemini is AI and can make mistakes.
+			424 link Upgrade
+				425 link Upgrade
+					426 text Upgrade
+		486 text Gemini is typing
+		104 container Notifications
+		439 container
+			440 container Click to open Quillbot
+			441 container Open quick settings
+			442 container Use AI
+	109 container grammarly-integration
+		270 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 437 text entry area (settable) Description: Enter a prompt for Gemini, Value: 

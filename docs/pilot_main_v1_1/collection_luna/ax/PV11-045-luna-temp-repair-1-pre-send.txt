@@ -1,0 +1,123 @@
+Browser tab: 1403820316, Title: "Google Gemini", URL: "https://gemini.google.com/app".
+0 AXWebArea Google Gemini, URL: gemini.google.com/app
+	1 container
+		2 container
+			3 button (collapsed) Description: Open sidebar, Secondary Actions: Expand
+			4 container Side Navigation
+				5 container
+					6 container Main actions menu
+						7 link Description: New chat, Value: gemini.google.com/app
+					8 container Additional actions menu
+						9 pop up button Description: Search chats, ID: base-ui-_r_2_
+						10 link Description: Library, Value: gemini.google.com/library
+						11 link Description: Images, Value: gemini.google.com/images
+						12 container Scheduled
+							13 link Description: Scheduled, Value: gemini.google.com/scheduled
+						14 link Description: Customize, Value: gemini.google.com/customize
+					15 link (collapsed) Description: Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com, Secondary Actions: Expand
+					16 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+			17 container xap-skip-link-target
+				18 container
+					1850 container
+						1851 heading Value: 1, Just stopping by? Temporary chats don't appear in recent chats and aren't used to improve Google AI. Stored for 72 hours for safety.
+							1852 text Just stopping by?
+							1853 container
+								1854 link Description: Temporary chats, Value: support.google.com/gemini/answer/13275745?visit_id=638889059849455150-2388016392&p=temp_chats&rd=1#temp_chats
+								1855 text  don't appear in 
+								1856 link Description: recent chats, Value: support.google.com/gemini/answer/13666746
+								1857 text  and aren't used to improve Google AI. Stored for 72 hours for safety.
+					81 container
+						82 container
+							83 pop up button (collapsed) Description: Upload & tools, Secondary Actions: Expand
+							1858 container
+								1859 text entry area (settable) Description: Enter a prompt for Gemini, Value: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 5 August 2025. All figures are numbers of contracts.
+
+
+
+
+Open interest (all contracts): 5,127,634
+
+
+
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+
+|---|---|---|---|---|---|
+
+| Dealer / Intermediary | 304,410 | 533,304 | 47,851 | -228,894 | -4.46% |
+
+| Asset Manager / Institutional | 3,055,050 | 843,663 | 528,459 | 2,211,387 | +43.13% |
+
+| Leveraged Funds | 392,296 | 2,638,835 | 92,321 | -2,246,539 | -43.81% |
+
+| Other Reportable | 263,720 | 116,058 | 1,464 | 147,662 | +2.88% |
+
+
+
+
+Context you may find relevant: leveraged funds sometimes hold short positions in Treasury futures as one leg of a cash-futures basis trade, in which the fund buys the underlying Treasury security, finances it in the repo market, and sells the corresponding futures contract. A position held for that reason expresses a relative-value view about the spread between the cash and futures markets rather than a directional view about the level of yields. Asset managers may likewise hold futures for duration management, benchmark replication or liability hedging rather than as a discretionary forecast.
+
+
+
+
+What does this positioning suggest about the Treasury market?
+
+
+
+
+Please answer without using web search.
+									1865 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 5 August 2025. All figures are numbers of contracts.
+									1866 text Open interest (all contracts): 5,127,634
+									1867 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+									1868 text |---|---|---|---|---|---|
+									1869 text | Dealer / Intermediary | 304,410 | 533,304 | 47,851 | -228,894 | -4.46% |
+									1870 text | Asset Manager / Institutional | 3,055,050 | 843,663 | 528,459 | 2,211,387 | +43.13% |
+									1871 text | Leveraged Funds | 392,296 | 2,638,835 | 92,321 | -2,246,539 | -43.81% |
+									1872 text | Other Reportable | 263,720 | 116,058 | 1,464 | 147,662 | +2.88% |
+									1873 text Context you may find relevant: leveraged funds sometimes hold short positions in Treasury futures as one leg of a cash-futures basis trade, in which the fund buys the underlying Treasury security, finances it in the repo market, and sells the corresponding futures contract. A position held for that reason expresses a relative-value view about the spread between the cash and futures markets rather than a directional view about the level of yields. Asset managers may likewise hold futures for duration management, benchmark replication or liability hedging rather than as a discretionary forecast.
+									1874 text What does this positioning suggest about the Treasury market?
+									1875 text Please answer without using web search.
+							1876 button Expand input to Fullscreen
+							87 container
+								88 pop up button (expanded) Description: Open mode picker, currently Gemini Auto, Secondary Actions: Collapse
+								1878 menu ng-menu-a48871-1
+									1879 Selected Auto Gemini 3 models
+										1880 container Selected
+										1881 text Auto
+										1882 text Gemini 3 models
+									1883 3.1 Pro Advanced reasoning
+										1884 text 3.1 Pro
+										1885 text Advanced reasoning
+									1886 4 Argon Complex tasks
+										1887 text 4 Argon
+										1888 text Complex tasks
+									1889 (expanded) Thinking level, Secondary Actions: Collapse
+										1890 text Thinking level
+									1891 menu ng-menu-a48871-2
+										1892 Selected Low Quick and efficient
+											1893 container Selected
+											1894 text Low
+											1895 text Quick and efficient
+										1896 Medium Balanced depth
+											1897 text Medium
+											1898 text Balanced depth
+										1899 High Extra thorough
+											1900 text High
+											1901 text Extra thorough
+								1833 container
+									1834 button Dictate (⌘⇧D)
+								1877 button Send message
+			1845 button Get app
+			1846 link Upgrade
+				1847 link Upgrade
+					1848 text Upgrade
+			1849 button Temporary chat
+		104 container Notifications
+		1861 container
+			1862 container Click to open Quillbot
+			1863 container Open quick settings
+			1864 container Processing
+	109 container grammarly-integration
+		1733 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 1889 (expanded) Thinking level, Secondary Actions: Collapse

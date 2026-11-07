@@ -1,0 +1,125 @@
+- heading "Claude" [level=1]
+- main:
+  - status
+  - status
+  - toolbar "Page tools":
+    - button "Activity panel":
+      - generic: 
+  - status
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S." [level=3]'
+      - paragraph: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 26 January 2021. All figures are numbers of contracts.
+      - paragraph: "Open interest (all contracts): 3,447,076"
+      - paragraph:
+        - text: "| Trader category | Long | Short | Spreading | Net | Net as % of OI |"
+        - text: "|---|---|---|---|---|---|"
+        - text: "| Dealer / Intermediary | 189,014 | 219,406 | 45,956 | -30,392 | -0.88% |"
+        - text: "| Asset Manager / Institutional | 1,329,379 | 1,266,708 | 687,802 | 62,671 | +1.82% |"
+        - text: "| Leveraged Funds | 500,339 | 495,068 | 63,998 | 5,271 | +0.15% |"
+        - text: "| Other Reportable | 280,025 | 189,633 | 2,528 | 90,392 | +2.62% |"
+      - paragraph: "Output of a supervised model of leveraged-fund positioning (model v4.0):"
+      - list:
+        - listitem: "Expected net position this week: +1.21% of open interest (approximate 90% range based on earlier out-of-sample errors: -2.34% to +4.76%)."
+        - listitem: "Actual net position this week: +0.15% of open interest."
+        - listitem: "Residual (actual minus expected): -1.06 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 43% were smaller than this one and 57% were at least as large."
+      - paragraph: What does this positioning suggest about the Treasury market?
+      - paragraph: Please answer without using web search.
+      - generic: Message collapsed
+      - button "Show more":
+        - generic: Show more
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: Not much." [level=3]'
+      - generic: Checking the nonreportable positions implied by the totals
+      - button "Checking the nonreportable positions implied by the totals":
+        - generic: 
+      - status: Checking the nonreportable positions implied by the totals
+      - paragraph:
+        - strong: Not much.
+        - text: This snapshot shows a balanced market with no crowded directional bet. The model comparison doesn’t add a signal either.
+      - paragraph:
+        - strong: The model residual is ordinary
+      - paragraph: Leveraged funds came in at +0.15% of open interest against an expected +1.21%, a miss of about 1 percentage point. That miss is a typical one. Earlier out-of-sample errors were at least as large 57% of the time, and the actual figure sits well inside the model’s 90% range of -2.34% to +4.76%. That range is about 7 points wide, while every category’s net position this week is under 3% of open interest. So the model can’t tell “slightly short” from “moderately long” with much confidence. A miss of this size is what the model normally produces, so it isn’t evidence that hedge funds were unusually bearish.
+      - paragraph:
+        - strong: The positioning itself is mild
+      - list:
+        - strong: Asset managers
+        - text: are modestly net long (+1.8% of OI). This fits their usual use of Treasury futures as a capital-efficient way to hold duration. It reflects portfolio construction more than a rate call.
+        - strong: Dealers
+        - text: are slightly net short (-0.9%). This is a small amount and consistent with hedging or market-making.
+        - strong: Leveraged funds
+        - text: are close to flat on a net basis. They do carry large, nearly offsetting gross positions (about 500k long and 495k short), plus about 64k in spreads. Much of that is likely relative-value activity, such as curve, calendar or cash-futures basis trades, rather than a view on yield direction.
+        - strong: Other reportables
+        - text: hold the largest net long (+2.6%). Even that is small relative to the market.
+      - paragraph: The reported nets don’t sum to zero because the table leaves out non-reportable traders. Working back from the figures, small traders were net short by roughly 128k contracts, about 3.7% of open interest. That is the largest net position in the market, but these traders are a heterogeneous group and hard to interpret.
+      - paragraph:
+        - strong: Reasons for caution in any reading
+      - list:
+        - listitem: This is a single week. Changes over several weeks usually say more than one level, and no prior data is given here.
+        - listitem: The report is futures-only. It misses offsetting positions in cash Treasuries, swaps and options, which matters most for leveraged funds and their basis trades. A net-flat futures book can sit alongside significant exposure elsewhere.
+        - listitem: The data is a Tuesday snapshot published with a lag.
+        - listitem: Even extreme COT positioning is a weak and noisy predictor of yield moves. Nothing here is extreme.
+      - paragraph:
+        - strong: "Bottom line:"
+        - text: No category is heavily positioned, so there’s little sign of squeeze risk in either direction. Leveraged funds being a bit less long than the model expected falls within the model’s normal error. The data says more about how the market is structured, with asset managers holding duration through futures and hedge funds running offsetting relative-value books, than about where Treasury yields were likely headed.
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button "Scroll to bottom":
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - document
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note: No history, memory, or Claude training.
+  - 'button "Model: Opus 5.5 High"':
+    - generic: Opus 5.5
+    - generic: High
+  - button "Auto":
+    - generic: Auto
+  - status: Claude finished the response
+  - complementary
+  - status
+- generic: Incognito
+- button "Exit incognito":
+  - generic: 
+- status
+- status
+- region "Notifications"
+- generic "Click to open Quillbot"
+- generic "Open quick settings":
+- generic "Use AI"

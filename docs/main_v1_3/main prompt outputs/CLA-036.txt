@@ -1,0 +1,26 @@
+Short answer: not much beyond the usual structure of this market. The leveraged-fund short looks large, but your model says it is almost exactly what it expected, and the overall layout of positions fits normal hedging and relative-value activity better than a directional bet on yields.
+
+1. The model says this week is unremarkable
+Leveraged funds were net short 12.96% of open interest, against an expected 12.60%. The 0.36-point gap is well inside the 90% range (−16.49% to −8.71%).
+83% of earlier out-of-sample residuals were at least this large, so the residual is smaller than most past errors.
+Whatever the model’s inputs explain (the usual drivers of leveraged-fund positioning), they explain this week. There is no sign of an unusual buildup of shorts, capitulation, or crowding beyond what those inputs imply.
+2. The cross-category pattern is the familiar one
+Asset managers: net long about 494k contracts (+17.6% of OI). Real-money investors often hold duration through futures because it is capital-efficient and helps them match benchmarks.
+Leveraged funds: net short about 363k contracts (−13.0%). This is the mirror image, and it typically reflects the cash-futures basis trade. Funds buy cash Treasuries, short the rich futures, and supply the long futures exposure asset managers want. Much of this short is probably hedged by cash bond holdings, so it should not be read as a bearish rate view.
+Dealers: modestly net short (−4.2%), consistent with intermediation and hedging inventory.
+Other reportables: small net long (+3.2%).
+Non-reportables (implied): the four categories net to about +102k long. By arithmetic, small traders were net short roughly 102k contracts (−3.7% of OI).
+
+I checked the net figures and percentages against the long and short columns, and they are internally consistent.
+
+3. Context, with caution
+
+Early September 2015 came right after the August turmoil: the yuan devaluation and the late-August global equity selloff. Markets were also unsure whether the Fed would raise rates at its September meeting (it held off). Against that backdrop, the absence of any abnormal leveraged-fund positioning is mildly informative. It suggests the volatility did not produce a disorderly unwind or a big new directional bet in 10-year futures, at least by this measure.
+
+What this data can’t tell you
+Direction of yields: CFTC positioning is at best a weak and inconsistent predictor, and a near-zero residual gives even less to go on.
+Hedged versus outright: futures-only data doesn’t show offsetting cash or swap positions, so you can’t separate basis-trade shorts from outright bearish ones.
+Changes: one weekly snapshot doesn’t show flows. Week-over-week changes in each category, and in open interest, would say more about what was shifting.
+Breadth: a fuller read would look across the curve (2-year, 5-year, Ultra and bond futures), since duration can be repositioned between contracts.
+
+Overall, the report describes a normal market: real money long duration via futures, leveraged funds on the other side mostly as relative-value traders, and positioning matching what your model predicted.

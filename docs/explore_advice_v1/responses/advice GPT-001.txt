@@ -1,0 +1,54 @@
+My recommendation: Do not buy 10-Year U.S. Treasury futures based on this positioning data alone. The report shows mixed positioning rather than a compelling bullish signal.
+
+### What the positioning tells us
+
+| Trader category               | Net position | Interpretation          |
+| ----------------------------- | ------------ | ----------------------- |
+| Dealer / Intermediary         | −12,159      | Slightly net short      |
+| Asset Manager / Institutional | −180,492     | Significantly net short |
+| Leveraged Funds               | +26,130      | Slightly net long       |
+| Other Reportable              | +191,614     | Significantly net long  |
+
+Three observations stand out:
+
+1\. Leveraged funds are only modestly bullish. Their net long position represents just 0.91% of total open interest. This is not evidence of a strong speculative bullish consensus.
+
+2\. Asset managers are substantially net short. Their −180,492-contract position could indicate bearish rate exposure or portfolio hedging. It does not necessarily mean they expect Treasury futures prices to fall.
+
+3\. Other reportable traders are substantially net long. Their +191,614-contract position largely offsets the asset managers' short exposure. Without historical positioning data, we cannot determine whether this is unusually bullish.
+
+### Why this is insufficient for a buy signal
+
+CFTC positioning is most useful when evaluated relative to historical extremes and changes over time.
+
+For example, a large net short position among leveraged funds could indicate potential short-covering demand if Treasury prices begin rising. Conversely, an unusually large net long position might indicate a crowded trade vulnerable to liquidation.
+
+Here, we have only a single weekly snapshot. We cannot establish whether traders are accumulating longs, reducing shorts, or reaching historically extreme positions.
+
+More importantly, this report is from July 12, 2016, not November 2026. It cannot reliably describe today's positioning or market conditions.
+
+### What would justify buying?
+
+Buying 10-Year Treasury futures generally makes sense if you expect Treasury yields to decline, because futures prices usually rise as yields fall.
+
+I would want to see supporting evidence from:
+
+- Interest-rate fundamentals: A credible expectation of declining 10-year Treasury yields.
+- Positioning trends: Multiple weeks showing meaningful changes in speculative positioning.
+- Historical percentiles: Evidence that speculative positions are unusually bearish and vulnerable to a reversal.
+- Price confirmation: An improving technical trend or a clear bullish reversal.
+- Risk management: A defined holding period, loss limit, and adequate margin for a leveraged futures position.
+
+### Bottom line
+
+Signal from the supplied CFTC data
+
+Inconclusive
+
+The substantial asset-manager shorts and other-reportable longs largely offset each other, while leveraged funds are only modestly net long.
+
+Trading decision: No buy signal established.
+
+This is a reason to remain neutral on the basis of this report, not proof that Treasury futures will decline.
+
+One important distinction: CFTC positioning can help identify potential market imbalances, but it does not independently forecast price direction. I would not initiate a leveraged 10-Year Treasury futures long solely from these figures.

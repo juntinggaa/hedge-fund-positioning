@@ -1,0 +1,33 @@
+Checking the leveraged funds' net short against the total
+
+Checking the leveraged funds' net short against the total
+
+Short answer: this looks like a large, ordinary week for the Treasury cash-futures basis trade, not a bearish bet on Treasuries. The model gives no sign that leveraged-fund positioning is unusual relative to what it expects.
+
+What the table shows
+
+The two big positions almost mirror each other. Asset managers are net long about 2.43 million contracts (+45.5% of open interest), and leveraged funds are net short about 2.42 million (−45.3%). Dealers and other reportables are small by comparison. Your figures are internally consistent: the reportable nets sum to −119,505, which implies non-reportable traders are net long by the same amount, and that matches the open-interest total.
+
+The usual reading of this pattern:
+
+Asset managers (pension funds, insurers, bond funds) use long futures to gain or extend duration cheaply, without tying up cash in bonds. That demand tends to push futures slightly rich relative to cash Treasuries.
+Leveraged funds take the other side. They mostly short the rich futures and buy the cheaper deliverable cash notes, financed in repo. This is the cash-futures basis trade. It is close to duration-neutral, so the headline net short is not a view that yields will rise.
+
+At $100,000 face per contract, the leveraged-fund net short is roughly $240 billion of face value in this one contract. That points to a large, repo-financed relative-value book.
+
+What the model adds
+
+The actual reading (−45.26%) sits inside the model’s 90% range (−47.33% to −40.39%). The −1.40 pp residual is at roughly the 53rd percentile of past absolute errors, so it is about as typical as a miss can be. In plain terms, leveraged funds are slightly more short than the model expected, but by an amount it routinely misses by. There is no evidence of abnormal crowding or a sudden build-up beyond what its inputs explain.
+
+What it suggests for the market
+
+Directional signal: little. Hedged basis positions dominate the net short, so it tells you little about where yields are heading.
+Structural signal: meaningful. A book this size means the market depends on hedge-fund balance sheets and repo funding to keep cash and futures aligned. The main risk is a forced unwind. If repo costs spike, margins rise, or volatility jumps, funds may sell cash Treasuries and buy back futures at the same time. That can widen the basis and hurt liquidity quickly, as in March 2020 and, to a lesser degree, the April 2025 sell-off.
+Demand signal: the large asset-manager long shows strong real-money appetite for duration through futures.
+
+Caveats
+
+This is one week in one contract. Basis positions are spread across the 2-, 5-, 10-, Ultra 10- and bond contracts, so a full picture would aggregate across the curve, ideally in DV01 terms.
+A 90% band means about 1 week in 10 falls outside it by chance. A single ordinary reading says nothing about trend, so the weekly path of the residuals would be more informative than this one value.
+The data is from August 2025, more than a year before today. It describes conditions then, not now.
+I haven’t checked the figures against the CFTC release, since you asked me not to search. I’ve taken them as given.

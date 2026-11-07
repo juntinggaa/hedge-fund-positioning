@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-05",
+  "status": "candidate feasibility only; not frozen",
+  "gaps_weeks": [
+    4,
+    6,
+    8
+  ],
+  "original_gap_scope": "within stratum",
+  "stratum_cut": "original pinned negative-net/OI 10th percentile; never recompute",
+  "seed": 20261105,
+  "selection": "uniform feasible subsets via exact DP; dates/eligibility only",
+  "primary_pool_exclusions": [
+    "2026-09-01",
+    "2023-07-11",
+    "2026-06-30",
+    "2025-06-17",
+    "2026-08-25",
+    "2025-02-18",
+    "2025-09-02"
+  ],
+  "B_quotas": "min(10, exact feasible maximum) per original stratum",
+  "C_quotas_8": {
+    "S1": 13,
+    "S2": 2,
+    "S3": 13,
+    "S4": 12
+  },
+  "C_quotas_6": {
+    "S1": 13,
+    "S2": 3,
+    "S3": 12,
+    "S4": 12
+  },
+  "C_quotas_4": {
+    "S1": 12,
+    "S2": 4,
+    "S3": 12,
+    "S4": 12
+  },
+  "pilot": "2025-09-02 retained as separate qualitative case, outside inferential totals",
+  "global_gap": "additional sensitivity; not the original sampler rule",
+  "model": "reconstruct final Aug-04-trained weighted_104 with frozen alpha; no CV/refit on extension",
+  "new_dates": "never selected by LLM responses or prediction residuals"
+}

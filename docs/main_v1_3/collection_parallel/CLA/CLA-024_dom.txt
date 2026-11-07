@@ -1,0 +1,120 @@
+- heading "Claude" [level=1]
+- main:
+  - status
+  - status
+  - toolbar "Page tools":
+    - button "Activity panel":
+      - generic: 
+  - status
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S." [level=3]'
+      - paragraph: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 2 September 2014. All figures are numbers of contracts.
+      - paragraph: "Open interest (all contracts): 2,721,411"
+      - paragraph:
+        - text: "| Trader category | Long | Short | Spreading | Net | Net as % of OI |"
+        - text: "|---|---|---|---|---|---|"
+        - text: "| Dealer / Intermediary | 109,994 | 239,264 | 36,698 | -129,270 | -4.75% |"
+        - text: "| Asset Manager / Institutional | 1,032,308 | 842,779 | 272,395 | 189,529 | +6.96% |"
+        - text: "| Leveraged Funds | 558,487 | 533,964 | 94,035 | 24,523 | +0.90% |"
+        - text: "| Other Reportable | 253,152 | 188,831 | 33,774 | 64,321 | +2.36% |"
+      - paragraph: What does this positioning suggest about the Treasury market?
+      - paragraph: Please answer without using web search.
+      - toolbar "Message actions":
+        - time: 1 minute ago
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: The short answer is that the market is fairly balanced." [level=3]'
+      - generic: Checking that the non-reportable traders balance the totals
+      - button "Checking that the non-reportable traders balance the totals":
+        - generic: 
+      - status: Checking that the non-reportable traders balance the totals
+      - paragraph: The short answer is that the market is fairly balanced. Nobody holds an extreme position, and the pattern mostly reflects how each group normally uses the 10-year contract rather than a strong bet on where yields are heading.
+      - paragraph:
+        - strong: Asset managers (net long +190k, about 7% of OI)
+      - paragraph: This is the usual pattern. Pension funds, insurers and bond funds buy futures to add duration cheaply or to stand in for cash bonds. A net long here mainly reflects benchmark and liability matching, not a call that yields will fall. Their gross short of roughly 843k is also large, which points to a lot of hedging and overlay activity inside this group. The net figure understates how active they are on both sides.
+      - paragraph:
+        - strong: Dealers (net short −129k, about −4.75%)
+      - paragraph: This is also normal. Dealers sit on the other side of asset-manager demand and use short futures to hedge their long cash Treasury holdings. Their net short is mostly a balance-sheet hedge, not a bearish view.
+      - paragraph:
+        - strong: Leveraged funds (net long +25k, under 1%)
+      - paragraph: "This is probably the most informative line. Hedge funds hold big positions on both sides (about 558k long and 534k short) but are almost flat overall. Two points follow:"
+      - list:
+        - listitem: Part of their short side is likely the cash-futures basis trade (long cash Treasuries, short futures). That means their futures positions may look more bearish than their true exposure.
+        - listitem: Speculators are not crowded on either side, so a sudden rush to exit a one-sided position is less likely. That matters in this period. Many investors started 2014 expecting yields to rise, and they were caught out as the 10-year yield fell from around 3% in January to the mid-2% range by late summer. That decline came with the Fed tapering QE toward its October end, the ECB moving toward more easing, and geopolitical worries. A near-flat speculative position fits a market where the “short bonds” trade had been abandoned rather than flipped to a strong bullish bet. Confirming that would require the week-by-week trend, though.
+      - paragraph:
+        - strong: Other reportables (net long +64k, about 2.4%)
+        - text: are modestly long and don’t change the overall picture.
+      - paragraph:
+        - strong: The implied small-trader position
+      - paragraph: Total longs must equal total shorts, so the four net figures should add up to zero across all traders. Here they sum to +149,103. That implies non-reportable (small) traders are net short about 149k contracts, roughly 5.5% of OI. A small-trader short that large is unusual enough that I’d check the source figures before relying on it.
+      - paragraph:
+        - strong: Caveats that matter more than any one number
+      - list:
+        - strong: Change over time beats a single week.
+        - text: The weekly change, and where each group sits compared with its own history (for example, a percentile over the past one to three years), tell you more than one snapshot.
+        - strong: This is futures-only for one contract.
+        - text: Funds often run curve trades across the 2-, 5-, 10- and long-bond contracts, and those can offset each other. Cash bonds, swaps and options don’t appear here at all.
+        - strong: Categories describe who the trader is, not why they trade.
+        - text: A “leveraged fund” short could be a hedge, a basis trade or a directional bet.
+        - strong: Contract counts are not risk.
+        - text: Comparing exposure across contracts requires converting to DV01 or 10-year equivalents.
+      - paragraph: Overall, the 10-year positioning looks unremarkable. Real-money investors are structurally long, dealers are hedging, and speculators are close to neutral. That leaves no obvious crowding to drive a sharp move either way.
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: 1 minute ago
+  - button "Scroll to bottom":
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - document
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note: No history, memory, or Claude training.
+  - 'button "Model: Opus 5.5 High"':
+    - generic: Opus 5.5
+    - generic: High
+  - button "Auto":
+    - generic: Auto
+  - status: Claude finished the response
+  - complementary
+  - status
+- generic: Incognito
+- button "Exit incognito":
+  - generic: 
+- status
+- status
+- region "Notifications"
+- generic "Click to open Quillbot"
+- generic "Open quick settings":
+- generic "Use AI"

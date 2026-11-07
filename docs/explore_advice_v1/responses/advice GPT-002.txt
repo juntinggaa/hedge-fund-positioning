@@ -1,0 +1,54 @@
+My recommendation: Do not buy 10-Year U.S. Treasury Note futures solely on this positioning data. The report shows a moderately bullish institutional bias, but it does not establish a sufficiently strong signal to justify a long position.
+
+### What the positioning tells us
+
+| Trader category               | Net position | Interpretation                                                                          |
+| ----------------------------- | ------------ | --------------------------------------------------------------------------------------- |
+| Dealer / Intermediary         | −54,334      | Slightly net short; dealers often hedge exposures rather than express directional views |
+| Asset Manager / Institutional | +197,129     | Bullish positioning from institutional investors                                        |
+| Leveraged Funds               | −214,171     | Bearish positioning from hedge funds and other leveraged traders                        |
+| Other Reportable              | +208,348     | Substantial bullish positioning                                                         |
+
+The most interesting feature is the disagreement between asset managers and leveraged funds.
+
+Asset managers are net long approximately 197,000 contracts, while leveraged funds are net short approximately 214,000 contracts. This divergence could support a bullish thesis, especially if leveraged funds eventually cover their short positions.
+
+However, there are three important limitations.
+
+1\. Positioning is not a price forecast. Asset managers may be extending duration exposure for portfolio reasons, while leveraged funds may be implementing relative-value trades rather than outright bearish bets.
+
+2\. The short position is not necessarily extreme. Leveraged funds' net short exposure is 7.06% of open interest. Without several years of historical positioning data, we cannot establish whether this represents an unusually crowded bearish trade.
+
+3\. The report is historical. It describes positions as of November 25, 2014, not current positioning in November 2026. Those positions cannot reliably indicate today's Treasury market conditions.
+
+### What would make me more bullish?
+
+I would look for confirmation from three areas:
+
+- Positioning: Leveraged funds begin reducing their net shorts over multiple reporting weeks.
+- Price action: Treasury futures break above a meaningful resistance level, suggesting buyers are gaining control.
+- Macro conditions: Falling inflation expectations, declining Treasury yields, or expectations of easier Federal Reserve policy support higher Treasury futures prices.
+
+Remember that Treasury futures prices generally rise when Treasury yields fall, and decline when yields rise.
+
+### Bottom line
+
+Positioning signal
+
+Mildly bullish, unconfirmed
+
+Trade decision
+
+Wait for confirmation
+
+Confidence
+
+Low
+
+If this were a historical trading decision on November 25, 2014, I would classify the positioning as potentially bullish but insufficient for an immediate buy.
+
+If you're asking whether to buy Treasury futures today, the answer is even clearer: the 2014 report alone provides no actionable current trading signal.
+
+One final consideration: Treasury futures are leveraged instruments. Even a relatively small rise in yields can produce substantial losses relative to the margin posted.
+
+The most valuable next step would be to calculate the historical percentile or z-score of leveraged funds' net positioning. That would help determine whether their short exposure was genuinely crowded, rather than simply negative.

@@ -1,0 +1,36 @@
+This snapshot mostly shows how the 10-year futures market is structurally organized. It is not a strong directional signal on its own.
+
+The pattern of asset managers net long and leveraged funds net short is the usual shape of this market. It reflects how different participants use futures as much as their views on rates.
+
+## What the numbers show
+
+Your arithmetic is internally consistent. The four reportable categories net to +62,675 contracts, which implies non-reportable traders were net short by about that amount.
+
+- **Asset managers are the dominant longs, at +422k contracts (about 13.9% of open interest).** Pension funds, insurers and mutual funds use Treasury futures to add duration cheaply, to hedge liabilities, or to keep an index-tracking portfolio’s duration on target without buying cash bonds. Much of this long is structural demand rather than a tactical bet on falling yields.
+- **Leveraged funds are the largest shorts, at -315k contracts (about 10.4% of OI).** This is partly the other side of the asset-manager demand. Hedge funds running the cash-futures basis trade buy cash Treasuries and sell the richer futures. Futures selling linked to relative value or curve trades looks “short” in this report even when the fund has little outright rate exposure. Some of the short is directional, especially from CTAs and macro funds, but the report can’t separate the two.
+- **Dealers are net short at -223k (-7.3%).** Dealers usually act as intermediaries, often hedging long cash-bond inventory or meeting client demand. Their net position says little about house views.
+- **Other reportables are net long at +178k (+5.9%).** This mixed bag includes corporates, smaller banks and some official institutions, so it’s hard to read much into it.
+
+## Market context in early February 2016
+
+The timing makes this week more interesting than a typical one. Treasuries were in a sharp flight-to-quality rally, driven by:
+
+- the oil price collapse
+- China and global growth fears
+- stress in European bank stocks
+- the Bank of Japan’s surprise move to negative rates at the end of January
+
+Markets were also pricing out the Fed’s December 2015 projection of roughly four hikes in 2016. The 10-year yield dropped toward the mid-1.5% to 1.6% area intraday around 11 February. Against that backdrop, two readings follow:
+
+1. **If a meaningful part of the leveraged-fund short was directional, it was offside.** Those funds were losing money as yields fell, and forced covering could have added fuel to the rally. That is the “crowded short” or squeeze interpretation.
+2. **If it was mostly basis and relative-value positioning, it would barely respond to the rally.** In that case, the real risk would be funding or margin stress causing those trades to unwind, not a move in yields.
+
+The sheer size of the position matters. At roughly $80 of DV01 per contract around then, 315k contracts is on the order of $25 million per basis point. Treat that as a rough estimate.
+
+## What you’d need to say more
+
+- **Time series.** Whether -10% of OI is extreme depends on where it sits against prior months. The weekly change is often more telling than the level, for example whether leveraged funds were covering shorts into the rally or adding to them.
+- **Other contracts.** Positions in the 2-year, 5-year, ultra-10 and bond futures matter, because curve trades put opposite positions in different contracts. A 10-year-only view can mislead.
+- **Options and cash positions.** This report is futures-only, so the full exposure isn’t visible.
+
+**Bottom line:** the positioning fits real-money investors adding duration and hedge funds intermediating that demand through futures shorts, during a strong risk-off bond rally. It hints at short-covering risk for leveraged funds, but on one week’s data and without the history, it isn’t a reliable signal of where yields go next. I haven’t checked these figures against the CFTC’s published report, so it’s worth confirming the levels and the week-over-week changes there.

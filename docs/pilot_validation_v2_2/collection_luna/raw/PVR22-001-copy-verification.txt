@@ -1,0 +1,3 @@
+PVR22-001 Copy capture
+The Gemini reply Copy control was clicked once at 2026-11-06T02:05:37.073Z. The response was verified by a keyboard paste readback into the empty composer; it contained 4,940 characters, differed from the prompt, and began with the visible reply text. SHA-256: bd48d1ce340fbde1ee45c690331de33d472cfba9e8a1bd95d4134e895fb369d0. The copied response and screenshot were saved; the composer was cleared and verified empty afterward. No second prompt was sent.
+Full ordered AX-to-copy comparison is being checked by the parent audit process; terminal AX/screenshot and raw response are hash-bound in the collection record.

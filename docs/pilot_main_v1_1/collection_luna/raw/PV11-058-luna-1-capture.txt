@@ -1,0 +1,88 @@
+
+Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 5 August 2025. All figures are numbers of contracts.
+
+Open interest (all contracts): 5,127,634
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 304,410 | 533,304 | 47,851 | -228,894 | -4.46% |
+| Asset Manager / Institutional | 3,055,050 | 843,663 | 528,459 | 2,211,387 | +43.13% |
+| Leveraged Funds | 392,296 | 2,638,835 | 92,321 | -2,246,539 | -43.81% |
+| Other Reportable | 263,720 | 116,058 | 1,464 | 147,662 | +2.88% |
+
+What does this positioning suggest about the Treasury market?
+
+Please answer without using web search.
+The positioning suggests a sharply divided Treasury futures market, rather than a market with a clear, unified directional view. Asset managers are heavily net long, while leveraged funds are almost equally heavily net short. That divergence is the most important feature of the data.
+
+1. Asset managers are strongly positioned for higher Treasury prices
+Asset managers and institutional traders are net long 2,211,387 contracts, equivalent to 43.13% of open interest.
+
+An outright long position in 10-Year Treasury Note futures generally benefits when Treasury prices rise and yields fall. This positioning is consistent with a preference for holding duration, potentially reflecting expectations of lower interest rates, demand for safe assets, or institutional portfolio and liability-management needs.
+
+It is a substantial position, but it should not automatically be interpreted as a pure forecast that yields will decline. Asset managers may also use futures to hedge or adjust exposures elsewhere in their portfolios.
+
+2. Leveraged funds are taking the opposite side
+Leveraged funds are net short 2,246,539 contracts, or 43.81% of open interest.
+
+Taken at face value, this is a strongly bearish Treasury futures position: it would benefit from falling Treasury prices and rising yields.
+
+However, leveraged funds are not necessarily making a straightforward directional bet. They often use Treasury futures as part of relative-value and financing strategies. One important example is the cash-futures basis trade, in which a fund holds Treasury securities while shorting Treasury futures. In that situation, a large futures short does not necessarily mean the fund expects Treasury prices to fall.
+
+The size of the short position therefore deserves attention, but it should not be read as an unambiguous prediction of higher yields.
+
+3. Dealers are net short, while other reportable traders are modestly net long
+Dealers and intermediaries are net short 228,894 contracts, or 4.46% of open interest.
+
+This is consistent with their role as market intermediaries. They may take the other side of client transactions and hedge the resulting exposures. Their net short position is worth monitoring, but it does not necessarily represent a directional market opinion.
+
+Other reportable traders are net long 147,662 contracts, or 2.88% of open interest. This is relatively small compared with the positions of asset managers and leveraged funds.
+
+4. The opposing positions are almost perfectly matched
+This is particularly revealing:
+
+Category
+
+Net position
+
+Asset managers
+
++2,211,387
+
+Leveraged funds
+
+-2,246,539
+
+Combined net
+
+-35,152
+
+The two largest groups have positions that almost cancel each other out. Their combined net is only about 0.69% of open interest, despite each individually holding a net position exceeding 43% of open interest.
+
+This suggests substantial disagreement between major market participants, or the presence of large opposing strategies rather than a simple directional consensus.
+
+5. What this could mean for the Treasury market
+There are several implications:
+
+Potential for sharp moves: If one group begins unwinding its position, the resulting buying or selling could amplify price movements, particularly if the positions are crowded.
+
+Risk of a short squeeze: If Treasury prices rise and leveraged funds are forced to reduce their short exposure, futures buying could reinforce the rally. This is a possible scenario, not something the report establishes as imminent.
+
+Risk of a long-position unwind: If yields rise and asset managers reduce their long exposure, selling could add pressure to Treasury prices.
+
+Possible basis-trade concentration: Some of the leveraged-fund short exposure may be associated with relative-value trades. A change in financing conditions, volatility or margin requirements could therefore matter as much as the interest-rate outlook.
+
+Overall interpretation
+My reading is that the report shows strong institutional demand for Treasury futures alongside an equally strong leveraged-fund short position.
+
+That is not a clean bearish or bullish signal. It suggests a market with substantial opposing exposures and the potential for positioning-driven volatility.
+
+The key distinction is between directional positioning and structural positioning. Asset managers' net longs may reflect duration demand, while leveraged funds' shorts may partly reflect basis or other relative-value trades. Without knowing the underlying strategies, it would be premature to conclude that one group is right about the direction of interest rates.
+
+My main takeaway: The market appears heavily polarized. I would treat the large leveraged-fund short as a potential source of Treasury-market instability, rather than as proof that yields are destined to rise. To establish whether this positioning is becoming more or less concerning, the next things to examine would be its weekly changes, the evolution of open interest, and whether leveraged funds are reducing their shorts or adding to them.
+
+
+
+
+
+-300K

@@ -1,0 +1,23 @@
+{
+  "selection": {
+    "frozen_cut": -0.37567236606810045,
+    "eligible_pool_sizes_after_exclusions": {
+      "net_long": 118,
+      "moderate_short": 442,
+      "extreme_short": 48
+    }
+  },
+  "cases": [
+    "2021-06-15",
+    "2022-11-15",
+    "2026-04-28"
+  ],
+  "counts": {
+    "prompts": 6,
+    "responses": 24,
+    "cases": 3,
+    "products": 4
+  },
+  "model_refit": false,
+  "main_GO": false
+}

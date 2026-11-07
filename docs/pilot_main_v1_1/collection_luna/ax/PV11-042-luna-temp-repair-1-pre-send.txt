@@ -1,0 +1,159 @@
+Browser tab: 1403820316, Title: "Google Gemini", URL: "https://gemini.google.com/app".
+0 AXWebArea Google Gemini, URL: gemini.google.com/app
+	1 container
+		2 container
+			3 button (collapsed) Description: Open sidebar, Secondary Actions: Expand
+			4 container Side Navigation
+				5 container
+					6 container Main actions menu
+						7 link Description: New chat, Value: gemini.google.com/app
+					8 container Additional actions menu
+						9 pop up button Description: Search chats, ID: base-ui-_r_2_
+						10 link Description: Library, Value: gemini.google.com/library
+						11 link Description: Images, Value: gemini.google.com/images
+						12 container Scheduled
+							13 link Description: Scheduled, Value: gemini.google.com/scheduled
+						14 link Description: Customize, Value: gemini.google.com/customize
+					15 link (collapsed) Description: Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com, Secondary Actions: Expand
+					16 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+			17 container xap-skip-link-target
+				18 container
+					1395 container
+						1396 heading Value: 1, Just stopping by? Temporary chats don't appear in recent chats and aren't used to improve Google AI. Stored for 72 hours for safety.
+							1397 text Just stopping by?
+							1398 container
+								1399 link Description: Temporary chats, Value: support.google.com/gemini/answer/13275745?visit_id=638889059849455150-2388016392&p=temp_chats&rd=1#temp_chats
+								1400 text  don't appear in 
+								1401 link Description: recent chats, Value: support.google.com/gemini/answer/13666746
+								1402 text  and aren't used to improve Google AI. Stored for 72 hours for safety.
+					81 container
+						82 container
+							83 pop up button (collapsed) Description: Upload & tools, Secondary Actions: Expand
+							1403 container
+								1404 text entry area (settable) Description: Enter a prompt for Gemini, Value: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 5 August 2025. All figures are numbers of contracts.
+
+
+
+
+Open interest (all contracts): 5,127,634
+
+
+
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+
+|---|---|---|---|---|---|
+
+| Dealer / Intermediary | 304,410 | 533,304 | 47,851 | -228,894 | -4.46% |
+
+| Asset Manager / Institutional | 3,055,050 | 843,663 | 528,459 | 2,211,387 | +43.13% |
+
+| Leveraged Funds | 392,296 | 2,638,835 | 92,321 | -2,246,539 | -43.81% |
+
+| Other Reportable | 263,720 | 116,058 | 1,464 | 147,662 | +2.88% |
+
+
+
+
+Output of a supervised model of leveraged-fund positioning (model v4.0):
+
+
+
+
+- Expected net position this week: -43.93% of open interest (approximate 90% range based on earlier out-of-sample errors: -47.40% to -40.46%).
+
+- Actual net position this week: -43.81% of open interest.
+
+- Residual (actual minus expected): +0.12 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 6% were smaller than this one and 94% were at least as large.
+
+
+
+
+How to read the model output above (model v4.0). This is a retrospective same-week conditional estimate of the weekly CHANGE in leveraged funds' net position as a share of open interest. It uses returns, realised volatility, yield levels and curve shape, equity volatility, a funding-stress proxy, a futures-yield return residual, current-week open-interest change, changes in Fed Treasury holdings, a quarter-end flag, and lagged own, other-group and cross-contract positions. More recent training observations receive more weight, with a two-year half-life.
+
+
+
+
+- The expected level equals last week's actual level plus the model's estimated weekly change. The residual is equivalently the conditional level gap or the unexpected weekly adjustment, measured in percentage points of open interest. It is not an identified fraction of the whole position attributable to any strategy.
+
+- These are statistical associations. The cash leg of a basis trade is unobserved; none of the inputs directly measures genuine cash-futures basis profitability. Neither the expected component nor the residual identifies motives, basis quantities or private information.
+
+- Across 720 out-of-sample weeks (2012-11-27 to 2026-09-08), squared prediction error was 10.47% lower than an expanding historical-mean change benchmark (out-of-sample R²). RMSE was 2.07 percentage points of open interest. This R² is not a percentage of the outstanding position explained by a strategy.
+
+- The approximate range uses only errors from earlier out-of-sample weeks. Its realised historical coverage was 91.9% across 668 eligible weeks, with variation across eras. This is not a guaranteed probability for this individual week. Being inside a broad range does not mean the point prediction closely anticipated the move.
+
+- The model includes current-week CFTC open interest, so this is not a pre-Friday nowcast or a next-week forecast. The model and performance summary were selected retrospectively; this is not a historically deployable untouched backtest.
+
+
+
+
+What does this positioning suggest about the Treasury market?
+
+
+
+
+Please answer without using web search.
+									1410 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 5 August 2025. All figures are numbers of contracts.
+									1411 text Open interest (all contracts): 5,127,634
+									1412 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+									1413 text |---|---|---|---|---|---|
+									1414 text | Dealer / Intermediary | 304,410 | 533,304 | 47,851 | -228,894 | -4.46% |
+									1415 text | Asset Manager / Institutional | 3,055,050 | 843,663 | 528,459 | 2,211,387 | +43.13% |
+									1416 text | Leveraged Funds | 392,296 | 2,638,835 | 92,321 | -2,246,539 | -43.81% |
+									1417 text | Other Reportable | 263,720 | 116,058 | 1,464 | 147,662 | +2.88% |
+									1418 text Output of a supervised model of leveraged-fund positioning (model v4.0):
+									1419 text - Expected net position this week: -43.93% of open interest (approximate 90% range based on earlier out-of-sample errors: -47.40% to -40.46%).
+									1420 text - Actual net position this week: -43.81% of open interest.
+									1421 text - Residual (actual minus expected): +0.12 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 6% were smaller than this one and 94% were at least as large.
+									1422 text How to read the model output above (model v4.0). This is a retrospective same-week conditional estimate of the weekly CHANGE in leveraged funds' net position as a share of open interest. It uses returns, realised volatility, yield levels and curve shape, equity volatility, a funding-stress proxy, a futures-yield return residual, current-week open-interest change, changes in Fed Treasury holdings, a quarter-end flag, and lagged own, other-group and cross-contract positions. More recent training observations receive more weight, with a two-year half-life.
+									1423 text - The expected level equals last week's actual level plus the model's estimated weekly change. The residual is equivalently the conditional level gap or the unexpected weekly adjustment, measured in percentage points of open interest. It is not an identified fraction of the whole position attributable to any strategy.
+									1424 text - These are statistical associations. The cash leg of a basis trade is unobserved; none of the inputs directly measures genuine cash-futures basis profitability. Neither the expected component nor the residual identifies motives, basis quantities or private information.
+									1425 text - Across 720 out-of-sample weeks (2012-11-27 to 2026-09-08), squared prediction error was 10.47% lower than an expanding historical-mean change benchmark (out-of-sample R²). RMSE was 2.07 percentage points of open interest. This R² is not a percentage of the outstanding position explained by a strategy.
+									1426 text - The approximate range uses only errors from earlier out-of-sample weeks. Its realised historical coverage was 91.9% across 668 eligible weeks, with variation across eras. This is not a guaranteed probability for this individual week. Being inside a broad range does not mean the point prediction closely anticipated the move.
+									1427 text - The model includes current-week CFTC open interest, so this is not a pre-Friday nowcast or a next-week forecast. The model and performance summary were selected retrospectively; this is not a historically deployable untouched backtest.
+									1428 text What does this positioning suggest about the Treasury market?
+									1429 text Please answer without using web search.
+							1430 button Expand input to Fullscreen
+							87 container
+								88 pop up button (expanded) Description: Open mode picker, currently Gemini Auto, Secondary Actions: Collapse
+								1432 menu ng-menu-a48871-1
+									1433 Selected Auto Gemini 3 models
+										1434 container Selected
+										1435 text Auto
+										1436 text Gemini 3 models
+									1437 3.1 Pro Advanced reasoning
+										1438 text 3.1 Pro
+										1439 text Advanced reasoning
+									1440 4 Argon Complex tasks
+										1441 text 4 Argon
+										1442 text Complex tasks
+									1443 (expanded) Thinking level, Secondary Actions: Collapse
+										1444 text Thinking level
+									1445 menu ng-menu-a48871-2
+										1446 Selected Low Quick and efficient
+											1447 container Selected
+											1448 text Low
+											1449 text Quick and efficient
+										1450 Medium Balanced depth
+											1451 text Medium
+											1452 text Balanced depth
+										1453 High Extra thorough
+											1454 text High
+											1455 text Extra thorough
+								1382 container
+									1383 button Dictate (⌘⇧D)
+								1431 button Send message
+			1389 button Get app
+			1390 link Upgrade
+				1391 link Upgrade
+					1392 text Upgrade
+			1393 button Temporary chat
+		104 container Notifications
+		1406 container
+			1407 container Click to open Quillbot
+			1408 container Open quick settings
+			1409 container Humanize
+	109 container grammarly-integration
+		1394 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 1443 (expanded) Thinking level, Secondary Actions: Collapse

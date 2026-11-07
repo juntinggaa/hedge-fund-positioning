@@ -1,0 +1,32 @@
+**Short answer:** this report shows that leveraged funds held a sizeable net long in 10-year note futures that week, and that the position was a little longer than the model expected. It doesn’t support a strong conclusion about rates direction, market stress, or basis-trade activity.
+
+**What the positioning table shows**
+
+- **Leveraged funds** were net long about 272k contracts (+6.89% of OI). That’s the largest net position of any category. It is still a modest slice of their gross book (773k long, 501k short, 145k spreading), so the net figure hides a lot of two-way activity.
+- **Asset managers** were net long +3.34%. That fits their usual use of futures for duration exposure, though the net is small next to their very large gross positions.
+- **The short side** was held by other reportables (−4.09%) and, to a lesser extent, dealers (−0.62%).
+- **Non-reportable traders** are implied by the table rather than shown. Adding each category’s long plus spreading, and short plus spreading, and subtracting from OI gives about 340k long and 558k short. That’s a net short of roughly 218k contracts, or about −5.5% of OI. So the table is internally consistent, and small traders were the second-largest net short.
+
+**What the model output adds**
+
+- The residual of +1.74 pp is smaller than the model’s RMSE of 2.07 pp.
+- It sits around the 62nd percentile of past absolute errors.
+- The actual level falls well inside the approximate range.
+
+So the week’s adjustment was somewhat more long than predicted, but that’s an ordinary-sized miss, not an anomaly. The out-of-sample R² of about 10% also matters. The model improves only modestly on a naive benchmark for weekly changes, so the “expected” level of +5.15% mostly reflects last week’s level carried forward. The model doesn’t really explain why funds are positioned this way.
+
+**What you can’t infer**
+
+- **Basis trades.** The classic cash-futures basis trade has funds short futures against long cash bonds. A net long in this contract doesn’t look like that, but it doesn’t rule out basis activity either. Funds can be long 10s against shorts in other tenors, or run relative-value and curve trades, and the cash leg isn’t observed. As the model notes say, neither the expected component nor the residual identifies motives or basis quantities.
+- **Direction.** Futures positioning is a weak and unreliable directional signal on its own. A large spec long can mean conviction, or it can be a crowded position that’s vulnerable to unwinds.
+- **Stress.** Nothing here points to dislocation. The residual is unremarkable, and the report has no funding or liquidity information.
+
+**Context, from general knowledge**
+
+Late August 2021 was the week after Powell’s Jackson Hole speech, which signalled that tapering of the Fed’s asset purchases could begin that year. The Fed was still buying Treasuries at that point, and 10-year yields were low by historical standards. A leveraged-fund net long in that setting could reflect a view that yields would stay contained. It could equally be one leg of a curve or cross-contract trade. This snapshot can’t tell those apart.
+
+**What would make this more informative**
+
+- The time series of leveraged-fund net positions, to see whether +6.89% is high or low for this contract and whether it was building or unwinding.
+- The same categories in the 2-year, 5-year, Ultra 10-year, bond and Ultra bond contracts, DV01-weighted, to see whether funds were net long duration overall or just positioned along the curve.
+- Cash-market data, such as repo rates, implied repo versus actual repo, and dealer Treasury inventories, if the basis trade is the real question.

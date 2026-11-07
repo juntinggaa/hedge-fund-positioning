@@ -1,0 +1,14 @@
+Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 29 December 2020. All figures are numbers of contracts.
+
+Open interest (all contracts): 3,260,742
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 206,313 | 266,088 | 33,935 | -59,775 | -1.83% |
+| Asset Manager / Institutional | 1,340,036 | 1,143,319 | 617,120 | 196,717 | +6.03% |
+| Leveraged Funds | 383,797 | 619,602 | 46,781 | -235,805 | -7.23% |
+| Other Reportable | 258,834 | 140,856 | 2,093 | 117,978 | +3.62% |
+
+What does this positioning suggest about the Treasury market?
+
+Please answer without using web search.

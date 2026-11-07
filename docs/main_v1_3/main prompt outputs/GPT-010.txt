@@ -1,0 +1,87 @@
+## Bottom line
+
+The 10-Year Treasury futures market shows a large structural divide between long asset managers and short leveraged funds, but the leveraged-fund short is not unusually large relative to what the model predicts.
+
+This suggests a market with substantial relative-value and hedging activity, potentially vulnerable to position unwinds, rather than clear evidence of an exceptional bearish bet on Treasuries.
+
+## 1. What the positioning shows
+
+| Trader category   | Net position (% of OI) | Interpretation                                  |
+| ----------------- | ---------------------- | ----------------------------------------------- |
+| Asset Managers    | +51.01%                | Very large net futures duration exposure        |
+| Leveraged Funds   | -37.87%                | Substantial short futures exposure              |
+| Dealers           | -10.71%                | Significant net short intermediation or hedging |
+| Other Reportables | -2.83%                 | Smaller net short exposure                      |
+
+The most important feature is the contrast between asset managers and leveraged funds.
+
+Asset managers hold approximately 3 million net long contracts, while leveraged funds hold approximately 2.23 million net short contracts.
+
+This pattern is consistent with a substantial Treasury cash–futures basis trade, in which leveraged funds buy cash Treasuries and short Treasury futures, often financing the cash position through repo borrowing.
+
+It is also consistent with other relative-value strategies and duration hedging.
+
+Consequently, a large leveraged-fund futures short does not necessarily mean leveraged funds are making an outright bearish bet on Treasury prices or expecting yields to rise.
+
+## 2. What the model adds
+
+Leveraged-fund net positioning (% of open interest)
+
+Approx. 90% error range
+
+Actual −37.87%
+
+Expected −37.13%
+
+The actual positioning is only 0.74 percentage points more negative than expected, approximately 43,500 contracts.
+
+Crucially:
+
+- The actual value lies comfortably within the model's approximate 90% error range.
+- About 68% of earlier absolute out-of-sample residuals were at least this large.
+- The residual therefore provides little evidence of an unusually extreme leveraged-fund short after accounting for the conditions captured by the model.
+
+The distinction is between large absolute short positioning and abnormally large short positioning. The first is clearly present; the second is not established.
+
+## 3. Implications for Treasury prices and yields
+
+Directional outlook: broadly neutral from this evidence alone.
+
+The negative leveraged-fund net position might look bearish in isolation. But if much of it represents hedged cash–futures basis exposure, it does not translate directly into a forecast of higher yields.
+
+Market structure: meaningful positioning and funding sensitivity.
+
+Large leveraged-fund shorts can matter if financing becomes more expensive, repo markets tighten, volatility increases, or margin requirements rise.
+
+In a basis-trade unwind, funds may buy back Treasury futures while selling cash Treasuries. That can produce unusual futures-versus-cash price movements and liquidity pressure, even without a major change in the fundamental interest-rate outlook.
+
+However, the available data do not establish how much of the short is attributable to basis trading or how leveraged those positions are.
+
+Contrarian signal: weak.
+
+A genuinely exceptional short relative to a credible positioning benchmark might support a stronger short-squeeze or contrarian interpretation.
+
+Here, the model says the short is quite ordinary conditional on its predictors. The residual is neither large nor historically rare. There is therefore little justification for treating this observation as a standalone bullish signal for Treasuries.
+
+## 4. What we cannot infer
+
+The report and model output do not establish whether leveraged funds are increasing or reducing their shorts, whether positioning is extreme relative to longer-term history, or how exposures are offset across cash bonds, swaps, other maturities, and repo financing.
+
+Nor does a roughly 90% model error range imply a 90% probability of a particular future price movement. It describes historical prediction errors in positioning, not a forecast distribution for Treasury returns.
+
+## Overall assessment
+
+| Dimension                                         | Assessment                     |
+| ------------------------------------------------- | ------------------------------ |
+| Absolute leveraged-fund short exposure            | Large                          |
+| Short exposure relative to model expectation      | Slightly greater than expected |
+| Statistical unusualness of residual               | Low                            |
+| Evidence of an exceptional bearish view           | Weak                           |
+| Potential vulnerability to leverage unwinds       | Worth monitoring               |
+| Standalone directional signal for Treasury yields | Weak / inconclusive            |
+
+My interpretation: The data point more strongly toward a structurally important, potentially funding-sensitive positioning configuration than toward an actionable directional forecast.
+
+The market has substantial futures shorts that could create buying pressure if unwound, but the model provides no compelling evidence that those shorts are unusually stretched.
+
+In short, large short positioning is a market-structure observation; an unusually negative residual would be a more distinctive positioning signal. This report shows the former, not the latter.

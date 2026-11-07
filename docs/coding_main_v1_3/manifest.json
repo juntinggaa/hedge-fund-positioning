@@ -1,0 +1,26 @@
+{
+ "built": "2026-11-07",
+ "codebook": "docs/main_v1/CODEBOOK_v2_3.md",
+ "codebook_sha256": "0ab7f6ac0777a474a22845691cc426bdaa7a4af2cdc989873e6470aebba35810",
+ "seed": 20261112,
+ "batch_size": 20,
+ "n_items": 196,
+ "n_by_set": {
+  "main": 180,
+  "effort_high": 16
+ },
+ "script_sha256": "be5085778034e92a75530459e949d04a0a5dc00af65b8ec19259815a2e725c4d",
+ "outputs_sha256": {
+  "KEY_PRIVATE.csv": "2360d61b146af3fd8f336e4d062fecae43ed92172596eef59c2fd78a0a23a8f0",
+  "packets/PACKET_01.md": "c0ea9de78fd6398d8a68152c576fc1290d6ca2cdda274e692110e7d92b639d5d",
+  "packets/PACKET_02.md": "c7602ae9da28109a52ab18d265c911e3fe650eeeda5f9802c7e11b0b05ec04ab",
+  "packets/PACKET_03.md": "c1eac778622ac8faa1fc6e51b8eb2abd40f2b600ec79efe13ee123d84524cc4c",
+  "packets/PACKET_04.md": "f223724da6a6462f4fb8f3ba24365fb19466e0b1e6e64b6eb8e94d538988934f",
+  "packets/PACKET_05.md": "5096362645dac30b73995cfe1943bef1d8ae7fb953818b43e3d24460bd5264e2",
+  "packets/PACKET_06.md": "5907a0f8ff828364d38d00b38276b05d4f12b256449124a47a227e6dac994457",
+  "packets/PACKET_07.md": "eeb8b81b1785f4811f9db3f334d52b760c65687082aa986839e6bf0696fe9f97",
+  "packets/PACKET_08.md": "6e0eb5a635ad0a7bc263a6b3565967c092b6cf81962cfe11ce7ef205a6a5554b",
+  "packets/PACKET_09.md": "5c087765ea34f9c7a0666ecc902249c13909f2aadc302db26a06bad3bda47193",
+  "packets/PACKET_10.md": "9c8762b37cc3cbe223761878f67cb748a444d83d030f1ca84322f3b43df03ebc"
+ }
+}

@@ -1,0 +1,20 @@
+Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 15 November 2022. All figures are numbers of contracts.
+
+Open interest (all contracts): 4,015,833
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 102,400 | 380,965 | 25,591 | -278,565 | -6.94% |
+| Asset Manager / Institutional | 2,094,589 | 931,333 | 724,972 | 1,163,256 | +28.97% |
+| Leveraged Funds | 315,354 | 976,260 | 128,897 | -660,906 | -16.46% |
+| Other Reportable | 209,506 | 371,183 | 35,048 | -161,677 | -4.03% |
+
+What does this positioning suggest about the Treasury market?
+
+Output of a supervised model of leveraged-fund positioning (model v4.0):
+
+- Expected net position this week: -18.05% of open interest (approximate 90% range based on earlier out-of-sample errors: -21.63% to -14.46%).
+- Actual net position this week: -16.46% of open interest.
+- Residual (actual minus expected): +1.59 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 57% were smaller than this one and 43% were at least as large.
+
+Coder reference: table and model numbers only; explanatory text withheld. Not the full submitted prompt. No arm identifies trader beliefs, bilateral counterparties or strategy shares.

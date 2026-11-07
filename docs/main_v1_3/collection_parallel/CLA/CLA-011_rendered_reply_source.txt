@@ -1,0 +1,23 @@
+Short answer: not much. The one model-based signal here is indistinguishable from noise. The cross-category picture is fairly ordinary for 10-year note futures, and nothing in it supports a call on rates direction. It also describes July 2017, so it says nothing about the Treasury market today.
+
+The leveraged-fund signal is noise
+
+Leveraged funds are almost exactly flat: +3,642 contracts, or +0.12% of open interest. The model expected a slight net short of −0.93%, so the residual is +1.05 points. That is a small surprise by the model’s own record. Its earlier out-of-sample errors were usually larger, with 59% at least this big, putting this week around the 41st percentile in absolute terms. The actual figure also sits well inside the 90% range of −4.67% to +2.81%.
+
+That range is about 7.5 points wide, while the point forecast and the outcome are both within about one point of zero. So the model can’t really tell “slightly short” from “slightly long” in a given week. A residual this size shouldn’t be read as hedge funds being unusually long, or as a sign of crowding.
+
+Flat net doesn’t mean small exposure
+
+Leveraged funds hold about 600,000 contracts on each side, roughly 19–20% of open interest per side, plus about 108,000 in spreads. Balanced books this large usually reflect relative-value trades rather than a directional rates bet. Examples include cash-futures basis trades (typically short futures against long cash bonds), curve trades, and calendar spreads. The net number hides this. A near-zero net can coexist with large gross leverage, which matters more for funding-stress or unwind risk than for rates direction.
+
+The other categories look structural, not speculative
+
+Asset managers are the largest net long, at +139,344 contracts (+4.51% of open interest). This fits their usual role of adding duration through futures and managing benchmark exposure, rather than a short-term view.
+Dealers are net short, at −78,616 (−2.55%), which fits intermediation and hedging.
+Other reportables are net long, at +96,995 (+3.14%).
+
+The table leaves out non-reportable traders. Working backward from open interest, they hold about 357,800 long and 519,200 short, a net short of about 161,400 contracts (about −5.2% of open interest). That is what makes the long and short sides balance. It’s worth checking against the full report, because a net short that large among small traders is somewhat unusual.
+
+What you can and can’t conclude
+
+COT positioning is mostly descriptive. Contrarian readings tend to have value only at extremes, and leveraged funds here are at the opposite of an extreme. The data are consistent with a market where real-money accounts are moderately long duration and hedge funds are running mostly hedged books. They don’t indicate a crowded short at risk of a squeeze or a crowded long at risk of liquidation. To make a statement about yields, you’d need this week’s numbers against their own history, such as changes from the prior week and percentiles over several years. The single-week model residual doesn’t give you that.

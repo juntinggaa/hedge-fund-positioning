@@ -1,0 +1,66 @@
+Browser tab: 1403820316, Title: "Google Gemini", URL: "https://gemini.google.com/app".
+0 AXWebArea Google Gemini, URL: gemini.google.com/app
+	1 container
+		2 container
+			3 button (collapsed) Description: Open sidebar, Secondary Actions: Expand
+			4 container Side Navigation
+				5 container
+					6 container Main actions menu
+						7 link Description: New chat, Value: gemini.google.com/app
+					8 container Additional actions menu
+						9 pop up button Description: Search chats, ID: base-ui-_r_2_
+						10 link Description: Library, Value: gemini.google.com/library
+						11 link Description: Images, Value: gemini.google.com/images
+						12 container Scheduled
+							13 link Description: Scheduled, Value: gemini.google.com/scheduled
+						14 link Description: Customize, Value: gemini.google.com/customize
+					15 link (collapsed) Description: Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com, Secondary Actions: Expand
+					16 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+			17 container xap-skip-link-target
+				18 container
+					587 heading Conversation with Gemini, Value: 1
+						588 text Conversation with Gemini
+					589 container
+						590 text Temporary Chat
+						591 container
+							592 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+								593 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+							594 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 3 November 2020. All figures are numbers of contracts.
+							595 text Open interest (all contracts): 3,077,241
+							596 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+							597 text |---|---|---|---|---|---|
+							598 text | Dealer / Intermediary | 184,831 | 254,045 | 13,600 | -69,214 | -2.25% |
+							599 text | Asset Manager / Institutional | 1,294,482 | 1,093,048 | 594,378 | 201,434 | +6.55% |
+							600 text | Leveraged Funds | 317,487 | 565,227 | 62,759 | -247,740 | -8.05% |
+							601 text | Other Reportable | 242,382 | 107,170 | 780 | 135,212 | +4.39% |
+							602 text Context you may find relevant: leveraged funds sometimes hold short positions in Treasury futures as one leg of a cash-futures basis trade, in which the fund buys the underlying Treasury security, finances it in the repo market, and sells the corresponding futures contract. A position held for that reason expresses a relative-value view about the spread between the cash and futures markets rather than a directional view about the level of yields. Asset managers may likewise hold futures for duration management, benchmark replication or liability hedging rather than as a discretionary forecast.
+							603 text What does this positioning suggest about the Treasury market?
+							604 text Please answer without using web search.
+							605 button (collapsed) Expand
+						606 button Copy prompt
+						607 button (disabled) Edit
+						608 image
+					81 container
+						82 container
+							83 pop up button (collapsed) Description: Upload & tools, Secondary Actions: Expand
+							564 container
+								565 text entry area (settable) Description: Enter a prompt for Gemini, Value: 
+
+									609 text Ask Gemini
+							87 container
+								88 pop up button (collapsed) Description: Open mode picker, currently Gemini Auto, Secondary Actions: Expand
+								586 button Stop response
+						610 text Gemini is AI and can make mistakes.
+			555 link Upgrade
+				556 link Upgrade
+					557 text Upgrade
+		611 text Gemini is typing
+		104 container Notifications
+		567 container
+			568 container Click to open Quillbot
+			569 container Open quick settings
+			570 container Use AI
+	109 container grammarly-integration
+		548 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 565 text entry area (settable) Description: Enter a prompt for Gemini, Value: 

@@ -1,0 +1,4 @@
+week,frame,stratum,case_type,role,net_over_oi,n_prior_errors
+2021-06-15,pilot_validation,S1,net_long,pilot only,0.089239997872250468,446
+2022-11-15,pilot_validation,S3,moderate_short,pilot only,-0.16457507072629762,520
+2026-04-28,pilot_validation,S4,extreme_short,pilot only,-0.38995142443603725,700

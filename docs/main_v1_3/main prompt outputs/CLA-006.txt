@@ -1,0 +1,29 @@
+**Short answer:** not much about direction. Levered funds held a moderate net long in 10-year note futures, and the model says that was about as long as expected. Nothing in this week's numbers is unusual enough to support a view on yields.
+
+**1. The model residual is ordinary**
+
+The +1.74 pp residual sits inside the 90% range, and about 62% of past out-of-sample errors were smaller. So it's roughly a 60th-percentile miss, which is typical noise. The range itself is wide (about 7 pp, against a 5.15% point estimate), so the model pins down levered-fund positioning only loosely. It also forecasts positioning, not prices or yields. Even a large residual would only tell you levered funds were positioned differently than the model's inputs implied, not where the market was heading.
+
+**2. Levered-fund futures positions aren't clean directional bets**
+
+The futures-only report shows one leg of what are often relative-value trades:
+- **Basis trades:** cash Treasuries against futures. The well-known version in this period was levered funds short futures and long cash, which mirrored asset managers' long futures.
+- **Curve trades:** 10-year futures offset against 2s, 5s, ultras or bonds.
+- **Hedges against swaps or other OTC positions** the report doesn't capture.
+
+So +6.9% of OI net long doesn't mean "hedge funds are betting on lower yields." To make a duration claim, you'd need positions across the whole Treasury futures strip, ideally converted to DV01, plus some sense of the cash and repo side.
+
+**3. The cross-section points the same way**
+
+Asset managers were modestly net long (+3.3%). Dealers were roughly flat (−0.6%), consistent with intermediating rather than taking a view. "Other reportable" was net short (−4.1%). Since all categories, including non-reportables, must net to zero, the implied non-reportable position is about −217,800 contracts (−5.5% of OI). It's worth checking that against the full report as a sanity test.
+
+One caution: I can't verify this without looking it up, but my recollection is that levered funds were generally *net short* 10-year futures around 2021, the basis-trade pattern above. A net long here, alongside asset managers running unusually large gross shorts, looks atypical to me. Before reading anything into it, confirm the row against the CFTC file. Check that it's TFF futures-only for code 043602 and that the long and short columns weren't swapped.
+
+**4. Missing context that would make this informative**
+
+- **History:** where +6.9% sits in levered funds' own distribution, as a percentile or z-score. Crowding only matters at extremes, and even then the evidence that positioning predicts yields is weak and unstable.
+- **Changes:** the week-over-week move in net and gross positions, especially fresh shorts or longs, usually says more than the level.
+- **Macro timing:** from memory, this was the week after Powell's Jackson Hole speech flagged a taper as possible later in 2021, with 10-year yields around 1.3%. Positioning then would reflect taper expectations, but one week's snapshot can't separate that from relative-value flows.
+- **Timing of the data:** positions are as of Tuesday and published on Friday, so they're stale for trading purposes.
+
+**Bottom line:** levered funds were moderately net long 10-year note futures, in line with the model. Because much of that exposure is probably one leg of basis or curve trades, it's weak evidence about investors' views on Treasury yields. I'd treat it as "no signal," pending a check on whether the sign of the levered-fund position is right.

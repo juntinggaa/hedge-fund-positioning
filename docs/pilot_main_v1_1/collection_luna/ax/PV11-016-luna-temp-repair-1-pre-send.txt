@@ -1,0 +1,186 @@
+Window: "Google Gemini", App: Google Chrome.
+0 standard window Google Gemini - Google Chrome – Jun (Person 1), URL: gemini.google.com/app, Secondary Actions: Raise
+	1 container Google Gemini - Google Chrome – Jun (Person 1), URL: gemini.google.com/app
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: gemini.google.com/app, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button Use the new ChatGPT side chat feature. Open the ChatGPT extension to continue.
+Has access to this site
+					13 pop-up button Draft this application
+Wants access to this site
+					14 pop-up button Open Claude
+Has access to this site
+					15 pop-up button Extensions
+				16 button Jun (Person 1)
+				17 pop-up button Chrome
+			18 container
+				19 scroll area
+					20 HTML content Google Gemini, URL: gemini.google.com/app
+						21 container
+							22 container
+								23 button Open sidebar
+								24 container Side Navigation
+									25 container
+										26 container Main actions menu
+											27 link New chat, Value: gemini.google.com/app
+										28 container Additional actions menu
+											29 pop-up button Search chats
+											30 link Library, Value: gemini.google.com/library
+											31 link Images, Value: gemini.google.com/images
+											32 container Scheduled
+												33 link Scheduled, Value: gemini.google.com/scheduled
+											34 link Customize, Value: gemini.google.com/customize
+										35 link Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com
+										36 pop-up button Settings
+								37 container
+									38 container
+										39 container
+											40 heading Value: 1, Just stopping by? Temporary chats don't appear in recent chats and aren't used to improve Google AI. Stored for 72 hours for safety.
+												41 text Just stopping by?
+												42 container
+													43 link Temporary chats, Value: support.google.com/gemini/answer/13275745?visit_id=638889059849455150-2388016392&p=temp_chats&rd=1#temp_chats
+													44 text  don't appear in 
+													45 link recent chats, Value: support.google.com/gemini/answer/13666746
+													46 text  and aren't used to improve Google AI. Stored for 72 hours for safety.
+										47 container
+											48 container
+												49 pop-up button Upload & tools
+												50 container
+													51 text entry area (settable) Enter a prompt for Gemini, Value: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts.
+Open interest (all contracts): 3,934,302
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 211,953 | 227,582 | 41,198 | -15,629 | -0.40% |
+| Asset Manager / Institutional | 1,458,078 | 1,409,497 | 788,616 | 48,581 | +1.23% |
+| Leveraged Funds | 853,740 | 498,222 | 99,743 | 355,518 | +9.04% |
+| Other Reportable | 133,901 | 292,990 | 9,644 | -159,089 | -4.04% |
+Output of a supervised model of leveraged-fund positioning (model v4.0):
+•Expected net position this week: +9.23% of open interest (approximate 90% range based on earlier out-of-sample errors: +5.66% to +12.79%).
+•Actual net position this week: +9.04% of open interest.
+•Residual (actual minus expected): -0.19 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 9% were smaller than this one and 91% were at least as large.
+What does this positioning suggest about the Treasury market?
+Please answer without using web search.
+														52 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts.
+														53 text Open interest (all contracts): 3,934,302
+														54 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+														55 text |---|---|---|---|---|---|
+														56 text | Dealer / Intermediary | 211,953 | 227,582 | 41,198 | -15,629 | -0.40% |
+														57 text | Asset Manager / Institutional | 1,458,078 | 1,409,497 | 788,616 | 48,581 | +1.23% |
+														58 text | Leveraged Funds | 853,740 | 498,222 | 99,743 | 355,518 | +9.04% |
+														59 text | Other Reportable | 133,901 | 292,990 | 9,644 | -159,089 | -4.04% |
+														60 text Output of a supervised model of leveraged-fund positioning (model v4.0):
+														61 content list
+															62 container
+																63 text • Expected net position this week: +9.23% of open interest (approximate 90% range based on earlier out-of-sample errors: +5.66% to +12.79%).
+															64 container
+																65 text • Actual net position this week: +9.04% of open interest.
+															66 container
+																67 text • Residual (actual minus expected): -0.19 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 9% were smaller than this one and 91% were at least as large.
+														68 text What does this positioning suggest about the Treasury market?
+														69 text Please answer without using web search.
+													70 container
+														71 button Sapling Edit for: of. Replacement: for.
+														72 button Sapling Edit for: web search. Replacement: the web.
+													73 container
+														74 button Sapling Edit for: of. Replacement: for.
+														75 button Sapling Edit for: web search. Replacement: the web.
+													76 text entry area (settable)
+												77 button Expand input to Fullscreen
+												78 pop-up button Open mode picker, currently Gemini Auto
+												79 container
+													80 button Dictate (⌘⇧D)
+													81 button Send message
+								82 button Get app
+								83 link Upgrade
+									84 link Upgrade
+										85 text Upgrade
+								86 button Temporary chat
+							87 container Notifications
+							88 container
+								89 container Click to open Quillbot
+								90 container Open quick settings
+									91 image
+								92 container Humanize
+						93 container
+							94 button Close
+							95 button
+							96 image
+							97 container
+								98 text ⌘D
+								99 button app toolbar
+									100 button Rewrite
+							101 container
+								102 text Generate more
+								103 button
+						104 container grammarly-integration
+							105 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+			106 container Infobar Container
+				107 container Infobar
+					108 container
+						109 text 'ChatGPT' started debugging this browser
+						110 button Cancel
+					111 button Close
+			112 pop-up button Tab search
+			113 container
+				114 tab group
+					115 tab (settable, boolean) Understand Research Aim - High memory usage - 1.5 GB, Value: off
+						116 button Close
+					117 tab (settable, boolean) API keys | Google AI Studio - Memory usage - 251 MB, Value: off
+						118 button Close
+					119 tab (settable, boolean) 12b Anderson What is the point of equality.pdf - Memory usage - 629 MB, Value: off
+						120 button Close
+					121 tab (settable, boolean) Topic: Practice test (voluntary, on your own time) - Inactive tab - 385 MB freed up, Value: off
+						122 button Close
+					123 tab (settable, boolean) Inbox - Lip Jun Ting - Outlook - Memory usage - 672 MB, Value: off
+						124 button Close
+					125 tab (settable, boolean) Apple is hiring for Financial - junting.lip@gmail.com - Gmail - Memory usage - 783 MB, Value: off
+						126 button Close
+					127 tab (settable, boolean) Inbox (926) - juntingg.aa@gmail.com - Gmail - Memory usage - 609 MB, Value: off
+						128 button Close
+					129 tab (settable, boolean) Value: off, juntinggaa/hedge-fund-positioning: Unusual leveraged-fund positioning and U.S. Treasury futures - Memory usage - 431 MB
+						130 button Close
+					131 tab (selected, settable, boolean) Google Gemini - Memory usage - 587 MB, Value: on
+						132 button Close
+					133 tab (settable, boolean) Value: off, Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts. Open interest (all contracts): 3,934,302 Trader category Long Short Spreading Net Net as % of OI Dealer / Intermediary 211,953 227,582 41,198 -15,629 -0.40% Asset Manager / Institutional 1,458,078 1,409,497 788,616 48,581 +1.23% Leveraged Funds 853,740 498,222 99,743 355,518 +9.04% Other Reportab
+						134 button Close
+					135 tab group  group ✅Hedge fund prediction transcript – 1 Tab, •  CFTC 10-Year Treasury Positioning Analysis - G… – Expanded
+					136 tab (settable, boolean) Value: off, CFTC 10-Year Treasury Positioning Analysis - Google Gemini – Part of group ✅Hedge fund prediction transcript - High memory usage - 1.6 GB
+						137 button Close
+			138 button New tab
+			139 button Open Gemini in Chrome
+	140 close button
+	141 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	142 minimise button
+143 menu bar
+	144 Chrome
+	145 File
+	146 Edit
+	147 View
+	148 History
+	149 Bookmarks
+	150 Profiles
+	151 Tab
+	152 Window
+	153 Help
+
+The focused UI element is 51 text entry area (settable) Enter a prompt for Gemini, Value: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts.
+Open interest (all contracts): 3,934,302
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+|---|---|---|---|---|---|
+| Dealer / Intermediary | 211,953 | 227,582 | 41,198 | -15,629 | -0.40% |
+| Asset Manager / Institutional | 1,458,078 | 1,409,497 | 788,616 | 48,581 | +1.23% |
+| Leveraged Funds | 853,740 | 498,222 | 99,743 | 355,518 | +9.04% |
+| Other Reportable | 133,901 | 292,990 | 9,644 | -159,089 | -4.04% |
+Output of a supervised model of leveraged-fund positioning (model v4.0):
+•Expected net position this week: +9.23% of open interest (approximate 90% range based on earlier out-of-sample errors: +5.66% to +12.79%).
+•Actual net position this week: +9.04% of open interest.
+•Residual (actual minus expected): -0.19 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 9% were smaller than this one and 91% were at least as large.
+What does this positioning suggest about the Treasury market?
+Please answer without using web search.

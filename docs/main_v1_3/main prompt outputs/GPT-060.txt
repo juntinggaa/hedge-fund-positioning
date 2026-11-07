@@ -1,0 +1,58 @@
+The positioning suggests a moderately bullish bias toward 10-Year U.S. Treasury Note futures, particularly among leveraged funds and institutional asset managers. In Treasury terms, that generally means positioning for higher bond prices and lower yields.
+
+### 1. Large speculative and institutional traders are net long
+
+The two most important groups are:
+
+- Leveraged Funds: Net long 242,624 contracts (+6.11% of open interest). This is the largest directional net long among the reported categories, suggesting a bullish duration bias among hedge funds and other leveraged participants.
+- Asset Managers / Institutional: Net long 217,511 contracts (+5.47% of open interest). This indicates meaningful institutional demand for Treasury exposure, although it could reflect portfolio hedging or duration management rather than an outright interest-rate forecast.
+
+Together, these groups hold a net long position of 460,135 contracts, equivalent to 11.58% of total open interest.
+
+That is a meaningful positive directional imbalance.
+
+### 2. Other trader categories show a divergence
+
+Dealers are modestly net long (+37,261 contracts), while Other Reportables are substantially net short (-159,454 contracts).
+
+Combining all four reportable categories:
+
+| Measure                    | Position           |
+| -------------------------- | ------------------ |
+| Aggregate reported net     | +337,942 contracts |
+| Aggregate net as % of OI   | +8.50%             |
+| Implied non-reportable net | -337,942 contracts |
+
+This indicates that reportable traders collectively hold a net bullish position, offset by net short positions among smaller, non-reportable traders.
+
+### 3. What does this imply for Treasury yields?
+
+Bullish Treasury scenario
+
+Higher Treasury futures prices → Lower Treasury yields
+
+Risk to the positioning
+
+Rising yields → Falling futures prices → Losses for net longs
+
+The positioning is consistent with market participants seeking duration exposure, potentially because of expectations of slower growth, contained inflation, or less aggressive monetary tightening.
+
+However, the positioning data alone cannot establish which of those motivations is driving the trades.
+
+### 4. Important caveats
+
+The Asset Manager category also has 850,685 spreading contracts. These represent offsetting long and short futures exposures, so substantial gross activity may reflect calendar spreads and relative-value strategies rather than simple directional bets.
+
+Furthermore, the net long positions do not necessarily indicate extreme bullishness. Determining whether these positions are unusually large would require comparing them with historical positioning distributions.
+
+And because futures markets are zero-sum in net contract terms, the positive aggregate reported net simply means that other participants are taking the opposite side.
+
+### Bottom line
+
+As of 2 November 2021, the reported positioning showed a net bullish tilt toward Treasury prices and, correspondingly, lower Treasury yields.
+
+The most notable feature is that both leveraged funds and institutional asset managers were net long, suggesting aligned directional exposure across two major institutional groups.
+
+Nevertheless, positioning is not the same as a forecast. These longs could support Treasury prices if the underlying thesis played out, but they could also create vulnerability to selling or position liquidation if Treasury yields rose unexpectedly.
+
+The strongest defensible conclusion is that large reportable traders were collectively positioned for Treasury price strength—not that Treasury yields were necessarily about to decline.

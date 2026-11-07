@@ -1,0 +1,25 @@
+{
+  "new_position_rows": 7,
+  "last_official_as_of": "2026-10-27",
+  "last_release": "2026-10-30 15:30 America/New_York",
+  "archive_all_new_fields_equal": true,
+  "latest_text_header_and_positions_equal": true,
+  "2026_overlap_revised_cells": {
+    "UST_10Y": 0,
+    "UST_2Y": 0,
+    "UST_5Y": 0,
+    "UST_30Y": 0
+  },
+  "market_errors": {},
+  "new_ml_rows": 7,
+  "market_overlap_revised_cells": {
+    "prices": 0,
+    "fred": 0
+  },
+  "features": 40,
+  "training_rows": 975,
+  "alpha": 316.22776601683796,
+  "train_end": "2026-08-04",
+  "historical_features_equal": true,
+  "prior_final_block_predictions_equal": true
+}

@@ -1,0 +1,78 @@
+The 7 May 2019 positioning suggests a Treasury futures market with a pronounced split between leveraged funds and institutional investors. Leveraged funds held substantial net short exposure, while asset managers were heavily net long. This creates potential positioning-related market vulnerabilities, but it does not establish that leveraged funds were making an outright bearish bet on Treasury prices or that yields were likely to rise.
+
+### 1. A substantial concentration of short exposure in leveraged funds
+
+The most important feature is the contrast between two groups:
+
+| Trader category   | Net contracts | Share of open interest |
+| ----------------- | ------------- | ---------------------- |
+| Leveraged Funds   | -903,585      | -22.50%                |
+| Asset Managers    | +753,177      | +18.76%                |
+| Dealers           | +23,613       | +0.59%                 |
+| Other Reportables | +88,423       | +2.20%                 |
+
+Leveraged funds' net short position amounted to nearly one-quarter of total futures open interest. This is economically substantial, although determining whether it was historically extreme would require a comparison with earlier positioning distributions.
+
+In isolation, short Treasury futures exposure benefits from falling futures prices, which generally accompany rising Treasury yields. However, a substantial portion of leveraged-fund futures shorts could also represent hedges against long cash Treasury holdings, including cash-futures basis trades.
+
+Consequently, large leveraged-fund shorts do not necessarily imply an equally large directional bet on higher yields.
+
+Asset managers, meanwhile, held substantial net long futures exposure, consistent with institutional demand for duration exposure. The futures market was therefore characterized by contrasting positions across investor groups, rather than a universally bearish consensus.
+
+### 2. The model suggests the positioning was largely consistent with observable market conditions
+
+The model provides important context for interpreting the leveraged-fund short.
+
+Model-expected position
+
+# -21.10%
+
+Actual position
+
+# -22.50%
+
+Actual versus model-expected position
+
+Shaded band represents the approximate historical-error-based 90% range, from -24.66% to -17.53%. Values are rounded.
+
+The actual position was 1.41 percentage points of open interest more negative than the model expected, equivalent to approximately 56,600 contracts at that week's open interest.
+
+This residual is not especially unusual: approximately 45% of earlier absolute out-of-sample errors were at least as large.
+
+That leads to a measured interpretation:
+
+- The model's conditional estimate was already for a substantially short leveraged-fund position.
+- Actual positioning was somewhat more negative than expected, but the deviation was not statistically remarkable by the supplied historical-error comparison.
+- The gap does not demonstrate an exceptional discretionary bearish trade, a sudden increase in basis trading, or an unidentified information advantage.
+
+Crucially, the model estimates a conditional weekly change, then adds it to the previous week's level. It does not explain what proportion of the total short represents any particular trading strategy. Nor does the residual tell us whether the overall short increased or decreased during that week without knowing the previous week's actual position.
+
+### 3. What the positioning could mean for Treasury market behavior
+
+The main implication is potentially about market sensitivity to position adjustments, rather than the direction of future Treasury yields.
+
+A substantial leveraged-fund net short can create pressure to buy futures if those positions are reduced. If Treasury prices rally, for example, short covering could reinforce upward futures-price movements and downward yield pressure.
+
+But the mechanism becomes more complicated if those shorts hedge long cash Treasury positions. An unwind of a cash-futures basis trade can involve both buying back futures and selling cash Treasuries. Those transactions exert opposing pressures on different parts of the Treasury market. The ultimate effects on yields, cash-futures pricing and liquidity depend on the circumstances.
+
+The positioning therefore raises several plausible risks: sensitivity to financing conditions, vulnerability to abrupt deleveraging, and potentially amplified price movements if many similarly positioned funds adjust simultaneously. However, the figures alone cannot establish that these risks were unusually elevated relative to history.
+
+### 4. What cannot be concluded
+
+Three interpretations would go beyond the evidence.
+
+First, the -22.50% position should not be treated as a measure of total speculative bearish conviction. Futures shorts may be part of hedged relative-value positions.
+
+Second, the model's -21.10% expected position should not be interpreted as evidence that approximately 94% of the short was explained by the model or reflected a particular strategy. The model is a statistical conditional estimate, and its out-of-sample improvement over the benchmark was relatively modest.
+
+Third, positioning does not by itself predict rising or falling yields. Futures positions net to zero across participants, and this report does not reveal the cash positions, leverage, financing exposures, or motivations needed for a full economic interpretation.
+
+### Bottom line
+
+As of 7 May 2019, the Treasury futures market displayed a substantial leveraged-fund short positioned against significant asset-manager longs, with the leveraged-fund exposure broadly consistent with the model's conditional expectations.
+
+This suggests a market in which cross-sector positioning and potential leverage-related adjustments could matter for price dynamics, particularly during shocks to Treasury prices or funding conditions.
+
+It does not provide strong evidence of an unusual new bearish signal, identify the quantity of basis trading, or establish the likely direction of Treasury yields.
+
+The most defensible conclusion is that the positioning highlights potential market fragility associated with concentrated exposures, rather than a reliable directional forecast for Treasuries.

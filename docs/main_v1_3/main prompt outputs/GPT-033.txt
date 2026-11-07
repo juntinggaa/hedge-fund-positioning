@@ -1,0 +1,51 @@
+## Treasury market interpretation — 2 November 2021
+
+The positioning suggests a moderately bullish Treasury futures market, but leveraged funds are less bullish than the model would normally expect. This is a mildly negative relative-positioning signal, not a strong bearish signal for Treasury prices.
+
+### 1. Leveraged funds are net long, but below expectations
+
+Actual leveraged-fund net
+
+# +6.11%
+
+Of open interest
+
+Model-expected net
+
+# +8.63%
+
+Of open interest
+
+Actual versus model's approximate 90% range
+
+A net long position of 242,624 contracts indicates positive exposure to Treasury futures prices, which generally move inversely to Treasury yields.
+
+However, the actual position is approximately 2.53 percentage points of open interest below the model's prediction. This indicates less long exposure than expected, rather than outright bearish positioning.
+
+### 2. The deviation is meaningful but not exceptional
+
+The residual's absolute magnitude exceeds approximately 76% of earlier out-of-sample absolute residuals. Conversely, around 24% were at least this large.
+
+This means:
+
+- The shortfall is noticeable relative to the model's historical behavior.
+- It is not statistically exceptional and remains inside the model's approximate 90% error range.
+- It does not, by itself, establish a reliable forecast of falling Treasury prices or rising yields.
+
+The 24% figure describes how unusual the model error is, not the probability of a future market move.
+
+### 3. Other participants provide mixed evidence
+
+Asset managers are also net long (+5.47% of open interest), while other reportable traders are net short (−4.01%). Dealers are slightly net long (+0.94%).
+
+This shows differing exposures across participant categories, rather than a uniform bullish or bearish market consensus. Moreover, leveraged-fund futures positions can reflect basis trades, relative-value strategies, and hedges against positions in cash Treasuries. Their futures exposure does not necessarily represent a directional view on interest rates.
+
+### 4. Market implications
+
+The most defensible interpretation is mildly bearish relative to the model's baseline, but not bearish in absolute positioning terms.
+
+The below-expected leveraged-fund long position could indicate reduced bullish conviction or less exposure to rising Treasury futures prices than would typically be expected under the conditions captured by the model. If interpreted directionally, that is somewhat more consistent with upward pressure on yields than the model's baseline positioning would suggest.
+
+However, the evidence is insufficient to determine whether yields will actually rise. The report provides a snapshot of outstanding positions, not weekly changes, motivations, or subsequent price behavior.
+
+Bottom line: On 2 November 2021, leveraged funds remained substantially net long 10-year Treasury futures, but their positioning was moderately below model expectations. This supports a cautious, mildly negative relative positioning assessment for Treasury futures, rather than a strong bearish Treasury market call.

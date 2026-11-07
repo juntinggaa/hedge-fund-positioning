@@ -1,0 +1,51 @@
+The positioning suggests a moderately bullish institutional bias toward 10-Year U.S. Treasury futures, but not an overwhelmingly bullish or crowded market.
+
+Because Treasury futures prices generally move inversely to yields, net-long positioning indicates exposure that benefits from rising bond prices and falling yields.
+
+### What the positioning reveals
+
+\- Asset Managers / Institutional (+189,529 contracts; +6.96% of open interest): The strongest net-long category. This suggests institutional investors had substantial positive duration exposure, consistent with expectations of stable or declining Treasury yields. However, some positions could reflect portfolio management or hedging rather than outright directional bets.
+
+\- Dealers / Intermediaries (−129,270; −4.75%): The largest net-short category. This does not necessarily indicate bearish expectations. Dealers frequently take the opposite side of institutional customer trades or hedge exposures elsewhere in their books.
+
+\- Leveraged Funds (+24,523; +0.90%): Hedge funds were nearly directionally neutral despite substantial gross long and short positions. This suggests limited aggregate directional conviction, potentially reflecting relative-value, basis, or hedging strategies rather than a strong bet on falling yields.
+
+\- Other Reportables (+64,321; +2.36%): Moderately net long, reinforcing the positive positioning bias among reportable non-dealer traders.
+
+### Overall interpretation
+
+Net positions as a percentage of total open interest
+
+Asset Managers
+
++6.96%
+
+Other Reportables
+
++2.36%
+
+Leveraged Funds
+
++0.90%
+
+Dealers
+
+-4.75%
+
+Net long
+
+Net short
+
+Three conclusions stand out:
+
+1. Institutions leaned toward lower yields. Asset managers were the dominant net-long group, indicating demand for Treasury duration.
+2. Speculative positioning was not especially aggressive. Leveraged funds were only slightly net long, providing little evidence of a strong, broad-based speculative rally trade.
+3. The market was not obviously one-sided. Dealer shorts offset much of the institutional long exposure, and net positions were relatively modest compared with total open interest.
+
+Importantly, this is only a single weekly snapshot. Without historical positioning, it is impossible to determine whether these exposures were unusually large or whether traders were increasing or reducing their bets.
+
+### Bottom line
+
+As of 2 September 2014, positioning was cautiously bullish for Treasury prices (and correspondingly bearish for yields), driven primarily by asset managers rather than leveraged speculators.
+
+It suggests institutional preference for holding duration, but does not by itself provide a strong signal that Treasury yields were about to fall.

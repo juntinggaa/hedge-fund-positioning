@@ -1,0 +1,3 @@
+PVR22-003 Copy confirmation
+Reply Copy control clicked once at 2026-11-06T01:39:29.551Z; immediate AX/screenshot captured the “Copied” state. The copied text was paste-read twice from the system clipboard into the empty composer without sending. Both reads were 4171 characters with SHA-256 75651c2a254222106a9218b9b590eea6e339383d144b5ed6dd7120a13b397656; they were byte-identical. The composer was cleared and verified empty afterward. No second-turn prompt was sent.
+Text audit: FULL_ORDERED_EXPLICIT_MARKDOWN_RENDERING; 47 ordered visible AX nodes; 3542 canonical characters match with all 28 signed numeric tokens matching. Proof: /Users/lipjunting/hedge-fund-positioning/docs/pilot_validation_v2_2/collection_luna/raw/PVR22-003-response-text-audit.json.

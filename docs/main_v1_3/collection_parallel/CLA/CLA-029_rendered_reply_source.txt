@@ -1,0 +1,39 @@
+Short version: this week shows the familiar late-2020 split in 10-year note futures. Asset managers are net long, leveraged funds are net short, and dealers sit near the middle. The model residual says this week’s adjustment was unremarkable. The data says more about how the futures market was being used than about where yields were headed.
+
+The cross-section
+
+Leveraged funds were net short about 315,500 contracts (−9.7% of open interest). Asset managers were net long about 204,800 (+6.3%). That mirror image is the standard signature consistent with the cash-futures basis trade:
+
+Asset managers often hold duration through futures rather than cash bonds, because futures are capital-efficient and frequently trade a little rich to cash.
+Leveraged funds take the other side. Typically they short the futures and buy the deliverable cash Treasuries financed in repo, earning the small gap between the two.
+
+On this reading, the leveraged-fund short is largely the hedge leg of a relative-value position, not a bearish bet on bonds. A large leveraged-fund short should not be read as “hedge funds expect yields to rise.”
+
+The limits matter, though. The cash leg is invisible in this report. Some of the short could be outright duration hedging, curve trades against other tenors, or directional views. The report covers futures only and only the 10-year contract, while basis activity spans the 2-, 5-, 10-year, Ultra and bond contracts.
+
+Some smaller details:
+
+Dealers were modestly net short (−2.2%). That is consistent with intermediating client flow rather than holding a big directional position.
+Other reportables were net long (+3.8%).
+Non-reportable traders must hold roughly +58,400 contracts net long, because the four reportable nets sum to about −58,400.
+Spreading is very large for asset managers (602,000). That reflects calendar and roll positions that offset within the category, which is a reminder that gross long and short figures overstate directional exposure.
+What the model adds
+
+The model expected −11.17% and the actual was −9.67%. So leveraged funds ended the week about 1.5 points of open interest less short than the inputs predicted. Equivalently, their weekly adjustment was roughly 1.5 points more toward the long side than expected.
+
+That residual is ordinary:
+
+It is about 0.7 times the model’s RMSE of 2.07 points.
+It falls near the middle of past absolute errors, at about the 56th percentile.
+It sits comfortably inside the approximate 90% range.
+
+The model’s out-of-sample R² of about 10% also means most weekly variation in positioning is unexplained by its inputs. So a residual of this size is well within normal noise. It is not evidence of unusual unwinding, unusual demand, or anyone acting on private information.
+
+One thing the output can’t tell you: whether leveraged funds actually added or cut shorts this week. The expected level is built on last week’s level, which isn’t shown. The residual is relative to the model, not an observed change.
+
+What it suggests for the Treasury market
+Structurally: a sizeable, fairly stable leveraged-short versus asset-manager-long arrangement was in place six months after the March 2020 dash for cash. That episode is the main reason this positioning is watched as a potential stress point. Basis positions depend on repo financing and margin levels, so a funding shock can force simultaneous unwinds that push cash Treasuries onto the market.
+For that week specifically: nothing flags strain. Positioning moved roughly as the model’s inputs implied, and the funding-stress proxy is among those inputs. That is consistent with the calm, Fed-supported funding environment of late 2020, though the model can’t confirm basis profitability or financing conditions directly.
+Directionally: this positioning gives little information about where 10-year yields were going.
+
+If you want to test the basis-trade reading more directly, the useful next checks are the same breakdown across the other Treasury contracts, the futures-implied repo rate versus actual repo, and the week-on-week change in the leveraged-fund short.

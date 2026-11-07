@@ -1,0 +1,139 @@
+- heading "Claude" [level=1]
+- main:
+  - status
+  - status
+  - toolbar "Page tools":
+    - button "Activity panel":
+      - generic: 
+  - status
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S." [level=3]'
+      - paragraph: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 15 April 2025. All figures are numbers of contracts.
+      - paragraph: "Open interest (all contracts): 4,760,884"
+      - paragraph:
+        - text: "| Trader category | Long | Short | Spreading | Net | Net as % of OI |"
+        - text: "|---|---|---|---|---|---|"
+        - text: "| Dealer / Intermediary | 176,229 | 717,119 | 71,172 | -540,890 | -11.36% |"
+        - text: "| Asset Manager / Institutional | 2,755,221 | 672,787 | 584,703 | 2,082,434 | +43.74% |"
+        - text: "| Leveraged Funds | 201,132 | 2,012,009 | 85,571 | -1,810,877 | -38.04% |"
+        - text: "| Other Reportable | 431,789 | 302,963 | 3,011 | 128,826 | +2.71% |"
+      - paragraph: "Output of a supervised model of leveraged-fund positioning (model v4.0):"
+      - list:
+        - listitem: "Expected net position this week: -38.40% of open interest (approximate 90% range based on earlier out-of-sample errors: -41.88% to -34.92%)."
+        - listitem: "Actual net position this week: -38.04% of open interest."
+        - listitem: "Residual (actual minus expected): +0.37 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 15% were smaller than this one and 85% were at least as large."
+      - paragraph: What does this positioning suggest about the Treasury market?
+      - paragraph: Please answer without using web search.
+      - generic: Message collapsed
+      - button "Show more":
+        - generic: Show more
+      - toolbar "Message actions":
+        - time: 1 minute ago
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: Leveraged funds hold a very large net short in 10-year futures, but the positioning this week was almost exactly what the model expected." [level=3]'
+      - generic: Checking the leveraged funds' net short against the model
+      - button "Checking the leveraged funds' net short against the model":
+        - generic: 
+      - status: Checking the leveraged funds' net short against the model
+      - paragraph:
+        - strong: Leveraged funds hold a very large net short in 10-year futures, but the positioning this week was almost exactly what the model expected.
+        - text: The main message is not a directional view on Treasuries. It is a structural picture that was intact in mid-April 2025.
+      - heading "The positioning is mostly relative value, not a bearish bet" [level=3]
+      - paragraph:
+        - text: The pattern in this report is the standard footprint of the
+        - strong: cash–futures basis trade
+        - text: ":"
+      - list:
+        - strong: Asset managers are net long 2.08 million contracts (+43.7% of OI).
+        - text: Pension funds, insurers and bond funds use futures as a capital-efficient substitute for holding cash Treasuries to get duration exposure.
+        - strong: Leveraged funds are net short 1.81 million contracts (−38.0% of OI).
+        - text: "Most of this is likely the other side of that demand: hedge funds sell the rich futures, buy the cheaper deliverable cash notes, and finance them in repo. Their short is largely offset by long cash bonds that this report doesn’t show."
+        - strong: Dealers are net short about 541k contracts (−11.4%),
+        - text: which is consistent with hedging cash inventory or intermediating client flow.
+      - paragraph: So the large hedge-fund short shouldn’t be read as hedge funds expecting higher yields. It mainly reflects strong asset-manager demand for futures duration and the arbitrage that supplies it.
+      - heading "The model says nothing unusual happened this week" [level=3]
+      - list:
+        - listitem: The actual −38.04% sits close to the expected −38.40%, well inside the 90% range of −41.88% to −34.92%.
+        - listitem: "The +0.37 pp residual is small: 85% of earlier out-of-sample residuals were at least as large. If anything, this is a quieter-than-usual week relative to the model."
+        - listitem: The sign is slightly less short than expected, but at this size that difference is noise.
+      - heading "Why the timing matters" [level=3]
+      - paragraph: 15 April 2025 came right after the early-April tariff announcements and the sharp Treasury selloff of 7–11 April. During that selloff there was widespread speculation that hedge funds were being forced to unwind basis and swap-spread trades. In this snapshot, leveraged-fund shorts were still enormous and in line with the model. That does not support a large, disorderly basis unwind in 10-year futures as of that Tuesday.
+      - paragraph: "Two caveats limit that conclusion:"
+      - list:
+        - strong: One week shows a level, not a change.
+        - text: To judge unwinding you’d want the change from 8 April and from late March, plus the 2-year, 5-year, Ultra 10-year and bond contracts, since de-risking can show up unevenly across the curve.
+        - strong: The benchmark may be soft.
+        - text: If model v4.0 relies heavily on lagged positioning, “in line with expected” partly means “similar to last week.” That could miss a gradual unwind spread over several weeks.
+      - heading "What this does and doesn’t tell you" [level=3]
+      - list:
+        - strong: It doesn’t predict yields.
+        - text: Basis positions are roughly duration-neutral, so they say little about where yields are headed.
+        - strong: The size itself is the risk, not this week’s surprise.
+        - text: A net short near 38% of open interest, financed in repo, makes the market sensitive to higher futures margins, repo funding stress, or a sharp richening of cash versus futures. Any of these could force selling of cash Treasuries.
+        - strong: Futures-only data is a partial view.
+        - text: You can’t see the cash, repo or swap legs, so a hedged position and a directional one look the same here.
+      - paragraph: In short, the market structure looks dominated by asset-manager duration demand and hedge-fund arbitrage. Mid-April 2025 positioning was large but unremarkable relative to the model. Any stress story would need confirmation from week-over-week changes and from funding and basis data, not from this snapshot alone.
+      - group "Suggested actions":
+        - button "Create a Word document":
+          - generic: 
+          - text: Create a Word document
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: 1 minute ago
+  - button "Scroll to bottom":
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - document
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note: No history, memory, or Claude training.
+  - 'button "Model: Opus 5.5 High"':
+    - generic: Opus 5.5
+    - generic: High
+  - button "Auto":
+    - generic: Auto
+  - status: Claude finished the response
+  - complementary
+  - status
+- generic: Incognito
+- button "Exit incognito":
+  - generic: 
+- status
+- status
+- region "Notifications"
+- generic "Click to open Quillbot"
+- generic "Open quick settings":
+- generic "Use AI"

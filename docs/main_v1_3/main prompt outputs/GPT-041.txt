@@ -1,0 +1,75 @@
+## Treasury market positioning — 7 May 2019
+
+The data suggest substantial bearish positioning among leveraged funds in 10-year U.S. Treasury futures, but little evidence that this positioning was unusually bearish relative to the model's expectations.
+
+The distinction matters: leveraged funds were heavily short, but their positioning was broadly consistent with the conditions captured by the model.
+
+### 1. Leveraged funds were heavily bearish
+
+Net positions as % of total open interest
+
+Asset managers
+
++18.76%
+
+Other reportable
+
++2.20%
+
+Dealers
+
++0.59%
+
+Leveraged funds
+
+-22.50%
+
+Net short
+
+Net long
+
+Leveraged funds held 1,259,989 short contracts against 356,404 long contracts, producing a net short of 903,585 contracts, or 22.50% of total open interest.
+
+Because Treasury futures prices generally rise when yields fall, this net short represents bearish exposure to Treasury futures prices and, directionally, exposure that benefits from rising Treasury yields.
+
+Meanwhile, asset managers were net long 753,177 contracts, or 18.76% of open interest. This illustrates a significant divergence between investor categories, potentially reflecting different mandates, hedging requirements, and relative-value strategies.
+
+However, futures positioning does not necessarily reveal participants' outright views. Leveraged funds may hold short Treasury futures against cash Treasury holdings as part of basis trades or other hedged strategies.
+
+### 2. The model does not identify an exceptional short-positioning imbalance
+
+Leveraged-fund net positioning (% of open interest)
+
+Actual −22.50%
+
+Expected −21.10%
+
+Shaded band: approximate 90% range from earlier out-of-sample errors (−24.66% to −17.53%).
+
+The actual positioning was 1.41 percentage points more negative than expected, equivalent to approximately 56,600 contracts.
+
+But that deviation is not particularly remarkable:
+
+- The actual reading falls comfortably within the model's approximate 90% range.
+- About 45% of earlier absolute out-of-sample residuals were at least this large.
+- Therefore, the negative residual provides weak evidence of unusual bearish positioning beyond what the model already anticipates.
+
+Importantly, a 90% predictive range describes the historical uncertainty of the positioning model, not a 90% confidence interval for future Treasury returns.
+
+### 3. Implications for the Treasury market
+
+Bearish positioning: Leveraged funds had substantial net short futures exposure. If Treasury prices rose and yields fell, these positions could face losses and some funds might need to reduce shorts.
+
+Potential short-covering support: The size of the short position creates a possible source of Treasury futures buying in a rally. However, the data alone cannot establish that a short squeeze is imminent, especially when positions may be hedged.
+
+Limited contrarian evidence: Although the raw short position is large, the model-adjusted deviation is modest. Consequently, the report offers little evidence of an unusually extreme bearish crowding event relative to the model's benchmark.
+
+No reliable directional forecast: The report is a snapshot of positions, not a measure of future buying or selling. Without information about positioning changes, funding conditions, macroeconomic developments, and subsequent price behavior, it cannot reliably predict whether Treasury yields will rise or fall.
+
+### Bottom line
+
+The best interpretation is strong observed bearish leveraged-fund positioning, but no statistically compelling indication of abnormal bearishness.
+
+This creates a plausible vulnerability to short covering if Treasury prices rise, but it is not, by itself, a high-conviction bullish signal for Treasuries.
+
+The distinction between large short exposure and unexpectedly large short exposure is the central insight. The former is clearly present; the latter is not strongly supported by the model results.

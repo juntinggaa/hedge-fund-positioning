@@ -1,0 +1,44 @@
+Positioning in the 10-Year U.S. Treasury Note futures market for the week ending 2 November 2021 shows broad net long alignment among major institutional categories, heavy two-way spreading activity, and a moderate weekly shift by leveraged funds toward a less net-long posture than contemporaneous market variables alone would predict.
+
+Cross-Sectional Positioning and the Implied Counterparty
+
+Three of the four reportable institutional groups—Leveraged Funds (+6.11% of open interest), Asset Managers (+5.47%), and Dealers (+0.94%)—hold net long futures positions, which contrasts with regimes where leveraged funds are heavily net short futures against cash bonds. Because every long futures contract requires a short counterparty, summing the reportable net positions (+337,942 contracts, or +8.50% of open interest) reveals who is taking the other side of the market:
+
+Other Reportables provide -159,454 contracts (-4.01% of open interest) of net short supply, typically reflecting corporate treasuries, swap hedgers, or smaller proprietary firms hedging rate exposure.
+
+Non-Reportable (smaller) traders must hold the remaining net short balance of -337,942 contracts (-8.50% of open interest) to clear the market.
+
+Reportable concentration is asymmetric: adding outright and spreading positions shows reportable traders account for 92.6% of total longs (3,679,896 contracts) versus 84.1% of total shorts (3,341,954 contracts).
+
+Gross Footprint vs. Net Direction
+
+Net balances represent only a small fraction of total market commitment, indicating that 10-year futures are primarily serving relative-value, curve-trading, and risk-transfer functions rather than one-way macro bets.
+
+Asset Managers dominate the contract, holding 38.9% of open interest in outright longs (1,545,546) and 33.4% in outright shorts (1,328,035), plus another 21.4% (850,685) in offsetting spreading positions.
+
+Leveraged Funds maintain nearly half a million outright short contracts (499,445, or 12.6% of open interest) alongside their 742,069 outright longs, showing substantial two-way dispersion across funds and strategies.
+
+What Model v4.0 Suggests About Weekly Leveraged-Fund Flows
+
+Relative to how leveraged funds historically adjusted positions given that week's yield changes, curve moves, volatility, funding proxies, and open-interest shifts, their net positioning ended 2.53 percentage points lower than the model's +8.63% conditional expectation—a gap of roughly 100,500 contracts.
+
+A defensive or hawkish weekly lean: Leveraged funds either trimmed net longs or added shorts more briskly than their typical statistical relationship with that week's market environment implied.
+
+Moderate surprise, not a tail shock: A -2.53 percentage point residual exceeds the model's 2.07 percentage point RMSE and ranks at the 76th percentile of historical absolute errors, but roughly 1 in 4 weeks saw residuals at least as large.
+
+High idiosyncratic variance: The actual +6.11% reading sits comfortably inside the 90% error range (+5.06% to +12.21%), and an out-of-sample 
+𝑅
+2
+R
+2
+ of 10.47% means nearly 90% of weekly positioning variance reflects factors outside the model.
+
+Structural Boundaries on Market Inference
+
+While the data captures who holds futures risk and highlights a softer-than-expected weekly flow from leveraged funds, the report and model constraints rule out several common extrapolations.
+
+Unobserved cash and swap legs: Futures-only data cannot distinguish an outright directional duration bet from a cash-futures basis trade, an interest-rate swap hedge, or a cross-curve spread against 2-year, 5-year, or 30-year contracts.
+
+No isolated basis-trade readout: Neither the net long level (+6.11%) nor the weekly residual (-2.53 percentage points) measures cash-futures basis volume or arbitrage profitability, as cash Treasury and repo positions remain unseen.
+
+Descriptive diagnostic, not a yield forecast: Because the model conditions on same-week open interest and retrospectively selected features, the -2.53 percentage point residual describes contemporaneous flow behavior rather than a forward-looking signal for Treasury yields.

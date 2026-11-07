@@ -1,0 +1,69 @@
+The positioning suggests a significant divergence between institutional investors and leveraged speculative traders, with asset managers strongly positioned for higher Treasury prices (lower yields), while leveraged funds and dealers are heavily net short.
+
+### 1. Institutional investors show a bullish duration bias
+
+Asset managers are net long 422,401 contracts (+13.92% of open interest), the largest positive net position among the reported categories.
+
+This suggests substantial institutional demand for Treasury duration, potentially reflecting expectations of falling interest rates, concerns about economic growth, or demand for safe-haven assets.
+
+Because Treasury futures prices generally move inversely to yields, this positioning is consistent with a bullish view on Treasury prices.
+
+### 2. Leveraged funds are positioned on the opposite side
+
+Leveraged funds are net short 314,694 contracts (-10.37% of open interest).
+
+This could reflect expectations of rising yields or a reversal in Treasury prices. However, leveraged funds also engage in relative-value strategies, including cash-futures basis trades, where short futures positions may hedge long cash Treasury holdings.
+
+Therefore, their net short position should not automatically be interpreted as an outright bearish macroeconomic view.
+
+### 3. Dealers are also heavily net short
+
+Dealers are net short 222,769 contracts (-7.34% of open interest).
+
+Dealer positioning often reflects market-making, inventory hedging, and facilitating institutional client demand rather than independent directional speculation.
+
+Their short exposure may therefore partly represent the other side of institutional demand for Treasury futures.
+
+### 4. The market shows substantial positioning divergence
+
+Net positions as a percentage of total open interest
+
+Asset Manager
+
++13.92%
+
+Other Reportable
+
++5.86%
+
+Dealer
+
+-7.34%
+
+Leveraged Funds
+
+-10.37%
+
+Net shortNet long
+
+The principal divide is between asset managers holding substantial net long exposure and leveraged funds holding substantial net short exposure.
+
+This divergence creates the potential for sharp price adjustments if one side is forced to unwind.
+
+For example, a continued decline in Treasury yields could pressure leveraged funds to cover short futures positions, potentially reinforcing a rally. Conversely, rising yields could induce institutional long liquidation, adding selling pressure.
+
+### 5. What the figures cannot establish
+
+The report is a snapshot rather than a record of changes in positioning. Without previous weeks' data, we cannot determine whether these positions have recently increased, whether they are historically extreme, or whether a reversal is already underway.
+
+Furthermore, futures positioning alone does not establish the full economic exposure of each category because traders may hold offsetting positions in cash Treasuries, swaps, options, or other instruments.
+
+### Overall interpretation
+
+The Treasury market appears divided between substantial institutional demand for duration and significant short futures exposure among leveraged funds and dealers.
+
+The institutional net long position is consistent with a defensive or lower-yield outlook, while leveraged funds' net shorts may reflect bearish expectations, hedging, or relative-value trading.
+
+The most important implication is not that the overall market is unambiguously bullish or bearish, but that the divergence in positioning could amplify Treasury price movements, particularly if leveraged funds are compelled to cover shorts during a bond rally.
+
+The report therefore suggests an institutional bullish-duration bias alongside meaningful potential for short-covering pressure, but it does not by itself provide a reliable directional forecast.

@@ -1,0 +1,51 @@
+The positioning suggests a moderately bullish bias toward 10-year U.S. Treasury prices (and therefore a bearish bias toward yields), led primarily by leveraged funds and supported by asset managers. However, the market is divided, and the data do not establish a strong consensus that yields will fall.
+
+### 1. Leveraged funds show the strongest bullish positioning
+
+Leveraged funds are net long 271,755 contracts (+6.89% of open interest), the largest positive net position among the reported categories.
+
+Because Treasury futures prices generally move inversely to Treasury yields, this positioning is consistent with expectations of rising bond prices and declining yields.
+
+It may also reflect hedging, relative-value strategies, or other exposures rather than a purely directional bet.
+
+### 2. Asset managers are also net long, but less decisively
+
+Asset managers hold a net long position of 131,936 contracts (+3.34% of open interest).
+
+This provides additional support for a bullish interpretation. However, their substantial spreading position of 784,122 contracts suggests that a significant portion of their activity involves offsetting futures exposures rather than outright directional positioning.
+
+### 3. Other participants provide an opposing view
+
+Other Reportable traders are net short 161,332 contracts (-4.09% of open interest), indicating positioning that would benefit from falling futures prices or that hedges against rising yields.
+
+Dealers are only slightly net short at 24,557 contracts (-0.62%), suggesting a relatively balanced position. Dealer exposures can reflect market-making and customer hedging flows rather than independent interest-rate forecasts.
+
+### 4. Aggregate positioning is positive among reportable traders
+
+Net positions as % of total open interest
+
+-5%-1.75%1.5%4.75%8%Leveraged fundsAsset managersDealersOther reportable
+
+Positive = net long Treasury futures; negative = net short.
+
+Combined reportable net position
+
+## +217,802
+
+Equivalent to +5.52% of total open interest. Nonreportable traders collectively hold the offsetting net short position.
+
+### 5. Implications for the Treasury market
+
+The data are consistent with three interpretations:
+
+- Support for Treasury prices: Positive net positioning by leveraged funds and institutional investors suggests meaningful demand for long-duration futures exposure.
+- Potential vulnerability to rising yields: If yields rise unexpectedly, leveraged funds could reduce their net longs, potentially amplifying downward pressure on Treasury futures prices.
+- No clear market-wide consensus: The significant net short exposure among Other Reportable traders shows that bullish positioning is not universal.
+
+Importantly, this is a single weekly snapshot. Without historical positioning, changes in open interest, and corresponding price movements, we cannot determine whether bullish positioning is increasing, whether it is unusually crowded, or whether it represents new buying versus short covering.
+
+### Bottom line
+
+As of August 31, 2021, reportable traders collectively had a net long bias in 10-year Treasury futures, driven mainly by leveraged funds and asset managers. This is consistent with positioning for stronger Treasury prices and lower yields, while the opposing shorts indicate meaningful disagreement.
+
+The most defensible conclusion is that positioning leaned bullish on Treasury prices, but the evidence is insufficient to forecast the direction of yields or to conclude that a major Treasury rally was imminent.

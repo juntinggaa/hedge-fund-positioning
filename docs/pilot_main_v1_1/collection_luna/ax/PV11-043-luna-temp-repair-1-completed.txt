@@ -1,0 +1,161 @@
+Browser tab: 1403820316, Title: "Google Gemini", URL: "https://gemini.google.com/app".
+0 AXWebArea Google Gemini, URL: gemini.google.com/app
+	1 container
+		2 container
+			3 button (collapsed) Description: Open sidebar, Secondary Actions: Expand
+			4 container Side Navigation
+				5 container
+					6 container Main actions menu
+						7 link Description: New chat, Value: gemini.google.com/app
+					8 container Additional actions menu
+						9 pop up button Description: Search chats, ID: base-ui-_r_2_
+						10 link Description: Library, Value: gemini.google.com/library
+						11 link Description: Images, Value: gemini.google.com/images
+						12 container Scheduled
+							13 link Description: Scheduled, Value: gemini.google.com/scheduled
+						14 link Description: Customize, Value: gemini.google.com/customize
+					15 link (collapsed) Description: Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com, Secondary Actions: Expand
+					16 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+			17 container xap-skip-link-target
+				18 container
+					1598 heading Conversation with Gemini, Value: 1
+						1599 text Conversation with Gemini
+					1600 container
+						1601 text Temporary Chat
+						1625 container 3d9388d9399d4884
+							1626 container
+								1627 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+									1628 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+								1629 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 5 August 2025. All figures are numbers of contracts.
+								1630 text Open interest (all contracts): 5,127,634
+								1631 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+								1632 text |---|---|---|---|---|---|
+								1633 text | Dealer / Intermediary | 304,410 | 533,304 | 47,851 | -228,894 | -4.46% |
+								1634 text | Asset Manager / Institutional | 3,055,050 | 843,663 | 528,459 | 2,211,387 | +43.13% |
+								1635 text | Leveraged Funds | 392,296 | 2,638,835 | 92,321 | -2,246,539 | -43.81% |
+								1636 text | Other Reportable | 263,720 | 116,058 | 1,464 | 147,662 | +2.88% |
+								1637 text Output of a supervised model of leveraged-fund positioning (model v4.0):
+								1638 text - Expected net position this week: -43.93% of open interest (approximate 90% range based on earlier out-of-sample errors: -47.40% to -40.46%).
+								1639 text - Actual net position this week: -43.81% of open interest.
+								1640 text - Residual (actual minus expected): +0.12 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 6% were smaller than this one and 94% were at least as large.
+								1641 text What does this positioning suggest about the Treasury market?
+								1642 text Please answer without using web search.
+								1643 button (collapsed) Expand
+							1644 button Copy prompt
+							1645 button Edit
+							1646 container
+								1647 heading Gemini said, Value: 6
+									1648 text Gemini said
+								1649 container model-response-message-contentr_3d9388d9399d4884
+									1650 container
+										1651 text Based on the Commitment of Traders (COT) data for the 10-Year U. S.  Treasury Note futures and the diagnostic output from your supervised model,  here are the key insights into the Treasury market structure,  sentiment,  and current positioning dynamics:
+									1652 heading 1. The Core Structural Trade: Asset Managers vs. Leveraged Funds, Value: 3
+										1653 text 1. The Core Structural Trade: Asset Managers vs. Leveraged Funds
+									1654 container
+										1655 text The report highlights a massive,  classic structural divide in the Treasury futures market between institutional investors and speculative funds:
+									1656 content list
+										1657 container
+											1658 text Asset Managers / Institutionals are Multi-Year Long (+43.13% Net of OI):  Asset managers hold over 3 million long contracts against 843k shorts,  resulting in a net long position of  +2,211,387 contracts .  This reflects structural hedging needs,  duration management,  and real-money demand from pension funds,  insurance companies,  and index-tracking benchmark funds locking in yield or hedging fixed-income liabilities.
+										1659 container
+											1660 text Leveraged Funds are Aggressively Short (-43.81% Net of OI):  Hedge funds and commodity trading advisors (CTAs) hold a massive net short position of  -2,246,539 contracts .  This level of net shorting (over 43% of total open interest) is characteristic of two main strategies:
+											1661 content list
+												1662 container
+													1663 text The Basis Trade:  Arbitrageurs shorting Treasury futures against long positions in cash Treasuries to capture small yield mispricings (often amplified via repo market### Structural Imbalance:  The Great Basis Trade
+									1664 container
+										1665 text The positioning numbers reveal an extreme structural divergence in the 10-Year U. S.  Treasury futures market.  Rather than a pure directional macro bet,  this setup highlights a massive structural arbitrage—the  Treasury basis trade .
+									1666 text     [ Asset Managers ]                             [ Leveraged Funds ]
+ long 3,055,050 / short 843,663               long 392,296 / short 2,638,835
+  Net: +2,211,387 contracts                     Net: -2,246,539 contracts
+   (+43.13% Open Interest)                       (-43.81% Open Interest)
+             ▲                                             │
+             │                                             ▼
+ Buy cash Treasuries & hedge with           Sell futures contracts short &
+ long futures for duration match            buy cash Treasuries via repo
+
+									1667 heading Key Positioning Takeaways, Value: 4
+										1668 text Key Positioning Takeaways
+									1669 content list
+										1670 container
+											1671 text Leveraged Funds Are Max-Short (−43.81% Net OI) 
+Hedge funds hold a massive net short position (
+											1672 container
+												1673 text 2.25 M
+											1674 text  contracts).  This isn't necessarily a bearish economic call on higher yields; rather,  it reflects hedge funds selling overvalued futures while buying cash Treasuries and financing them in the repo market to capture tiny price discrepancies (the basis trade).
+										1675 container
+											1676 text Asset Managers Are Max-Long (+43.13% Net OI) 
+Institutional investors (pension funds,  insurers,  mutual funds) mirror the hedge funds on the buy side (
+											1677 container
+												1678 text 2.21 M
+											1679 text  contracts).  They are locking in real yields or using futures for efficient duration matching.
+										1680 container
+											1681 text Dealers Act as the Intermediary Buffer (−4.46% Net OI) 
+Dealers lean short on futures to balance residual flow,  facilitating liquid creation/redemption between cash and futures markets.
+									1682 heading What the Model Residual Indicates, Value: 3
+										1683 text What the Model Residual Indicates
+									1684 container
+										1685 text The supervised model predicted a net position of  −43.93%  vs.  the actual  −43.81% ,  leaving a tiny residual of  +0.12 percentage points .
+									1686 content list
+										1687 container
+											1688 text Baseline Alignment:  With 94% of historical absolute residuals being larger,  hedge fund positioning is almost perfectly in line with what prevailing macro and yield-curve factors would predict.
+										1689 container
+											1690 text No Shock De-leveraging:  Leveraged funds have not aggressively expanded or unwound their basis trade positions beyond what models expect.  The market is operating in a predictable steady state—for now.
+									1691 heading Market Risks & Vulnerabilities, Value: 3
+										1692 text Market Risks & Vulnerabilities
+									1693 container
+										1694 table
+											1695 row
+												1696 cell
+													1697 text Risk Factor
+												1698 cell
+													1699 text Impact on Market Dynamics
+											1700 row
+												1701 cell
+													1702 text Repo Market Stress
+												1703 cell
+													1704 text The hedge fund short relies on cheap repo financing. Any spike in repo rates reduces trade profitability, forcing funds to buy back futures quickly to close positions.
+											1705 row
+												1706 cell
+													1707 text Short-Squeeze Potential
+												1708 cell
+													1709 text Because hedge funds are short nearly 2.64 million contracts in gross terms, a sudden drop in Treasury yields (price surge) could trigger forced short covering, accelerating downward pressure on yields.
+											1710 row
+												1711 cell
+													1712 text Liquidity Fragility
+												1713 cell
+													1714 text High leverage behind the short side leaves market depth vulnerable to sudden volatility spikes, similar to the unwinds seen in March 2020.
+										1715 button More options
+								1716 button Redo
+								1717 button Copy
+								1718 button Humanize with Quillbot
+									1719 image
+								1720 button Show more options
+					81 container
+						82 container
+							83 pop up button (collapsed) Description: Upload & tools, Secondary Actions: Expand
+							1575 container
+								1576 text entry area (settable) Description: Enter a prompt for Gemini, Value: 
+
+									1732 text Ask Gemini
+							87 container
+								88 pop up button (collapsed) Description: Open mode picker, currently Gemini Auto, Secondary Actions: Expand
+								1722 container
+									1723 button Dictate (⌘⇧D)
+						1624 text Gemini is AI and can make mistakes.
+			1724 container
+				1725 button Convert chat to PDF
+					1726 image Convert chat to PDF
+					1727 text Convert chat to PDF
+					1728 text Open this chat in Acrobat
+				1729 link Upgrade
+					1730 link Upgrade
+						1731 text Upgrade
+		1733 text Copied to clipboard
+		104 container Notifications
+		1578 container
+			1579 container Click to open Quillbot
+			1580 container Open quick settings
+			1581 container Use AI
+	109 container grammarly-integration
+		1394 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 1717 button Copy

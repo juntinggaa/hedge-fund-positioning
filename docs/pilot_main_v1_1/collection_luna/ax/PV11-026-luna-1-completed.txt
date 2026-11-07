@@ -1,0 +1,143 @@
+Window: "Google Gemini", App: Google Chrome.
+0 standard window Google Gemini - Google Chrome – Tong, URL: gemini.google.com/app, Secondary Actions: Raise
+	1 container Google Gemini - Google Chrome – Tong, URL: gemini.google.com/app
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: gemini.google.com/app, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button Open Claude
+Has access to this site
+					13 pop-up button Extensions
+				14 button Tong
+				15 pop-up button Action required
+			16 container
+				17 scroll area
+					18 HTML content Google Gemini, URL: gemini.google.com/app
+						19 container
+							20 container
+								21 button Open sidebar
+								22 container Side navigation
+									23 container
+										24 container Main actions menu
+											25 link New chat, Value: gemini.google.com/app
+										26 container Additional actions menu
+											27 pop-up button Search chats
+											28 link Library, Value: gemini.google.com/library
+											29 link Images, Value: gemini.google.com/images
+											30 container Scheduled
+												31 link Scheduled, Value: gemini.google.com/scheduled
+											32 link Students, Value: gemini.google.com/students
+										33 link Google Account: Tong Jing Yen (jingyentong@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com
+										34 pop-up button Settings
+								35 container
+									36 container
+										37 heading Conversation with Gemini, Value: 1
+											38 text Conversation with Gemini
+										39 container
+											40 text Temporary chat
+											41 container
+												42 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+													43 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+												44 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 3 November 2020. All figures are numbers of contracts.
+												45 text Open interest (all contracts): 3,077,241
+												46 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+												47 text |---|---|---|---|---|---|
+												48 text | Dealer / Intermediary | 184,831 | 254,045 | 13,600 | -69,214 | -2.25% |
+												49 text | Asset Manager / Institutional | 1,294,482 | 1,093,048 | 594,378 | 201,434 | +6.55% |
+												50 text | Leveraged Funds | 317,487 | 565,227 | 62,759 | -247,740 | -8.05% |
+												51 text | Other Reportable | 242,382 | 107,170 | 780 | 135,212 | +4.39% |
+												52 text What does this positioning suggest about the Treasury market?
+												53 text Please answer without using web search.
+												54 button Expand
+											55 button Copy prompt
+											56 button Edit
+											57 container
+												58 heading Gemini said, Value: 6
+													59 text Gemini said
+												60 container
+													61 text This CFTC positioning report captures a classic institutional tug-of-war in the 10-Year U. S.  Treasury market right on U. S.  Election Day (November 3,  2020):  real-money institutions and commercial treasuries are positioned for duration and safe-haven protection (combined net long 336, 646 contracts,  or +10. 94% of open interest),  while speculative funds and primary dealers are positioned for higher yields and inventory hedging (combined net short 316, 954 contracts,  or -10. 30% of open interest). Positioning by Trader Category
+													62 content list
+														63 container
+															64 text Leveraged Funds:  Hedge funds and CTAs hold the largest net short in the market,  reflecting both tactical bets on higher post-election yields (the "reflation trade") and cash-futures basis arbitrage against long physical bonds.
+														65 container
+															66 text Asset Managers:  Real-money institutions (pensions,  mutual funds,  insurers) hold the largest net long,  using futures as a capital-efficient way to capture duration,  match long-term liabilities,  and hedge equity risk.
+														67 container
+															68 text Institutional Hedging & Spreading:  Despite their net long stance,  Asset Managers hold over 42% of all outright longs and 35. 5% of outright shorts,  plus 88. 5% of reportable spreading (671, 517 total),  showing heavy two-way hedging.
+														69 container
+															70 text Dealers / Intermediaries:  Primary dealers and bank desks are modestly net short,  typical of sell-side intermediaries shorting futures to hedge physical Treasury auction inventory or over-the-counter interest rate swap books.
+														71 container
+															72 text Other Reportables:  Corporate treasuries,  central banks,  and non-registered proprietary accounts carry the strongest directional skew (a 2. 26-to-1 long-to-short ratio),  reflecting pre-election rate locking and safe-haven demand.
+														73 container
+															74 text Implied Non-Reportables:  Subtracting reportable totals from open interest leaves small traders at 366, 542 long and 386, 234 short (net -19, 692,  or -0. 64% of open interest),  confirming that institutions control 88% of the market.
+													75 text Market Mechanics & Yield Implications
+													76 content list
+														77 container
+															78 text Cash-Futures Basis Ecosystem:  A large share of the divergence between Asset Manager longs and Leveraged Fund shorts is structural rather than purely directional:  real money buys futures to avoid balance-sheet constraints,  while hedge funds supply those futures against repo-financed cash Treasuries.
+														79 container
+															80 text Contained Net Extremes:  Because every category's net exposure sits within 8. 1% of total open interest,  positioning is clearly delineated but not at a disorderly extreme,  leaving ample dry powder for post-election repricing.
+														81 container
+															82 text Asymmetric Event Risk:  Concentrated speculative shorts create vulnerability to a short-covering squeeze (driving prices up and yields down) if election results temper fiscal stimulus expectations,  whereas a decisive reflationary breakout would validate hedge fund shorts and pressure real-money longs to increase hedges.
+												83 button Redo
+												84 button Copy
+												85 button Show more options
+										86 container
+											87 container
+												88 pop-up button Upload and tools
+												89 container
+													90 text entry area (settable) Enter a prompt for Gemini, Value: Ask Gemini
+
+														91 text Ask Gemini
+													92 text entry area (settable)
+												93 pop-up button Open mode picker, currently Argon High
+												94 container
+													95 button Dictate (⌘⇧D)
+										96 text Gemini is AI and can make mistakes.
+							97 text Evaluating institutional futures data
+							98 container Notifications
+			99 container Infobar Container
+				100 container Infobar
+					101 container
+						102 text 'ChatGPT' started debugging this browser
+						103 button Cancel
+					104 button Close
+			105 pop-up button Tab search
+			106 container
+				107 tab group
+					108 tab (selected, settable, boolean) Google Gemini - Memory usage - 704 MB, Value: on
+						109 button Close
+					110 tab (settable, boolean) Manage your Google One membership - Memory usage - 112 MB, Value: off
+						111 button Close
+					112 tab (settable, boolean) Settings - Memory usage - 461 MB, Value: off
+						113 button Close
+					114 tab (settable, boolean) Extensions - Memory usage - 37.3 MB, Value: off
+						115 button Close
+					116 tab (settable, boolean) Claude - Chrome Web Store - Memory usage - 258 MB, Value: off
+						117 button Close
+					118 tab (settable, boolean) Sign in - Claude - Memory usage - 239 MB, Value: off
+						119 button Close
+					120 tab (settable, boolean) Value: off, Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts. Open interest (all contracts): 3,934,302 Trader category Long Short Spreading Net Net as % of OI Dealer / Intermediary 211,953 227,582 41,198 -15,629 -0.40% Asset Manager / Institutional 1,458,078 1,409,497 788,616 48,581 +1.23% Leveraged Funds 853,740 498,222 99,743 355,518 +9.04% Other Reportab
+						121 button Close
+			122 button New tab
+			123 button Open Gemini in Chrome
+	124 close button
+	125 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	126 minimise button
+127 menu bar
+	128 Chrome
+	129 File
+	130 Edit
+	131 View
+	132 History
+	133 Bookmarks
+	134 Profiles
+	135 Tab
+	136 Window
+	137 Help
+
+The focused UI element is 90 text entry area (settable) Enter a prompt for Gemini, Value: Ask Gemini

@@ -1,0 +1,27 @@
+The report shows a very concentrated, mirror-image structure in 10-year note futures. The model says this week’s move was ordinary, not a signal of anything unusual.
+
+The level: two dominant, offsetting positions
+
+Asset managers were net long about 2.43 million contracts (+45.5% of open interest), and leveraged funds were net short about 2.42 million (−45.3%). These two groups almost exactly offset each other. Leveraged funds’ gross short alone was about 51% of all open interest. Dealers (−5.6%), other reportables (+3.1%) and non-reportables (about +119,500 contracts, implied by the remainder) are small by comparison. At $100,000 face per contract, the leveraged-fund net short is roughly $240 billion face equivalent in this one contract.
+
+This pattern is what the cash-futures basis trade typically looks like in CFTC data. Real-money investors get duration cheaply through long futures. Hedge funds take the other side by shorting futures against repo-financed long cash Treasuries. But the report cannot confirm that. The cash leg is invisible, so some of the leveraged-fund short could be outright duration bets, curve or relative-value trades, or hedges of positions in other tenors. The safe reading is that the futures data are consistent with a large basis-style position, not proof of one.
+
+What it suggests about the market
+
+The short isn’t necessarily a bearish rates view. If most of it is hedged against cash bonds, leveraged funds’ exposure is to the spread between cash and futures, not to yield direction. Asset managers’ long likewise reflects demand for duration more than a tactical bet.
+It is a market-structure and fragility point. Positioning this one-sided means a lot of Treasury demand depends on leveraged intermediation and repo funding. If funding costs jump, margins rise, or volatility spikes, a forced unwind could hurt market functioning. This is the concern regulators have repeatedly raised. The data show that this vulnerability existed in size, not that an unwind was likely.
+It doesn’t forecast yields. Nothing here indicates where 10-year yields were heading.
+
+The model output: an unremarkable week
+
+The residual of −1.40 percentage points means the week’s change in leveraged-fund positioning was a bit more negative than the model expected. That is about 0.7 times the model’s 2.07-point RMSE.
+Roughly 53% of earlier residuals were smaller in size, so this one sits near the middle of the historical distribution. It also falls inside the approximate 90% range.
+The model’s out-of-sample R² of about 10% means it explains only a modest share of week-to-week variation. The residual shouldn’t be read as “unexplained basis activity” or private information. The model’s own notes say it identifies neither.
+
+Caveats
+
+This is one contract. Leveraged-fund positions in 2-year, 5-year, ultra and bond futures would be needed for a fuller picture of their duration and basis exposure.
+This is a single, now-historical week (August 2025). The trend in positioning over surrounding weeks would say more than one snapshot.
+Without searching, I can’t tell you what happened to this positioning afterward.
+
+Bottom line: the market in mid-August 2025 was carrying a very large, crowded leveraged-fund short opposite real-money longs, which looks like basis-trade structure. That matters for funding and stability risk, not for yield direction. The weekly change itself was routine.

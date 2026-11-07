@@ -1,0 +1,144 @@
+- heading "Claude" [level=1]
+- main:
+  - status
+  - status
+  - toolbar "Page tools":
+    - button "Activity panel":
+      - generic: 
+  - status
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S." [level=3]'
+      - paragraph: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 2 September 2014. All figures are numbers of contracts.
+      - paragraph: "Open interest (all contracts): 2,721,411"
+      - paragraph:
+        - text: "| Trader category | Long | Short | Spreading | Net | Net as % of OI |"
+        - text: "|---|---|---|---|---|---|"
+        - text: "| Dealer / Intermediary | 109,994 | 239,264 | 36,698 | -129,270 | -4.75% |"
+        - text: "| Asset Manager / Institutional | 1,032,308 | 842,779 | 272,395 | 189,529 | +6.96% |"
+        - text: "| Leveraged Funds | 558,487 | 533,964 | 94,035 | 24,523 | +0.90% |"
+        - text: "| Other Reportable | 253,152 | 188,831 | 33,774 | 64,321 | +2.36% |"
+      - paragraph: "Output of a supervised model of leveraged-fund positioning (model v4.0):"
+      - list:
+        - listitem: "Expected net position this week: +4.88% of open interest (approximate 90% range based on earlier out-of-sample errors: +1.14% to +8.62%)."
+        - listitem: "Actual net position this week: +0.90% of open interest."
+        - listitem: "Residual (actual minus expected): -3.98 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 95% were smaller than this one and 5% were at least as large."
+      - paragraph: What does this positioning suggest about the Treasury market?
+      - paragraph: Please answer without using web search.
+      - generic: Message collapsed
+      - button "Show more":
+        - generic: Show more
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: Short answer: not much about direction." [level=3]'
+      - generic: Weighing the roll timing against the model miss
+      - button "Weighing the roll timing against the model miss":
+        - generic: 
+      - status: Weighing the roll timing against the model miss
+      - paragraph:
+        - strong: "Short answer:"
+        - text: not much about direction. The leveraged-fund number is a moderately unusual miss against the model, but one week of positioning, measured near a contract roll, can’t support a reliable call on where Treasuries are headed. It’s better treated as a prompt to look at the data more closely.
+      - heading "What the positioning shows" [level=3]
+      - paragraph: I checked the arithmetic and the nets and percentages are correct.
+      - list:
+        - strong: Asset managers are the main net longs (+7.0% of OI).
+        - text: This is the usual pattern. Pension funds, insurers and bond funds often use futures to add duration, so a large net long here reflects how they manage portfolios more than a bet on rates.
+        - strong: Dealers are net short (−4.75%).
+        - text: They mostly take the other side of client flow, so this doesn’t suggest a dealer view on rates.
+        - strong: Leveraged funds are close to flat (+0.9%)
+        - text: ", but that small net comes from very large gross positions: about 558k long against 534k short. The net is a small difference between two big numbers, so modest changes on either side move it a lot."
+        - strong: Non-reportable traders are net short.
+        - text: The four reportable groups add up to a net long of about 149,100 contracts, so small traders must be net short by that amount, roughly −5.5% of OI.
+      - heading "How unusual the residual is" [level=3]
+      - paragraph:
+        - text: The model expected +4.88% and the actual figure was +0.90%. That gap of −3.98 points equals about
+        - strong: 108,000 contracts, or roughly $10.8bn face value
+        - text: of 10-year note futures.
+      - list:
+        - listitem: The actual value falls just outside the 90% range, consistent with only about 5% of past absolute errors being this large.
+        - text: If errors are roughly symmetric, a miss this large
+        - emphasis: on the downside
+        - text: happens about 2.5% of the time.
+        - listitem: If you check the model every week, you should expect a miss like this about once every 20 weeks. It is notable, but not strong evidence that something has changed.
+      - heading "Possible explanations" [level=3]
+      - list:
+        - strong: Contract roll timing.
+        - text: 2 September 2014 came just after first notice day for the September contract, when positions were moving from September to December. Open interest, spreading positions and nets can all be distorted then. If model v4.0 doesn’t account for roll weeks, this is the first thing I’d check.
+        - strong: Relative-value trades, not a directional view.
+        - text: Hedge funds often sell futures against long cash Treasuries (the basis trade). More of that activity would lower their net futures position without any change in their outlook on rates. The futures data alone can’t tell these cases apart.
+        - strong: Taking profit after the rally.
+        - text: Ten-year yields had fallen a long way during 2014, from about 3% in January to around the mid-2.3s by late August. A smaller-than-expected net long fits with funds banking gains or reducing risk. Some readers would see that as a contrarian bearish sign for bonds. The evidence for that kind of signal is mixed, and one week is weak support for it.
+      - heading "What I’d check next" [level=3]
+      - list:
+        - strong: The change from the prior weeks.
+        - text: Was the long side cut, or the short side added? The table gives levels, not changes.
+        - strong: Whether the model has missed in roll weeks before.
+        - strong: Whether the residual persists over the following 2–4 weeks.
+        - text: A repeated miss means much more than a single one.
+        - strong: Other contracts (2-year, 5-year, bond, Ultra).
+        - text: If leveraged funds moved positions along the curve, this could be a curve trade rather than a change in overall duration.
+      - paragraph: Taken together, hedge funds were less long 10-year futures than the model expected. That’s worth investigating, but the most likely explanations are roll timing and relative-value positioning rather than a clear bearish turn.
+      - group "Suggested actions":
+        - button "Create a Word document":
+          - generic: 
+          - text: Create a Word document
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button "Scroll to bottom":
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - document
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note: No history, memory, or Claude training.
+  - 'button "Model: Opus 5.5 High"':
+    - generic: Opus 5.5
+    - generic: High
+  - button "Auto":
+    - generic: Auto
+  - status: Claude finished the response
+  - complementary
+  - status
+- generic: Incognito
+- button "Exit incognito":
+  - generic: 
+- status
+- status
+- region "Notifications"
+- generic "Click to open Quillbot"
+- generic "Open quick settings":
+- generic "Use AI"

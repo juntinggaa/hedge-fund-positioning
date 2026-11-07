@@ -1,0 +1,286 @@
+set,assignment_id,kind,source,sha256
+GPT,GPT-001,reply,docs/main_v1_3/main prompt outputs/GPT-001.txt,b48082df56f5ce2860e1981ede18ff5d651ed9afda22c579f31220a7e140546f
+GPT,GPT-002,reply,docs/main_v1_3/main prompt outputs/GPT-002.txt,827d2674e04a0d6d0483cf024b2cb8b284cffef334590247e6419899b15f3ecf
+GPT,GPT-003,reply,docs/main_v1_3/main prompt outputs/GPT-003.txt,6d017023153be5bc4879444314d484f0139bdbb14d6c015713defd39514357ab
+GPT,GPT-004,reply,docs/main_v1_3/main prompt outputs/GPT-004.txt,f71977c450514e83b6139bc9deda4841d7ba031b4ca5c3a5fcdb5e7c7b76db6f
+GPT,GPT-005,reply,docs/main_v1_3/main prompt outputs/GPT-005.txt,55131334a05cf6134c8155fcb20c22d53b0de6a1493bb02732833fbb94aae941
+GPT,GPT-006,reply,docs/main_v1_3/main prompt outputs/GPT-006.txt,0e38830fd7b07095a719950884ca798729dadbbbf002e67cb34ae4c3b1be4436
+GPT,GPT-007,reply,docs/main_v1_3/main prompt outputs/GPT-007.txt,9215c8a99a66d1e5f2fe43d006e7378ab4b5475aae8b58c6cfdd1c4ae6c76fc9
+GPT,GPT-008,reply,docs/main_v1_3/main prompt outputs/GPT-008.txt,450b58918ff1b7a6bce735298a722aa3617fc6d258b484d9298ccf752b0632e0
+GPT,GPT-009,reply,docs/main_v1_3/main prompt outputs/GPT-009.txt,ecad4713372b3fb2e2734befdf5d38e9fc8ff35dbf50cd4071f5a1094a6dff5d
+GPT,GPT-010,reply,docs/main_v1_3/main prompt outputs/GPT-010.txt,3865269ee61f65bffc1e74a864d964cd7328030ada9be383212b8128defccc15
+GPT,GPT-011,reply,docs/main_v1_3/main prompt outputs/GPT-011.txt,7995001809c2b6a54a4bafc686c37f5d2bc861b90dc0bb541c79d38fdb48f4c3
+GPT,GPT-011,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/GPT/GPT-011/GPT-011.png,96632a24f1b8b79e4304e9f372a8fc639234f4c29229e5b60a38f084bbf82b8f
+GPT,GPT-012,reply,docs/main_v1_3/main prompt outputs/GPT-012.txt,b3127584563cb24d9f163f3f248d12ce6510163830da3a242fd409a004e179c6
+GPT,GPT-012,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/GPT/GPT-012_a5/GPT-012_a5.png,b09fff20b99ee1df53268a75937623b2005c4dae5bd81dcabe3e44a8ed62676a
+GPT,GPT-013,reply,docs/main_v1_3/main prompt outputs/GPT-013.txt,07dae0ebc8c872e65340021bdfb2962d4b080b8ea3322c386a009f42afdc26c9
+GPT,GPT-013,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/GPT/GPT-013_a1/GPT-013_a1.png,bccfabf7bd74c6e27f01c53f506fce7a5398a219e13b55cac64ca5139c7d7c6d
+GPT,GPT-014,reply,docs/main_v1_3/main prompt outputs/GPT-014.txt,17b0ff344e0128b41903a3f48765f2238cb7a43fe0992cebea3033b5143587aa
+GPT,GPT-014,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/GPT/GPT-014_a4/GPT-014_a4.png,7a08ff78c0f0bb6117b3c15632f6eda9bfa63a6c4608dc7d25f52d84bf730496
+GPT,GPT-015,reply,docs/main_v1_3/main prompt outputs/GPT-015.txt,0177e1b724d01567894c0ad24a4166b6f72e8ac3ac015fdeb3f3243c4fefbfdf
+GPT,GPT-015,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/GPT/GPT-015_a1/GPT-015_a1.png,1fd25cc83b83afce80dae1c0571da0f316a994c5e8f99b88cae9a80d792de7e7
+GPT,GPT-016,reply,docs/main_v1_3/main prompt outputs/GPT-016.txt,9184f43c964dd5fcb3b8c483fb0063caf66095b3d748e9c6de0f363395a1bd79
+GPT,GPT-016,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/GPT/GPT-016_a1/GPT-016_a1.jpg,a5c41598082e58466dc4543a36ee75d45d60911b0f8537a6c5e8dce39224b9e5
+GPT,GPT-017,reply,docs/main_v1_3/main prompt outputs/GPT-017.txt,09e910f72e3a2641145d4bc8de9e1fcdabb0a6f6ae07ed2c64cd32a16a6a7416
+GPT,GPT-017,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/GPT/GPT-017_a1/GPT-017_a1.jpg,a0b9b7762feca90b067f807d0500e87d984409403ce6fd46c2a38e535ac4d20b
+GPT,GPT-018,reply,docs/main_v1_3/main prompt outputs/GPT-018.txt,983a14c44dfc6fad6a70b44efd8e58409588207f1109a9db7a05f9d5f3ff3062
+GPT,GPT-018,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-018.png,5fca234190e74b916dccfd7bbd83de0fa62952016ee94454375dd9ad50685e62
+GPT,GPT-019,reply,docs/main_v1_3/main prompt outputs/GPT-019.txt,0a337f076f3a2445b9998ea6ee87ff5bbddfc35c7e8e12f2e4458e519e39ab07
+GPT,GPT-019,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-019.png,548c62cb5a8896d9b593e12575ce81fb1143b444d32e1d5cc9f0690b471224af
+GPT,GPT-020,reply,docs/main_v1_3/main prompt outputs/GPT-020.txt,f57bda820e381e0b28f03856593855ca1748e5df6aabffcad482a3f137a25950
+GPT,GPT-020,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-020.png,2b5b4da022c167de7a8536837e343fd50857f1b45a1fd2f3467ba37840e8038b
+GPT,GPT-021,reply,docs/main_v1_3/main prompt outputs/GPT-021.txt,7ab08f5d9c36ab29e4c97a0b5fb19b3bdca4cdd8709f5eef9fa3591736953c82
+GPT,GPT-021,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-021.png,16dad26d856c84b54f628b714c4e47762ea647be5b73d111d1f881e5b691d175
+GPT,GPT-022,reply,docs/main_v1_3/main prompt outputs/GPT-022.txt,04ad3a7fabb447b116858bf702a1e8aa97ab79f5fbaeeaec91815383a098cd84
+GPT,GPT-022,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-022.png,a5b1b2b00569170845a5041ad6123ce5e1cdebb9f2e19820c0828d50f511b3f2
+GPT,GPT-023,reply,docs/main_v1_3/main prompt outputs/GPT-023.txt,e44b14dc81376c8c258c5a49f92d964ed6591c75e143ee25a6fb953fd16b3f3a
+GPT,GPT-023,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-023.png,667f534c8fe38c5d2c1b258c5c53c1e567211d59297794e606e02e71e9f30861
+GPT,GPT-024,reply,docs/main_v1_3/main prompt outputs/GPT-024.txt,1fca4cfe30bd5e84f0febe143dc91b69a7e0d629f942bbdd8d36c1875209e54c
+GPT,GPT-024,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-024.png,d466d8353516c741275ec5ee3340679031ccd94bc0b8bcbcb0c7c5bbab1042eb
+GPT,GPT-025,reply,docs/main_v1_3/main prompt outputs/GPT-025.txt,917b60e4021606ab5afcee785b136d22ca65a6f6561cedf0adf3a9bf4e9b2b82
+GPT,GPT-025,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-025.png,070ff82c69f126c624d61fee34a6c5a2ccd1e25c9b67f8ae49dc2a676fa1eb64
+GPT,GPT-026,reply,docs/main_v1_3/main prompt outputs/GPT-026.txt,2e48ca4bb4c1f4ea7979961b79a005932ef854ba1512f1b36ab3aea4243161db
+GPT,GPT-026,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-026.png,82f5a49fcec65702915e6084993fc3340394a432eee9499f54fa108ca119f863
+GPT,GPT-027,reply,docs/main_v1_3/main prompt outputs/GPT-027.txt,3506abacdf533e5ee263d968f3eede078bfe9e5465f0295a7d11b8cc47697db9
+GPT,GPT-027,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-027.png,c7630f03e34c2958ee77287eda03370cc86adb05d6b2f9318deaf2b33acb66ef
+GPT,GPT-028,reply,docs/main_v1_3/main prompt outputs/GPT-028.txt,86de043becf48660af2672a0af90955c75708fbf5bc10e47d6b61d7e40e578c0
+GPT,GPT-028,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-028_a2.png,57609dc1312e99d7e439a3a4a295304b1f16d3657a11ecdad64de8483613490a
+GPT,GPT-029,reply,docs/main_v1_3/main prompt outputs/GPT-029.txt,75386a8aea66ccbf37b37ec25a9e1bcb20102c3875751bac9ff62bd9e0c8a361
+GPT,GPT-029,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-029.png,ce70edd28493f1ecc53999052c9a3c8de282a60ceca06006fa27395f154cd704
+GPT,GPT-030,reply,docs/main_v1_3/main prompt outputs/GPT-030.txt,8f459b711dab96b1ca0ba351ef2c40913e358fd7b52531d13d96dad53d729da4
+GPT,GPT-030,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-030.png,4d0aafae889b6d64b1a1b29c991e561a883022fb6105bf6006bcb7ff1cdb4d6b
+GPT,GPT-031,reply,docs/main_v1_3/main prompt outputs/GPT-031.txt,6ea219abdc4e9475f4850db2463aa29e80ec874786b4de06d3be86770dcc91ac
+GPT,GPT-031,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-031.png,baf6260db5450a027859e0411d8cf71d7bd0b1397ec1bedc8aba9450eabfd60e
+GPT,GPT-032,reply,docs/main_v1_3/main prompt outputs/GPT-032.txt,86e3fe442842a45e34b6bd6d2c16a4a1e6629593857ee203dc76323953b3013d
+GPT,GPT-032,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-032.png,21de0bac11d5aed776e062d19ec39c480b6ef6ca2a9b78993d0c9bd6a5f7fdd8
+GPT,GPT-033,reply,docs/main_v1_3/main prompt outputs/GPT-033.txt,a560469d82dc111903122cd8c36e4a30912dd72d9dad64403f4e9fefffca5f00
+GPT,GPT-033,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-033.png,ca8355d1a32d19455f6d3cf0bf399acd20d0a6b44ee07f2602276a9f0c7570c1
+GPT,GPT-034,reply,docs/main_v1_3/main prompt outputs/GPT-034.txt,13b262f38d1487170463ecdc090061a8d5ae73fdc55d9ca56542061b48b5d695
+GPT,GPT-034,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-034.png,90f8178e3bc6abc57069ad26548a3990edf46c44b44ef6e93c888b72f1ab6a4c
+GPT,GPT-035,reply,docs/main_v1_3/main prompt outputs/GPT-035.txt,20061f9c4ae2755900e27feb8dfe313534c2c86cb31df9a3f36ecfadab6875d0
+GPT,GPT-035,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-035.png,a8e3bde787a1e8f481ff5b93b6abec7a6d13549c6655a903262f7cde05cb295a
+GPT,GPT-036,reply,docs/main_v1_3/main prompt outputs/GPT-036.txt,da98509f0eddc63025baf87217c7ca4e0b73c8b0219b86d1e9179ecd95d69afc
+GPT,GPT-036,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-036.png,24bd76f1e40c2d72d348b876bce28dd0e1df02a9e9df1a3799e274b88d3ef4fb
+GPT,GPT-037,reply,docs/main_v1_3/main prompt outputs/GPT-037.txt,034e36fcb7fe95abf45bb176c2e34d6185f5c9c0abfea0559517cf2e943d0168
+GPT,GPT-037,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-037.png,1a3fe5e724263f2ce66ab72f41210ba4c2974e3e75c81d5748a39f842d0ea1f1
+GPT,GPT-038,reply,docs/main_v1_3/main prompt outputs/GPT-038.txt,68ed6c1841f9a25f9647e6b7492fcc0b877512120f7bf10a655d6bac1474f74f
+GPT,GPT-039,reply,docs/main_v1_3/main prompt outputs/GPT-039.txt,c2af270f4204112eef1b1ac4c30b21d5761261574e2559423c0da618d93b30fe
+GPT,GPT-039,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-039.png,3f6e414e0776d42bfbfdd27b17acadabedd76337d4db542fe3796604a16b857c
+GPT,GPT-040,reply,docs/main_v1_3/main prompt outputs/GPT-040.txt,b1a1c43ee49e1256f240499082ad521204d3918a818b7dac31c860b9a8e4f29c
+GPT,GPT-040,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-040.png,3ae9a6f832526acd43a35e38cf271aef96fcf0076d7cbf7c3a3c5fb8c02de6d3
+GPT,GPT-041,reply,docs/main_v1_3/main prompt outputs/GPT-041.txt,cf01b181b702f804e31eee71dff7d19af66a94199643ff68603836d4b9d499e4
+GPT,GPT-041,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-041.png,4c445caea7e441c8cc834d240af97552fb9cee9d4e0f204dcec7fe6b0d7d220f
+GPT,GPT-042,reply,docs/main_v1_3/main prompt outputs/GPT-042.txt,f465122d3bb06e846a6be1425ddbeaa0f0c4a8f83155b822c450da49e30815ba
+GPT,GPT-042,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-042.png,b69a295928b77950bbb103451b7518ea5414532d7fcc68f51279f3fa3e0dfa94
+GPT,GPT-043,reply,docs/main_v1_3/main prompt outputs/GPT-043.txt,66205341e002c3616073515d8dbf76edadd2aecbf06b57c3df5d23bbf55c114d
+GPT,GPT-043,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-043.png,205cf577f4b4ede2a297040734ea3bfcd199da722bcd2caa874b40f80e157d86
+GPT,GPT-044,reply,docs/main_v1_3/main prompt outputs/GPT-044.txt,786a77aa29a77a52c9b38361aca6f1dc120de1693cee55e146af8595658ee699
+GPT,GPT-044,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-044.png,5dc198c03fe68ccd45881ddebbcacf0002d8ff2cf19c7ff04ad1970e3f133d21
+GPT,GPT-045,reply,docs/main_v1_3/main prompt outputs/GPT-045.txt,0952b7b7684c759e43fe258e08c47fcdb658f2320d9d8a23bc9577a82c7bb17a
+GPT,GPT-045,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-045.png,c5276122fdc21e21acd5d03fac3c88166e4e8aa694c1d3a44991752edfab790b
+GPT,GPT-046,reply,docs/main_v1_3/main prompt outputs/GPT-046.txt,0178c409015ff8efb675a5032e80d13cdafac8217e6d7844724c40a255170a54
+GPT,GPT-046,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-046.png,9aee6b7692c757cdb6dbb4d71890d67b76af908b1ffba64c540856a408e0a4e0
+GPT,GPT-047,reply,docs/main_v1_3/main prompt outputs/GPT-047.txt,bc616d89577c2ec829ccf92d75a2f8c01656576df0fdd894490b304a14f168a1
+GPT,GPT-047,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-047.png,4232223f4e8a133bef170cd750eb2b8783668c7864d1b83daffeaf3a54dc4e93
+GPT,GPT-048,reply,docs/main_v1_3/main prompt outputs/GPT-048.txt,6a05dde78994c0026e1bd71c9cc8f9b65a414fa8e03582ee773a38a0f912ad74
+GPT,GPT-048,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-048.png,0990c46cc5d99e660e405212699f3ecc924ba29cd8cd835f7e79bf255850da95
+GPT,GPT-049,reply,docs/main_v1_3/main prompt outputs/GPT-049.txt,18dd35751e93a57e4668db3ce0b454c69ad13ffff13926b910ca2fae4e42db62
+GPT,GPT-049,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-049.png,6426248ad921ff7ff1e72e5b3e2d1b1fcb4e2ecedeab7411c82f2118e47a39c3
+GPT,GPT-050,reply,docs/main_v1_3/main prompt outputs/GPT-050.txt,4aa1c0e7ef820e1f204992701f62ba2667f56cdd72f89c98d238031b923baabc
+GPT,GPT-050,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-050.png,f48533018f1f6e26cf2e11e1f4d54b41237847e988c3859e856eaefd058c3f94
+GPT,GPT-051,reply,docs/main_v1_3/main prompt outputs/GPT-051.txt,31e1b284d3c201af8e63cf1fbf678abc1737aeb56be756004b230b1b37513dec
+GPT,GPT-051,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-051.png,2ea09bdd9d68e16d2416ed4ca01527774eb0e5c1e061ad381db08a2cf8c03061
+GPT,GPT-052,reply,docs/main_v1_3/main prompt outputs/GPT-052.txt,f195b2a99be78c7b523da81ccd2f99d2e78e7457411f3b52587d947288ba144a
+GPT,GPT-052,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-052.png,9b3dfec9adf20f846d1f569d8273f52d340c6549a20b90db085bef07f99b1e5c
+GPT,GPT-053,reply,docs/main_v1_3/main prompt outputs/GPT-053.txt,42cc86151367a12d5c738fefab9929968d2f2ad563ab3c81bb3d282d9b12485b
+GPT,GPT-053,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-053.png,fd1e8956e045579aa30e210d54dd9d87e61c8f757e121c50ed84075272bb3d0c
+GPT,GPT-054,reply,docs/main_v1_3/main prompt outputs/GPT-054.txt,25ac96032458cc560c1d7dace2b97a6592ca07531cb01e4d4e3acd8bd2702b7c
+GPT,GPT-054,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-054.png,ee5fc0509d36791120cab1a9f39990db7856583bb3cc193fdbb9ba86b5508bb3
+GPT,GPT-055,reply,docs/main_v1_3/main prompt outputs/GPT-055.txt,e9a0b283bd7387cf3f176b0e6a209a6c9087906e5fbd54e88f4da52beb75b8e8
+GPT,GPT-055,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-055.png,06825a812ca579b0afdee09bd8244b18d62fa02a1e2217048bfa089741772811
+GPT,GPT-056,reply,docs/main_v1_3/main prompt outputs/GPT-056.txt,cb45d2ed57d3d5d054d34711a50220a915e029e861488e4dff49d6837d2b39d3
+GPT,GPT-056,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-056.png,9ef7dee6655c34962011f16da340d696fa0a85144ed831a048e3e34c79a79b61
+GPT,GPT-057,reply,docs/main_v1_3/main prompt outputs/GPT-057.txt,ffacfe177b907bbdad3efeb903e3c08663503691548e43aee51eba69a1f43d38
+GPT,GPT-057,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-057.png,6c45e615b67ec0c053d6b578d56699b2425e96a5f59a1623e84766405bc76629
+GPT,GPT-058,reply,docs/main_v1_3/main prompt outputs/GPT-058.txt,bef249d459c7575fdefbba902c35c807e53011a94ff1a8d41741db1394d27f3f
+GPT,GPT-058,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-058.png,64d560fccb014bdd9b652bea9d094c0eb7dee01ae42a87ccd7aadd826a0d3019
+GPT,GPT-059,reply,docs/main_v1_3/main prompt outputs/GPT-059.txt,a9485e2af21924d446b3d9d61721f0fa813a37da118e894d908d90f1cff46e57
+GPT,GPT-059,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-059.png,0b25b960529e4b81eb7e6408aa9b346463607beae99964a8818630df2f344b35
+GPT,GPT-060,reply,docs/main_v1_3/main prompt outputs/GPT-060.txt,f28aeb93e8889bc9a7fc307f4594f5668ee02c1a0d6ec67f6667dd23c6a4e5ef
+GPT,GPT-060,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/GPT-060.png,a6f1dd75e7bb485af970c6e59aa51e7b9a0943eeeb965404af06a9c3e89d242e
+CLA,CLA-001,reply,docs/main_v1_3/main prompt outputs/CLA-001.txt,9017cd4a97cfbd6399f2a96e5d12df7b6c230f8d9a521c18177dd286a9282f72
+CLA,CLA-002,reply,docs/main_v1_3/main prompt outputs/CLA-002.txt,fdf2bbab6372bc11301f9dd9cd28b0401ccd93acaeb11299ff7071b296790411
+CLA,CLA-003,reply,docs/main_v1_3/main prompt outputs/CLA-003.txt,4b31521367d42c2cd1bf70467ddecbcd627946a593d59a8bb8b5e639ef217d11
+CLA,CLA-004,reply,docs/main_v1_3/main prompt outputs/CLA-004.txt,142558a59c5282978d8b61917d59c00f6f1d3624e3ddc9185a4f5b987f56de81
+CLA,CLA-005,reply,docs/main_v1_3/main prompt outputs/CLA-005.txt,d30b8084a8c0d2672977b381d8453cde8b6e5ec175c15265d729acfc3e2af432
+CLA,CLA-006,reply,docs/main_v1_3/main prompt outputs/CLA-006.txt,84cb382d111c0d9e5929b573a09d7ac75e14d121117bf80d44081a65727ae0b5
+CLA,CLA-007,reply,docs/main_v1_3/main prompt outputs/CLA-007.txt,fe3f5590946d63ac597c6e0044e3ca4f4d59a2d993679251ffb43702ca3f6f8f
+CLA,CLA-008,reply,docs/main_v1_3/main prompt outputs/CLA-008.txt,88d032d7dbd91c58a2a15c8552e0c79de975eb9505d5e93b15162a1518d6be76
+CLA,CLA-008,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/CLA-008.png,76fbeda1daaef7aad901943193f01390872ecf28cb3eb5a3c06b1465d04160d4
+CLA,CLA-009,reply,docs/main_v1_3/main prompt outputs/CLA-009.txt,ed96a8918c7b25fd1051353bd5bb2d68ed6b9308f9e8b075b69ea283162c4594
+CLA,CLA-010,reply,docs/main_v1_3/main prompt outputs/CLA-010.txt,3d21c919286115d91c44c507ea16b39626ecf9dbffcb7f5daf53f9e6aa066e4f
+CLA,CLA-011,reply,docs/main_v1_3/main prompt outputs/CLA-011.txt,5c0f76b298260f414e032dc5243e2b8ac18b75c0345e2d74dae5fa1f59ca44ae
+CLA,CLA-012,reply,docs/main_v1_3/main prompt outputs/CLA-012.txt,86478f2c0a5c8747b90f49200b2e7b4a88e88409e5b95185509d31ed6a52dec1
+CLA,CLA-012,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-012/CLA-012.png,883e42dfd92e99ce890debc1cd55458f02424e91a831ed82c76cc952acd05158
+CLA,CLA-013,reply,docs/main_v1_3/main prompt outputs/CLA-013.txt,370deed7d3c33eda5843520569a1f85f5da3fdf9c3529b27005be4b952802642
+CLA,CLA-013,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-013/CLA-013.png,df8836cfc30e353ab312505d6e27431afa2135ff337a8184b7aa4c517d29b068
+CLA,CLA-014,reply,docs/main_v1_3/main prompt outputs/CLA-014.txt,daf53f91c2a5cd0ac5f5b09b7a77f2519ca16dd88a8adb00391d1a9e227b20a0
+CLA,CLA-014,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-014/CLA-014.png,5c08134cdd2f9ee574265d3120c9f4df82eec1d60faaac85050ddcfaeb3bff5a
+CLA,CLA-015,reply,docs/main_v1_3/main prompt outputs/CLA-015.txt,088a2f7a021da40fdbcabb0bd54eb35370a857c7cdab5f0c35fe12be6f8146c6
+CLA,CLA-015,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-015/CLA-015.png,97915cab001a12218b21822252d7543c71f33d51850f4867173d253172bfaa62
+CLA,CLA-016,reply,docs/main_v1_3/main prompt outputs/CLA-016.txt,49e1e0ec6c3c30a86b585daf10fffd024680e50ef7bd4af43adf96a13c817a06
+CLA,CLA-016,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-016/CLA-016.png,113f8221fd70ccb054cd6e262c99f5949197da03cff8c3b1cbb26aace34631db
+CLA,CLA-017,reply,docs/main_v1_3/main prompt outputs/CLA-017.txt,1cda8aacc27df1c3a020e801bdb525259a436e01d513ebf92558fe6c82350b7d
+CLA,CLA-017,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-017/CLA-017.png,fb832ef1f495032f3a6ddca37fcfccadc2e21497dd7b3a82324b5d91036c91c9
+CLA,CLA-018,reply,docs/main_v1_3/main prompt outputs/CLA-018.txt,cad68f1c618f447edd74952f82364538f2c066b100ce17fd658608a3dfb523c2
+CLA,CLA-018,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-018/CLA-018.png,4fe3f01ec2bec6d4fe7b3ded102f1bb1f8efa9cb8380e5d581bf00de5fc8f40b
+CLA,CLA-019,reply,docs/main_v1_3/main prompt outputs/CLA-019.txt,1df1cf0250d93bdc19af6ec62dd896d9e816432fe7a275db1d1c08c539f22f08
+CLA,CLA-019,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-019/CLA-019.png,f7c20715e0d286754ae64e300073116fa7a550de07aafe59e7a8acaf3aa77f81
+CLA,CLA-020,reply,docs/main_v1_3/main prompt outputs/CLA-020.txt,c323d571959ab060fcd24b22bc2f0db77775dcde9d9701513c49d46389f51d5d
+CLA,CLA-020,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-020/CLA-020.png,8644d3bb2d939473ca907321571f17779bba4e62471f76514605e776b0edc485
+CLA,CLA-021,reply,docs/main_v1_3/main prompt outputs/CLA-021.txt,a5060a5bb879ed28262aa656677518906c1ef3a7579dbae65e5d23b1b5aa3a82
+CLA,CLA-021,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-021/CLA-021.png,b0c6cfdeab57adea5bfd669acb19ac75d97adb687d904989d13c0f7aa113effb
+CLA,CLA-022,reply,docs/main_v1_3/main prompt outputs/CLA-022.txt,ad63ce182d94db550dbd934947c4dd34d6949ea02d540d5585f2903da3dfd9bc
+CLA,CLA-022,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-022/CLA-022.png,83a6bd958fcf28453d60614662d4a4f323e022d39a984900d287268b5d11dc69
+CLA,CLA-023,reply,docs/main_v1_3/main prompt outputs/CLA-023.txt,1c421c4c3e857cdb2e013b1b4aa81e502ff10ae07be81eaf2ed09d122314009f
+CLA,CLA-023,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-023/CLA-023.png,a1165f6abe9ec938961bbed856849207371adc7fac79dcf571b839ebd8c610e9
+CLA,CLA-024,reply,docs/main_v1_3/main prompt outputs/CLA-024.txt,ce29d31be59993d5aad101955a63c01ff8b79de341a7a8da69a6650b2b50beb1
+CLA,CLA-024,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-024/CLA-024.png,cf38f611e51f80e8402d02205ac53d6fac36cb010154b2c50e9eaec4167b8a40
+CLA,CLA-025,reply,docs/main_v1_3/main prompt outputs/CLA-025.txt,0f879c2e4519f745e0c81299f67b265c1a246d4f94bbd35ab1e2004f3c405b11
+CLA,CLA-025,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-025/CLA-025.png,5e9ffa2ddc98752797a5ba38374b88ab1787bd297a012244e29d8dcbc0315f1f
+CLA,CLA-026,reply,docs/main_v1_3/main prompt outputs/CLA-026.txt,899f26e44927b4532e56c82babad6bb8cc6511192b32e42d8e139822b9a4d0ca
+CLA,CLA-026,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-026/CLA-026.png,cda10107993a2cb9eac1be6c9ae74020074e7ec9ad26f499c6880946ff2ff827
+CLA,CLA-027,reply,docs/main_v1_3/main prompt outputs/CLA-027.txt,83ba4c884c8852a4c790d86ab2fca98b9af55a1d57c445d8dc8e6466f39629f2
+CLA,CLA-027,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-027/CLA-027.png,b293bffbf999bd5127f64cce34c4e80bc228fd9eadb2f8138d75627070f42473
+CLA,CLA-028,reply,docs/main_v1_3/main prompt outputs/CLA-028.txt,40c7a54e8d5c32a3a6826b40ec5bdfec932d7afb606bdfdb1ed152a2f6b05cc1
+CLA,CLA-028,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-028/CLA-028.png,9455dd8293532995be5452125b176c9e31f2e0d71c4d998d1bf0939b39163483
+CLA,CLA-029,reply,docs/main_v1_3/main prompt outputs/CLA-029.txt,a33b79fa46219def82a94df5dcfb528d62c8cbefb0a04d2c8c777e7eb7a21e20
+CLA,CLA-029,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-029/CLA-029.png,aa05aa52d84ed742df398e84f88bdcf6101f1423b091607d5e1e8553796a1dca
+CLA,CLA-030,reply,docs/main_v1_3/main prompt outputs/CLA-030.txt,7df559d03b98b7fb105c723caebea3c4a32d2de195a9032650633623d89b318c
+CLA,CLA-030,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-030/CLA-030.png,61981a69ecfbdd89c5969910f1a5afc81b2aca25c12d0fc85fd32f557ce43cba
+CLA,CLA-031,reply,docs/main_v1_3/main prompt outputs/CLA-031.txt,539dce0de4d98ea8fdd0fb50d99a299a74e9be64d5de3c4cfd805b9f6b564f34
+CLA,CLA-031,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-031/CLA-031.png,0f7d86d0d1097f78bab4b290bc1dc05584d16e9915f313a621c388cf6bc053d0
+CLA,CLA-032,reply,docs/main_v1_3/main prompt outputs/CLA-032.txt,aa258396cd540dbd3530f28846d1b71c9984f213533b56ec5456e1a06419942d
+CLA,CLA-032,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-032/CLA-032.png,7ec058b5ebe196a5586d599f32f594523624b407bb9015ff662a6c0a4e4b747a
+CLA,CLA-033,reply,docs/main_v1_3/main prompt outputs/CLA-033.txt,1da0dfc4f079b8532c87362a6dc078115c911645aa2781b3afdbf36348124654
+CLA,CLA-033,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-033/CLA-033.png,956c3d315665ed557bca9e93966125c3d86d7855d9113ec7926f830d346962a8
+CLA,CLA-034,reply,docs/main_v1_3/main prompt outputs/CLA-034.txt,4ab0dda6f16775b308de6deb73f32bc388df87df28fe909ed4e84a6641f7f9f0
+CLA,CLA-035,reply,docs/main_v1_3/main prompt outputs/CLA-035.txt,eeb9539590efaad12def30834b1c2bf2d37bc54e478afa863a8002c773828e68
+CLA,CLA-035,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-035_a2/CLA-035_a2.png,0ab1a4ff2275a3a2ab278486d151ada14abc07cfe47f37b58c9700e20de29baf
+CLA,CLA-036,reply,docs/main_v1_3/main prompt outputs/CLA-036.txt,6eef56a79f953135951432eb55fd2fdacbf90bc08e816d485ca265b2647c7ddd
+CLA,CLA-036,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-036/CLA-036.png,e899dbd62e5b6c29dd06dc1cab081a2e78c6be8ae32ee629e5de7f4a2df326d9
+CLA,CLA-037,reply,docs/main_v1_3/main prompt outputs/CLA-037.txt,8d09e541ba968c21d56f6fb2572670c31eaeec2c0f057d3d338c9f5d578cfc34
+CLA,CLA-038,reply,docs/main_v1_3/main prompt outputs/CLA-038.txt,14db502e8832a2226dce8e33003981b8167b2d2cd0b6efe996bc5b31f6169d2b
+CLA,CLA-039,reply,docs/main_v1_3/main prompt outputs/CLA-039.txt,517cbc7e3aa0fc02fa891544a357234c8b10bb9e6d83c91b06deb4d35d4521c9
+CLA,CLA-040,reply,docs/main_v1_3/main prompt outputs/CLA-040.txt,693037af26e78d6885cdefe201e870807474241f96196a8e8de72bb4ca31e000
+CLA,CLA-040,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/parallel/CLA/CLA-040/CLA-040_a1.jpg,3639e0cec3478f103c054b98ea3494396dbad50ff9bc9611c3d3f99bc9c8ce1f
+CLA,CLA-041,reply,docs/main_v1_3/main prompt outputs/CLA-041.txt,ff6cc5e8c552050ff83596e832a8e9e9c7a711e98d733c7479b42f129725dc51
+CLA,CLA-042,reply,docs/main_v1_3/main prompt outputs/CLA-042.txt,e34f168cb3d04f8c7857dd11ac3626e43b6c8437fc86e80a7d0a3dd0fc9da4ac
+CLA,CLA-043,reply,docs/main_v1_3/main prompt outputs/CLA-043.txt,78eaca623bd63451e507544da26109fe68442b20a37b985800af06ad2223daed
+CLA,CLA-044,reply,docs/main_v1_3/main prompt outputs/CLA-044.txt,f117f2bbdc3ae5847499cc4458005ac8f9334c3263ea7be16ea2038a4d1d856b
+CLA,CLA-045,reply,docs/main_v1_3/main prompt outputs/CLA-045.txt,547a66a9cc0c135e60ca9581dfe1d834e3fbf51935d933446de79c6ac7db43ca
+CLA,CLA-046,reply,docs/main_v1_3/main prompt outputs/CLA-046.txt,38c6a92bc5218edde8e729130729fefa8d7afa5570017305a91e279195922387
+CLA,CLA-047,reply,docs/main_v1_3/main prompt outputs/CLA-047.txt,b24b9560b066a3f1a6f633de4e07a6f69865c89186a8439a3093d0cd1218d005
+CLA,CLA-047,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/CLA-047.png,160f21a0bdbf0ed27a0ef169027c3b99510da17a7e09828f90ca9a27c52f0bab
+CLA,CLA-048,reply,docs/main_v1_3/main prompt outputs/CLA-048.txt,0934248abdc5d453faff909c9c161a3e4e3944d2a3bc41f73fc10d6d31ab2efc
+CLA,CLA-048,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/CLA-048.png,f5adddbfa5529daf05e221f947f632561f70b15abbdafc5444c34cfb0e8fbb3e
+CLA,CLA-049,reply,docs/main_v1_3/main prompt outputs/CLA-049.txt,06a703b89e029659184d9387aa474fedfa0117b59760889ac2730013975348be
+CLA,CLA-049,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/batches/cla_49_58/CLA-049_attempt2/CLA-049_a2.png,c64873e1c907a239e9b661d505058fb8643a688af5154044b6303fcdb93afe4d
+CLA,CLA-050,reply,docs/main_v1_3/main prompt outputs/CLA-050.txt,6dbe03a333fce2d85353b6ad4a6e63f24a4f2f7292c0443b80d1a85ed095444a
+CLA,CLA-050,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/batches/cla_49_58/CLA-050/CLA-050.png,4689108529ee56e035a0354b134663a66051e58b0861fe95cc181a05cb3e967d
+CLA,CLA-051,reply,docs/main_v1_3/main prompt outputs/CLA-051.txt,2c8db87c7cfae716e105ee29e6ac6058f197ed023b50a55f3b97dcd0dd4b94a1
+CLA,CLA-051,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/batches/cla_49_58/CLA-051/CLA-051.png,a4f74068c878c7f53a362255ac0a31f4c8940943bc2f5bd11be2e35dea6bf97f
+CLA,CLA-052,reply,docs/main_v1_3/main prompt outputs/CLA-052.txt,b56335e01ebd0585067a677e57e7b278f660c55c19faf97a62bfb5613a413113
+CLA,CLA-052,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/batches/cla_49_58/CLA-052/CLA-052.png,0d600b7bd711710cab35a23f62961b7ed051fee779a3b857476e533cd4b560f9
+CLA,CLA-053,reply,docs/main_v1_3/main prompt outputs/CLA-053.txt,2d1866de332b6d86a67aed08986afe56b1aacaa14cd6f85760affabf5eff1a18
+CLA,CLA-053,screenshot,/Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/main_v1_3_collection/batches/cla_49_58/CLA-053/CLA-053.png,a173a62035b8dde34e90b8be30f69507e280fde8d26d5ef44814dcee95a06758
+CLA,CLA-054,reply,docs/main_v1_3/main prompt outputs/CLA-054.txt,bc0a1d4e07008b221892a01579e86f31bd6e6e399361427e56a9636a67702611
+CLA,CLA-054,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/CLA-054.png,db74e194533a34123423e8ba4c042e883987a2bb9447788d29f11db91295256e
+CLA,CLA-055,reply,docs/main_v1_3/main prompt outputs/CLA-055.txt,2ce5f7f9e60d40c35dc19d9a7d9f9dd5f4dc4332efe33acc6e8295f253ddaff2
+CLA,CLA-055,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/CLA-055.png,5b55d8c20909df0584b39ddaf2ebb1bf569ea7f495e738bf1f45b6886c37a3cb
+CLA,CLA-056,reply,docs/main_v1_3/main prompt outputs/CLA-056.txt,78109ac4caf093ff5b33e5734872505dd12cf54e7e93a3dc05254bee4ca97882
+CLA,CLA-056,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/CLA-056.png,3105cacc4c971af06b014a311400f073d006192103e0d0ad4bffb8033fa1aff7
+CLA,CLA-057,reply,docs/main_v1_3/main prompt outputs/CLA-057.txt,6f9bf99fd89d1713c4379a8d6b5497875ea978daa61d11c11b14b817c33d6061
+CLA,CLA-057,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/CLA-057.png,3d3e6846c9794a5cc9fe647b29ad741e63a8973af8fcd96781d27a268d1094b1
+CLA,CLA-058,reply,docs/main_v1_3/main prompt outputs/CLA-058.txt,4d2354fef242d25966743e63fc3c200661b21ee530f22b3224f6b12914a10be3
+CLA,CLA-058,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/CLA-058.png,32a68afa8d6699e962c33488654b9eb24c8ad586a6cf6254750f8e216476b0b4
+CLA,CLA-059,reply,docs/main_v1_3/main prompt outputs/CLA-059.txt,65c885f38efc82cf7fbf2c17f94e7e545b59355d4277e4dd8012ab872206879d
+CLA,CLA-059,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/CLA-059.png,3c0d2fead727830af1e1d6a5ee5922ad220870ab7ca8331f422e401491d7473d
+CLA,CLA-060,reply,docs/main_v1_3/main prompt outputs/CLA-060.txt,c2dfaf11ca8edb68d2a2e2ae99d2deb706f87c788e5594eda9c46b0968d973aa
+CLA,CLA-060,screenshot,/Users/lipjunting/hedge-fund-positioning/docs/main_v1_3/main prompt outputs/screenshots/CLA-060.png,4593697cbdf4ddc643b785fc1d7136ac8262ea61657d76cbe5e787ed4b3db088
+GEM,GEM-001,reply,docs/main_v1_3/main prompt outputs/responses/GEM-001.md,0b35c6a15dab3fdb58514223b37d6604d0cdbc2bfac3c50a6b68734de519d60d
+GEM,GEM-002,reply,docs/main_v1_3/main prompt outputs/responses/GEM-002.md,74ef209fcb1ad39844da1d15e3c2e795d85c059c8e362bcdcfda38d626189988
+GEM,GEM-003,reply,docs/main_v1_3/main prompt outputs/responses/GEM-003.md,363db9ad987eab85c6354a192a0549741e2664d3cd9849e615b0d0b91ff4ab1c
+GEM,GEM-004,reply,docs/main_v1_3/main prompt outputs/responses/GEM-004.md,54d72e50b894aa8217d4528447bfb8e515948abba9b84a03b3e35cb89b6d0fec
+GEM,GEM-005,reply,docs/main_v1_3/main prompt outputs/responses/GEM-005.md,2d950c03d42d63385feb6a7b617a86ffd03ef9536ecf2df33e2b4d5673331b87
+GEM,GEM-006,reply,docs/main_v1_3/main prompt outputs/responses/GEM-006.md,21e29d67aa2afaab6723d45dfc58be6fe6239f615864b8c16ddb72b86b29125f
+GEM,GEM-007,reply,docs/main_v1_3/main prompt outputs/responses/GEM-007.md,72e4192ed18daec5293ad4740a47baf61e78a5df37d4b042ad791f9dff829a34
+GEM,GEM-008,reply,docs/main_v1_3/main prompt outputs/responses/GEM-008.md,25b7c26068068b059e8c03ac0f3c859d8f5b95096a34d5267d0126cccc9a805f
+GEM,GEM-009,reply,docs/main_v1_3/main prompt outputs/responses/GEM-009.md,a07c03d9b508e065fb591de8ebc5e586a785460077554d6aa85900ed4254851d
+GEM,GEM-010,reply,docs/main_v1_3/main prompt outputs/responses/GEM-010.md,5ed9e77210c4042520ec7be2a7c63acea4c0d5cd12da6527e852189edef3ede8
+GEM,GEM-011,reply,docs/main_v1_3/main prompt outputs/responses/GEM-011.md,24ae3f15c736659bfd56de1a3ca315ed9cb698d12f8c8fb857a78959fabf1cf6
+GEM,GEM-012,reply,docs/main_v1_3/main prompt outputs/responses/GEM-012.md,e62392470908ba80d33fd77fc2764ee5c2be74e938400411346150538699dc84
+GEM,GEM-013,reply,docs/main_v1_3/main prompt outputs/responses/GEM-013.md,b3c519329d6d0c9409e1421cacb0d8e6e1066c90ebaf4819e52ca124532eabcf
+GEM,GEM-014,reply,docs/main_v1_3/main prompt outputs/responses/GEM-014.md,2e531a3934f3984d5da7cabcd13757bb4ed0a3eb7c011286f2c5a941775078c6
+GEM,GEM-015,reply,docs/main_v1_3/main prompt outputs/responses/GEM-015.md,69665dd9ede607b7c82ca5c1864fab0e8dcd24963ebd15b9f90b98dd602efe55
+GEM,GEM-016,reply,docs/main_v1_3/main prompt outputs/responses/GEM-016.md,b4d03828ad09353be3764fa64ec813f39ae6ced2f658093b2493c86361b695f3
+GEM,GEM-017,reply,docs/main_v1_3/main prompt outputs/responses/GEM-017.md,3b96b5d064ad99c5ba585ff84ae41b57baadf0e0288ab045a3935eeeab7185c9
+GEM,GEM-018,reply,docs/main_v1_3/main prompt outputs/responses/GEM-018.md,38b3adb97f65d6313e0503ad30db0f87836fcd85f77e136257c930a6f4721ac3
+GEM,GEM-019,reply,docs/main_v1_3/main prompt outputs/responses/GEM-019.md,1519c64886740901da9eb985640a6f2e8a5a641afe0f94dddf37f9f29f8054fb
+GEM,GEM-020,reply,docs/main_v1_3/main prompt outputs/responses/GEM-020.md,88c5b17fdf8c617f487a29d698c7804f3b56fc843fd724d0baa6c501ed79aaee
+GEM,GEM-021,reply,docs/main_v1_3/main prompt outputs/responses/GEM-021.md,751f0148956b0ef6c29e0088e736c06073ebd2166ca4db4d1ae971bc6c5e6f81
+GEM,GEM-022,reply,docs/main_v1_3/main prompt outputs/responses/GEM-022.md,74a8057ca15fec08e199dcbf94d0b0b1bf8454d32ec88dd0a3d07654e0363ee2
+GEM,GEM-023,reply,docs/main_v1_3/main prompt outputs/responses/GEM-023.md,88733567be337da52fe5f4b9a2f6e7575271da8ec80590fcddd3c2a1dc5f6b0b
+GEM,GEM-024,reply,docs/main_v1_3/main prompt outputs/responses/GEM-024.md,e3196ceee2c2e2835e28fa27e14f6b34f42c89839e0b012ea9f98eebff108e20
+GEM,GEM-025,reply,docs/main_v1_3/main prompt outputs/responses/GEM-025.md,151a3cf3df42015524c31312bf7392fe9dbfb88e4872286db09a41a2533ee229
+GEM,GEM-026,reply,docs/main_v1_3/main prompt outputs/responses/GEM-026.md,c401825fec5ba41e42ea10a4778f9ba3c5cb45d2144bf6a860d11f6896815aad
+GEM,GEM-027,reply,docs/main_v1_3/main prompt outputs/responses/GEM-027.md,987e29a18f86f3c70623925924db4f70129bb366bea5ec9597e4435dc23fa68c
+GEM,GEM-028,reply,docs/main_v1_3/main prompt outputs/responses/GEM-028.md,ffba48796d70ce1a53505ba708b01f35374ae8c10293f0232c0084bee0952f2d
+GEM,GEM-029,reply,docs/main_v1_3/main prompt outputs/responses/GEM-029.md,0685bb6bca8abf0a3af1ffbb3319fcd895a2cec4c01dbc4010663f7157a369c1
+GEM,GEM-030,reply,docs/main_v1_3/main prompt outputs/responses/GEM-030.md,67c5564ce7b0ada1b6b9e868c09f59deb32168cd07c17af796e027e44b8318ff
+GEM,GEM-031,reply,docs/main_v1_3/main prompt outputs/responses/GEM-031.md,90034e4ca192a081f7c2eb403a8bbcbff8eb06065ce8a4fdf2a55174db90ca50
+GEM,GEM-032,reply,docs/main_v1_3/main prompt outputs/responses/GEM-032.md,26da3508138776d593aac2bdc696a18e5a29fa77be45d5ebfa73f95fe036a69d
+GEM,GEM-033,reply,docs/main_v1_3/main prompt outputs/responses/GEM-033.md,6e11949b2f34ff372e280b18d3e2a7605d6f0abd7ad6deb31a52bea1713e37e5
+GEM,GEM-034,reply,docs/main_v1_3/main prompt outputs/responses/GEM-034.md,b814c3e95b27d2d9b1a5244378a2d84569024f6eb98ae1d1691a9d0d6be2c826
+GEM,GEM-035,reply,docs/main_v1_3/main prompt outputs/responses/GEM-035.md,e2d46b71e5472843ac7c1cbec5a025ae18f52e6bc9118b7a23fc5fcc52155296
+GEM,GEM-036,reply,docs/main_v1_3/main prompt outputs/responses/GEM-036.md,7e83fe302a03545369cda49b3242d11c6821f73df07d2daec247faa62685e2c1
+GEM,GEM-037,reply,docs/main_v1_3/main prompt outputs/responses/GEM-037.md,f26f0360e41123cf292e0eb865fdeb9e1994bd550dc716c40d27209aaf2ce9f7
+GEM,GEM-038,reply,docs/main_v1_3/main prompt outputs/responses/GEM-038.md,42abf33daafdfd683567ebd60f880a0d5215e1399d147015d05f1bfbaa05ceb2
+GEM,GEM-039,reply,docs/main_v1_3/main prompt outputs/responses/GEM-039.md,891e4d82a36ae7ca8994d4b6eb95477a3a395300d85164896e549c2c9568a8eb
+GEM,GEM-040,reply,docs/main_v1_3/main prompt outputs/responses/GEM-040.md,4b228e3bbc6d6431b48dbf1ba996180bb80865d2375bc3c2bc83a92ee0cc2eaa
+GEM,GEM-041,reply,docs/main_v1_3/main prompt outputs/responses/GEM-041.md,1c7ab8f1133c9fd68e813f23e1a491d3798e55d5422ea8dd3b6ebd911aeb1cdb
+GEM,GEM-042,reply,docs/main_v1_3/main prompt outputs/responses/GEM-042.md,7530eb969361a6336a913c46801dd902c377109a287c97cc9e98457da26e5aaf
+GEM,GEM-043,reply,docs/main_v1_3/main prompt outputs/responses/GEM-043.md,cbb4317bb8a441908fae584200f43195f76e412228913142b097335221ea3744
+GEM,GEM-044,reply,docs/main_v1_3/main prompt outputs/responses/GEM-044.md,793377b04f0ce9fc41fb33d4c6b0001316ad615acbe04991613164e4466c61ad
+GEM,GEM-045,reply,docs/main_v1_3/main prompt outputs/responses/GEM-045.md,096b6b797410aa82c985088bf59d402359ee7413590f38e24f4f938195cbc613
+GEM,GEM-046,reply,docs/main_v1_3/main prompt outputs/responses/GEM-046.md,6e6af975842f0c766c8a9e17c55280da1fe1fb3a351010d7f80a556b170e748e
+GEM,GEM-047,reply,docs/main_v1_3/main prompt outputs/responses/GEM-047.md,1fcfd4db60e567c8804887fae91867dbc05ed8aedf4f11fbfbd24dbe6ab72750
+GEM,GEM-048,reply,docs/main_v1_3/main prompt outputs/responses/GEM-048.md,a1774a3b406ce010543f44494fca2e2b2e71816e9ef770646508fbe267459a21
+GEM,GEM-049,reply,docs/main_v1_3/main prompt outputs/responses/GEM-049.md,ee0a80595c27b33c915317965f25b7054d1b6d6b2daf6c1025c2b4b29d13c0c1
+GEM,GEM-050,reply,docs/main_v1_3/main prompt outputs/responses/GEM-050.md,f0dd663b7370dbfc5bc843662e26e9d5c48e65fe4e83cc47265d23648b2bf32d
+GEM,GEM-051,reply,docs/main_v1_3/main prompt outputs/responses/GEM-051.md,88dc7269e3accccd3d7c117b8f9424c04fa91ec3f3224d8f7bf2648dc8f7d111
+GEM,GEM-052,reply,docs/main_v1_3/main prompt outputs/responses/GEM-052.md,1b78d51a5af9b42baed341c3003d7491ecf6cb26568f88a73ae83c194a874343
+GEM,GEM-053,reply,docs/main_v1_3/main prompt outputs/responses/GEM-053.md,2315e4b80f7938e62397c7cdc3b033be3d5661bd4593ab020e2e10071a9b20a6
+GEM,GEM-054,reply,docs/main_v1_3/main prompt outputs/responses/GEM-054.md,1034fbe62ed7aae291ce1a3f185554d9c23f76e5da571531f8d7eb96cbd4f466
+GEM,GEM-055,reply,docs/main_v1_3/main prompt outputs/responses/GEM-055.md,e92cc23a28d02cbe9312df624c13bce33717f166a837e392acb3dd8c53dd46b1
+GEM,GEM-056,reply,docs/main_v1_3/main prompt outputs/responses/GEM-056.md,c14c068e2377a8b99f519666e1324b0be4cad5fd4b4bbb522aaf4c5ee07244d3
+GEM,GEM-057,reply,docs/main_v1_3/main prompt outputs/responses/GEM-057.md,602a6b7edf1fa448df3b506d812578428ffac214f729fc560f906622db5c653c
+GEM,GEM-058,reply,docs/main_v1_3/main prompt outputs/responses/GEM-058.md,54fd6021243a916c0c2f30cee39f87e83001d9c66c05713d63d8dfabbeae0b09
+GEM,GEM-059,reply,docs/main_v1_3/main prompt outputs/responses/GEM-059.md,131ec08a65387152dc579f307b95c6995a42bbb945410840a29623e60356844b
+GEM,GEM-060,reply,docs/main_v1_3/main prompt outputs/responses/GEM-060.md,7051f5cd8fd870fcf7183483aeed08c5d24f6c31f5481791b8d2231f29df8698
+GEM-high,GEM-001,reply,docs/main_v1_3/main prompt outputs/GEM-001.txt,105b5929e89150ed4d119afaa2c3a852d6fa285833241585ae6791501ddc9286
+GEM-high,GEM-045,reply,docs/main_v1_3/main prompt outputs/GEM-045.txt,b4642544f33ad0c199ccb4fc1bf806822f0c0120fecf0783386f0da8bdede729
+GEM-high,GEM-046,reply,docs/main_v1_3/main prompt outputs/GEM-046.txt,d403854c7211d440e439ae854b855830363f57c5f6ba6f24638c23c6aac340f2
+GEM-high,GEM-047,reply,docs/main_v1_3/main prompt outputs/GEM-047.txt,d3b7f42610eb98c8f913f3992f41a333e24b4982d0e767d50965ea343f385a2d
+GEM-high,GEM-048,reply,docs/main_v1_3/main prompt outputs/GEM-048.txt,1f5428f25e2f01cf0756181c1d344ba5d2c01e64270336b1ed8ae0a2cb2f3462
+GEM-high,GEM-049,reply,docs/main_v1_3/main prompt outputs/GEM-049.txt,a7e63b70aa745cf1fe41243b8426d90c08e38e25015b7caaab2242225f11dc2a
+GEM-high,GEM-050,reply,docs/main_v1_3/main prompt outputs/GEM-050.txt,854d9ccbe3988cae84b384b5f332e944a49721492466939b6e54074abe09b135
+GEM-high,GEM-051,reply,docs/main_v1_3/main prompt outputs/GEM-051.txt,1ca322a8d1656fb5e4e2d5a49402ba3f315d17b3cf6802c639428833afa43944
+GEM-high,GEM-052,reply,docs/main_v1_3/main prompt outputs/GEM-052.txt,c6cf9a66e5fd3682b15ba2e651978f38245e22dd0078bf6215b743f0a9226039
+GEM-high,GEM-054,reply,docs/main_v1_3/main prompt outputs/GEM-054.txt,21106da94a15922e09bb951838fbb11ca53715507673aa23e830b7514c44fd19
+GEM-high,GEM-055,reply,docs/main_v1_3/main prompt outputs/GEM-055.txt,d2deaeb2c9fb4bd5f70cc3a820a26ecd3f5d1ce8babdfa6088a6674ee41cded2
+GEM-high,GEM-056,reply,docs/main_v1_3/main prompt outputs/GEM-056.txt,6291f905377ad242daef7deebaf3ca7556a148d8cc6277d2da2e5a3a3ceffc54
+GEM-high,GEM-057,reply,docs/main_v1_3/main prompt outputs/GEM-057.txt,a1f77e1649c37a030ed3a6c4ed9d03361024795d5ea78a0b7276f798797e06e3
+GEM-high,GEM-058,reply,docs/main_v1_3/main prompt outputs/GEM-058.txt,03362a4513ccb6add81cc730e5652459606f21f617b37c8005f53d584f7593b4
+GEM-high,GEM-059,reply,docs/main_v1_3/main prompt outputs/GEM-059.txt,fa3889b462248300fe01c9cc443e1bd118ee79f08d07c31a693a49c9608faa78
+GEM-high,GEM-060,reply,docs/main_v1_3/main prompt outputs/GEM-060.txt,bef6feae1be66a74dfaefe1ea06e5bf3fde58ee54d3dbfc5191d6b71ea20a718

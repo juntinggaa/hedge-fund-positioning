@@ -1,0 +1,55 @@
+The positioning suggests an unusually cautious, relatively bearish stance by leveraged funds toward 10-Year U.S. Treasury futures, despite their aggregate position remaining slightly net long. The key signal is not the absolute position but how far it falls below the model's expectation.
+
+## 1. Leveraged funds are substantially less bullish than expected
+
+- Actual net position: +0.90% of open interest, or +24,523 contracts.
+- Model-expected net position: +4.88% of open interest.
+- Residual: −3.98 percentage points, equivalent to approximately 108,300 contracts less net-long exposure than expected.
+- Historical significance: Only about 5% of earlier absolute out-of-sample residuals were at least this large.
+
+This is an unusually large negative positioning surprise. Leveraged funds are not outright net short, but they are holding markedly less net-long Treasury exposure than the model predicts.
+
+## 2. Other trader categories show a different picture
+
+| Trader category | Net % of OI | Interpretation |
+|---|---:|---|
+| Dealer / Intermediary | −4.75% | Substantial net short exposure, potentially reflecting intermediation or hedging |
+| Asset Manager / Institutional | +6.96% | Strong net-long exposure |
+| Leveraged Funds | +0.90% | Modest net long, unusually low versus model expectations |
+| Other Reportable | +2.36% | Moderately net long |
+
+The contrast between asset managers and leveraged funds is noteworthy. Institutional investors have considerably greater net-long exposure, while leveraged funds appear reluctant to take similarly bullish positions.
+
+However, dealer shorts should not automatically be interpreted as directional bearish bets because they may arise from facilitating client trades or hedging other exposures.
+
+## 3. Implications for Treasury prices and yields
+
+**Bearish interpretation**
+
+Leveraged funds may be expressing concerns about higher Treasury yields, lower bond prices, or unfavorable risk-adjusted returns. The unusually negative residual supports the interpretation of relative bearishness.
+
+**Potential bullish reversal**
+
+If leveraged-fund positioning subsequently normalizes toward the model's expectation, additional net buying could support Treasury futures prices and put downward pressure on yields, all else equal.
+
+## 4. How strong is the signal?
+
+The actual +0.90% lies slightly below the model's approximate 90% expected range of +1.14% to +8.62%.
+
+Combined with the historical residual ranking, this provides evidence of an unusual divergence from expected positioning.
+
+But three distinctions matter:
+
+- Statistically unusual does not necessarily mean predictive. A large negative residual does not establish that Treasury prices will subsequently rise or fall.
+- Relative bearishness is not outright bearishness. Leveraged funds still hold a positive net position.
+- Positioning does not establish the reason for the divergence. The model may be missing an important market development, or the deviation may reflect temporary positioning, hedging, or other factors.
+
+## Bottom line
+
+The report points to an unusually bearish positioning surprise among leveraged funds, rather than broad-based bearish Treasury positioning.
+
+This could reflect underlying expectations of rising yields or an aversion to duration risk. Conversely, it could represent potential buying capacity if those funds subsequently increase net-long exposure.
+
+The most defensible conclusion is that leveraged funds are materially underweight Treasury futures relative to the model's historical expectation, creating a potentially important positioning imbalance.
+
+Whether that imbalance predicts a Treasury rally or further weakness cannot be established from this single week's positioning data alone.

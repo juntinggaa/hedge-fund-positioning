@@ -1,0 +1,43 @@
+This positioning snapshot shows a deeply engaged but directionally balanced 10-Year U.S. Treasury Note futures market, characterized by high gross participation, heavy institutional spread activity, and an absence of crowded one-sided bets among major trader cohorts.
+
+1. Low Crowding Risk and Balanced Net Conviction
+
+Across all four reportable categories, net positioning as a share of total open interest (3,447,076 contracts) is remarkably muted, ranging between -0.88% and +2.62%:
+
+No extreme positioning: Because no major institutional or speculative group holds an outsized directional exposure, the market faces low immediate vulnerability to a positioning-driven short squeeze or long liquidation cascade.
+
+Slight institutional tilt toward duration: Reportable accounts in aggregate hold a modest net long bias (+127,942 contracts, or +3.71% of open interest), led by Other Reportables (+90,392, or +2.62%) and Asset Managers (+62,671, or +1.82%).
+
+2. Intense Two-Way Disagreement Beneath Flat Net Figures
+
+Small net balances here do not reflect low participation; instead, they mask massive, nearly offsetting gross positions:
+
+Asset Managers (1,329,379 Long vs. 1,266,708 Short): Real-money institutions account for 38.57% of outright longs and 36.75% of outright shorts. Roughly equal numbers of institutional mandates are locking in duration (buying futures) as are hedging fixed-income portfolios against rising yields and reflation risk (selling futures).
+
+Leveraged Funds (500,339 Long vs. 495,068 Short): Hedge funds and CTAs are virtually flat in aggregate (+5,271 net, or +0.15% of OI), splitting almost half a million contracts on each side. Macro and trend-following longs are nearly perfectly offset by rate bears and relative-value shorts.
+
+3. Subdued Cash-Futures Basis Trade Footprint
+
+In periods when the Treasury cash-futures basis trade is heavily crowded, CFTC data typically shows Asset Managers holding a massive net long position (preferring futures for capital-efficient duration) and Leveraged Funds holding a deep net short position (selling futures against long cash Treasuries funded in repo).
+
+The fact that Leveraged Funds are slightly net long (+0.15% of OI) and Asset Managers are only modestly net long (+1.82% of OI) suggests that leveraged basis-trade arbitrage is relatively light or fully offset by directional macro longs.
+
+4. Heavy Institutional Calendar Spreading
+
+In a futures-only TFF report, the Spreading column measures the extent to which individual traders simultaneously hold equal long and short futures positions across different contract maturities (e.g., March vs. June contracts).
+
+Total reportable spreading stands at 800,284 contracts—meaning 23.22% of total open interest is tied up in intra-market maturity spreads rather than outright directional bets.
+
+Asset Managers alone account for 687,802 spreading contracts (19.95% of total market OI), pointing to substantial calendar-spread positioning, benchmark tracking adjustments, or early roll-management activity.
+
+5. Implied Non-Reportable (Small Trader) Positioning
+
+Because every long futures contract requires a matching short contract, the missing Non-Reportable category (smaller traders below CFTC reporting thresholds) can be derived directly from the table:
+
+Reportable Outright Longs + Spreading: 2,298,757 + 800,284 = 3,099,041 (89.90% of OI)
+
+Reportable Outright Shorts + Spreading: 2,170,815 + 800,284 = 2,971,099 (86.19% of OI)
+
+Implied Non-Reportable Position: 348,035 Long (10.10% of OI) vs. 475,977 Short (13.81% of OI), resulting in a net short of -127,942 contracts (-3.71% of OI).
+
+Smaller, non-reportable participants—alongside Dealers (-30,392 net, or -0.88% of OI)—are acting as the net liquidity providers on the short side, absorbing the modest net long demand from institutional asset managers, leveraged funds, and other large reportables.

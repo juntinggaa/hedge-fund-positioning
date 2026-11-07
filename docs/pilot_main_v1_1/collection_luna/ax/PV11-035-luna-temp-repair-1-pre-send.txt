@@ -1,0 +1,135 @@
+Browser tab: 1403820316, Title: "Google Gemini", URL: "https://gemini.google.com/app".
+0 AXWebArea Google Gemini, URL: gemini.google.com/app
+	1 container
+		2 container
+			3 button (collapsed) Description: Open sidebar, Secondary Actions: Expand
+			4 container Side Navigation
+				5 container
+					6 container Main actions menu
+						7 link Description: New chat, Value: gemini.google.com/app
+					8 container Additional actions menu
+						9 pop up button Description: Search chats, ID: base-ui-_r_2_
+						10 link Description: Library, Value: gemini.google.com/library
+						11 link Description: Images, Value: gemini.google.com/images
+						12 container Scheduled
+							13 link Description: Scheduled, Value: gemini.google.com/scheduled
+						14 link Description: Customize, Value: gemini.google.com/customize
+					15 link (collapsed) Description: Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com, Secondary Actions: Expand
+					16 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+			17 container xap-skip-link-target
+				18 container
+					1133 container
+						1134 heading Value: 1, Just stopping by? Temporary chats don't appear in recent chats and aren't used to improve Google AI. Stored for 72 hours for safety.
+							1135 text Just stopping by?
+							1136 container
+								1137 link Description: Temporary chats, Value: support.google.com/gemini/answer/13275745?visit_id=638889059849455150-2388016392&p=temp_chats&rd=1#temp_chats
+								1138 text  don't appear in 
+								1139 link Description: recent chats, Value: support.google.com/gemini/answer/13666746
+								1140 text  and aren't used to improve Google AI. Stored for 72 hours for safety.
+					81 container
+						82 container
+							83 pop up button (collapsed) Description: Upload & tools, Secondary Actions: Expand
+							1141 container
+								1142 text entry area (settable) Description: Enter a prompt for Gemini, Value: Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 3 November 2020. All figures are numbers of contracts.
+
+
+
+
+Open interest (all contracts): 3,077,241
+
+
+
+
+| Trader category | Long | Short | Spreading | Net | Net as % of OI |
+
+|---|---|---|---|---|---|
+
+| Dealer / Intermediary | 184,831 | 254,045 | 13,600 | -69,214 | -2.25% |
+
+| Asset Manager / Institutional | 1,294,482 | 1,093,048 | 594,378 | 201,434 | +6.55% |
+
+| Leveraged Funds | 317,487 | 565,227 | 62,759 | -247,740 | -8.05% |
+
+| Other Reportable | 242,382 | 107,170 | 780 | 135,212 | +4.39% |
+
+
+
+
+Output of a supervised model of leveraged-fund positioning (model v4.0):
+
+
+
+
+- Expected net position this week: -8.17% of open interest (approximate 90% range based on earlier out-of-sample errors: -11.69% to -4.65%).
+
+- Actual net position this week: -8.05% of open interest.
+
+- Residual (actual minus expected): +0.12 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 6% were smaller than this one and 94% were at least as large.
+
+
+
+
+What does this positioning suggest about the Treasury market?
+
+
+
+
+Please answer without using web search.
+									1148 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 3 November 2020. All figures are numbers of contracts.
+									1149 text Open interest (all contracts): 3,077,241
+									1150 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+									1151 text |---|---|---|---|---|---|
+									1152 text | Dealer / Intermediary | 184,831 | 254,045 | 13,600 | -69,214 | -2.25% |
+									1153 text | Asset Manager / Institutional | 1,294,482 | 1,093,048 | 594,378 | 201,434 | +6.55% |
+									1154 text | Leveraged Funds | 317,487 | 565,227 | 62,759 | -247,740 | -8.05% |
+									1155 text | Other Reportable | 242,382 | 107,170 | 780 | 135,212 | +4.39% |
+									1156 text Output of a supervised model of leveraged-fund positioning (model v4.0):
+									1157 text - Expected net position this week: -8.17% of open interest (approximate 90% range based on earlier out-of-sample errors: -11.69% to -4.65%).
+									1158 text - Actual net position this week: -8.05% of open interest.
+									1159 text - Residual (actual minus expected): +0.12 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 6% were smaller than this one and 94% were at least as large.
+									1160 text What does this positioning suggest about the Treasury market?
+									1161 text Please answer without using web search.
+							1162 button Expand input to Fullscreen
+							87 container
+								88 pop up button (expanded) Description: Open mode picker, currently Gemini Auto, Secondary Actions: Collapse
+								1164 menu ng-menu-a48871-1
+									1165 Selected Auto Gemini 3 models
+										1166 container Selected
+										1167 text Auto
+										1168 text Gemini 3 models
+									1169 3.1 Pro Advanced reasoning
+										1170 text 3.1 Pro
+										1171 text Advanced reasoning
+									1172 4 Argon Complex tasks
+										1173 text 4 Argon
+										1174 text Complex tasks
+									1175 (expanded) Thinking level, Secondary Actions: Collapse
+										1176 text Thinking level
+									1177 menu ng-menu-a48871-2
+										1178 Selected Low Quick and efficient
+											1179 container Selected
+											1180 text Low
+											1181 text Quick and efficient
+										1182 Medium Balanced depth
+											1183 text Medium
+											1184 text Balanced depth
+										1185 High Extra thorough
+											1186 text High
+											1187 text Extra thorough
+								1122 container
+									1123 button Dictate (⌘⇧D)
+								1163 button Send message
+			1128 button Get app
+			1129 link Upgrade
+				1130 link Upgrade
+					1131 text Upgrade
+			1132 button Temporary chat
+		104 container Notifications
+		1144 container
+			1145 container Click to open Quillbot
+			1146 container Open quick settings
+			1147 container Processing
+	109 container grammarly-integration
+		1023 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 1175 (expanded) Thinking level, Secondary Actions: Collapse

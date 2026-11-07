@@ -1,0 +1,249 @@
+Window: "Google Gemini", App: Google Chrome.
+0 standard window Google Gemini - Google Chrome – Tong, URL: gemini.google.com/app, Secondary Actions: Raise
+	1 container Google Gemini - Google Chrome – Tong, URL: gemini.google.com/app
+		2 container
+			3 toolbar
+				4 button Back
+				5 button Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Value: gemini.google.com/app, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button Open Claude
+Has access to this site
+					13 pop-up button Extensions
+				14 button Tong
+				15 pop-up button Action required
+			16 container
+				17 scroll area
+					18 HTML content Google Gemini, URL: gemini.google.com/app
+						19 container
+							20 container
+								21 link New chat, Value: gemini.google.com/
+								22 container Side navigation
+									23 container
+										24 pop-up button Search chats
+										25 button Close sidebar
+										26 container Main actions menu
+											27 container
+												28 link New chat, Value: gemini.google.com/app
+										29 container Additional actions menu
+											30 container
+												31 link Library, Value: gemini.google.com/library
+											32 container
+												33 link Images, Value: gemini.google.com/images
+											34 container
+												35 link Scheduled, Value: gemini.google.com/scheduled
+											36 container
+												37 link Students, Value: gemini.google.com/students
+											38 container
+												39 pop-up button More
+										40 container
+											41 button Toggle Notebooks
+											42 container
+												43 link New notebook, Value: gemini.google.com/notebooks/create
+												44 container
+													45 link Untitled notebook, Value: gemini.google.com/notebook/c9034097-5729-41d4-ac26-95a60c8fb0d2
+													46 button Open notebook actions menu
+												47 container
+													48 link Demystifying the Black Box: A Comprehensive Guide to Explainable AI, Value: gemini.google.com/notebook/abe9cbba-40e3-4f1b-8fac-2ed4c81c7892
+													49 button Open notebook actions menu
+												50 container
+													51 link 6G Architecture Support for Native and Agentic AI Intent Handling, Value: gemini.google.com/notebook/d6375f19-368c-4200-8559-9a1a93cd2e66
+													52 button Open notebook actions menu
+												53 link All notebooks, Value: gemini.google.com/notebooks/view
+										54 button Toggle All
+										55 button Filter
+										56 container
+											57 link STM32N6 NPU RAM Banks Architecture, Value: gemini.google.com/app/e9b8e28ce3ec5710
+											58 button More options for STM32N6 NPU RAM Banks Architecture
+											59 link NVLink Speed and Encoding Explained, Value: gemini.google.com/app/fb6ad5d42b6ff781
+											60 button More options for NVLink Speed and Encoding Explained
+											61 link Email Availability Refinement Options, Value: gemini.google.com/app/203deb8e99e63385
+											62 button More options for Email Availability Refinement Options
+											63 link Email Refinement Options, Value: gemini.google.com/app/4e8255ddd8f605c1
+											64 button More options for Email Refinement Options
+											65 link Invertibility of X-transpose-X, Value: gemini.google.com/app/2dc54ace6b6f6ffa
+											66 button More options for Invertibility of X-transpose-X
+											67 link Invertibility of Polynomial Feature Matrices, Value: gemini.google.com/app/6cf5e458ec2a08e1
+											68 button More options for Invertibility of Polynomial Feature Matrices
+											69 link How SocialLite App Blocks Reels, Value: gemini.google.com/app/57b665f70889516d
+											70 button More options for How SocialLite App Blocks Reels
+											71 link Explaining and Visualizing Adapters, Value: gemini.google.com/app/c0516c6155446f40
+											72 button More options for Explaining and Visualizing Adapters
+											73 link Raspberry Pi Kernel Build Guide, Value: gemini.google.com/app/7ee1db52a2e01e59
+											74 button More options for Raspberry Pi Kernel Build Guide
+											75 link Reviewing a Missed Session Message, Value: gemini.google.com/app/9fb4c9edd7acbc36
+											76 button More options for Reviewing a Missed Session Message
+											77 link Simple Contextual Bandits Explanation, Value: gemini.google.com/app/38df587bc8aad08e
+											78 button More options for Simple Contextual Bandits Explanation
+											79 link CPU Versus GPU Threads, Value: gemini.google.com/app/4008cf0ff8e6c188
+											80 button More options for CPU Versus GPU Threads
+											81 link Essential Job Search Pillars Beyond STAR, Value: gemini.google.com/app/8b1a94d729b8eb9f
+											82 button More options for Essential Job Search Pillars Beyond STAR
+											83 link Taman Jurong Presentation Blueprint and Slides, Value: gemini.google.com/app/495c70b9afff8e39
+											84 button More options for Taman Jurong Presentation Blueprint and Slides
+											85 link STM32N657X0 vs. Raspberry Pi Pico 2, Value: gemini.google.com/app/d7b3168516847039
+											86 button More options for STM32N657X0 vs. Raspberry Pi Pico 2
+											87 link Understanding the SSH -fn Flags, Value: gemini.google.com/app/38f9d06390c0bf4d
+											88 button More options for Understanding the SSH -fn Flags
+											89 link Claude CLI Usage Limits, Value: gemini.google.com/app/3b92b2af6f42032c
+											90 button More options for Claude CLI Usage Limits
+											91 link Understanding Pthreads, Exit, and Join, Value: gemini.google.com/app/9e2fc0e3bc89589b
+											92 button More options for Understanding Pthreads, Exit, and Join
+											93 link C Pthread Creation Example, Value: gemini.google.com/app/699894117164e06c
+											94 button More options for C Pthread Creation Example
+											95 link Customizing SSH Login Scripts on macOS, Value: gemini.google.com/app/da83e4ddaa71ddbe
+											96 button More options for Customizing SSH Login Scripts on macOS
+											97 link Kotlin Equality Operators: == vs ===, Value: gemini.google.com/app/575d458910456375
+											98 button More options for Kotlin Equality Operators: == vs ===
+											99 link Clarifying Claude CLI and Prompts, Value: gemini.google.com/app/ddacc4432a882f21
+											100 button More options for Clarifying Claude CLI and Prompts
+											101 link UTown Crowding Explained, Value: gemini.google.com/app/20d299b025daf43a
+											102 button More options for UTown Crowding Explained
+											103 link UTown Crowding: Causes and Solutions, Value: gemini.google.com/app/6a5f2e240d0643bd
+											104 button More options for UTown Crowding: Causes and Solutions
+											105 link Japan Family Trip Planning & Pricing, Value: gemini.google.com/app/083002224731084b
+											106 button More options for Japan Family Trip Planning & Pricing
+											107 link Refusal of Harmful Content Request, Value: gemini.google.com/app/6c4560d9c968a05d
+											108 button More options for Refusal of Harmful Content Request
+										109 link Google Account: Tong Jing Yen (jingyentong@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com
+										110 pop-up button Settings
+								111 container
+									112 container
+										113 heading Conversation with Gemini, Value: 1
+											114 text Conversation with Gemini
+										115 container
+											116 text Temporary chat
+											117 container
+												118 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+													119 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+												120 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 15 November 2022. All figures are numbers of contracts.
+												121 text Open interest (all contracts): 4,015,833
+												122 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+												123 text |---|---|---|---|---|---|
+												124 text | Dealer / Intermediary | 102,400 | 380,965 | 25,591 | -278,565 | -6.94% |
+												125 text | Asset Manager / Institutional | 2,094,589 | 931,333 | 724,972 | 1,163,256 | +28.97% |
+												126 text | Leveraged Funds | 315,354 | 976,260 | 128,897 | -660,906 | -16.46% |
+												127 text | Other Reportable | 209,506 | 371,183 | 35,048 | -161,677 | -4.03% |
+												128 text Output of a supervised model of leveraged-fund positioning (model v4.0):
+												129 text - Expected net position this week: -18.05% of open interest (approximate 90% range based on earlier out-of-sample errors: -21.63% to -14.46%).
+												130 text - Actual net position this week: -16.46% of open interest.
+												131 text - Residual (actual minus expected): +1.59 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 57% were smaller than this one and 43% were at least as large.
+												132 text How to read the model output above (model v4.0). This is a retrospective same-week conditional estimate of the weekly CHANGE in leveraged funds' net position as a share of open interest. It uses returns, realised volatility, yield levels and curve shape, equity volatility, a funding-stress proxy, a futures-yield return residual, current-week open-interest change, changes in Fed Treasury holdings, a quarter-end flag, and lagged own, other-group and cross-contract positions. More recent training observations 
+												133 text - The expected level equals last week's actual level plus the model's estimated weekly change. The residual is equivalently the conditional level gap or the unexpected weekly adjustment, measured in percentage points of open interest. It is not an identified fraction of the whole position attributable to any strategy.
+												134 text - These are statistical associations. The cash leg of a basis trade is unobserved; none of the inputs directly measures genuine cash-futures basis profitability. Neither the expected component nor the residual identifies motives, basis quantities or private information.
+												135 text - Across 720 out-of-sample weeks (2012-11-27 to 2026-09-08), squared prediction error was 10.47% lower than an expanding historical-mean change benchmark (out-of-sample R²). RMSE was 2.07 percentage points of open interest. This R² is not a percentage of the outstanding position explained by a strategy.
+												136 text - The approximate range uses only errors from earlier out-of-sample weeks. Its realised historical coverage was 91.9% across 668 eligible weeks, with variation across eras. This is not a guaranteed probability for this individual week. Being inside a broad range does not mean the point prediction closely anticipated the move.
+												137 text - The model includes current-week CFTC open interest, so this is not a pre-Friday nowcast or a next-week forecast. The model and performance summary were selected retrospectively; this is not a historically deployable untouched backtest.
+												138 text What does this positioning suggest about the Treasury market?
+												139 text Please answer without using web search.
+												140 button Expand
+											141 button Copy prompt
+											142 button Edit
+											143 container
+												144 heading Gemini said, Value: 6
+													145 text Gemini said
+												146 container
+													147 text The CFTC futures-only snapshot and model output point to a classic structural division in the 10-Year U. S.  Treasury Note futures market—with  Asset Managers  absorbing net long duration exposure against net short positions held by  Leveraged Funds , Dealers ,  and  Other Reportables —while indicating that leveraged funds' weekly positioning shift was well within normal historical variation given same-week market conditions.  At the same time,  because cash positions are unobserved and the model captures only modest contemporaneous statistical associations,  the data cannot isolate trading motives (such as cash-futures basis trades versus directional macro bets) or predict future yield moves.
+													148 heading 1. Structural Split Across Trader Categories, Value: 3
+														149 text 1. Structural Split Across Trader Categories
+													150 text Out of  4,015,833  total contracts of open interest,  net futures exposure is heavily concentrated on opposite sides of the institutional spectrum:
+													151 content list
+														152 container
+															153 text Asset Managers / Institutional (+28.97% of OI, or +1,163,256 net contracts):  Real-money institutional accounts are the primary net receivers of duration in the 10-year futures contract,  holding 2, 094, 589 long contracts against 931, 333 shorts (plus 724, 972 in spreading positions).
+														154 container
+															155 text Leveraged Funds (-16.46% of OI, or -660,906 net contracts):  Hedge funds and CTAs form the largest net short bloc (976, 260 short vs.  315, 354 long,  with 128, 897 spreading).
+														156 container
+															157 text Dealers / Intermediaries (-6.94% of OI, or -278,565 net contracts) & Other Reportables (-4.03% of OI, or -161,677 net contracts):  Both groups are also net short in futures,  though at smaller scales than leveraged funds.
+														158 container
+															159 text Implied Non-Reportable Remainder (-1.55% of OI, or -62,108 net contracts):  Summing the four reportable categories yields a net long balance of +62, 108 contracts,  meaning smaller non-reportable traders hold the offsetting net short remainder.
+													160 text Even within these net figures,  two-way activity is substantial:  every category holds hundreds of thousands of gross contracts on both sides of the market alongside spreading positions.
+													161 heading 2. What the Model Says About the Weekly Move, Value: 3
+														162 text 2. What the Model Says About the Weekly Move
+													163 text Conditioned on the prior week's positioning and current-week market variables (returns,  yield curve shape,  volatility,  funding stress proxies,  Fed holdings,  and open interest changes),  the model projected leveraged funds to end the week at  -18.05% of OI ,  compared to their actual position of  -16.46% of OI :
+													164 content list
+														165 container
+															166 text Direction of the discrepancy (+1.59 percentage points of OI):  Leveraged funds ended the week  1.59 percentage points less net short  (more net buying or less net selling) than the model's conditional weekly change estimate implied.
+														167 container
+															168 text Statistical significance (routine noise, not a regime break):  A residual of +1. 59 percentage points is unremarkable.  It is smaller than the model's historical out-of-sample RMSE ( 2.07 percentage points of OI ),  falls comfortably within the historical 90% error band ( -21.63% to -14.46% ),  and is smaller in magnitude than  43%  of earlier out-of-sample residuals.
+														169 container
+															170 text Precision limits:  While the actual position landed inside the 90% interval,  that interval spans roughly 7. 17 percentage points of open interest (~288, 000 contracts).  Falling inside such a wide band simply indicates the absence of an extreme outlier shock rather than tight predictive precision.
+													171 heading 3. Critical Limits on Market Interpretation, Value: 3
+														172 text 3. Critical Limits on Market Interpretation
+													173 text To avoid over-reading the report and model output,  several structural boundaries apply:
+													174 content list
+														175 container
+															176 text No separation of cash-futures basis vs. directional shorts:  In commentary on the Treasury market,  Asset Manager net longs and Leveraged Fund net shorts are often linked to the cash-futures basis trade (where leveraged funds short futures against long cash Treasuries financed in repo).  However,  this CFTC report is  futures-only —the cash and repo legs are completely unobserved,  and the model contains no direct measure of cash-futures basis profitability.  Neither the  -16.46%  net position nor the  +1.59 pp  residual tells us what share of leveraged-fund shorts reflects basis arbitrage,  yield-curve spread trades,  portfolio hedges,  or outright bearish bets on Treasuries.
+														177 container
+															178 text Residual and 
+															179 container
+																180 text 𝑅 2
+															181 text  do not identify trader motives:  The  +1.59 pp  residual is simply the unexplained component of the weekly change relative to a linear/statistical conditional benchmark—not a measure of "discretionary short covering" or private information.  Similarly,  the  10.47% out-of-sample 
+															182 container
+																183 text 𝑅 2
+															184 text  means only that the model reduces squared error on  weekly changes  by 10. 47% relative to an expanding historical-mean change benchmark; it does not mean the model explains 10. 47% of total outstanding positioning.
+														185 container
+															186 text Descriptive contemporaneous association, not a forecast:  Because the model incorporates  same-week  market realizations (including current-week open interest changes) and was selected retrospectively,  it summarizes how positioning co-moved with market variables during the week ending 15 November 2022.  It does not provide an actionable pre-release nowcast or a directional signal for subsequent Treasury yields.
+												187 button Redo
+												188 button Copy
+												189 button Show more options
+										190 container
+											191 container
+												192 pop-up button Upload and tools
+												193 container
+													194 text entry area (settable) Enter a prompt for Gemini, Value: Ask Gemini
+
+														195 text Ask Gemini
+													196 text entry area (settable)
+												197 pop-up button Open mode picker, currently Argon High
+												198 container
+													199 button Dictate (⌘⇧D)
+										200 text Gemini is AI and can make mistakes.
+							201 text Analyzing the model's confidence in leveraged funds' positioning
+							202 container Notifications
+			203 container Infobar Container
+				204 container Infobar
+					205 container
+						206 text 'ChatGPT' started debugging this browser
+						207 button Cancel
+					208 button Close
+			209 pop-up button Tab search
+			210 container
+				211 tab group
+					212 tab (selected, settable, boolean) Google Gemini - Memory usage - 644 MB, Value: on
+						213 button Close
+					214 tab (settable, boolean) Manage your Google One membership - Inactive tab - 109 MB freed up, Value: off
+						215 button Close
+					216 tab (settable, boolean) Settings - Inactive tab - 394 MB freed up, Value: off
+						217 button Close
+					218 tab (settable, boolean) Extensions - Memory usage - 37.3 MB, Value: off
+						219 button Close
+					220 tab (settable, boolean) Claude - Chrome Web Store - Inactive tab - 142 MB freed up, Value: off
+						221 button Close
+					222 tab (settable, boolean) Sign in - Claude - Memory usage - 239 MB, Value: off
+						223 button Close
+					224 tab (settable, boolean) Value: off, Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts. Open interest (all contracts): 3,934,302 Trader category Long Short Spreading Net Net as % of OI Dealer / Intermediary 211,953 227,582 41,198 -15,629 -0.40% Asset Manager / Institutional 1,458,078 1,409,497 788,616 48,581 +1.23% Leveraged Funds 853,740 498,222 99,743 355,518 +9.04% Other Reportab
+						225 button Close
+					226 tab (settable, boolean) Value: off, Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 15 November 2022. All figures are numbers of contracts. Open interest (all contracts): 4,015,833 Trader category Long Short Spreading Net Net as % of OI Dealer / Intermediary 102,400 380,965 25,591 -278,565 -6.94% Asset Manager / Institutional 2,094,589 931,333 724,972 1,163,256 +28.97% Leveraged Funds 315,354 976,260 128,897 -660,906 -16.46% Other Rep
+						227 button Close
+			228 button New tab
+			229 button Open Gemini in Chrome
+	230 close button
+	231 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	232 minimise button
+233 menu bar
+	234 Chrome
+	235 File
+	236 Edit
+	237 View
+	238 History
+	239 Bookmarks
+	240 Profiles
+	241 Tab
+	242 Window
+	243 Help
+
+The focused UI element is 194 text entry area (settable) Enter a prompt for Gemini, Value: Ask Gemini

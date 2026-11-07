@@ -1,0 +1,31 @@
+The positioning data points to a heavily bifurcated 10-Year U.S. Treasury futures market where institutional asset managers rely on futures for long duration exposure and leveraged funds act as the primary short-side counterparty, while the model output indicates that the latest weekly shift was routine given prevailing market conditions.
+
+Structural Counterparty Split
+
+Institutional duration demand: Asset managers are net long 2,213,257 contracts (+42.67% of the 5,187,440 open interest), reflecting strong structural demand for synthetic long duration via futures rather than cash bonds.
+
+Leveraged fund and dealer supply: Leveraged funds absorb the vast majority of this demand on the short side at -2,009,971 contracts (-38.75%), supplemented by dealers at -394,403 contracts (-7.60%).
+
+Minority balance: Other reportable traders (+148,709 net, or +2.87%) and implied non-reportable participants (+42,408 net, or +0.82%) hold small net long positions that balance total market open interest.
+
+Spreading concentration: Asset managers also dominate spreading positions with 682,383 contracts (over 77% of all reportable spreading), pointing to active intra-category calendar rolling or portfolio hedging.
+
+Weekly Adjustment vs. Historical Norms
+
+Routine weekly flow: The actual leveraged-fund net short exceeded the model's conditional expectation of -38.38% by a residual of just -0.36 percentage points, sitting near the center of the -41.80% to -34.96% historical range.
+
+No positioning shock: Because 84% of prior out-of-sample absolute errors were at least as large (against a 2.07 percentage point RMSE), this week's adjustment reflects normal responsiveness to market, open-interest, and funding inputs.
+
+Limits on Inferring Motives and the Basis Trade
+
+Unobserved cash legs: While opposing asset-manager longs and leveraged-fund shorts are a classic footprint of the cash-futures basis trade, futures-only CFTC data omits cash Treasuries, repo financing, and swaps.
+
+Indeterminate strategy mix: Consequently, the data cannot separate how much of the leveraged-fund short is hedged against cash bonds (basis or relative-value trades) versus unhedged directional bets on higher yields.
+
+Model scope: Because the expected level simply adds an estimated weekly change to last week's position, neither the expectation nor the residual identifies basis profitability, strategy share, or private information.
+
+Market Structure and Forecasting Implications
+
+Roll and funding sensitivity: Heavy concentration on opposing sides makes quarterly rolls and market liquidity sensitive to repo funding stress, margin shifts, and dealer intermediation capacity regardless of trader motive.
+
+No directional signal: Because the model relies on same-week open interest, was chosen retrospectively, and explains 10.47% of out-of-sample variance, it describes contemporaneous alignment rather than forecasting future yields.

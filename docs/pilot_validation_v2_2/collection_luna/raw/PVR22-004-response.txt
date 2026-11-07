@@ -1,0 +1,24 @@
+Based on the CFTC Traders in Financial Futures report data and the model evaluation for the week ending June 15, 2021, here is what the positioning and model residual suggest about the Treasury market:
+
+---
+
+### 1. Leveraged Funds were Overall Net-Long, but Less Bullish Than Expected
+
+* **Net-Long Bias:** Leveraged funds held a net-long position of **+392,568 contracts** (+8.92% of total open interest), indicating a prevailing net-bullish (or duration-long) stance in 10-Year Treasury futures going into mid-June 2021.
+* **Negative Surprise (Bearish Deviation):** Model v4.0 expected leveraged funds to expand their net-long position to **+12.19% of open interest**. The actual net position (+8.92%) fell short by **-3.27 percentage points**.
+* **Statistical Significance:** A negative residual of 3.27 percentage points is moderately large—87% of historical out-of-sample prediction errors were smaller. This means leveraged funds adjusted their positions downward (or added fewer long positions) relative to what market drivers (yield curves, volatility, returns, Fed balance sheet updates, and position momentum) typically dictate.
+
+---
+
+### 2. Implied Market Dynamics & Motivations
+
+* **Unobserved Cash-Futures Basis Positioning:** Leveraged funds frequently execute basis trades (long cash Treasury, short Treasury futures to capture the basis yield). A net-long futures position suggests leveraged funds were **not** aggressively engaging in traditional cash-futures basis shorting that week, or they were taking outright directional long duration bets / unwinding prior short basis positions.
+* **Flow Divergence:** The negative residual suggests that factors outside the model's inputs—such as discretionary deleveraging, risk-budget reductions ahead of the mid-June 2021 FOMC meeting, or unmodeled private flows—led leveraged funds to trim length relative to macro/statistical baseline expectations.
+* **Institutional Counterparties:** Asset Managers were essentially net-flat (-1,155 contracts / -0.03% of OI), while Dealers held a net-short position (-67,430 contracts / -1.53% of OI). This indicates that leveraged funds were the primary net directional risk-takers in the 10-Year futures market during this period.
+
+---
+
+### 3. Model Interpretation Safeguards
+
+* **Not an Explicit Basis Indicator:** As highlighted in the readout, the residual does not measure genuine cash-futures basis profitability or private information.
+* **Retrospective Conditional Benchmark:** The -3.27 percentage point gap is an unexpected weekly deviation from historical statistical relationships—not a structural failure, but a signal that leveraged fund positioning shifted defensively relative to prevailing market signals (yield levels, volatility, and curve shape).

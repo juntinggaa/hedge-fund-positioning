@@ -1,0 +1,115 @@
+Browser tab: 1403820316, Title: "Google Gemini", URL: "https://gemini.google.com/app".
+0 AXWebArea Google Gemini, URL: gemini.google.com/app
+	1 container
+		2 container
+			3 button (collapsed) Description: Open sidebar, Secondary Actions: Expand
+			4 container Side Navigation
+				5 container
+					6 container Main actions menu
+						7 link Description: New chat, Value: gemini.google.com/app
+					8 container Additional actions menu
+						9 pop up button Description: Search chats, ID: base-ui-_r_2_
+						10 link Description: Library, Value: gemini.google.com/library
+						11 link Description: Images, Value: gemini.google.com/images
+						12 container Scheduled
+							13 link Description: Scheduled, Value: gemini.google.com/scheduled
+						14 link Description: Customize, Value: gemini.google.com/customize
+					15 link (collapsed) Description: Google Account: Jun Ting (junting.lip@gmail.com), Value: accounts.google.com/SignOutOptions?continue=https://gemini.google.com, Secondary Actions: Expand
+					16 pop up button (collapsed) Description: Settings, Secondary Actions: Expand
+			17 container xap-skip-link-target
+				18 container
+					317 heading Conversation with Gemini, Value: 1
+						318 text Conversation with Gemini
+					319 container
+						320 text Temporary Chat
+						350 container b45347a23743de86
+							351 container
+								352 heading Value: 5, You said Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+									353 text You said  Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note …
+								354 text Below is the CFTC Traders in Financial Futures report (futures-only) for 10-Year U.S. Treasury Note futures, contract market code 043602, for the week ending 21 September 2021. All figures are numbers of contracts.
+								355 text Open interest (all contracts): 3,934,302
+								356 text | Trader category | Long | Short | Spreading | Net | Net as % of OI |
+								357 text |---|---|---|---|---|---|
+								358 text | Dealer / Intermediary | 211,953 | 227,582 | 41,198 | -15,629 | -0.40% |
+								359 text | Asset Manager / Institutional | 1,458,078 | 1,409,497 | 788,616 | 48,581 | +1.23% |
+								360 text | Leveraged Funds | 853,740 | 498,222 | 99,743 | 355,518 | +9.04% |
+								361 text | Other Reportable | 133,901 | 292,990 | 9,644 | -159,089 | -4.04% |
+								362 text Output of a supervised model of leveraged-fund positioning (model v4.0):
+								363 text - Expected net position this week: +7.31% of open interest (approximate 90% range based on earlier out-of-sample errors: +3.74% to +10.88%).
+								364 text - Actual net position this week: +9.04% of open interest.
+								365 text - Residual (actual minus expected): +1.73 percentage points of open interest. Among earlier absolute out-of-sample residuals, approximately 61% were smaller than this one and 39% were at least as large.
+								366 text How to read the model output above (model v4.0). This is a retrospective same-week conditional estimate of the weekly CHANGE in leveraged funds' net position as a share of open interest. It uses returns, realised volatility, yield levels and curve shape, equity volatility, a funding-stress proxy, a futures-yield return residual, current-week open-interest change, changes in Fed Treasury holdings, a quarter-end flag, and lagged own, other-group and cross-contract positions. More recent training observations receive more weight, with a two-year half-life.
+								367 text - The expected level equals last week's actual level plus the model's estimated weekly change. The residual is equivalently the conditional level gap or the unexpected weekly adjustment, measured in percentage points of open interest. It is not an identified fraction of the whole position attributable to any strategy.
+								368 text - These are statistical associations. The cash leg of a basis trade is unobserved; none of the inputs directly measures genuine cash-futures basis profitability. Neither the expected component nor the residual identifies motives, basis quantities or private information.
+								369 text - Across 720 out-of-sample weeks (2012-11-27 to 2026-09-08), squared prediction error was 10.47% lower than an expanding historical-mean change benchmark (out-of-sample R²). RMSE was 2.07 percentage points of open interest. This R² is not a percentage of the outstanding position explained by a strategy.
+								370 text - The approximate range uses only errors from earlier out-of-sample weeks. Its realised historical coverage was 91.9% across 668 eligible weeks, with variation across eras. This is not a guaranteed probability for this individual week. Being inside a broad range does not mean the point prediction closely anticipated the move.
+								371 text - The model includes current-week CFTC open interest, so this is not a pre-Friday nowcast or a next-week forecast. The model and performance summary were selected retrospectively; this is not a historically deployable untouched backtest.
+								372 text What does this positioning suggest about the Treasury market?
+								373 text Please answer without using web search.
+								374 button (collapsed) Expand
+							375 button Copy prompt
+							376 button Edit
+							377 container
+								378 heading Gemini said, Value: 6
+									379 text Gemini said
+								380 container model-response-message-contentr_b45347a23743de86
+									381 container
+										382 text Based on the CFTC Traders in Financial Futures report and the supervised model v4. 0 output for the week ending September 21,  2021,  the positioning data highlights several key dynamics in the 10-Year U. S.  Treasury Note futures market:
+									383 heading 1. Dominance of Leveraged Funds' Net Long Exposure, Value: 3
+										384 text 1. Dominance of Leveraged Funds' Net Long Exposure
+									385 content list
+										386 container
+											387 text Substantial Net Long Position:  Leveraged funds held a sizeable net long position of  +355,518 contracts ,  representing  +9.04% of total open interest  (3, 934, 302 contracts).
+										388 container
+											389 text Comparative Context:  While leveraged funds were heavily net long,  other categories showed more muted positioning:  Asset Managers were mildly net long (+1. 23%),  Dealers/Intermediaries were essentially flat to slightly net short (-0. 40%),  and Other Reportables were net short (-4. 04%).  This points to leveraged funds driving the primary speculative net long footprint in 10-year futures for this week.
+									390 heading 2. Model Evaluation (The Residual), Value: 3
+										391 text 2. Model Evaluation (The Residual)
+									392 content list
+										393 container
+											394 text Actual vs. Expected:  The model estimated an expected net position of  +7.31% of open interest ,  driven by variables such as yields,  curve shape,  volatility,  funding stress,  and lagged positions.
+										395 container
+											396 text Modest Positive Residual:  The actual net position (+9. 04%) exceeded the model's expectation by  +1.73 percentage points  of open interest.
+										397 container
+											398 text Historical Normality:  Despite this positive residual,  it is not an extreme statistical anomaly.  Approximately 61% of earlier absolute out-of-sample residuals were smaller,  meaning a 1. 73-percentage-point gap happens fairly often.  Furthermore,  the actual position fell comfortably within the model's approximate 90% error range (+3. 74% to +10. 88%).  This indicates that leveraged fund positioning was slightly more net long than prevailing macroeconomic and market factors strictly implied,  but still well within normal historical bounds.
+									399 heading 3. What the Data Does Not Tell Us (Important Caveats), Value: 3
+										400 text 3. What the Data Does  Not  Tell Us (Important Caveats)
+									401 content list
+										402 container
+											403 text Motives Remain Unidentified:  As noted in the model's framework,  a net long futures position does not explicitly prove outright directional bullishness.  It can coexist with complex relative-value strategies,  such as basis trades.  However,  because the cash leg is unobserved and the model inputs do not directly measure cash-futures basis profitability,  the exact strategy mix cannot be deduced.
+										404 container
+											405 text Not a Predictive Forecast:  Because the model incorporates current-week open interest data,  this output reflects a retrospective conditional snapshot rather than a pre-Friday nowcast or a forward-looking directional signal for future weeks.
+								406 button Redo
+								407 button Copy
+								408 button Humanize with Quillbot
+									409 image
+								410 button Show more options
+					81 container
+						82 container
+							83 pop up button (collapsed) Description: Upload & tools, Secondary Actions: Expand
+							288 container
+								289 text entry area (settable) Description: Enter a prompt for Gemini, Value: 
+
+									422 text Ask Gemini
+							87 container
+								88 pop up button (collapsed) Description: Open mode picker, currently Gemini Auto, Secondary Actions: Expand
+								412 container
+									413 button Dictate (⌘⇧D)
+						349 text Gemini is AI and can make mistakes.
+			414 container
+				415 button Convert chat to PDF
+					416 image Convert chat to PDF
+					417 text Convert chat to PDF
+					418 text Open this chat in Acrobat
+				419 link Upgrade
+					420 link Upgrade
+						421 text Upgrade
+		423 text Copied to clipboard
+		104 container Notifications
+		291 container
+			292 container Click to open Quillbot
+			293 container Open quick settings
+			294 container Use AI
+	109 container grammarly-integration
+		270 text {"mode":"limited","isActive":false,"isUserDisabled":false}
+
+The focused UI element is 407 button Copy

@@ -1,0 +1,15 @@
+Not much, directionally. Leveraged funds were net short, but by about the amount the model expected. The rest of the table looks like the normal structure of the Treasury futures market, not a strong bet in either direction.
+
+The model result is unremarkable. Leveraged funds were net short 3.59% of open interest against an expected 2.74%. The −0.85 point residual sits well inside the 90% range (−6.50% to +1.02%). About 69% of past out-of-sample misses were as large or larger, so this one is close to the 31st percentile of absolute errors. That means no unusual crowding on the short side and nothing pointing to a squeeze. The 90% band is also about 7.5 points wide, so even a larger residual would need care before reading much into it.
+
+The short is probably not a bearish view. In 10-year note futures, leveraged funds tend to be short partly because of the cash-futures basis trade: long cash Treasuries, short futures, earning the gap between them. A net short in futures can therefore sit alongside a flat or even long exposure to rates overall. Asset managers usually take the other side, using long futures to add duration cheaply. Their +3.61% net long fits that pattern. Dealers (−4.95%) and other reportables (+6.87%) look like the intermediary and hedging flows that typically fill out the book. The four reportable groups net to about +54,500 contracts, so non-reportable traders were net short roughly 1.9% of open interest.
+
+The timing. Positions are as of Tuesday 21 June 2016, two days before the Brexit referendum. The data don’t show hedge funds positioned for a big risk-off move. They also don’t show a heavy bet against bonds. Looking back, Treasuries rallied hard after the vote, and the 10-year yield fell to record lows in early July. A positioning signal measured just beforehand would not have flagged that, which is a reminder that this kind of data describes the market’s structure better than it predicts the next move in yields.
+
+Limits of a single snapshot:
+
+One week of levels says less than the week-on-week change, or where this residual falls in the model’s history over recent months.
+The report covers futures only. It leaves out cash bonds, swaps and options, which is where the other side of a basis trade sits.
+Grouping by trader category mixes very different motives within each group.
+
+In short: positioning was mildly short in line with the model and structurally normal. It doesn’t support a strong call on yields, though it does suggest there was no crowded trade waiting to unwind.

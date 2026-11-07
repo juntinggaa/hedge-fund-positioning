@@ -1,0 +1,23 @@
+Short answer: not much about direction. This looks like the normal structure of the 10-year futures market rather than a strong bearish or bullish bet, and the model says leveraged-fund positioning was unremarkable that week.
+
+The arithmetic checks out. Each net figure and percentage matches the long and short columns. The four reportable categories net to +136,972 contracts, so non-reportable (small) traders must have been net short by the same amount, about −4.5% of open interest.
+
+Leveraged funds’ net short is mostly structural. Hedge funds are typically net short Treasury futures because of the cash-futures basis trade: they buy cash Treasuries (often financed in repo) and sell futures against them. Asset managers sit on the other side, using long futures as a cheap source of duration. The pattern here fits that: asset managers at +6.5%, leveraged funds at −7.1%. So the leveraged-fund short likely reflects relative-value trading as much as, or more than, a view that yields will rise. Futures-only data can’t show the offsetting cash positions, so you can’t tell how much of the short is hedged.
+
+The model residual is not a signal. Leveraged funds came in at −7.06% against an expected −8.01%. That puts them slightly less short than predicted, well inside the 90% range. About 65% of past out-of-sample residuals were at least this large, so a deviation this size is ordinary. Whatever drove positioning that week, the model’s inputs already account for it.
+
+Other points worth noting:
+
+“Other Reportable” traders are fairly heavily net long (+6.9%), slightly more than asset managers. This group is mixed (corporates, smaller institutions, some proprietary traders), so it’s hard to interpret.
+Dealers are modestly net short (−1.8%), which fits them hedging cash-bond inventory.
+
+Context (from memory, not checked). Late November 2014 came shortly after the Fed ended QE3 in October. Oil was falling sharply into the OPEC meeting on 27 November, inflation expectations were softening, and 10-year yields were drifting lower, roughly in the low-2% range. Heavy long positioning by asset managers and other reportables fits that disinflationary backdrop. But one week of data can’t show that positioning caused or predicted the yield moves.
+
+What the snapshot can’t tell you:
+
+Week-over-week changes, which usually say more than levels.
+Cash and repo positions behind the futures.
+Whether the shorts are directional or basis-hedged.
+Any forecast of where yields go next. Positioning data has historically been a weak predictor on its own.
+
+If you have the prior weeks’ reports, comparing the change in leveraged-fund and asset-manager nets would show whether anything was actually shifting.

@@ -1,0 +1,29 @@
+Based on the Commitments of Traders (COT) report for 10-Year U.S. Treasury Note futures for the week ending September 21, 2021, the market positioning reveals distinct behaviors across different trader categories:
+
+---
+
+### 1. Leveraged Funds (Speculative Positioning)
+
+* **Positioning:** Heavily net long (+355,518 contracts, representing +9.04% of Open Interest). Long positions (853,740) heavily outweigh short positions (498,222).
+* **Market Implication:** In Treasury futures, a long position benefits when bond prices rise (which corresponds to falling yields). This large net long bias indicates that hedge funds and speculative accounts were aggressively positioned for lower yields or expecting bond prices to rally during this period.
+
+### 2. Asset Managers / Institutional Investors
+
+* **Positioning:** Relatively neutral net position (+48,581 contracts / +1.23% of OI) despite massive gross long (1,458,078) and short (1,409,497) figures, accompanied by very high spreading activity (788,616 contracts).
+* **Market Implication:** Asset managers (pension funds, mutual funds, insurance companies) typically use these contracts for structural hedging, duration management, and yield-curve positioning rather than naked directional speculation. The massive spreading volume points to active curve-rolling and immunization strategies rather than a strong directional bet.
+
+### 3. Dealers / Intermediaries
+
+* **Positioning:** Nearly flat net position (-15,629 contracts / -0.40% of OI).
+* **Market Implication:** As market makers and primary dealers, this group's positioning primarily reflects client facilitation and hedging of inventory rather than directional views. Their near-neutral net stance indicates balanced customer buy/sell flows in the underlying market.
+
+### 4. Other Reportables
+
+* **Positioning:** Moderately net short (-159,089 contracts / -4.04% of OI).
+* **Market Implication:** This category acts as a counterpart to the speculative long positioning held by Leveraged Funds, absorbing some of the market's risk exposure or reflecting macro strategies by smaller non-clearing institutional players.
+
+---
+
+### Summary Takeaway
+
+The dominant signal in this report is the **strong net long bias among Leveraged Funds**, suggesting that speculative capital was leaning toward declining yields or anticipating a supportive environment for fixed-income duration. Meanwhile, **Asset Managers maintained a hedged, balanced stance**, absorbing massive gross volumes through complex spreading strategies without taking a definitive directional view.

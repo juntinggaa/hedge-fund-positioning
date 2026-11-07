@@ -1,0 +1,4 @@
+PVR22-002 Copy capture note
+Copy control clicked once at 2026-11-06T01:26:46.015Z. Immediate post-click accessibility output showed: focused UI element is 469 button Copied. Two subsequent browser clipboard readText() calls returned identical nonempty UTF-8 text (7,186 characters); response SHA-256 a81885432d04505b6ee86335aa21ee8eaa234d58a0e3a04d847746d47dfee000. The later saved AX/screenshot is PVR22-002-copy-confirm and shows the response with the copy control back in its normal label state. No second copy click was performed.
+Rendered text reconciliation: FULL_ORDERED_EXPLICIT_MARKDOWN_RENDERING; 58 ordered AX text nodes; 6120 canonical characters matched; hash-bound proof /Users/lipjunting/Documents/Codex/2026-11-04/can-u/outputs/pilot_audit_2026-11-06/validation_v2_2/PVR22-002_provisional_text_audit.json.
+Later scroll inspection showed “This response couldn’t load”; screenshots/AX are saved as visual-02 and visual-03. No retry/regeneration was used.

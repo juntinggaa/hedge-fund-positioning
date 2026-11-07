@@ -1,0 +1,21 @@
+{
+  "provisional_pre_append_audit": true,
+  "response_sha256": "2c1405611ad8f3f4d9e976d06a9223fb8a85ae57e996986efdfa1bec9f7732cc",
+  "ax_sha256": "09a89345a16a8528c7c1b951f2362d281b0a5390ef8bb651751faf515a73d9d6",
+  "result": {
+    "verified": true,
+    "method": "FULL_ORDERED_EXPLICIT_MARKDOWN_RENDERING",
+    "ordered_ax_text_nodes": 12,
+    "canonical_ax_sha256": "5b9118045a311799544969f5a15284d408d5b4ecf233fbd43cc8f99d3f3bae32",
+    "canonical_copy_sha256": "5b9118045a311799544969f5a15284d408d5b4ecf233fbd43cc8f99d3f3bae32",
+    "canonical_characters": 2306,
+    "numeric_token_count": 21,
+    "numeric_sequence_match": true,
+    "normalization": [
+      "Copy-only explicit Markdown heading, list marker, horizontal rule and emphasis rendering",
+      "Whitespace removal only; signs and punctuation retained; AX spacing inside numeric glyph sequences removed as whitespace",
+      "Visible model values and response text compared in order"
+    ],
+    "unresolved_differences": []
+  }
+}
