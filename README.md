@@ -1,3 +1,29 @@
+# NST2046 Milestone 2: evidence for "Where Does the Evidence End?"
+
+Group: Lip Jun Ting, Tia Elizabeth Ansari, Upadhye Neeti Rahul, Chua Jun Yu Xavier.
+This repository holds the data, prompts, replies, codes and scripts behind the Milestone 2 report.
+
+| What | Where |
+|---|---|
+| Report draft (Markdown) and appendix logs | [`docs/report/`](docs/report/) |
+| Frozen prompts (180) and their hashes | [`docs/main_v1_3/prompts/`](docs/main_v1_3/prompts/), [`docs/main_v1_3/manifest_v1.3.json`](docs/main_v1_3/manifest_v1.3.json) |
+| Collected replies, by product | [`docs/main_v1_3/responses/`](docs/main_v1_3/responses/) |
+| Gemini high-effort check (16 replies) | [`docs/main_v1_3/effort_check_GEM_high/`](docs/main_v1_3/effort_check_GEM_high/) |
+| Codebook v2.3 | [`docs/main_v1/CODEBOOK_v2_3.md`](docs/main_v1/CODEBOOK_v2_3.md) |
+| Masked coding packets and both machine coders' output | [`docs/coding_main_v1_3/`](docs/coding_main_v1_3/) |
+| Result tables and per-reply final codes | [`docs/coding_main_v1_3/RESULTS.md`](docs/coding_main_v1_3/RESULTS.md), [`FINAL_CODES.csv`](docs/coding_main_v1_3/FINAL_CODES.csv) |
+| Human coding sheets, scoring and unresolved disputes | [`docs/coding_main_v1_3/human/`](docs/coding_main_v1_3/human/) |
+| Arm C model (v4), annotation and fit report | [`docs/model_v4/`](docs/model_v4/) |
+| Amendments, in order | `docs/main_v1_2/AMENDMENT_main_v1_2.md`, `docs/main_v1_3/AMENDMENT_main_v1_3.md`, `docs/main_v1/AMENDMENT_2026-11-06_CODEBOOK_v2_3.md`, `docs/main_v1_3/AMENDMENT_2026-11-07_GEMINI_EFFORT.md` |
+| Scripts (assemble, build packets, code, score, analyse) | [`scripts/`](scripts/) (`*_v1_3.py`) |
+
+Reproduce the result tables: `python scripts/analyze_main_v1_3.py --human docs/coding_main_v1_3/human/RESOLVED.csv`.
+Files ending `_PRIVATE.csv` are the unmasking keys, used only after coding was finished.
+
+The original Stage-1 positioning project (Milestone 1 and earlier) follows below.
+
+---
+
 # Unusual Institutional Positioning and U.S. Treasury Futures
 
 Full scope, methods, risks and milestones: [`docs/PROJECT_PLAN.md`](docs/PROJECT_PLAN.md)
